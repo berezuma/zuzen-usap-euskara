@@ -1,0 +1,4 @@
+# Zuzenketa-irizpide ofizialak (EHU): ez dira biltegian argitaratzen
+*.pdf
+node_modules/
+.DS_Store
