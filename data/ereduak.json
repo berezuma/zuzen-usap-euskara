@@ -1,0 +1,4750 @@
+[
+ {
+  "id": "e01",
+  "num": "01",
+  "title": "Loa, galtzen ari garen ondasuna",
+  "base": "2026 ohikoa",
+  "mota": "X",
+  "text": {
+   "title": "Loa, galtzen ari garen ondasuna",
+   "paragraphs": [
+    "Nerabe gehienek badakite zortzi edo bederatzi orduz lo egin beharko luketela, baina gutxik betetzen dute gomendio hori. Ikasle askok sei ordu baino gutxiago egiten dute lo eskola-egunetan, eta asteburuan galdutakoa berreskuratu nahi izaten dute, eguerdira arte ohean geratuta.",
+    "Arazoa ez da alferkeria, askok uste duten bezala. Nerabezaroan, gorputzaren barne-erlojua aldatu egiten da: melatonina, loa eragiten duen hormona, beranduago jariatzen da, eta, ondorioz, gazteek ez dute logurarik sentitzen gauerdia igaro arte. Goizean, aldiz, iratzargailuak zortzietarako jaiki behar dutela gogorarazten die. Emaitza begi-bistakoa da: lo gutxi eta nekea pilatuta.",
+    "Pantailek egoera okertu egiten dute. Ohean sartu ondoren, mugikorra hartu eta bideo bat, mezu bat edo jolas bat «azkena» izango dela pentsatzen dugu, baina ordu erdi geroago oraindik esna gaude. Gainera, pantailen argiak burmuinari oraindik eguna dela sinestarazten dio.",
+    "Lo gutxi egiteak ondorio larriak ditu. Arreta galtzen da, oroimenak okerrago funtzionatzen du eta umorea aldakorragoa bihurtzen da. Ikasleentzat, bereziki, kalte bikoitza da: ikasitakoa loaldian finkatzen denez, gau txarra egiten duenak ikasitakoaren zati bat galtzen du.",
+    "Zer egin daiteke? Adituek ohitura sinpleak gomendatzen dituzte: egunero ordu berean oheratzea, logelatik mugikorra ateratzea eta arratsaldean kafeina saihestea. Herrialde batzuetan, gainera, eskolak beranduago hasten dituzte, eta irakasleek diote ikasleak erneago iristen direla. Azken batean, loa ez da denbora galtzea; biharamuna prestatzeko modurik onena da."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zergatik ez dute nerabeek logurarik sentitzen gauerdira arte?",
+     "answer": "Nerabezaroan barne-erlojua aldatzen delako: melatonina beranduago jariatzen da."
+    },
+    {
+     "q": "Nola okertzen dute pantailek egoera? Aipatu bi arrazoi.",
+     "answer": "Oheratu ondoren mugikorrarekin jarraitzen dugu, «azkena» dela pentsatuz, eta haren argiak burmuina engainatzen du, oraindik eguna dela sinestaraziz."
+    },
+    {
+     "q": "Zergatik da lo gutxi egitea «kalte bikoitza» ikasleentzat?",
+     "answer": "Arreta, oroimena eta umorea kaltetzen dituelako, eta, gainera, ikasitakoa loaldian finkatzen denez, haren zati bat galdu egiten delako."
+    },
+    {
+     "q": "Zer neurri proposatzen dira egoera hobetzeko?",
+     "answer": "Ordu berean oheratzea, logelatik mugikorra ateratzea, arratsaldean kafeinarik ez hartzea eta, herrialde batzuetan bezala, eskolak beranduago hastea."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikastetxeko osasun-astean, gurasoei buletin bat bidaliko zaie, eta testu honen gaia eta laburpena jasoko ditu.",
+   "gaia": "Nerabeen lo-gabezia: zergatiak, ondorioak eta konponbideak.",
+   "laburpena": "Nerabe askok behar baino gutxiago egiten dute lo, ez alferkeriagatik, baizik eta barne-erlojua atzeratu egiten zaielako eta pantailek oheratzea luzatzen dutelako. Horren ondorioz, arreta, oroimena eta umorea kaltetzen dira, eta ikasitakoa ez da ondo finkatzen. Ohitura erregularrek, logelan mugikorrik ez izateak eta eskolak beranduago hasteak egoera hobetu dezakete."
+  },
+  "a3": [
+   {
+    "kind": "akatsak",
+    "title": "Akatsak identifikatu eta zuzendu",
+    "instr": "Ikasle batek buletinerako idatzi duen ohar honetan sei akats daude. Aurkitu eta zuzendu horietako bost.",
+    "text": "Joan den astean, mediku batek hitzaldi bat eman zuen gure ikastetxean. Ikasleak galdera asko egin zituzten, eta medikuak pazientzia haundiz erantzun zien. Hondoren, mugikorrei buruz hitz egin zuen: ohean mugikorra erabiltzea kaltegarria da, burmuina bapatean esnatzen delako. Lo egiteko ordutegi finkoa izatea garrantzitsuak dira. Zihur nago hitzaldi horrek asko lagundu digula.",
+    "pairs": [
+     {
+      "wrong": "Ikasleak",
+      "right": [
+       "Ikasleek"
+      ]
+     },
+     {
+      "wrong": "haundiz",
+      "right": [
+       "handiz"
+      ]
+     },
+     {
+      "wrong": "Hondoren",
+      "right": [
+       "Ondoren"
+      ]
+     },
+     {
+      "wrong": "bapatean",
+      "right": [
+       "bat-batean"
+      ]
+     },
+     {
+      "wrong": "garrantzitsuak dira",
+      "right": [
+       "garrantzitsua da"
+      ]
+     },
+     {
+      "wrong": "Zihur",
+      "right": [
+       "Ziur"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman testuan azpimarratutako hitzen sinonimo bana, testuan duten esanahiaren arabera.",
+    "items": [
+     {
+      "w": "alferkeria",
+      "accepted": [
+       "nagikeria"
+      ]
+     },
+     {
+      "w": "begi-bistakoa",
+      "accepted": [
+       "nabaria",
+       "agerikoa",
+       "argia"
+      ]
+     },
+     {
+      "w": "bereziki",
+      "accepted": [
+       "batez ere",
+       "batik bat",
+       "bereziki"
+      ]
+     },
+     {
+      "w": "saihestea",
+      "accepted": [
+       "ekiditea",
+       "baztertzea"
+      ]
+     },
+     {
+      "w": "erneago",
+      "accepted": [
+       "adiago",
+       "argiago"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditza moldatu",
+    "instr": "Osatu esaldiak, parentesi arteko aditza adierazitako moduan jarrita.",
+    "items": [
+     {
+      "sentence": "Bihar goizean, ikasleak ordubete beranduago ____ eskolara.",
+      "hint": "etorri · geroaldia",
+      "accepted": [
+       "etorriko dira"
+      ]
+     },
+     {
+      "sentence": "Medikuak mugikorra logelatik ateratzeko ____ guri.",
+      "hint": "gomendatu · lehenaldia",
+      "accepted": [
+       "gomendatu zigun"
+      ]
+     },
+     {
+      "sentence": "Lo gehiago egingo bagenu, erneago ____.",
+      "hint": "egon · baldintza, gu",
+      "accepted": [
+       "egongo ginateke"
+      ]
+     },
+     {
+      "sentence": "Nahi baduzu, zu ere gure taldean ____.",
+      "hint": "sartu · ahalera, zu",
+      "accepted": [
+       "sar zaitezke",
+       "sartu ahal zara"
+      ]
+     },
+     {
+      "sentence": "Gurasoek mugikorra gauean kentzeko ____ guri.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen digute"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure herriko udalak gazteen osasunari buruzko kanpaina bat antolatu du, eta herritarren iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "herriko aldizkarirako: «Eskolak beranduago hasi beharko lirateke?». Izenburua eta egilearen izen-deiturak (fikziozkoak) jarri behar dituzu."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "zure ikastetxeko zuzendaritzari, ikasleen loa zaintzeko neurri bat proposatuz. Hartzailea, gaia eta agurrak idatzi behar dituzu, erregistro egokian."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, hasierako eta amaierako agurrak, erregistro jasoa. Ideia posibleak: barne-erlojua, errendimendua, garraio- eta lan-ordutegiak (kontrako argudioa), asteburuko lo-zorra."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Itzali dut argia.",
+    "Mugikorra, ohe ondoan,",
+    "izar bat bezala piztu da berriro.",
+    "Ez dut begiratuko, esan diot neure buruari.",
+    "Hirugarren aldiz."
+   ],
+   "model": "Poemak umorez erakusten du zein zaila den mugikorra gauean ez begiratzea: borondate ona izan arren, behin eta berriz erortzen gara. Irakurgaiak ohitura horren ondorioa azaltzen du: pantailek oheratzea atzeratzen dute eta lo gutxiago egiten dugu. Horregatik gomendatzen da mugikorra logelatik ateratzea."
+  }
+ },
+ {
+  "id": "e02",
+  "num": "02",
+  "title": "Euskaraz bizi, ikasgelatik kanpo ere",
+  "base": "2026 ez-ohikoa",
+  "mota": "Y",
+  "text": {
+   "title": "Euskaraz bizi, ikasgelatik kanpo ere",
+   "paragraphs": [
+    "Euskal Herriko gazte gehienek euskaraz ikasi dute eskolan, eta askok maila ona dute. Hala ere, ikasgelako atea itxi bezain laster, hizkuntza aldatu egiten da maiz. Patioan, kirol-taldean edo lagunekin ostiral arratsaldean, gaztelania edo frantsesa nagusitzen da leku askotan. Zergatik gertatzen da hori, hizkuntza ezagutzen badute?",
+    "Soziolinguistek azaltzen dutenez, hizkuntza bat jakitea ez da nahikoa hura erabiltzeko. Ohiturak berebiziko garrantzia du: lagun batekin gaztelaniaz ezagutu bazinen, zaila da harekin euskarara aldatzea, nahiz eta biek euskara jakin. Harremanaren hizkuntza finkatu egiten da, eta aldaketak deserosotasuna sortzen du.",
+    "Bestalde, aisialdiko eskaintzak ere eragina du. Gazteek kontsumitzen dituzten bideo, serie eta abesti gehienak beste hizkuntza batzuetan daude, eta sare sozialetako algoritmoek ez dute euskarazko edukia lehenesten. Horrela, euskara eskolako hizkuntza bihurtzeko arriskua dago: betebeharrarekin lotzen da, eta ez plazerrarekin.",
+    "Badira, ordea, joera hori irauli nahi duten ekimenak. Herri askotan, gazte-taldeek euskarazko kontzertuak, bertso-saioak eta jolas-gauak antolatzen dituzte. Euskaraz aritzen diren streamer eta youtuberren kopurua ere hazten ari da, eta jarraitzaile gazte ugari dituzte. Ekimen horien helburua ez da inor behartzea, baizik eta euskaraz ondo pasatzeko aukerak sortzea.",
+    "Azken batean, hizkuntza baten etorkizuna ez dago gramatika-liburuetan; kalean, mahai baten inguruan eta pantailen aurrean erabakitzen da. Euskara bizirik egongo da gazteek beren bizitzako une onenekin lotzen badute."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zer gertatzen da askotan gazteek ikasgela uzten dutenean?",
+     "answer": "Hizkuntza aldatu egiten dute: patioan, kirolean edo lagunartean gaztelania edo frantsesa nagusitzen da."
+    },
+    {
+     "q": "Zergatik da zaila lagun batekin hizkuntza aldatzea?",
+     "answer": "Harreman baten hizkuntza finkatu egiten delako, eta hura aldatzeak deserosotasuna sortzen duelako."
+    },
+    {
+     "q": "Zer arrisku aipatzen da hirugarren paragrafoan, eta zerk eragiten du?",
+     "answer": "Euskara eskolako hizkuntza bihurtzea, betebeharrarekin lotuta eta ez plazerrarekin. Aisialdiko eskaintza gehiena beste hizkuntzetan dagoelako eta algoritmoek ez dutelako euskarazko edukia lehenesten."
+    },
+    {
+     "q": "Zein da aipatzen diren ekimenen helburua?",
+     "answer": "Euskaraz ondo pasatzeko aukerak sortzea, inor behartu gabe."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Zure herriko gazte-asanbladak euskararen erabilerari buruzko eztabaida bat antolatu du, eta parte-hartzaileei testu honen gaia eta laburpena banatuko zaizkie.",
+   "gaia": "Gazteek euskara aisialdian gutxi erabiltzea eta hori aldatzeko bideak.",
+   "laburpena": "Gazte askok euskara badakite, baina eskolatik kanpo gutxi erabiltzen dute: ohiturek harremanen hizkuntza finkatzen dute, eta aisialdiko eskaintza gehiena beste hizkuntzetan dago. Horrela, euskara betebeharrarekin lotzeko arriskua dago. Kontzertuek, bertso-saioek eta euskarazko sortzaile digitalek, aldiz, euskaraz gozatzeko aukerak eskaintzen dituzte, eta horrek erabakiko du hizkuntzaren etorkizuna."
+  },
+  "a3": [
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Gehiengoa izatea, besteen gainetik geratzea.",
+      "accepted": [
+       "nagusitu"
+      ]
+     },
+     {
+      "def": "Egoera batean lasai edo gustura ez sentitzea.",
+      "accepted": [
+       "deserosotasun"
+      ]
+     },
+     {
+      "def": "Lehentasuna ematea, beste batzuen aurretik jartzea.",
+      "accepted": [
+       "lehenetsi"
+      ]
+     },
+     {
+      "def": "Zerbaiti buelta ematea, kontrako norabidean jartzea.",
+      "accepted": [
+       "irauli"
+      ]
+     },
+     {
+      "def": "Zerbait egitera derrigortzea.",
+      "accepted": [
+       "behartu"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak esanahia aldatu gabe, beste egitura edo hitz batzuk erabiliz.",
+    "items": [
+     {
+      "sentence": "Ikasgelako atea itxi bezain laster, hizkuntza aldatu egiten da maiz.",
+      "element": null,
+      "proposal": "Ikasgelako atea itxi orduko, hizkuntza aldatu egiten da maiz."
+     },
+     {
+      "sentence": "Hizkuntza bat jakitea ez da nahikoa hura erabiltzeko.",
+      "element": null,
+      "proposal": "Hizkuntza bat erabiltzeko, ez da aski hura jakitea."
+     },
+     {
+      "sentence": "Zaila da harekin euskarara aldatzea, nahiz eta biek euskara jakin.",
+      "element": null,
+      "proposal": "Biek euskara jakin arren, zaila da harekin euskarara aldatzea."
+     },
+     {
+      "sentence": "Sare sozialetako algoritmoek ez dute euskarazko edukia lehenesten.",
+      "element": null,
+      "proposal": "Sare sozialetako algoritmoek ez diote lehentasunik ematen euskarazko edukiari."
+     },
+     {
+      "sentence": "Euskara bizirik egongo da gazteek beren bizitzako une onenekin lotzen badute.",
+      "element": null,
+      "proposal": "Gazteek euskara beren bizitzako une onenekin lotuz gero, bizirik egongo da."
+     }
+    ]
+   },
+   {
+    "kind": "eratorpena",
+    "title": "Eratorpena",
+    "instr": "Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.",
+    "options": [
+     {
+      "suffix": "-tasun",
+      "words": [
+       "deserosotasun"
+      ]
+     },
+     {
+      "suffix": "-keta",
+      "words": [
+       "aldaketa"
+      ]
+     },
+     {
+      "suffix": "-tza",
+      "words": [
+       "eskaintza"
+      ]
+     },
+     {
+      "suffix": "-aldi",
+      "words": [
+       "aisialdi"
+      ]
+     },
+     {
+      "suffix": "-tzaile",
+      "words": [
+       "jarraitzaile"
+      ]
+     },
+     {
+      "suffix": "-men",
+      "words": [
+       "ekimen"
+      ]
+     },
+     {
+      "suffix": "-tura",
+      "words": [
+       "ohitura"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Gazte-asanbladak «Euskaraz bizi» egitasmoa jarri nahi du martxan. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "eskualdeko aldizkarirako: «Euskara, eskolako hizkuntza soilik?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "udaleko euskara-teknikariari, gazteentzako euskarazko jarduera bat proposatuz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: ohituren indarra, aisialdiko eskaintza, euskarazko sortzaile digitalak, jarduera zehatz bat (data, lekua, nori zuzendua)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "«Hizkuntza bat ez da galtzen ez dakitenek ikasten ez dutelako, dakitenek erabiltzen ez dutelako baizik.»",
+    "(Mikel Zarateri egotzitako esaldia)"
+   ],
+   "model": "Esaldiaren arabera, hizkuntza bat arriskuan jartzen da hiztunek erabiltzen ez dutelako, ez ikasle faltagatik. Irakurgaiak gauza bera erakusten du: gazte askok euskara badakite, baina ohiturengatik eta aisialdiko eskaintzagatik ez dute erabiltzen. Beraz, euskararen etorkizuna erabileran dago, ez ezagutzan bakarrik."
+  }
+ },
+ {
+  "id": "e03",
+  "num": "03",
+  "title": "Arropa merkea, prezio garestia",
+  "base": "2025 ohikoa",
+  "mota": "Z",
+  "text": {
+   "title": "Arropa merkea, prezio garestia",
+   "paragraphs": [
+    "Inoiz ez dugu hainbeste arropa erosi, eta inoiz ez dugu hain gutxi erabili. Moda azkarra deritzon ereduak denda handiak bete ditu: astero bilduma berriak iristen dira, prezioak oso baxuak dira eta, ondorioz, kamiseta bat erostea kafe bat hartzea bezain erraza bihurtu da. Askorentzat, gainera, erosketa bera da plazera, ez arropa.",
+    "Baina merkea dirudiena ez da benetan merkea. Kamiseta baten prezioak ez du jasotzen haren benetako kostua. Ehun-industria munduko kutsatzaile handienetako bat da: kotoia hazteko ur kopuru izugarria behar da, eta tindagaiek ibaiak kutsatzen dituzte herrialde askotan. Zuntz sintetikozko jantziek, berriz, mikroplastikoak askatzen dituzte garbigailuan sartzen ditugun bakoitzean.",
+    "Giza kostua ere handia da. Arropa merke gehiena soldata eskasak eta lan-baldintza gogorrak dituzten lantegietan egiten da, eta langileek, gehienak emakumeak, ordu luzeak egiten dituzte segurtasun-neurririk gabe. Hondamendi larriek hainbat aldiz erakutsi dute sistemaren ahultasuna, baina erosleok azkar ahazten dugu.",
+    "Zer egin dezakegu kontsumitzaile gisa? Lehenik, gutxiago erosi eta hobeto aukeratu: iraunkorra den jantzi batek urte asko iraun dezake. Bigarrenik, bigarren eskuko dendak eta arropa-trukeak erabili; gero eta gazte gehiagok egiten dute, eta modan egoteko modu bat ere bihurtu da. Azkenik, zaharra konpontzen ikasi: botoi bat josteak ez du ia denborarik eskatzen.",
+    "Ez da inor errudun sentiaraztea kontua. Nahikoa da jakitea arropa bakoitzak istorio bat duela, eta guk erabaki dezakegula istorio horren amaiera."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Testuaren arabera, moda azkarraren ezaugarri nagusia da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "arropa gutxi baina kalitate handikoa saltzea."
+      },
+      {
+       "k": "b",
+       "t": "bilduma berriak oso maiz eta prezio baxuan ateratzea."
+      },
+      {
+       "k": "c",
+       "t": "denda txikietan saltzea."
+      },
+      {
+       "k": "d",
+       "t": "jantziak konpontzeko zerbitzua eskaintzea."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Egilearen ustez, merkea dirudiena ez da merkea:",
+     "options": [
+      {
+       "k": "a",
+       "t": "arropak azkar hausten direlako."
+      },
+      {
+       "k": "b",
+       "t": "prezioak ez dituelako ingurumen- eta giza kostuak jasotzen."
+      },
+      {
+       "k": "c",
+       "t": "garraioa oso garestia delako."
+      },
+      {
+       "k": "d",
+       "t": "zergak handiegiak direlako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Mikroplastikoei dagokienez, testuak dio:",
+     "options": [
+      {
+       "k": "a",
+       "t": "kotoia hazteko erabiltzen direla."
+      },
+      {
+       "k": "b",
+       "t": "tindagaien osagai direla."
+      },
+      {
+       "k": "c",
+       "t": "zuntz sintetikozko jantziek askatzen dituztela garbitzean."
+      },
+      {
+       "k": "d",
+       "t": "lantegietan bakarrik sortzen direla."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Lantegietako langileei buruz, testuak dio:",
+     "options": [
+      {
+       "k": "a",
+       "t": "gehienak gizonezkoak direla."
+      },
+      {
+       "k": "b",
+       "t": "segurtasun-neurririk gabe ordu luzeak egiten dituztela."
+      },
+      {
+       "k": "c",
+       "t": "soldata onak dituztela, baina ordutegi luzeak."
+      },
+      {
+       "k": "d",
+       "t": "hondamendiek ez dietela eraginik."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Azken paragrafoan, egilearen asmoa da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "erosleak errudun sentiaraztea."
+      },
+      {
+       "k": "b",
+       "t": "arropa erostea debekatzea."
+      },
+      {
+       "k": "c",
+       "t": "erabaki kontzienteak hartzera gonbidatzea."
+      },
+      {
+       "k": "d",
+       "t": "denda handiak defendatzea."
+      }
+     ],
+     "correct": "c"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikastetxeko ingurumen-batzordeak kontsumo arduratsuari buruzko panel bat egingo du korridorean, eta testu honen gaia eta laburpena jarriko ditu bertan.",
+   "gaia": "Moda azkarraren ezkutuko kostuak eta kontsumo arduratsurako bideak.",
+   "laburpena": "Arropa inoiz baino merkeago eta maizago erosten dugu, baina prezio baxuek kostu handiak ezkutatzen dituzte: ur asko xahutzen da, ibaiak kutsatzen dira, mikroplastikoak sortzen dira eta langileek baldintza gogorretan egiten dute lan. Kontsumitzaileok gutxiago eta hobeto eros dezakegu, bigarren eskuko arropa erabili eta jantziak konpondu, inor errudun sentiarazi gabe."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Iraunkorra den jantzi batek urte asko iraun dezake.",
+      "element": "-tzeko gai izan",
+      "proposal": "Jantzi iraunkor bat urte askoan irauteko gai da."
+     },
+     {
+      "sentence": "Kotoia hazteko ur kopuru izugarria behar da.",
+      "element": "beharrezkoa",
+      "proposal": "Kotoia hazteko, ur kopuru izugarria da beharrezkoa."
+     },
+     {
+      "sentence": "Hondamendi larriek hainbat aldiz erakutsi dute sistemaren ahultasuna, baina erosleok azkar ahazten dugu.",
+      "element": "arren",
+      "proposal": "Hondamendi larriek hainbat aldiz sistemaren ahultasuna erakutsi duten arren, erosleok azkar ahazten dugu."
+     },
+     {
+      "sentence": "Botoi bat josteak ez du ia denborarik eskatzen.",
+      "element": "-tzeko",
+      "proposal": "Botoi bat josteko ez da ia denborarik behar."
+     },
+     {
+      "sentence": "Gero eta gazte gehiagok egiten dute, eta modan egoteko modu bat ere bihurtu da.",
+      "element": "gainera",
+      "proposal": "Gero eta gazte gehiagok egiten dute; gainera, modan egoteko modu bat bihurtu da."
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "kutsatzaile",
+      "accepted": [
+       "zikintzaile"
+      ]
+     },
+     {
+      "w": "eskas",
+      "accepted": [
+       "urri",
+       "txiki",
+       "apal"
+      ]
+     },
+     {
+      "w": "ahultasun",
+      "accepted": [
+       "hauskortasun",
+       "makaltasun"
+      ]
+     },
+     {
+      "w": "askatu",
+      "accepted": [
+       "isuri",
+       "jaregin"
+      ]
+     },
+     {
+      "w": "iraunkor",
+      "accepted": [
+       "sendo",
+       "luzaroko"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Gauzei kolorea emateko erabiltzen den gaia.",
+      "accepted": [
+       "tindagai"
+      ]
+     },
+     {
+      "def": "Gauzak ekoizten diren lantokia.",
+      "accepted": [
+       "lantegi"
+      ]
+     },
+     {
+      "def": "Kalte handiak eragiten dituen gertaera larria.",
+      "accepted": [
+       "hondamendi"
+      ]
+     },
+     {
+      "def": "Ehunak egiteko erabiltzen den hari mehea.",
+      "accepted": [
+       "zuntz"
+      ]
+     },
+     {
+      "def": "Zerbait erosten duen pertsona.",
+      "accepted": [
+       "erosle"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikasgelak arropa-truke azoka bat antolatu nahi du ikastetxean. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "ikastetxeko zuzendariari, azoka egiteko baimena eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Moda merkea: nork ordaintzen du?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, hasierako agurra (Zuzendari agurgarria…), amaierako agurra eta sinadura; erregistro jasoa. Artikuluan: izenburua + izen-deiturak. Ideia posibleak: ingurumen-kostua, lan-baldintzak, bigarren eskua, azokaren antolaketa (data, lekua, arauak)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "**KAMISETA BERRIAK, 3 € BAKARRIK!**",
+    "Erosi gaur. Bihar beste bat izango duzu.",
+    "*Moda, zu bezain azkarra.*"
+   ],
+   "model": "Iragarkiak kamisetak oso merke eta etengabe erostera bultzatzen du, erosketa bera plazer azkar bihurtuz. Irakurgaiak, aldiz, erakusten du prezio horrek ez dituela ingurumenaren eta langileen kostuak jasotzen. Beraz, iragarkiaren «merke» hitzak egiaren erdia baino ez du esaten."
+  }
+ },
+ {
+  "id": "e04",
+  "num": "04",
+  "title": "Bi belaunaldi, mahai berean",
+  "base": "2025 ez-ohikoa",
+  "mota": "W",
+  "text": {
+   "title": "Bi belaunaldi, mahai berean",
+   "paragraphs": [
+    "Duela mende erdi, familia askotan hiru belaunaldi bizi ziren etxe berean. Aiton-amonek bilobak zaintzen zituzten, gurasoek baserrian edo lantegian lan egiten zuten bitartean, eta haurrek, nahi gabe, ipuinak, kantak eta bizitzeko moduak jasotzen zituzten. Gaur egun, ordea, belaunaldiak gero eta urrunago bizi dira, ez bakarrik kilometroetan, baita ohituretan ere.",
+    "Gazteek eta adinekoek mundu desberdinetan bizi direla dirudi. Batzuek pantailen bidez komunikatzen dira; besteek, aurrez aurre. Batzuen musika ez da besteena, eta umoreak ere ez du beti zubirik egiten. Horrek aurreiritziak sortzen ditu bi aldeetan: adinekoek gazteak axolagabetzat jotzen dituzte maiz, eta gazteek adinekoak zaharkituta daudela uste dute.",
+    "Hala ere, harremana estutzen denean, bi aldeek irabazten dute. Hainbat herritan, ikastetxeek eta egoitzek elkarlanean diharduten egitasmoak abiatu dituzte: ikasleek adinekoei mugikorra erabiltzen irakasten diete, eta adinekoek, trukean, gerra garaiko oroitzapenak, lanbide zaharrak edo herriko kontuak kontatzen dizkiete ikasleei. Parte-hartzaileek diotenez, bakardadea gutxitzen da, eta gazteek historia liburuetan baino hobeto ulertzen dute.",
+    "Adinekoen kopurua hazten ari den gizarte batean, belaunaldien arteko harremana ez da nostalgia kontua, beharra baizik. Adineko askok bakarrik bizi dira, eta gazte askok ez dute inor aurreko belaunaldien bizimoduaz hitz egingo dienik. Batak zein besteak badu zer eskaini.",
+    "Agian ez dugu etxe berean bizi beharrik. Baina noizean behin mahai berean esertzea, entzutea eta galdetzea nahikoa izan daiteke bi mundu horiek berriro lotzeko."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Duela mende erdi, aiton-amonen eginkizunetako bat zen:",
+     "options": [
+      {
+       "k": "a",
+       "t": "baserrian lan egitea gurasoek bilobak zaintzen zituzten bitartean."
+      },
+      {
+       "k": "b",
+       "t": "bilobak zaintzea gurasoek lan egiten zuten bitartean."
+      },
+      {
+       "k": "c",
+       "t": "ikastetxeetan ipuinak kontatzea."
+      },
+      {
+       "k": "d",
+       "t": "egoitzetan bizitzea."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Testuaren arabera, gaur egun belaunaldiak urrun bizi dira:",
+     "options": [
+      {
+       "k": "a",
+       "t": "kilometroetan soilik."
+      },
+      {
+       "k": "b",
+       "t": "ohituretan soilik."
+      },
+      {
+       "k": "c",
+       "t": "bai distantzian, bai ohituretan."
+      },
+      {
+       "k": "d",
+       "t": "ez distantzian, ez ohituretan."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Bigarren paragrafoaren arabera, gazteek askotan uste dute:",
+     "options": [
+      {
+       "k": "a",
+       "t": "adinekoak axolagabeak direla."
+      },
+      {
+       "k": "b",
+       "t": "adinekoak zaharkituta daudela."
+      },
+      {
+       "k": "c",
+       "t": "adinekoek musika bera entzuten dutela."
+      },
+      {
+       "k": "d",
+       "t": "adinekoek pantailak gehiago erabiltzen dituztela."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Aipatutako egitasmoetan:",
+     "options": [
+      {
+       "k": "a",
+       "t": "ikasleek teknologia irakasten dute, eta adinekoek oroitzapenak kontatzen."
+      },
+      {
+       "k": "b",
+       "t": "adinekoek mugikorra erabiltzen irakasten diete ikasleei."
+      },
+      {
+       "k": "c",
+       "t": "ikasleak egoitzetan bizi dira."
+      },
+      {
+       "k": "d",
+       "t": "liburuak idazten dituzte elkarrekin."
+      }
+     ],
+     "correct": "a"
+    },
+    {
+     "q": "Egilearen ustez, belaunaldien arteko harremana:",
+     "options": [
+      {
+       "k": "a",
+       "t": "nostalgia kontua da."
+      },
+      {
+       "k": "b",
+       "t": "familia handietan bakarrik da posible."
+      },
+      {
+       "k": "c",
+       "t": "iraganeko kontua da."
+      },
+      {
+       "k": "d",
+       "t": "gizarte zahartu baten beharra da."
+      }
+     ],
+     "correct": "d"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Zure ikastetxeak egoitza batekin egitasmo bat abiatu nahi du, eta testu honen gaia eta laburpena jasoko ditu familiei bidaliko dien zirkularrean.",
+   "gaia": "Belaunaldien arteko harremana berreskuratzeko beharra eta haren onurak.",
+   "laburpena": "Lehen hiru belaunaldi etxe berean bizi ziren, baina gaur egun gazteak eta adinekoak urrun daude, eta elkarren aurreiritziak dituzte. Ikastetxeen eta egoitzen arteko egitasmoek erakusten dute harremanak biei egiten diela mesede: adinekoen bakardadea arintzen da eta gazteek historia hobeto ulertzen dute. Gizarte zahartu batean, elkar entzutea beharrezkoa da."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Aiton-amonek bilobak zaintzen zituzten, gurasoek lan egiten zuten bitartean.",
+      "element": "-ela",
+      "proposal": "Gurasoek lan egiten zutela, aiton-amonek bilobak zaintzen zituzten."
+     },
+     {
+      "sentence": "Gazteek eta adinekoek mundu desberdinetan bizi direla dirudi.",
+      "element": "antza denez",
+      "proposal": "Antza denez, gazteak eta adinekoak mundu desberdinetan bizi dira."
+     },
+     {
+      "sentence": "Harremana estutzen denean, bi aldeek irabazten dute.",
+      "element": "-z gero",
+      "proposal": "Harremana estutuz gero, bi aldeek irabazten dute."
+     },
+     {
+      "sentence": "Adinekoek gazteak axolagabetzat jotzen dituzte maiz.",
+      "element": "iruditu",
+      "proposal": "Adinekoei gazteak axolagabeak iruditzen zaizkie maiz."
+     },
+     {
+      "sentence": "Agian ez dugu etxe berean bizi beharrik.",
+      "element": "beharrezkoa",
+      "proposal": "Agian ez da beharrezkoa etxe berean bizitzea."
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditzak",
+    "instr": "Osatu esaldiak, parentesi arteko aditza adierazitako moduan jarrita.",
+    "items": [
+     {
+      "sentence": "Atzo, amonak bere gaztaroko istorio bat ____ guri.",
+      "hint": "kontatu · lehenaldia",
+      "accepted": [
+       "kontatu zigun"
+      ]
+     },
+     {
+      "sentence": "Datorren astean, ikasleak egoitzara ____.",
+      "hint": "joan · geroaldia",
+      "accepted": [
+       "joango dira"
+      ]
+     },
+     {
+      "sentence": "Denbora gehiago izango banu, aitonarekin maizago ____.",
+      "hint": "egon · baldintza, ni",
+      "accepted": [
+       "egongo nintzateke"
+      ]
+     },
+     {
+      "sentence": "Zuek ere egitasmoan parte ____.",
+      "hint": "hartu · ahalera, zuek",
+      "accepted": [
+       "har dezakezue",
+       "hartu ahal duzue"
+      ]
+     },
+     {
+      "sentence": "Adinekoek gazteei laguntza ____.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen diete"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Definizioak",
+    "instr": "Eman testuko hitz hauen sinonimo edo baliokide bana.",
+    "items": [
+     {
+      "w": "aurreiritzi",
+      "accepted": [
+       "aurrejuzku"
+      ]
+     },
+     {
+      "w": "axolagabe",
+      "accepted": [
+       "arduragabe",
+       "ezaxola"
+      ]
+     },
+     {
+      "w": "zaharkitu",
+      "accepted": [
+       "antzinakotu",
+       "modaz pasatu"
+      ]
+     },
+     {
+      "w": "estutu",
+      "accepted": [
+       "sendotu",
+       "indartu"
+      ]
+     },
+     {
+      "w": "trukean",
+      "accepted": [
+       "ordainean",
+       "truke gisa"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak eta herriko egoitzak «Belaunaldiak lotzen» egitasmoa abiatuko dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "zure aiton edo amonari (edo adineko senide bati), egitasmoan parte hartzera gonbidatuz eta zergatia azalduz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Belaunaldiak lotzeko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak (ez dute zertan hamar izan) eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agur hurbila baina errespetuzkoa, amaierako agurra eta sinadura. Dekalogoan: sarrera, puntuak (aginterazkoan edo -tzea erako egiturekin, koherentziaz) eta itxiera. Ideia posibleak: entzutea, galdetzea, teknologia irakastea, oroitzapenak jasotzea, aurreiritziak gainditzea."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Zahar hitz, zuhur hitz."
+   ],
+   "model": "Atsotitzaren arabera, adinekoen hitzak jakinduriaz beteta daude, bizitzak asko irakatsi dielako. Irakurgaiak ideia hori berresten du: adinekoek oroitzapenak kontatzen dizkietenean, gazteek historia liburuetan baino hobeto ulertzen dute. Beraz, haiek entzutea jakintza jasotzeko modu bat da."
+  }
+ },
+ {
+  "id": "e05",
+  "num": "05",
+  "title": "Bisitariak, bizilagunak eta oreka",
+  "base": "2026 ohikoa",
+  "mota": "X",
+  "text": {
+   "title": "Bisitariak, bizilagunak eta oreka",
+   "paragraphs": [
+    "Udako goiz batean, alde zaharreko kaleetan barrena ibiltzea ezinezkoa da batzuetan. Talde gidatuak, maletak eta argazki-makinak nonahi daude, eta bizilagunek beren auzoan arrotz sentitzen direla diote. Turismoak ekonomia biziberritu du hiri eta herri askotan, baina arrakastak bere itzalak ere baditu.",
+    "Onurak nabariak dira. Turistek dirua uzten dute jatetxeetan, dendetan eta hoteletan, eta milaka lanpostu sortzen dira. Gainera, bisitariek kultura eta ondarea ezagutzeko interesa piztu dute, eta eraikin zahar asko zaharberritu egin dira.",
+    "Kalteak, ordea, ez dira hain agerikoak, baina sakonak dira. Etxebizitza asko turistentzako apartamentu bihurtu dira, eta alokairuen prezioak izugarri igo dira. Ondorioz, gazte askok ezin dute beren auzoan bizi, eta betiko dendak, okindegiak edo arotz-lantegiak oroigarri-dendek ordezkatzen dituzte. Auzoa erakusleiho bihurtzen da: ederra kanpotik, baina hutsik barrutik.",
+    "Hiri batzuek neurriak hartu dituzte. Apartamentu turistikoen kopurua mugatu dute, turismo-zerga bat ezarri dute edo bisitariak garai lasaiagoetara bideratzen saiatu dira. Neurri horiek ez dute arazoa guztiz konpondu, baina eztabaida mahai gainean jarri dute: norena da hiria?",
+    "Turismoa ez da etsaia. Bidaiatzeak beste errealitate batzuk ezagutzen laguntzen digu, eta denok gara turista noizbait. Kontua oreka aurkitzea da: bisitariak ongi etorriak izatea, bizilagunak kanporatu gabe."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zergatik sentitzen dira bizilagunak arrotz beren auzoan?",
+     "answer": "Kaleak turistez beteta daudelako (talde gidatuak, maletak, argazki-makinak), eta auzoa ez dutelako jada berena sentitzen."
+    },
+    {
+     "q": "Zein onura dakartza turismoak, testuaren arabera?",
+     "answer": "Dirua jatetxe, denda eta hoteletan, lanpostuak, kultura eta ondarea ezagutzeko interesa eta eraikin zaharren zaharberritzea."
+    },
+    {
+     "q": "Zer esan nahi du egileak auzoa «erakusleiho» bihurtzen dela dioenean?",
+     "answer": "Auzoa kanpotik ederra dela baina bizitzarik gabe geratzen dela: bizilagunak eta betiko dendak desagertzen dira, eta turistentzako apaingarri bihurtzen da."
+    },
+    {
+     "q": "Zer neurri hartu dituzte hiri batzuek, eta zer lortu dute?",
+     "answer": "Apartamentu turistikoak mugatu, turismo-zerga ezarri eta bisitariak garai lasaiagoetara bideratu. Ez dute arazoa konpondu, baina eztabaida piztu dute."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Udalak turismoari buruzko herri-galdeketa bat egingo du, eta bizilagunei bidaliko dien informazio-orrian testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Turismo masiboaren onurak eta kalteak, eta oreka bilatzeko beharra.",
+   "laburpena": "Turismoak ekonomia biziberritu du, lanpostuak sortu eta ondarea zaharberritzen lagundu du. Hala ere, etxebizitzak apartamentu turistiko bihurtzeak alokairuak garestitu ditu, gazteak eta betiko dendak auzotik kanporatuz. Hiri batzuek apartamentuak mugatu edo zergak ezarri dituzte, arazoa konpondu ez badute ere. Helburua bisitariak hartzea da, bizilagunak baztertu gabe."
+  },
+  "a3": [
+   {
+    "kind": "akatsak",
+    "title": "Akatsak identifikatu eta zuzendu",
+    "instr": "Bizilagun batek udalari idatzitako ohar honetan sei akats daude. Aurkitu eta zuzendu horietako bost.",
+    "text": "Udan, turista asko etortzen dira gure herrira, itxasoa eta mendia ezagutzeko. Turistak dirua uzten dute dendetan, eta aurten bost hotel berriak ireki dituzte. Hala ere, jaietan jende gehiegi zeuden kaleetan. Zergaitik ez du udalak neurririk hartzen? Gaztek ezin dute herrian etxebizitzarik aurkitu.",
+    "pairs": [
+     {
+      "wrong": "itxasoa",
+      "right": [
+       "itsasoa"
+      ]
+     },
+     {
+      "wrong": "Turistak",
+      "right": [
+       "Turistek"
+      ]
+     },
+     {
+      "wrong": "bost hotel berriak",
+      "right": [
+       "bost hotel berri"
+      ]
+     },
+     {
+      "wrong": "zeuden",
+      "right": [
+       "zegoen"
+      ]
+     },
+     {
+      "wrong": "Zergaitik",
+      "right": [
+       "Zergatik"
+      ]
+     },
+     {
+      "wrong": "Gaztek",
+      "right": [
+       "Gazteek"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "arrotz",
+      "accepted": [
+       "ezezagun",
+       "kanpotar"
+      ]
+     },
+     {
+      "w": "nabari",
+      "accepted": [
+       "agerian",
+       "argi",
+       "ageriko"
+      ]
+     },
+     {
+      "w": "sakon",
+      "accepted": [
+       "larri",
+       "handi"
+      ]
+     },
+     {
+      "w": "ordezkatu",
+      "accepted": [
+       "aldatu",
+       "-en lekua hartu"
+      ]
+     },
+     {
+      "w": "mugatu",
+      "accepted": [
+       "murriztu"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditza moldatu",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Iaz, turista gehiago ____ gure herrira.",
+      "hint": "etorri · lehenaldia",
+      "accepted": [
+       "etorri ziren"
+      ]
+     },
+     {
+      "sentence": "Udalak datorren urtean turismo-zerga bat ____.",
+      "hint": "ezarri · geroaldia",
+      "accepted": [
+       "ezarriko du"
+      ]
+     },
+     {
+      "sentence": "Alokairuak merkeagoak balira, gazteak auzoan ____.",
+      "hint": "geratu · baldintza, haiek",
+      "accepted": [
+       "geratuko lirateke"
+      ]
+     },
+     {
+      "sentence": "Bisitariek garai lasaiagoetan ere herria ____.",
+      "hint": "ezagutu · ahalera",
+      "accepted": [
+       "ezagut dezakete",
+       "ezagutu ahal dute"
+      ]
+     },
+     {
+      "sentence": "Bizilagunek udalari neurri gehiago ____.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen dizkiote"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Udalak turismoari buruzko eztabaida ireki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "tokiko egunkarirako: «Turismoa: aberastasuna ala arriskua?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "udaleko turismo-sailari, bizilagunen eta bisitarien arteko bizikidetza hobetzeko proposamenak eginez. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: alokairuak, betiko dendak, turismo-zerga, garai lasaiak, bizilagunen parte-hartzea."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "**1. binetan:** emakume adineko bat bere etxeko leihotik begira dago; kalea turistez beteta dago.",
+    "**2. binetan:** turista batek argazki bat ateratzen dio emakumeari.",
+    "**3. binetan:** emakumeak, irribarrez: «Ni ere monumentua naiz dagoeneko»."
+   ],
+   "model": "Komikiak umorez erakusten du bizilagunak ikusgarri bihurtu direla, turisten argazkietarako beste monumentu bat balira bezala. Irakurgaiak ideia bera azaltzen du: auzoak erakusleiho bihurtzen direnean, bizilagunak arrotz sentitzen dira beren etxean. Biek galdetzen dute norena den benetan hiria."
+  }
+ },
+ {
+  "id": "e06",
+  "num": "06",
+  "title": "Akatsak egiteko eskubidea",
+  "base": "2026 ez-ohikoa",
+  "mota": "Y",
+  "text": {
+   "title": "Akatsak egiteko eskubidea",
+   "paragraphs": [
+    "Ikasgelan galdera bat egiten denean, askotan isiltasuna nagusitzen da. Ikasle askok badakite erantzuna, edo ia badakite, baina ez dute eskua altxatzen. Zergatik? Oker egoteko beldurragatik. Akatsa lotsarekin lotzen dugu, eta lotsak isilarazi egiten gaitu.",
+    "Hezkuntza-sistemak, nahi gabe, beldur hori elikatzen du. Azterketetan akats bakoitzak puntuak kentzen ditu, eta notak dira gure lanaren neurri bakarra. Horrela, ikasleek ikasten dute arriskurik ez hartzea dela estrategiarik seguruena: erantzun ezaguna eman, galdera zailak saihestu eta proba berririk ez egin.",
+    "Zientziak, ordea, beste zerbait erakusten digu. Burmuinak akatsetatik ikasten du: oker gaudela ohartzen garenean, arreta pizten da eta informazioa sakonago gordetzen da. Asmatzaile eta zientzialari ospetsu askok behin eta berriz huts egin zuten aurkikuntza handi batera iritsi aurretik. Haientzat, porrota ez zen bukaera, bidearen zati bat baizik.",
+    "Kirolean ere ezaguna da hori. Saskibaloi-jokalari batek ez du inoiz jaurtiketa bakar bat ere sartuko, saiatzen ez bada. Eta musikariek ehunka aldiz errepikatzen dituzte pasarte zailak, okertzen diren bakoitzean zerbait zuzenduz.",
+    "Akatsei beldurra kentzea ez da arduragabekeria. Ez dugu esan nahi edozer gauza ontzat eman behar denik; aitzitik, akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena. Horretarako, ordea, inork oker dagoenari barre egingo ez dion giro segurua behar da. Azken batean, ikasgela ez da agertoki bat; tailer bat da, eta tailerretan eskuak zikintzen dira."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zergatik ez dute ikasle askok eskua altxatzen, erantzuna jakin arren?",
+     "answer": "Oker egoteko beldurragatik: akatsa lotsarekin lotzen dute, eta lotsak isilarazi egiten ditu."
+    },
+    {
+     "q": "Nola elikatzen du hezkuntza-sistemak akatsen beldurra?",
+     "answer": "Akats bakoitza puntuak kenduz zigortzen duelako eta notak lanaren neurri bakarra direlako; horrela, arriskurik ez hartzea bihurtzen da estrategiarik seguruena."
+    },
+    {
+     "q": "Zer gertatzen da burmuinean oker gaudela ohartzen garenean?",
+     "answer": "Arreta pizten da eta informazioa sakonago gordetzen da."
+    },
+    {
+     "q": "Zer behar da, egilearen ustez, akatsetatik benetan ikasteko?",
+     "answer": "Akatsa aztertu, ulertu eta zuzentzea, eta, horretarako, inork barre egingo ez dion giro segurua."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikasleen ordezkaritzak ikasturte hasierako tutoretza-saio baterako materiala prestatu du, eta testu honen gaia eta laburpena sartuko ditu.",
+   "gaia": "Akatsetatik ikastearen garrantzia eta haien beldurra gainditzeko beharra.",
+   "laburpena": "Ikasle askok ez dute parte hartzen, oker egoteko lotsagatik, eta hezkuntza-sistemak beldur hori indartzen du, akatsak zigortuz eta notetan soilik oinarrituz. Hala ere, burmuinak akatsetatik ikasten du, eta zientzialariek, kirolariek eta musikariek porrotak bidearen zatitzat hartzen dituzte. Akatsak aztertu eta zuzentzeko, ordea, inork barre egingo ez duen giro segurua behar da."
+  },
+  "a3": [
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Zerbait gaizki egin dugulako edo besteen aurrean barregarri geratzeko beldurragatik sentitzen dugun deserosotasuna.",
+      "accepted": [
+       "lotsa"
+      ]
+     },
+     {
+      "def": "Zerbaiten aurrean ihes egitea, hura ez egiteko edo ez jasateko.",
+      "accepted": [
+       "saihestu"
+      ]
+     },
+     {
+      "def": "Lehen ezagutzen ez zen zerbait aurkitzea edo aurkitutako hori.",
+      "accepted": [
+       "aurkikuntza"
+      ]
+     },
+     {
+      "def": "Kirolean, baloia saskira edo atera botatzea.",
+      "accepted": [
+       "jaurtiketa"
+      ]
+     },
+     {
+      "def": "Behar den kontu edo ardurarik gabe jokatzea.",
+      "accepted": [
+       "arduragabekeria"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Ikasle askok badakite erantzuna, baina ez dute eskua altxatzen.",
+      "element": null,
+      "proposal": "Ikasle askok erantzuna jakin arren, ez dute eskua altxatzen."
+     },
+     {
+      "sentence": "Oker gaudela ohartzen garenean, arreta pizten da.",
+      "element": null,
+      "proposal": "Oker gaudela ohartzean, arreta pizten da."
+     },
+     {
+      "sentence": "Asmatzaile askok behin eta berriz huts egin zuten aurkikuntza handi batera iritsi aurretik.",
+      "element": null,
+      "proposal": "Aurkikuntza handi batera iritsi baino lehen, asmatzaile askok behin eta berriz huts egin zuten."
+     },
+     {
+      "sentence": "Saskibaloi-jokalari batek ez du inoiz jaurtiketa bakar bat ere sartuko, saiatzen ez bada.",
+      "element": null,
+      "proposal": "Saiatu ezean, saskibaloi-jokalari batek ez du inoiz jaurtiketarik sartuko."
+     },
+     {
+      "sentence": "Akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena.",
+      "element": null,
+      "proposal": "Ikasteko modurik eraginkorrena akatsa aztertu, ulertu eta zuzentzea da."
+     }
+    ]
+   },
+   {
+    "kind": "eratorpena",
+    "title": "Eratorpena",
+    "instr": "Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.",
+    "options": [
+     {
+      "suffix": "-tasun",
+      "words": [
+       "isiltasun"
+      ]
+     },
+     {
+      "suffix": "-tzaile",
+      "words": [
+       "asmatzaile"
+      ]
+     },
+     {
+      "suffix": "-kuntza",
+      "words": [
+       "aurkikuntza"
+      ]
+     },
+     {
+      "suffix": "-keta",
+      "words": [
+       "jaurtiketa"
+      ]
+     },
+     {
+      "suffix": "-keria",
+      "words": [
+       "arduragabekeria"
+      ]
+     },
+     {
+      "suffix": "-lari",
+      "words": [
+       "jokalari",
+       "zientzialari"
+      ]
+     },
+     {
+      "suffix": "-ari",
+      "words": [
+       "musikari"
+      ]
+     },
+     {
+      "suffix": "-kor",
+      "words": [
+       "eraginkor"
+      ]
+     },
+     {
+      "suffix": "-tsu",
+      "words": [
+       "ospetsu"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Notak ala ikaskuntza?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Hitzaldia",
+     "desc": "jardunaldiaren hasieran 1. Batxilergoko ikasleen aurrean irakurtzeko. Entzuleei zuzendutako agurra, sarrera, garapena eta amaierako eskerrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Hitzaldian: entzuleei agurra (Ikaskide maiteok…), sarrera, garapena, eskerrak amaieran; erregistro jasoa baina hurbila. Ideia posibleak: notaren presioa, giro segurua, akatsak aztertzeko ohiturak, adibide pertsonal bat."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Haurra hamaika aldiz erori zen bizikletatik. Hamabigarrenean, ez zen erori. Inork ez zuen txalorik jo; inork ez zituen aurreko hamaikak ikusi. Baina hark bazekien: hamaikak gabe, ez zegoen hamabigarrenik."
+   ],
+   "model": "Ipuinak erakusten du arrakasta aurreko porroten emaitza dela, nahiz eta besteek arrakasta bakarrik ikusi. Irakurgaiak ere hala dio: burmuinak akatsetatik ikasten du, eta zientzialariek eta kirolariek behin eta berriz huts egiten dute aurrera egin aurretik. Akatsak, beraz, bidearen zati dira."
+  }
+ },
+ {
+  "id": "e07",
+  "num": "07",
+  "title": "Liburutegiak: isiltasunetik plazara",
+  "base": "2025 ohikoa",
+  "mota": "Z",
+  "text": {
+   "title": "Liburutegiak: isiltasunetik plazara",
+   "paragraphs": [
+    "Askorentzat, liburutegia isilik egoteko tokia da: apal luzeak, mahai handiak eta «sss» bat ahots goraxeagoz hitz egiten duenarentzat. Irudi hori, ordea, zaharkituta geratu da. Azken urteotan, liburutegiak herriko plaza bihurtu dira, eta gero eta jarduera gehiago hartzen dituzte.",
+    "Gaur egun, liburutegi batean liburu bat mailegatzeaz gain, irakurketa-talde batean parte hartu, haurrentzako ipuin-kontaketa batera joan edo 3D inprimagailua erabiltzen ikas daiteke. Herri txiki askotan, gainera, liburutegia da doan sar daitekeen eta ezer erosi gabe egon daitekeen toki bakarra. Ikasleek azterketetarako ikasteko erabiltzen dute; adinekoek, egunkaria irakurtzeko; eta etorkinek, hizkuntza ikasteko eta herriko berri izateko.",
+    "Interneten garaian, batzuek galdetzen dute ea liburutegiek zentzurik duten oraindik, informazio guztia sakelan badago. Liburuzainek, ordea, argi dute: informazio gehiegi dagoen garaian, inoiz baino beharrezkoagoa da hura bilatzen, aukeratzen eta egiaztatzen laguntzen duen norbait. Gezurrak eta zurrumurruak azkar zabaltzen diren honetan, iturri fidagarriak bereizten irakastea da liburutegien eginkizun berria.",
+    "Hala ere, aurrekontu-murrizketek liburutegi askotan eragin dute: ordutegiak murriztu dira, eta langile gutxiagorekin lan egin behar da. Liburuzainek salatzen dute kultura dela krisi garaietan mozten den lehen gauza, nahiz eta inoiz baino jende gehiagok erabili zerbitzua.",
+    "Liburutegia, azken finean, gizarte baten ispilua da: jakintza denona dela eta inor ez dela atzean geratu behar adierazten du. Hura zaintzea, beraz, ez da liburuak zaintzea bakarrik; elkarbizitza zaintzea ere bada."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Lehen paragrafoaren arabera, liburutegiaren irudi tradizionala da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "jarduera askotarikoen gunea."
+      },
+      {
+       "k": "b",
+       "t": "isilik egoteko tokia."
+      },
+      {
+       "k": "c",
+       "t": "herriko plaza."
+      },
+      {
+       "k": "d",
+       "t": "teknologia berrien txokoa."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Herri txiki askotan, liburutegia:",
+     "options": [
+      {
+       "k": "a",
+       "t": "itxi egin dute, Internetengatik."
+      },
+      {
+       "k": "b",
+       "t": "ikasleek bakarrik erabiltzen dute."
+      },
+      {
+       "k": "c",
+       "t": "doan eta ezer erosi gabe egon daitekeen toki bakarra da."
+      },
+      {
+       "k": "d",
+       "t": "etorkinentzat bakarrik dago irekita."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Liburuzainen ustez, Interneten garaian:",
+     "options": [
+      {
+       "k": "a",
+       "t": "liburutegiek zentzua galdu dute."
+      },
+      {
+       "k": "b",
+       "t": "informazioa bilatzen, aukeratzen eta egiaztatzen laguntzea inoiz baino beharrezkoagoa da."
+      },
+      {
+       "k": "c",
+       "t": "liburuak ez dira beharrezkoak."
+      },
+      {
+       "k": "d",
+       "t": "zurrumurruak ez dira arazo bat."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Aurrekontu-murrizketen ondorioz:",
+     "options": [
+      {
+       "k": "a",
+       "t": "erabiltzaile gutxiago daude."
+      },
+      {
+       "k": "b",
+       "t": "jarduera gehiago antolatzen dira."
+      },
+      {
+       "k": "c",
+       "t": "ordutegiak murriztu eta langile gutxiagorekin lan egiten da."
+      },
+      {
+       "k": "d",
+       "t": "liburu berriak erosi dira."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Azken paragrafoan, liburutegia:",
+     "options": [
+      {
+       "k": "a",
+       "t": "iraganeko oroigarri bat da."
+      },
+      {
+       "k": "b",
+       "t": "jakintza denona dela adierazten duen gizartearen ispilua da."
+      },
+      {
+       "k": "c",
+       "t": "liburuen biltegia baino ez da."
+      },
+      {
+       "k": "d",
+       "t": "ikasleentzako zerbitzua da batez ere."
+      }
+     ],
+     "correct": "b"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Herriko liburutegiak bere urteurrena ospatuko du, eta egitarauaren atzealdean testu honen gaia eta laburpena argitaratuko ditu.",
+   "gaia": "Liburutegien eginkizun berria gizartean eta haiek zaintzeko beharra.",
+   "laburpena": "Liburutegiak ez dira jada isiltasunerako toki hutsak, baizik eta jarduera askotarikoak eskaintzen dituzten topaguneak, denentzat irekiak eta doakoak. Informazio gehiegiren eta gezurren garaian, gainera, iturri fidagarriak bereizten irakasten dute. Hala ere, aurrekontu-murrizketek ordutegiak eta langileak gutxitu dituzte. Liburutegiak zaintzea elkarbizitza zaintzea da."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Liburu bat mailegatzeaz gain, irakurketa-talde batean parte har daiteke.",
+      "element": "ez ezik",
+      "proposal": "Liburu bat mailegatu ez ezik, irakurketa-talde batean parte har daiteke."
+     },
+     {
+      "sentence": "Batzuek galdetzen dute ea liburutegiek zentzurik duten oraindik.",
+      "element": "zalantzan jarri",
+      "proposal": "Batzuek zalantzan jartzen dute liburutegiek oraindik zentzurik duten."
+     },
+     {
+      "sentence": "Gezurrak azkar zabaltzen dira; horregatik, iturri fidagarriak bereiztea ezinbestekoa da.",
+      "element": "-nez",
+      "proposal": "Gezurrak azkar zabaltzen direnez, iturri fidagarriak bereiztea ezinbestekoa da."
+     },
+     {
+      "sentence": "Kultura da krisi garaietan mozten den lehen gauza, nahiz eta jende gehiagok erabili zerbitzua.",
+      "element": "arren",
+      "proposal": "Jende gehiagok zerbitzua erabili arren, kultura da krisi garaietan mozten den lehen gauza."
+     },
+     {
+      "sentence": "Hura zaintzea ez da liburuak zaintzea bakarrik; elkarbizitza zaintzea ere bada.",
+      "element": "baita … ere",
+      "proposal": "Hura zaintzea liburuak zaintzea da, baita elkarbizitza zaintzea ere."
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "mailegatu",
+      "accepted": [
+       "utzi",
+       "aldi baterako eman"
+      ]
+     },
+     {
+      "w": "egiaztatu",
+      "accepted": [
+       "frogatu",
+       "baieztatu"
+      ]
+     },
+     {
+      "w": "fidagarri",
+      "accepted": [
+       "sinesgarri",
+       "ziur"
+      ]
+     },
+     {
+      "w": "salatu",
+      "accepted": [
+       "gaitzetsi",
+       "agerian jarri"
+      ]
+     },
+     {
+      "w": "moztu",
+      "accepted": [
+       "murriztu",
+       "kendu"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Liburutegian lan egiten duen pertsona.",
+      "accepted": [
+       "liburuzain"
+      ]
+     },
+     {
+      "def": "Liburuak eta beste gauza batzuk jartzeko ohola, hormari lotua edo altzari batean.",
+      "accepted": [
+       "apal"
+      ]
+     },
+     {
+      "def": "Jendartean ahoz aho zabaltzen den berri ziurtatu gabea.",
+      "accepted": [
+       "zurrumurru"
+      ]
+     },
+     {
+      "def": "Beste herrialde batetik bizitzera etorri den pertsona.",
+      "accepted": [
+       "etorkin"
+      ]
+     },
+     {
+      "def": "Begiratzen duenaren irudia islatzen duen objektua.",
+      "accepted": [
+       "ispilu"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Udalak herriko liburutegiaren ordutegia murriztea erabaki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "alkateari, erabakia berriz aztertzeko eta azterketa-garaian ordutegia luzatzeko eskatuz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Iritzi-artikulua",
+     "desc": "tokiko aldizkarirako: «Liburutegiak, Interneten garaian?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, hasierako agurra (Alkate jauna/andrea…), amaierako agurra eta sinadura; erregistro jasoa. Artikuluan: izenburua + izen-deiturak. Ideia posibleak: azterketa-garaia, herri txikietako topagunea, iturri fidagarriak, kultura-mozketak."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "«Beti imajinatu izan dut paradisua liburutegi moduko zerbait izango zela.»",
+    "(Jorge Luis Borges)"
+   ],
+   "model": "Borgesentzat, liburutegia leku ezin hobea da, jakintzaz eta zoriontasunez betea. Irakurgaiak ideia hori gaurkotzen du: liburutegia denona den topagunea da, edonori ikasteko, irakurtzeko eta besteekin elkartzeko aukera ematen diona. Horregatik, haren balioa ez da liburuetara mugatzen."
+  }
+ },
+ {
+  "id": "e08",
+  "num": "08",
+  "title": "Gurasoen etxetik, noiz?",
+  "base": "2025 ez-ohikoa",
+  "mota": "W",
+  "text": {
+   "title": "Gurasoen etxetik, noiz?",
+   "paragraphs": [
+    "Europako iparraldean, gazte gehienek hogei urte inguru dituztenean uzten dute gurasoen etxea. Gure inguruan, ordea, batez besteko adina hogeita hamarretik gertu dago. Datu horrek ez du esan nahi hemengo gazteak erosoago bizi direnik gurasoekin; aitzitik, gehienek lehenago alde egin nahiko lukete, baina ezin dute.",
+    "Arrazoi nagusia ekonomikoa da. Lehen lanak ezegonkorrak eta soldata txikikoak izan ohi dira, eta alokairuen prezioak, berriz, azkar igo dira azken hamarkadan. Askotan, alokairu batek soldataren erdia baino gehiago irensten du. Etxe bat erostea, bestalde, amets urruna da gazte askorentzat, bankuek aurrezki handiak eskatzen baitituzte.",
+    "Egoera horrek ondorioak ditu bizitzaren beste esparruetan ere. Gurasoen etxetik beranduago irteten denez, bikote-bizitza, seme-alabak izatea edo norberaren proiektuak atzeratu egiten dira. Gainera, independentzia falta horrek frustrazioa sortzen du: gazteak helduak dira legez, baina ez beren bizitzaren jabe.",
+    "Hainbat erakunde irtenbideak bilatzen ari dira. Batzuek gazteentzako alokairu sozialeko etxebizitzak eraiki dituzte; beste batzuek diru-laguntzak ematen dituzte alokairua ordaintzeko. Gazteek ere bide berriak asmatu dituzte: etxebizitza partekatuak, kooperatibak edo adinekoekin bizitzeko programak. Azken horietan, gazteak adineko bati lagun egiten dio, eta, trukean, alokairu merkea ordaintzen du.",
+    "Etxebizitza ez da merkatuko beste produktu bat; eskubide bat da, eta gazteen etorkizuna baldintzatzen du. Gazte batek etxe bat izatea ez da luxua: helduaroan sartzeko atea da."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Gure inguruan, gazteek gurasoen etxea uzteko batez besteko adina:",
+     "options": [
+      {
+       "k": "a",
+       "t": "hogei urte ingurukoa da."
+      },
+      {
+       "k": "b",
+       "t": "hogeita hamarretik gertu dago."
+      },
+      {
+       "k": "c",
+       "t": "Europako iparraldekoa bezalakoa da."
+      },
+      {
+       "k": "d",
+       "t": "azken urteetan jaitsi egin da."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Testuaren arabera, hemengo gazte gehienek:",
+     "options": [
+      {
+       "k": "a",
+       "t": "nahiago dute gurasoekin bizi."
+      },
+      {
+       "k": "b",
+       "t": "lehenago alde egin nahiko lukete, baina ezin dute."
+      },
+      {
+       "k": "c",
+       "t": "etxe bat erosi dute."
+      },
+      {
+       "k": "d",
+       "t": "atzerrira joaten dira bizitzera."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Etxe bat erosteko oztopoetako bat da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "etxebizitza gutxi eraikitzen direla."
+      },
+      {
+       "k": "b",
+       "t": "bankuek aurrezki handiak eskatzen dituztela."
+      },
+      {
+       "k": "c",
+       "t": "gazteek ez dutela etxerik erosi nahi."
+      },
+      {
+       "k": "d",
+       "t": "gurasoek ez dutela uzten."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Gurasoen etxetik beranduago irteteak:",
+     "options": [
+      {
+       "k": "a",
+       "t": "ez du ondoriorik."
+      },
+      {
+       "k": "b",
+       "t": "gazteen aurrezkiak handitzen ditu."
+      },
+      {
+       "k": "c",
+       "t": "bizitza-proiektuak atzeratzen ditu eta frustrazioa sortzen du."
+      },
+      {
+       "k": "d",
+       "t": "familia-harremanak hobetzen ditu."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Adinekoekin bizitzeko programetan:",
+     "options": [
+      {
+       "k": "a",
+       "t": "adinekoak gazteen etxera joaten dira."
+      },
+      {
+       "k": "b",
+       "t": "gazteak adineko bati lagun egiten dio, alokairu merkearen truke."
+      },
+      {
+       "k": "c",
+       "t": "gazteek ez dute ezer ordaintzen."
+      },
+      {
+       "k": "d",
+       "t": "bankuek alokairua ordaintzen dute."
+      }
+     ],
+     "correct": "b"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Gazte-elkarte batek etxebizitzari buruzko txosten bat aurkeztuko du udalbatzan, eta sarreran testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Gazteen emantzipazio berantiarra, haren zergatiak eta irtenbideak.",
+   "laburpena": "Hemengo gazteek Europako iparraldekoek baino askoz beranduago uzten dute gurasoen etxea, ez nahi dutelako, baizik eta lanak ezegonkorrak, soldatak txikiak eta alokairuak garestiak direlako. Horrek bizitza-proiektuak atzeratzen ditu eta frustrazioa sortzen du. Alokairu sozialak, diru-laguntzak eta etxebizitza partekatuak dira irtenbideetako batzuk, etxebizitza eskubide bat baita."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Gehienek lehenago alde egin nahiko lukete, baina ezin dute.",
+      "element": "gustatu",
+      "proposal": "Gehienei lehenago alde egitea gustatuko litzaieke, baina ezin dute."
+     },
+     {
+      "sentence": "Askotan, alokairu batek soldataren erdia baino gehiago irensten du.",
+      "element": "gastatu",
+      "proposal": "Askotan, soldataren erdia baino gehiago gastatzen da alokairuan."
+     },
+     {
+      "sentence": "Gurasoen etxetik beranduago irteten denez, norberaren proiektuak atzeratu egiten dira.",
+      "element": "-lako",
+      "proposal": "Gurasoen etxetik beranduago irteten delako, norberaren proiektuak atzeratu egiten dira."
+     },
+     {
+      "sentence": "Etxe bat erostea amets urruna da gazte askorentzat.",
+      "element": "zail",
+      "proposal": "Gazte askorentzat oso zaila da etxe bat erostea."
+     },
+     {
+      "sentence": "Gazte batek etxe bat izatea ez da luxua.",
+      "element": "-tzat hartu",
+      "proposal": "Gazte batek etxe bat izatea ez da luxutzat hartu behar."
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditzak",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Nire ahizpak iaz gurasoen etxea ____.",
+      "hint": "utzi · lehenaldia",
+      "accepted": [
+       "utzi zuen"
+      ]
+     },
+     {
+      "sentence": "Udalak datorren urtean berrogei etxebizitza ____.",
+      "hint": "eraiki · geroaldia",
+      "accepted": [
+       "eraikiko ditu"
+      ]
+     },
+     {
+      "sentence": "Soldata hobea banu, alokairu bat ____.",
+      "hint": "ordaindu · baldintza, ni",
+      "accepted": [
+       "ordainduko nuke"
+      ]
+     },
+     {
+      "sentence": "Gazteek diru-laguntza udaletxean ____.",
+      "hint": "eskatu · ahalera",
+      "accepted": [
+       "eska dezakete",
+       "eskatu ahal dute"
+      ]
+     },
+     {
+      "sentence": "Bankuek aurrezki handiak ____ gazteei.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen dizkiete"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Definizioak",
+    "instr": "Eman testuko hitz hauen sinonimo edo baliokide bana.",
+    "items": [
+     {
+      "w": "ezegonkor",
+      "accepted": [
+       "behin-behineko",
+       "aldakor"
+      ]
+     },
+     {
+      "w": "irentsi",
+      "accepted": [
+       "jan",
+       "xahutu"
+      ]
+     },
+     {
+      "w": "aurrezki",
+      "accepted": [
+       "aurreztutako dirua",
+       "gordailu"
+      ]
+     },
+     {
+      "w": "asmatu",
+      "accepted": [
+       "sortu",
+       "irudikatu"
+      ]
+     },
+     {
+      "w": "baldintzatu",
+      "accepted": [
+       "mugatu",
+       "eragin",
+       "determinatu"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure herrian gazteentzako etxebizitza-plan bat eztabaidatzen ari dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "alkateari, gazteentzako etxebizitza-neurriak eskatuz eta proposamen zehatzak eginez. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Etxebizitza partekatuan bizitzeko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak (egitura koherentea), itxiera. Ideia posibleak: alokairu soziala, kooperatibak, belaunaldien arteko programak; dekalogoan: garbiketa-txandak, gastuak, isiltasun-orduak, bisitak."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "— Noiz aterako zara etxetik? —galdetu dio amak semeari.",
+    "— Soldatak uzten didanean —erantzun dio hark—. Hau da, 2060an."
+   ],
+   "model": "Elkarrizketak umorez salatzen du gazteek ezin dutela gurasoen etxetik irten, soldata txikiengatik. Irakurgaiak arazo bera azaltzen du: lan ezegonkorrak eta alokairu garestiak direla eta, emantzipazioa hogeita hamar urtera atzeratzen da. Txantxaren azpian, benetako frustrazioa dago."
+  }
+ },
+ {
+  "id": "e09",
+  "num": "09",
+  "title": "Jolasa ala denbora-galtzea?",
+  "base": "2026 ohikoa",
+  "mota": "X",
+  "text": {
+   "title": "Jolasa ala denbora-galtzea?",
+   "paragraphs": [
+    "Bideojokoek ospe txarra izan dute aspalditik. Gurasoek eta hezitzaileek denbora-galtzetzat hartu izan dituzte, eta indarkeria edo isolamendua eragiten dutela leporatu izan zaie. Gaur egun, ordea, ikerketek irudi konplexuagoa marrazten dute, eta eztabaida ez da hain zuri-beltza.",
+    "Alde batetik, joko askok gaitasun baliotsuak lantzen dituzte. Estrategia-jokoek plangintza eta erabakiak hartzeko trebetasuna sustatzen dute; talde-jokoek, berriz, lankidetza eta komunikazioa. Puzzle-jokoek arazoak ebazteko modu berriak irakasten dituzte, eta joko batzuk ikastetxeetan erabiltzen dira historia edo zientzia irakasteko.",
+    "Bestalde, arriskuak ere badira. Joko batzuk jokalaria ahalik eta denbora gehien harrapatuta edukitzeko diseinatuta daude: sariak, mailak eta jakinarazpenak etengabe ematen dituzte, eta jokoa uztea gero eta zailagoa egiten da. Horri sari-kutxak gehitzen bazaizkio —diru errealarekin erosten diren ausazko sariak—, apustuetatik oso hurbil dagoen mekanismoa sortzen da.",
+    "Gakoa, beraz, ez dago jokoan bertan, harekin dugun harremanean baizik. Ordu batzuk jolasean pasatzea, lagunekin eta beste jarduera batzuekin uztartuta, osasuntsua izan daiteke. Arazoa sortzen da jokoak loa, ikasketak edo harremanak ordezkatzen dituenean.",
+    "Horregatik, adituek debekuak baino gehiago elkarrizketa gomendatzen dute. Gurasoek seme-alabekin jolastea, jokoen edukia ezagutzea eta mugak elkarrekin adostea dira bide eraginkorrenak. Azken batean, bideojokoak gure garaiko kultura dira, eta, kultura oro bezala, kritikoki kontsumitzen ikasi behar da."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zer leporatu izan zaie bideojokoei?",
+     "answer": "Denbora galtzea, indarkeria eragitea eta isolamendua sortzea."
+    },
+    {
+     "q": "Zein gaitasun lantzen dituzte joko-mota desberdinek? Aipatu bi adibide.",
+     "answer": "Estrategia-jokoek plangintza eta erabakiak hartzeko trebetasuna; talde-jokoek lankidetza eta komunikazioa; puzzleek arazoak ebaztekoa. (Bi nahikoa.)"
+    },
+    {
+     "q": "Zergatik dira arriskutsuak joko batzuk?",
+     "answer": "Jokalaria ahalik eta denbora gehien harrapatuta izateko diseinatuta daudelako (sariak, mailak, jakinarazpenak), eta sari-kutxek apustuen antzeko mekanismoa sortzen dutelako."
+    },
+    {
+     "q": "Zer gomendatzen dute adituek, eta zergatik?",
+     "answer": "Debekuen ordez elkarrizketa: gurasoek seme-alabekin jolastea, edukia ezagutzea eta mugak adostea; arazoa ez baitago jokoan, harekin dugun harremanean baizik."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikastetxeko guraso-elkarteak bideojokoei buruzko hitzaldi bat antolatu du, eta gonbidapenean testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Bideojokoen onurak eta arriskuak, eta haiekin harreman osasuntsua izateko gakoa.",
+   "laburpena": "Bideojokoak denbora-galtzetzat hartu izan dira, baina joko askok plangintza, lankidetza eta arazoak ebazteko trebetasuna lantzen dituzte. Hala ere, batzuk jokalaria harrapatzeko diseinatuta daude, eta sari-kutxek apustuen antza dute. Arazoa jokoarekiko harremana da, loa edo ikasketak ordezkatzen dituenean. Horregatik, debekuen ordez, elkarrizketa eta adostutako mugak gomendatzen dira."
+  },
+  "a3": [
+   {
+    "kind": "akatsak",
+    "title": "Akatsak identifikatu eta zuzendu",
+    "instr": "Ikasle batek idatzitako ohar honetan sei akats daude. Aurkitu eta zuzendu horietako bost.",
+    "text": "Atzo, nire anaiak bost ordu eman zuen bideojokoetan. Amak asko haserretu zen, eta jokuak kendu egin zizkion. Nere ustez, lagunekin jolastea ez da txarra, baina hainbeste ordu ordenagailuaren aurrean egotea ez dira osasuntsua. Bihar, familia guztiak elkarrekin hitz egingo dugu mugak adosteko.",
+    "pairs": [
+     {
+      "wrong": "zuen",
+      "right": [
+       "zituen"
+      ]
+     },
+     {
+      "wrong": "Amak",
+      "right": [
+       "Ama"
+      ]
+     },
+     {
+      "wrong": "jokuak",
+      "right": [
+       "jokoak"
+      ]
+     },
+     {
+      "wrong": "Nere",
+      "right": [
+       "Nire"
+      ]
+     },
+     {
+      "wrong": "ez dira",
+      "right": [
+       "ez da"
+      ]
+     },
+     {
+      "wrong": "familia guztiak … hitz egingo dugu",
+      "right": [
+       "familiako guztiok … hitz egingo dugu",
+       "familia osoak … hitz egingo du"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "baliotsu",
+      "accepted": [
+       "garrantzitsu",
+       "aberats"
+      ]
+     },
+     {
+      "w": "sustatu",
+      "accepted": [
+       "bultzatu",
+       "indartu"
+      ]
+     },
+     {
+      "w": "ausazko",
+      "accepted": [
+       "zorizko"
+      ]
+     },
+     {
+      "w": "uztartu",
+      "accepted": [
+       "bateratu",
+       "konbinatu"
+      ]
+     },
+     {
+      "w": "adostu",
+      "accepted": [
+       "hitzartu",
+       "itundu"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditza moldatu",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Iaz, gurasoek kontsola bat ____ niri.",
+      "hint": "oparitu · lehenaldia",
+      "accepted": [
+       "oparitu zidaten"
+      ]
+     },
+     {
+      "sentence": "Datorren urtean, ikastetxeak joko hezitzaileak ____.",
+      "hint": "erabili · geroaldia",
+      "accepted": [
+       "erabiliko ditu"
+      ]
+     },
+     {
+      "sentence": "Gutxiago jolastuko bazenu, hobeto ____.",
+      "hint": "lo egin · baldintza, zu",
+      "accepted": [
+       "lo egingo zenuke"
+      ]
+     },
+     {
+      "sentence": "Gaur arratsaldean, ordubetez ____.",
+      "hint": "jolastu · ahalera, gu",
+      "accepted": [
+       "jolas gaitezke",
+       "jolastu ahal gara"
+      ]
+     },
+     {
+      "sentence": "Jokoek etengabe jakinarazpenak ____ jokalariei.",
+      "hint": "bidali · orainaldia",
+      "accepted": [
+       "bidaltzen dizkiete"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxean bideojokoei buruzko eztabaida sortu da, eta batzuek eskola-orduetan joko hezitzaileak erabiltzea proposatu dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Bideojokoak: debekatu ala ulertu?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "ikastetxeko zuzendaritzari, bideojokoen erabilera arduratsuari buruzko tailer bat proposatuz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: gaitasunak, diseinu harrapatzaileak, sari-kutxak, familiako mugak, tailerraren egitura (nori, noiz, zer)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "AITONA: Gure garaian, kalean jolasten genuen.",
+    "BILOBA: Guk ere bai, aitona: Tokio, Paris eta New Yorkeko kaleetan. Gaur goizean bertan."
+   ],
+   "model": "Elkarrizketak erakusten du belaunaldi bakoitzak bere jolas-moduak dituela, eta bideojokoek mundu osoko jendearekin jolasteko aukera ematen dutela. Irakurgaiak ere eztabaida zuri-beltza gainditu nahi du: jokoak ez dira berez txarrak, gure garaiko kultura baizik, baina kritikoki erabili behar dira."
+  }
+ },
+ {
+  "id": "e10",
+  "num": "10",
+  "title": "Harmailak betetzen ari dira",
+  "base": "2026 ez-ohikoa",
+  "mota": "Y",
+  "text": {
+   "title": "Harmailak betetzen ari dira",
+   "paragraphs": [
+    "Duela urte gutxi arte, emakumeen futbol-partida batera joaten zirenak gutxi ziren: senideak, lagunak eta zale fidel batzuk. Gaur egun, ordea, emakumeen partida batzuek milaka ikusle biltzen dituzte, eta telebistek zuzenean ematen dituzte. Aldaketa ikusgarria izan da, baina oraindik bide luzea dago egiteko.",
+    "Emakumeek beti egin dute kirola, baina haien lorpenak ez dira ikusgai egon. Hedabideek gizonezkoen kirolari eskaini dizkiote orrialdeak eta orduak, eta emakumeen txapelketak albiste txiki batean geratzen ziren, egotekotan. Ikusgaitasun falta horrek gurpil zoro bat sortzen zuen: ikusten ez dena ez da ezagutzen, ezagutzen ez dena ez da babesten, eta babesik gabe ezin da profesionalizatu.",
+    "Azken urteotan, gurpil hori hausten hasi da. Klub handiek emakumeen taldeak sortu dituzte, babesleak agertu dira eta neska askok eredu berriak dituzte. Lehen, futbolari, txirrindulari edo pilotari izateko amets egiten zuen neskak ez zuen ispilurik; gaur, bere idoloen kamisetak eraman ditzake.",
+    "Hala ere, desberdintasunak nabarmenak dira oraindik. Soldatak gizonezkoenak baino askoz txikiagoak dira, eta kirolari askok beste lan bat behar dute bizitzeko. Instalazioetan, ordutegietan eta komunikabideetan ere desoreka handia dago. Gainera, kirolari emakumeek iruzkin matxistak jasan behar dituzte sare sozialetan, maizago eta gogorrago.",
+    "Berdintasuna ez da egun batetik bestera lortuko. Baina harmailak betetzen jarraitzen badute, eta neskek kirola egiteari uzten ez badiote nerabezaroan, etorkizuneko txapeldunak ez dira salbuespena izango, ohikoa baizik."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zer aldaketa gertatu da emakumeen futbol-partiden ikusleei dagokienez?",
+     "answer": "Lehen ikusle gutxi joaten ziren (senideak, lagunak, zale batzuk); gaur partida batzuek milaka ikusle biltzen dituzte eta telebistan zuzenean ematen dira."
+    },
+    {
+     "q": "Azaldu zertan datzan testuak aipatzen duen «gurpil zoroa».",
+     "answer": "Ikusten ez dena ez da ezagutzen, ezagutzen ez dena ez da babesten, eta babesik gabe ezin da profesionalizatu: ikusgaitasun faltak berak elikatzen du egoera."
+    },
+    {
+     "q": "Zer aldatu da neskentzat, eredu edo idoloei dagokienez?",
+     "answer": "Lehen ez zuten eredurik («ispilurik»); gaur idoloak dituzte eta haien kamisetak eraman ditzakete."
+    },
+    {
+     "q": "Zein desberdintasun daude oraindik?",
+     "answer": "Soldata txikiagoak, beste lan baten beharra, instalazio, ordutegi eta komunikabideetako desoreka, eta sareetako iruzkin matxistak."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Herriko kirol-elkarteak Emakumeen Nazioarteko Egunerako erakusketa bat prestatu du, eta sarrerako panelean testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Emakumeen kirolaren aurrerapena eta oraindik dauden desberdintasunak.",
+   "laburpena": "Emakumeen kirolak inoiz baino ikusle eta hedabide-arreta gehiago du, baina urte luzez ikusezina izan da, eta horrek babesa eta profesionalizazioa galarazi ditu. Gaur, klubek, babesleek eta idolo berriek gurpil hori hausten lagundu dute. Hala ere, soldatetan, instalazioetan eta komunikabideetan desberdintasun handiak daude oraindik, baita sareetako iruzkin matxistak ere."
+  },
+  "a3": [
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Kirol-zelaietan, ikusleak esertzeko mailaz maila jarritako eserlekuak.",
+      "accepted": [
+       "harmaila"
+      ]
+     },
+     {
+      "def": "Ahalegin baten ondorioz lortutako arrakasta.",
+      "accepted": [
+       "lorpen"
+      ]
+     },
+     {
+      "def": "Kirolari edo talde bati dirua ematen dion enpresa edo pertsona.",
+      "accepted": [
+       "babesle"
+      ]
+     },
+     {
+      "def": "Oreka falta, alde bien arteko neurri desberdina.",
+      "accepted": [
+       "desoreka"
+      ]
+     },
+     {
+      "def": "Arau orokorretik kanpo geratzen dena.",
+      "accepted": [
+       "salbuespen"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Telebistek zuzenean ematen dituzte.",
+      "element": null,
+      "proposal": "Zuzenean ematen dira telebistan."
+     },
+     {
+      "sentence": "Ikusten ez dena ez da ezagutzen.",
+      "element": null,
+      "proposal": "Ikusgai ez dagoena ezezaguna da."
+     },
+     {
+      "sentence": "Kirolari askok beste lan bat behar dute bizitzeko.",
+      "element": null,
+      "proposal": "Bizi ahal izateko, kirolari askok beste lan bat izan behar dute."
+     },
+     {
+      "sentence": "Lehen, futbolari izateko amets egiten zuen neskak ez zuen ispilurik.",
+      "element": null,
+      "proposal": "Lehen, futbolari izan nahi zuen neskak ez zuen eredurik."
+     },
+     {
+      "sentence": "Neskek kirola egiteari uzten ez badiote, etorkizuneko txapeldunak ez dira salbuespena izango.",
+      "element": null,
+      "proposal": "Neskek kirola egiten jarraituz gero, etorkizuneko txapeldunak ez dira salbuespena izango."
+     }
+    ]
+   },
+   {
+    "kind": "eratorpena",
+    "title": "Eratorpena",
+    "instr": "Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.",
+    "options": [
+     {
+      "suffix": "-tasun",
+      "words": [
+       "ikusgaitasun",
+       "desberdintasun",
+       "berdintasun"
+      ]
+     },
+     {
+      "suffix": "-keta",
+      "words": [
+       "txapelketa",
+       "aldaketa"
+      ]
+     },
+     {
+      "suffix": "-lari",
+      "words": [
+       "txirrindulari",
+       "pilotari"
+      ]
+     },
+     {
+      "suffix": "-ari",
+      "words": [
+       "futbolari"
+      ]
+     },
+     {
+      "suffix": "-le",
+      "words": [
+       "babesle",
+       "ikusle"
+      ]
+     },
+     {
+      "suffix": "-pen",
+      "words": [
+       "lorpen"
+      ]
+     },
+     {
+      "suffix": "-garri",
+      "words": [
+       "ikusgarri"
+      ]
+     },
+     {
+      "suffix": "-dun",
+      "words": [
+       "txapeldun"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure herriko kiroldegian, neskentzako taldeek ordutegi okerrenak eta instalazio txarrenak dituzte. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "herriko aldizkarirako: «Berdintasuna, kiroldegian ere». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "udaleko kirol-batzordeari, egoera azaldu eta konponbideak proposatuz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: ordutegien txandaketa, instalazioen banaketa, ereduen garrantzia, nerabezaroko utzialdia."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Txikitan esan zidaten",
+    "baloia ez zela neskentzat.",
+    "Orain, harmailatik,",
+    "nire alabak nire izena oihukatzen du."
+   ],
+   "model": "Poemak erakusten du nola aldatu den neskek kirolean duten lekua: lehen baztertuta zeuden, eta orain txalotuak dira, belaunaldi batetik bestera. Irakurgaiak ere aldaketa hori deskribatzen du: harmailak betetzen ari dira eta neskek eredu berriak dituzte, nahiz eta desberdintasunak oraindik egon."
+  }
+ },
+ {
+  "id": "e11",
+  "num": "11",
+  "title": "Ura ez da betikoa",
+  "base": "2025 ohikoa",
+  "mota": "Z",
+  "text": {
+   "title": "Ura ez da betikoa",
+   "paragraphs": [
+    "Euskal Herrian euria ohikoa da, eta ura beti hor egongo dela pentsatzeko joera dugu. Txorrota ireki eta ura ateratzen da; ez dugu gehiago pentsatzen. Azken urteotan, ordea, lehorteak gero eta maizago iristen dira, baita gurera ere, eta urtegi batzuk erdi hutsik ikusteak kezka piztu du.",
+    "Klima-aldaketak euri-ereduak aldatu ditu. Ez du gutxiago egiten urte osoan, baina modu desorekatuagoan egiten du: hilabete luzeak tanta bakar bat ere gabe, eta gero ekaitz bortitzak, lurrak xurgatu ezin duen ur-jasa batekin. Gainera, tenperatura altuagoek lurrunketa areagotzen dute, eta ibaiek ur gutxiago daramate udan.",
+    "Ur-kontsumoa ere handia da. Nekazaritzak erabiltzen du urik gehiena, baina etxeetako eta industriako kontsumoa ere ez da txikia. Gainera, hodi zaharretan ur asko galtzen da bidean, inork ikusi gabe. Uraren zati handi bat, beraz, alferrik galtzen da kontsumitzailearengana iritsi aurretik.",
+    "Konponbideak hainbat mailatan bilatu behar dira. Erakundeek sareak berritu eta ura berrerabiltzeko sistemak sustatu behar dituzte; nekazariek, ureztatze-sistema eraginkorragoak erabili. Herritarrok ere badugu zer egin: dutxa laburragoak hartu, txorrota itxi hortzak garbitzean eta lorategiak gauez ureztatu, lurrunketa saihesteko.",
+    "Urak ez du ordezkorik. Petrolioa edo gasa beste energia batzuekin ordezka daitezke, baina urik gabe ez dago bizitzarik. Ur-tanta bakoitza zaintzea ez da zekenkeria; etorkizunarekiko ardura baizik."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Lehen paragrafoaren arabera, kezka piztu du:",
+     "options": [
+      {
+       "k": "a",
+       "t": "euri gehiegi egiteak."
+      },
+      {
+       "k": "b",
+       "t": "urtegi batzuk erdi hutsik ikusteak."
+      },
+      {
+       "k": "c",
+       "t": "uraren prezioa igotzeak."
+      },
+      {
+       "k": "d",
+       "t": "txorrotetako urak kalitatea galtzeak."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Klima-aldaketaren ondorioz, testuaren arabera:",
+     "options": [
+      {
+       "k": "a",
+       "t": "urtean euri gutxiago egiten du."
+      },
+      {
+       "k": "b",
+       "t": "euria modu desorekatuagoan egiten du."
+      },
+      {
+       "k": "c",
+       "t": "ekaitzak desagertu egin dira."
+      },
+      {
+       "k": "d",
+       "t": "ibaiek ur gehiago daramate udan."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Uraren zati handi bat:",
+     "options": [
+      {
+       "k": "a",
+       "t": "nekazariek alferrik galtzen dute."
+      },
+      {
+       "k": "b",
+       "t": "hodi zaharretan galtzen da, kontsumitzailearengana iritsi aurretik."
+      },
+      {
+       "k": "c",
+       "t": "industriak kutsatzen du."
+      },
+      {
+       "k": "d",
+       "t": "lurrak xurgatzen du."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Lorategiak gauez ureztatzea gomendatzen da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "ura merkeagoa delako."
+      },
+      {
+       "k": "b",
+       "t": "lurrunketa saihesteko."
+      },
+      {
+       "k": "c",
+       "t": "auzokideek ez ikusteko."
+      },
+      {
+       "k": "d",
+       "t": "gauez euria egiten duelako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Egilearen ustez, ura zaintzea:",
+     "options": [
+      {
+       "k": "a",
+       "t": "zekenkeria da."
+      },
+      {
+       "k": "b",
+       "t": "erakundeen kontua da soilik."
+      },
+      {
+       "k": "c",
+       "t": "etorkizunarekiko ardura da."
+      },
+      {
+       "k": "d",
+       "t": "ez da beharrezkoa Euskal Herrian."
+      }
+     ],
+     "correct": "c"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ur-partzuergoak ikastetxeetan banatuko duen esku-orri batean testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Uraren urritasunaren zergatiak eta hura zaintzeko neurriak.",
+   "laburpena": "Euskal Herrian ere lehorteak ugaritzen ari dira: klima-aldaketaren ondorioz, euria desorekatuago egiten du eta beroak lurrunketa areagotzen du. Gainera, nekazaritzak, etxeek eta industriak asko kontsumitzen dute, eta hodi zaharretan ur asko galtzen da. Erakundeek, nekazariek eta herritarrek ura aurrezteko neurriak hartu behar dituzte, ezin baita ordezkatu."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Txorrota ireki eta ura ateratzen da.",
+      "element": "bezain laster",
+      "proposal": "Txorrota ireki bezain laster, ura ateratzen da."
+     },
+     {
+      "sentence": "Ez du gutxiago egiten urte osoan, baina modu desorekatuagoan egiten du.",
+      "element": "nahiz eta",
+      "proposal": "Nahiz eta urte osoan gutxiago ez egin, modu desorekatuagoan egiten du euria."
+     },
+     {
+      "sentence": "Tenperatura altuagoek lurrunketa areagotzen dute.",
+      "element": "-en ondorioz",
+      "proposal": "Tenperatura altuagoen ondorioz, lurrunketa areagotu egiten da."
+     },
+     {
+      "sentence": "Hodi zaharretan ur asko galtzen da bidean, inork ikusi gabe.",
+      "element": "konturatu",
+      "proposal": "Hodi zaharretan ur asko galtzen da bidean, inor konturatu gabe."
+     },
+     {
+      "sentence": "Urik gabe ez dago bizitzarik.",
+      "element": "ezinezkoa",
+      "proposal": "Ezinezkoa da urik gabe bizitzea."
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "bortitz",
+      "accepted": [
+       "gogor",
+       "indartsu"
+      ]
+     },
+     {
+      "w": "xurgatu",
+      "accepted": [
+       "bereganatu",
+       "edan"
+      ]
+     },
+     {
+      "w": "areagotu",
+      "accepted": [
+       "handitu",
+       "ugaritu"
+      ]
+     },
+     {
+      "w": "alferrik",
+      "accepted": [
+       "debalde",
+       "ezertarako ez"
+      ]
+     },
+     {
+      "w": "zekenkeria",
+      "accepted": [
+       "zikoizkeria",
+       "diru-zalekeria"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Euri faltagatik ura falta den aldia.",
+      "accepted": [
+       "lehorte"
+      ]
+     },
+     {
+      "def": "Ibai bat itxiz ura biltzeko egindako gunea.",
+      "accepted": [
+       "urtegi"
+      ]
+     },
+     {
+      "def": "Ura edo beste fluido bat eramateko tutua.",
+      "accepted": [
+       "hodi"
+      ]
+     },
+     {
+      "def": "Landareei edo lurrari ura ematea.",
+      "accepted": [
+       "ureztatu"
+      ]
+     },
+     {
+      "def": "Bat-batean eta indarrez egiten duen euri handia.",
+      "accepted": [
+       "ur-jasa"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure eskualdean lehorte-alerta ezarri dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "udaleko ingurumen-zinegotziari, ikastetxean ura aurrezteko kanpaina bat proposatuz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Ura etxean aurrezteko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak (egitura koherentea) eta itxiera. Ideia posibleak: dutxak, txorrotak, garbigailua beteta, euri-ura biltzea, ihesak konpontzea."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Urtegiaren hondoan",
+    "agertu da berriro",
+    "herri zaharraren kanpandorrea.",
+    "Ez du kanpairik jotzen:",
+    "lehorteak jotzen du orain."
+   ],
+   "model": "Testuak lehortearen irudi indartsu bat ematen du: urtegia hustu denez, urpean zegoen herria agertu da berriro. Irakurgaiak arazo bera azaltzen du: klima-aldaketaren eta kontsumoaren ondorioz, urtegiak erdi hutsik daude. Biek gogorarazten digute ura ez dela betikoa."
+  }
+ },
+ {
+  "id": "e12",
+  "num": "12",
+  "title": "Herri txikiak, isiltasunean",
+  "base": "2025 ez-ohikoa",
+  "mota": "W",
+  "text": {
+   "title": "Herri txikiak, isiltasunean",
+   "paragraphs": [
+    "Mendi-hegal batean, hamar bat etxe, eliza bat eta itxitako eskola bat. Halako herriak ugari dira Euskal Herriko barnealdean, eta haietako askotan biztanle gehienek hirurogeita hamar urte baino gehiago dituzte. Gazteak hirira joan dira ikastera eta lan egitera, eta gutxik egin dute atzera.",
+    "Hustutze horrek arrazoi sakonak ditu. Hirietan lan-aukera gehiago daude, zerbitzuak gertuago daude eta aisialdi-eskaintza zabalagoa da. Herri txikietan, aldiz, autobusak gutxitan pasatzen dira, dendak itxi egin dira eta osasun-zentroa kilometro askotara dago. Eguneroko bizitza zailagoa da, batez ere autorik ez dutenentzat.",
+    "Hala ere, joera aldatzen hasi da leku batzuetan. Telelanari esker, familia batzuk landa-eremura joan dira bizitzera, natura gertuago eta etxebizitza merkeago izateko. Gazte batzuek, berriz, baserriak berreskuratu eta ekoizpen txikiak abiatu dituzte: gazta, eztia eta barazki ekologikoak. Udal batzuek etxe hutsak alokairu merkean eskaintzen dituzte, biztanle berriak erakartzeko.",
+    "Baina etortzea ez da nahikoa; geratzea da erronka. Horretarako, oinarrizko zerbitzuak behar dira: Internet ona, eskola, garraio publikoa eta osasun-arreta. Zerbitzu horiek gabe, herri txikiak asteburuak pasatzeko toki polit bihurtzen dira, ez bizitzeko leku.",
+    "Herri txiki bat ixten denean, ez dira etxeak bakarrik galtzen. Toponimoak, ohiturak, hizkuntzaren aldaerak eta paisaia zaintzeko jakintza ere desagertzen dira. Haiek zaintzea, beraz, denon kontua da."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Testuaren arabera, herri txiki askotan:",
+     "options": [
+      {
+       "k": "a",
+       "t": "gazteak dira gehiengoa."
+      },
+      {
+       "k": "b",
+       "t": "biztanle gehienek hirurogeita hamar urte baino gehiago dituzte."
+      },
+      {
+       "k": "c",
+       "t": "eskola berriak ireki dituzte."
+      },
+      {
+       "k": "d",
+       "t": "gazte gehienak itzuli egin dira."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Hustutzearen arrazoietako bat da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "hirietan lan-aukera gehiago egotea."
+      },
+      {
+       "k": "b",
+       "t": "herrietan etxebizitza garestiagoak izatea."
+      },
+      {
+       "k": "c",
+       "t": "herrietan zerbitzu gehiegi egotea."
+      },
+      {
+       "k": "d",
+       "t": "gazteek natura gorrotatzea."
+      }
+     ],
+     "correct": "a"
+    },
+    {
+     "q": "Telelanari esker:",
+     "options": [
+      {
+       "k": "a",
+       "t": "gazte guztiak herrira itzuli dira."
+      },
+      {
+       "k": "b",
+       "t": "familia batzuk landa-eremura joan dira bizitzera."
+      },
+      {
+       "k": "c",
+       "t": "herrietako dendak berriz ireki dira."
+      },
+      {
+       "k": "d",
+       "t": "autobus gehiago daude."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Egilearen ustez, erronka nagusia da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "turistak erakartzea."
+      },
+      {
+       "k": "b",
+       "t": "biztanle berriak etortzea."
+      },
+      {
+       "k": "c",
+       "t": "biztanle berriak geratzea, oinarrizko zerbitzuak eskainiz."
+      },
+      {
+       "k": "d",
+       "t": "etxe hutsak saltzea."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Herri txiki bat ixtean galtzen dena:",
+     "options": [
+      {
+       "k": "a",
+       "t": "etxeak bakarrik dira."
+      },
+      {
+       "k": "b",
+       "t": "toponimoak, ohiturak, hizkuntza-aldaerak eta jakintza ere badira."
+      },
+      {
+       "k": "c",
+       "t": "ez da garrantzitsua."
+      },
+      {
+       "k": "d",
+       "t": "udalaren kontua da soilik."
+      }
+     ],
+     "correct": "b"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Landa-garapeneko elkarte batek herri txikiei buruzko dokumental bat aurkeztuko du, eta egitarauan testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Herri txikien hustutzea, haren zergatiak eta biziberritzeko baldintzak.",
+   "laburpena": "Barnealdeko herri txiki asko hustu egin dira, gazteak hirira joan baitira lan, zerbitzu eta aisialdi bila. Telelanak, baserriak berreskuratzeak eta etxe merkeek biztanle berriak erakarri dituzte leku batzuetan, baina geratzeko Internet, eskola, garraioa eta osasun-arreta behar dira. Herri bat galtzean, ohiturak, toponimoak eta jakintza ere galtzen dira."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Gazteak hirira joan dira, eta gutxik egin dute atzera.",
+      "element": "gehienek",
+      "proposal": "Gazteak hirira joan dira, eta gehienek ez dute atzera egin."
+     },
+     {
+      "sentence": "Hirietan lan-aukera gehiago daude.",
+      "element": "gutxiago",
+      "proposal": "Herri txikietan lan-aukera gutxiago daude hirietan baino."
+     },
+     {
+      "sentence": "Telelanari esker, familia batzuk landa-eremura joan dira bizitzera.",
+      "element": "-lako",
+      "proposal": "Telelana egin dezaketelako, familia batzuk landa-eremura joan dira bizitzera."
+     },
+     {
+      "sentence": "Udal batzuek etxe hutsak alokairu merkean eskaintzen dituzte, biztanle berriak erakartzeko.",
+      "element": "helburua",
+      "proposal": "Udal batzuen helburua biztanle berriak erakartzea da, eta, horretarako, etxe hutsak alokairu merkean eskaintzen dituzte."
+     },
+     {
+      "sentence": "Zerbitzu horiek gabe, herri txikiak asteburuak pasatzeko toki polit bihurtzen dira.",
+      "element": "ezean",
+      "proposal": "Zerbitzu horiek izan ezean, herri txikiak asteburuak pasatzeko toki polit bihurtzen dira."
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditzak",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Duela hamar urte, udalak herriko eskola ____.",
+      "hint": "itxi · lehenaldia",
+      "accepted": [
+       "itxi zuen"
+      ]
+     },
+     {
+      "sentence": "Datorren urtean, familia berri bat herrira ____.",
+      "hint": "etorri · geroaldia",
+      "accepted": [
+       "etorriko da"
+      ]
+     },
+     {
+      "sentence": "Autobus gehiago balego, gazteak herrian ____.",
+      "hint": "geratu · baldintza, haiek",
+      "accepted": [
+       "geratuko lirateke"
+      ]
+     },
+     {
+      "sentence": "Telelanari esker, edonon ____.",
+      "hint": "lan egin · ahalera, gu",
+      "accepted": [
+       "lan egin dezakegu",
+       "lan egin ahal dugu"
+      ]
+     },
+     {
+      "sentence": "Bizilagunek udalari garraio publikoa ____.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen diote"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Definizioak",
+    "instr": "Eman testuko hitz hauen sinonimo edo baliokide bana.",
+    "items": [
+     {
+      "w": "hustutze",
+      "accepted": [
+       "despopulatze",
+       "jendez hustea"
+      ]
+     },
+     {
+      "w": "erakarri",
+      "accepted": [
+       "beregana ekarri",
+       "bildu"
+      ]
+     },
+     {
+      "w": "erronka",
+      "accepted": [
+       "desafio",
+       "proba"
+      ]
+     },
+     {
+      "w": "aldaera",
+      "accepted": [
+       "aldakuntza",
+       "bariante"
+      ]
+     },
+     {
+      "w": "landa-eremu",
+      "accepted": [
+       "nekazal eremu",
+       "landa-gune"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure aitona-amonen herrian autobus-zerbitzua kentzeko asmoa dago. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "Foru Aldundiko garraio-sailari, zerbitzua mantentzeko eskatuz eta arrazoiak emanez. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Herri txiki batera bizitzera etortzen direnentzako dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak, itxiera. Ideia posibleak: adinekoen mugikortasuna, ikasleak, osasun-zentroa; dekalogoan: bizilagunak ezagutu, tokiko ohiturak errespetatu, euskara erabili, herriko jardueretan parte hartu."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "**SALGAI: herri bat.**",
+    "Hamabi etxe, eliza bat, iturri bat eta mila urteko istorioak.",
+    "Prezioa: inork ez du nahi.",
+    "Galdetu azken bizilagunari. 87 urte ditu."
+   ],
+   "model": "Iragarki ironikoak salatzen du herri txikiak abandonatuta geratzen ari direla, inork ez baitu haien balioa ikusten. Irakurgaiak ere hustutzearen ondorioak azaltzen ditu: herri bat ixten denean, etxeekin batera istorioak, ohiturak eta jakintza galtzen dira. Biek gogorarazten digute zer galtzen dugun."
+  }
+ },
+ {
+  "id": "e13",
+  "num": "13",
+  "title": "Doan, baina ez debalde",
+  "base": "2026 ohikoa",
+  "mota": "X",
+  "text": {
+   "title": "Doan, baina ez debalde",
+   "paragraphs": [
+    "Larunbat goizetan, Maialenek ez du ohetik jaiki nahi izaten, baina hamarretarako elikagai-bankuan egoten da, kaxak sailkatzen. Hamazazpi urte ditu, eta duela urtebete hasi zen boluntario. Lagun batek eraman zuen lehen egunean, eta harrezkero ez du hutsik egin. «Hasieran laguntzera joaten nintzen; orain, ikastera», dio.",
+    "Boluntariotza ez da berria Euskal Herrian. Auzolanaren tradizioak mendeetan antolatu ditu herriak: bideak konpontzeko, baserri bat berreraikitzeko edo uzta biltzeko, bizilagunak elkartu egiten ziren, inork soldatarik kobratu gabe. Gaur, auzolan horrek beste forma batzuk hartzen ditu: elikagai-bankuak, adinekoei laguntzeko sareak, haurrentzako aisialdi-taldeak edo hondartzak garbitzeko ekimenak.",
+    "Gazteentzat, onurak bikoitzak dira. Batetik, besteei laguntzeak zentzua ematen dio denborari, eta gizartearen errealitate ezezagunak ezagutzeko aukera ematen du. Bestetik, boluntario-lanak gaitasun praktikoak lantzen ditu: talde-lana, antolaketa, arazoak konpontzea edo jendaurrean hitz egitea. Enpresa batzuek, gainera, curriculumean baloratzen dute esperientzia hori.",
+    "Hala ere, badira kritikak ere. Batzuek ohartarazten dute boluntariotzak ezin duela ordezkatu administrazioak bete beharko lukeen zerbitzu publikoa. Elikagai-bankuak beharrezkoak dira, baina haien beharrak berak erakusten du zerbait ez dabilela ondo. Beste batzuek, berriz, salatzen dute erakunde batzuek boluntarioak erabiltzen dituztela langileak kontratatu ordez.",
+    "Kritika horiek kontuan hartuta ere, boluntariotza gizarte bizi baten seinale da. Maialenek ondo laburtzen du: «Ez didate ezer ordaintzen, baina ez dut debalde egiten. Jasotzen dudana ez da diruz neurtzen»."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Nola hasi zen Maialen boluntario, eta zer aldatu da harrezkero haren motibazioan?",
+     "answer": "Lagun batek eraman zuen lehen egunean. Hasieran laguntzera joaten zen; orain, ikastera."
+    },
+    {
+     "q": "Zer zen auzolana, eta zer forma hartzen ditu gaur egun?",
+     "answer": "Bizilagunak doan elkartzeko tradizioa zen, herriko lanak egiteko (bideak konpondu, baserriak berreraiki, uzta bildu). Gaur: elikagai-bankuak, adinekoentzako sareak, aisialdi-taldeak, hondartzak garbitzea."
+    },
+    {
+     "q": "Zein onura ditu boluntariotzak gazteentzat? Aipatu bi.",
+     "answer": "Denborari zentzua ematen dio eta errealitate ezezagunak ezagutzeko aukera ematen du; gaitasun praktikoak lantzen ditu (talde-lana, antolaketa…); curriculumean baloratzen da. (Bi nahikoa.)"
+    },
+    {
+     "q": "Zein kritika jasotzen ditu boluntariotzak?",
+     "answer": "Ezin duela zerbitzu publikoa ordezkatu, eta erakunde batzuek boluntarioak erabiltzen dituztela langileak kontratatu ordez."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Gazte-bulegoak boluntario berriak bilatzeko kanpaina bat egingo du, eta esku-orrian testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Gazteen boluntariotzaren onurak eta mugak.",
+   "laburpena": "Auzolanaren tradizioa jarraituz, gazte askok boluntario-lana egiten dute elikagai-bankuetan, adinekoekin edo ingurumen-ekimenetan. Horrek zentzua ematen dio denborari, errealitate berriak erakusten ditu eta talde-lana bezalako gaitasunak lantzen ditu. Hala ere, kritikek diote ezin duela zerbitzu publikoa ordezkatu ezta langileen lekua hartu ere. Dena den, gizarte bizi baten seinale da."
+  },
+  "a3": [
+   {
+    "kind": "akatsak",
+    "title": "Akatsak identifikatu eta zuzendu",
+    "instr": "Boluntario batek idatzitako ohar honetan sei akats daude. Aurkitu eta zuzendu horietako bost.",
+    "text": "Larunbatean, hogei boluntariok hondartza garbitu genuen. Lana haundia izan zen: ehun kilo zabor bildu genuen, gehienak plastikozkoak. Jende askok galdetu zigun zergaitik egiten genuen hori doan. Guk erantzun genion ingurumena guztion ardura dala. Hurrengo larunbatean berriz elkartuko gara, eta gonbidatuak zaudete.",
+    "pairs": [
+     {
+      "wrong": "haundia",
+      "right": [
+       "handia"
+      ]
+     },
+     {
+      "wrong": "bildu genuen",
+      "right": [
+       "bildu genituen"
+      ]
+     },
+     {
+      "wrong": "zergaitik",
+      "right": [
+       "zergatik"
+      ]
+     },
+     {
+      "wrong": "erantzun genion",
+      "right": [
+       "erantzun genien"
+      ]
+     },
+     {
+      "wrong": "dala",
+      "right": [
+       "dela"
+      ]
+     },
+     {
+      "wrong": "gonbidatuak",
+      "right": [
+       "gonbidatuta"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "sailkatu",
+      "accepted": [
+       "antolatu",
+       "banandu"
+      ]
+     },
+     {
+      "w": "uzta",
+      "accepted": [
+       "bilketa",
+       "uztaroa"
+      ]
+     },
+     {
+      "w": "ohartarazi",
+      "accepted": [
+       "abisatu",
+       "ohartu"
+      ]
+     },
+     {
+      "w": "ordezkatu",
+      "accepted": [
+       "-en lekua hartu"
+      ]
+     },
+     {
+      "w": "debalde",
+      "accepted": [
+       "alferrik",
+       "ordainik gabe"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditza moldatu",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Iaz, gazte askok elikagai-bankuan ____.",
+      "hint": "lagundu · lehenaldia",
+      "accepted": [
+       "lagundu zuten"
+      ]
+     },
+     {
+      "sentence": "Datorren larunbatean, hondartza berriz ____.",
+      "hint": "garbitu · geroaldia, guk",
+      "accepted": [
+       "garbituko dugu"
+      ]
+     },
+     {
+      "sentence": "Denbora gehiago izango bazenute, zuek ere boluntario ____.",
+      "hint": "izan · baldintza, zuek",
+      "accepted": [
+       "izango zinatekete"
+      ]
+     },
+     {
+      "sentence": "Edonork ____ ekimen honetan.",
+      "hint": "parte hartu · ahalera",
+      "accepted": [
+       "parte har dezake",
+       "parte hartu ahal du"
+      ]
+     },
+     {
+      "sentence": "Elikagai-bankuak boluntarioei eskerrak ____.",
+      "hint": "eman · orainaldia",
+      "accepted": [
+       "ematen dizkie"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak boluntario-astea antolatu nahi du, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Boluntariotza: elkartasuna ala zerbitzu publikoen ordezkoa?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "herriko elkarte bati (elikagai-bankua, adinekoen egoitza…), boluntario gisa aritzeko eskaintza eginez. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: auzolana, onurak, zerbitzu publikoen eztabaida, eskaintza zehatza (noiz, zer egin dezakezun)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Nik harria,",
+    "zuk hondarra,",
+    "hark ura.",
+    "Bakarrik, ezer ez.",
+    "Elkarrekin, etxe bat."
+   ],
+   "model": "Poemak erakusten du bakoitzak gauza txiki bat ekartzen duela, eta elkarrekin bakarrik sortzen dela zerbait handia. Irakurgaiko auzolanaren tradizioak ideia bera du oinarri: bizilagunak elkartuta egiten zituzten bakarrik egin ezin ziren lanak. Gaur, boluntariotzak jarraitzen dio bide horri."
+  }
+ },
+ {
+  "id": "e14",
+  "num": "14",
+  "title": "Sukaldea, ahaztutako ikasgela",
+  "base": "2026 ez-ohikoa",
+  "mota": "Y",
+  "text": {
+   "title": "Sukaldea, ahaztutako ikasgela",
+   "paragraphs": [
+    "Gazte askok bideo-plataformetan ikusten dituzte errezetak, baina gutxik prestatzen dute beren otordua. Etxeko sukaldea, garai batean familiaren bihotza zena, gero eta hutsago dago. Lan-ordutegi luzeek, presak eta janari prestatuen eskaintzak sukaldatzeko ohitura ahuldu dute, eta, horrekin batera, belaunaldiz belaunaldi transmititutako jakintza bat galtzen ari da.",
+    "Janari prestatuek erosotasuna eskaintzen dute, zalantzarik gabe. Mikrouhin-labean bi minutu, eta afaria prest. Baina erosotasun horrek ordaina du: produktu horiek gatz, azukre eta gantz gehiegi izan ohi dute, eta kontserbagarriz beteta daude askotan. Nutrizionistek ohartarazten dute elikadura txarra gaixotasun kroniko askoren atzean dagoela.",
+    "Sukaldatzen jakiteak, ordea, osasunaz gain beste onura batzuk ere baditu. Diru-aurrezpena da lehena: etxean prestatutako otordua merkeagoa da ia beti. Bigarrena, autonomia: gurasoen etxea uzten duenak bere burua elikatzeko gai izan behar du. Eta hirugarrena, harremanak: mahai baten inguruan, lagunekin edo familiarekin, sukaldatzea eta jatea elkartzeko modurik zaharrena da.",
+    "Ikastetxe batzuek sukaldaritza-tailerrak sartu dituzte beren egitarauan. Ikasleak merkatura joaten dira, sasoiko produktuak aukeratzen dituzte eta errezeta errazak prestatzen ikasten dute. Irakasleek diote ikasle askok lehen aldiz zuritu dutela patata bat, eta harrituta geratzen direla emaitzarekin.",
+    "Sukaldatzea ez da emakumeen zeregina, ezta sukaldarien ofizioa soilik ere. Bizitzeko oinarrizko trebetasuna da, irakurtzea edo igeri egitea bezala. Eta, gainera, ikasgai gutxik ematen dute halako saririk: azkenean, zure lana jan egin dezakezu."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zerk ahuldu du sukaldatzeko ohitura?",
+     "answer": "Lan-ordutegi luzeek, presak eta janari prestatuen eskaintzak."
+    },
+    {
+     "q": "Zer ordain du janari prestatuen erosotasunak?",
+     "answer": "Gatz, azukre eta gantz gehiegi eta kontserbagarri asko izaten dituzte, eta elikadura txarra gaixotasun kronikoen atzean dago."
+    },
+    {
+     "q": "Zein onura ditu sukaldatzen jakiteak, osasunaz gain? Aipatu hirurak.",
+     "answer": "Diru-aurrezpena, autonomia eta harremanak."
+    },
+    {
+     "q": "Zer egiten dute ikasleek ikastetxe batzuetako sukaldaritza-tailerretan?",
+     "answer": "Merkatura joan, sasoiko produktuak aukeratu eta errezeta errazak prestatzen ikasi."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikastetxeko jantokiko batzordeak elikadura osasungarriari buruzko kartel bat prestatu du, eta testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Sukaldatzen jakitearen garrantzia eta galtzen ari den ohitura berreskuratzeko beharra.",
+   "laburpena": "Lan-ordutegiek, presak eta janari prestatuek sukaldatzeko ohitura ahuldu dute, eta belaunaldien arteko jakintza galtzen ari da. Janari prestatuak erosoak dira, baina osasungaitzak. Sukaldatzen jakiteak, aldiz, osasuna, aurrezpena, autonomia eta harremanak eskaintzen ditu. Horregatik, ikastetxe batzuek tailerrak antolatzen dituzte: sukaldatzea denon oinarrizko trebetasuna da."
+  },
+  "a3": [
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Egunean zehar egiten den bazkari, afari edo gosari bakoitza.",
+      "accepted": [
+       "otordu"
+      ]
+     },
+     {
+      "def": "Elikagaiak denbora luzeagoz irauteko gehitzen zaien gaia.",
+      "accepted": [
+       "kontserbagarri"
+      ]
+     },
+     {
+      "def": "Elikaduran aditua den pertsona.",
+      "accepted": [
+       "nutrizionista"
+      ]
+     },
+     {
+      "def": "Urtaro edo garai jakin bati dagokiona.",
+      "accepted": [
+       "sasoiko"
+      ]
+     },
+     {
+      "def": "Norberak egiten duen lana edo lanbidea.",
+      "accepted": [
+       "ofizio"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Gazte askok bideo-plataformetan ikusten dituzte errezetak, baina gutxik prestatzen dute beren otordua.",
+      "element": null,
+      "proposal": "Gazte askok bideo-plataformetan errezetak ikusi arren, gutxik prestatzen dute beren otordua."
+     },
+     {
+      "sentence": "Mikrouhin-labean bi minutu, eta afaria prest.",
+      "element": null,
+      "proposal": "Mikrouhin-labean bi minutu egon ondoren, afaria prest dago."
+     },
+     {
+      "sentence": "Etxean prestatutako otordua merkeagoa da ia beti.",
+      "element": null,
+      "proposal": "Ia beti, etxean prestatutako otorduak gutxiago kostatzen du."
+     },
+     {
+      "sentence": "Gurasoen etxea uzten duenak bere burua elikatzeko gai izan behar du.",
+      "element": null,
+      "proposal": "Gurasoen etxetik joaten denak bere burua elikatzen jakin behar du."
+     },
+     {
+      "sentence": "Ikasle askok lehen aldiz zuritu dute patata bat.",
+      "element": null,
+      "proposal": "Ikasle askok ez zuten inoiz patatarik zuritu."
+     }
+    ]
+   },
+   {
+    "kind": "eratorpena",
+    "title": "Eratorpena",
+    "instr": "Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.",
+    "options": [
+     {
+      "suffix": "-tasun",
+      "words": [
+       "erosotasun",
+       "gaixotasun",
+       "trebetasun"
+      ]
+     },
+     {
+      "suffix": "-garri",
+      "words": [
+       "kontserbagarri"
+      ]
+     },
+     {
+      "suffix": "-ista",
+      "words": [
+       "nutrizionista"
+      ]
+     },
+     {
+      "suffix": "-ari",
+      "words": [
+       "sukaldari"
+      ]
+     },
+     {
+      "suffix": "-pen",
+      "words": [
+       "aurrezpen"
+      ]
+     },
+     {
+      "suffix": "-tza",
+      "words": [
+       "jakintza",
+       "sukaldaritza"
+      ]
+     },
+     {
+      "suffix": "-dura",
+      "words": [
+       "elikadura"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak hautazko ikasgai berri bat sortu nahi du, eta sukaldaritza da aukeretako bat. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Sukaldaritza, derrigorrezko ikasgaia?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "ikastetxeko zuzendaritzari, sukaldaritza-tailer bat proposatuz eta antolaketa azalduz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: osasuna, autonomia, genero-rolak, tailerraren egitura (noiz, non, nork irakatsi)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "**1. binetan:** amona sukaldean dago, lapiko bat irakiten.",
+    "**2. binetan:** biloba sofan dago, mugikorrean errezeta-bideo bat ikusten.",
+    "**3. binetan:** amona, sukaldeko atetik: «Usaina ez dago bideoan, maitea»."
+   ],
+   "model": "Komikiak erakusten du bideoek ezin dutela sukaldaritzaren esperientzia osoa transmititu: usaina eta amonaren jakintza falta zaizkie. Irakurgaiak ere dio gazteek errezetak pantailan ikusten dituztela, baina gutxik sukaldatzen dutela, eta belaunaldien arteko jakintza galtzen ari dela."
+  }
+ },
+ {
+  "id": "e15",
+  "num": "15",
+  "title": "Milaka argazki, oroitzapen gutxi",
+  "base": "2025 ohikoa",
+  "mota": "Z",
+  "text": {
+   "title": "Milaka argazki, oroitzapen gutxi",
+   "paragraphs": [
+    "Gure aiton-amonek argazki-album bat zuten, agian bi: ezkontza, haurren jaunartzea eta oporretako egun bakan batzuk. Argazki bakoitza garestia zen, eta, horregatik, arretaz aukeratzen zen zer fotografiatu. Gaur, aldiz, mugikorrak milaka irudi gordetzen ditu, eta egunero ehunka gehitzen ditugu. Paradoxikoki, inoiz ez dugu hainbeste argazki izan, eta inoiz ez ditugu hain gutxi begiratu.",
+    "Ikertzaile batzuek «argazkiak ateratzearen eragina» deitu diote fenomeno bati: zerbait fotografiatzen dugunean, burmuinak gutxiago gogoratzen du, kamerari eman baitiogu oroitzeko lana. Museo batean dena argazkitan hartzen duenak, beraz, artelanak gutxiago gogoratzen ditu begiratu besterik egiten ez duenak baino.",
+    "Gainera, artxibo digitalak dirudiena baino hauskorragoak dira. Mugikor bat galtzen da, zerbitzari bat ixten da edo fitxategi-formatu bat zaharkitu egiten da, eta urteetako oroitzapenak desagertzen dira. Paperezko argazki zahar bat, ordea, kutxa batean aurki daiteke berrogei urte geroago.",
+    "Beste arazo bat da zer gordetzen dugun. Askotan sare sozialetarako ateratzen ditugu argazkiak, besteei erakusteko, eta ez guk gogoratzeko. Horrela, gure oroimena eszenaratu egiten da: une politenak bakarrik gordetzen ditugu, eta egunerokotasuna, triste edo arrunta dena, kanpoan geratzen da.",
+    "Ez da argazkiak ateratzeari uztea kontua. Adituek gomendatzen dute gutxiago eta kontzienteago ateratzea, noizean behin argazki onenak inprimatzea eta, batez ere, uneak bizitzea, ez soilik erregistratzea. Azken batean, oroitzapen onenak ez daude hodeian; gugan daude."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Aiton-amonen garaian, argazkiak arretaz aukeratzen ziren:",
+     "options": [
+      {
+       "k": "a",
+       "t": "mugikorrik ez zegoelako."
+      },
+      {
+       "k": "b",
+       "t": "argazki bakoitza garestia zelako."
+      },
+      {
+       "k": "c",
+       "t": "albumak txikiak zirelako."
+      },
+      {
+       "k": "d",
+       "t": "debekatuta zegoelako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "«Argazkiak ateratzearen eragina» deritzonaren arabera:",
+     "options": [
+      {
+       "k": "a",
+       "t": "fotografiatzen duguna hobeto gogoratzen dugu."
+      },
+      {
+       "k": "b",
+       "t": "fotografiatzen duguna gutxiago gogoratzen dugu."
+      },
+      {
+       "k": "c",
+       "t": "museoetan ezin da argazkirik atera."
+      },
+      {
+       "k": "d",
+       "t": "kamerek oroimena hobetzen dute."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Artxibo digitalei dagokienez, testuak dio:",
+     "options": [
+      {
+       "k": "a",
+       "t": "betiko irauten dutela."
+      },
+      {
+       "k": "b",
+       "t": "paperezko argazkiak baino sendoagoak direla."
+      },
+      {
+       "k": "c",
+       "t": "erraz gal daitezkeela, mugikorra galtzeagatik edo formatua zaharkitzeagatik."
+      },
+      {
+       "k": "d",
+       "t": "ez dutela lekurik hartzen."
+      }
+     ],
+     "correct": "c"
+    },
+    {
+     "q": "Sare sozialetarako ateratako argazkiekin:",
+     "options": [
+      {
+       "k": "a",
+       "t": "egunerokotasun osoa gordetzen da."
+      },
+      {
+       "k": "b",
+       "t": "une politenak bakarrik gordetzen dira."
+      },
+      {
+       "k": "c",
+       "t": "oroitzapen tristeak nagusitzen dira."
+      },
+      {
+       "k": "d",
+       "t": "gutxiago ateratzen dira."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Adituek gomendatzen dute:",
+     "options": [
+      {
+       "k": "a",
+       "t": "argazkiak ateratzeari uztea."
+      },
+      {
+       "k": "b",
+       "t": "argazki guztiak inprimatzea."
+      },
+      {
+       "k": "c",
+       "t": "gutxiago eta kontzienteago ateratzea eta uneak bizitzea."
+      },
+      {
+       "k": "d",
+       "t": "argazkiak hodeian bakarrik gordetzea."
+      }
+     ],
+     "correct": "c"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Herriko argazkilaritza-elkarteak «Oroimena eta irudia» erakusketa antolatu du, eta katalogoaren sarreran testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Argazki digitalen ugaritasunak oroimenean dituen ondorioak.",
+   "laburpena": "Inoiz ez dugu hainbeste argazki atera, baina gutxi begiratzen ditugu. Ikerketek diote fotografiatzen duguna gutxiago gogoratzen dugula, eta artxibo digitalak erraz gal daitezke. Gainera, sareetarako argazkiek une politenak bakarrik jasotzen dituzte. Horregatik, gutxiago eta kontzienteago ateratzea, onenak inprimatzea eta uneak bizitzea gomendatzen da."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Argazki bakoitza garestia zen, eta, horregatik, arretaz aukeratzen zen zer fotografiatu.",
+      "element": "-lako",
+      "proposal": "Argazki bakoitza garestia zelako, arretaz aukeratzen zen zer fotografiatu."
+     },
+     {
+      "sentence": "Inoiz ez dugu hainbeste argazki izan, eta inoiz ez ditugu hain gutxi begiratu.",
+      "element": "nahiz eta",
+      "proposal": "Nahiz eta inoiz ez dugun hainbeste argazki izan, inoiz ez ditugu hain gutxi begiratu."
+     },
+     {
+      "sentence": "Zerbait fotografiatzen dugunean, burmuinak gutxiago gogoratzen du.",
+      "element": "-tzean",
+      "proposal": "Zerbait fotografiatzean, burmuinak gutxiago gogoratzen du."
+     },
+     {
+      "sentence": "Paperezko argazki zahar bat kutxa batean aurki daiteke berrogei urte geroago.",
+      "element": "posible",
+      "proposal": "Posible da paperezko argazki zahar bat kutxa batean aurkitzea berrogei urte geroago."
+     },
+     {
+      "sentence": "Ez da argazkiak ateratzeari uztea kontua.",
+      "element": "behar",
+      "proposal": "Ez dugu argazkiak ateratzeari utzi behar."
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "bakan",
+      "accepted": [
+       "gutxi",
+       "urri"
+      ]
+     },
+     {
+      "w": "hauskor",
+      "accepted": [
+       "ahul",
+       "apurkor"
+      ]
+     },
+     {
+      "w": "zaharkitu",
+      "accepted": [
+       "antzinakotu",
+       "modaz pasatu"
+      ]
+     },
+     {
+      "w": "eszenaratu",
+      "accepted": [
+       "antzeztu",
+       "agertoki bihurtu"
+      ]
+     },
+     {
+      "w": "arrunt",
+      "accepted": [
+       "ohiko",
+       "xume"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Haurrek lehen aldiz komulgatzen duteneko elizako ospakizuna.",
+      "accepted": [
+       "jaunartze"
+      ]
+     },
+     {
+      "def": "Dokumentuak edo fitxategiak gordetzen diren bilduma.",
+      "accepted": [
+       "artxibo"
+      ]
+     },
+     {
+      "def": "Artista batek sortutako lana.",
+      "accepted": [
+       "artelan"
+      ]
+     },
+     {
+      "def": "Itxuraz kontraesankorra den moduan.",
+      "accepted": [
+       "paradoxikoki"
+      ]
+     },
+     {
+      "def": "Egunero gertatzen dena; eguneroko bizitza.",
+      "accepted": [
+       "egunerokotasun"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak «Denbora-kapsula» egitasmoa abiatu du: ikasleek orain idatzitako testuak hamar urte barru irekiko dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "hamar urte barruko zeure buruari, gaur gogoratu nahi zenituzkeen uneei buruz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Argazkiak ala bizipenak?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agur hurbila (zeure buruari), amaierako agurra eta sinadura; erregistro hurbila baina zaindua. Artikuluan: izenburua + izen-deiturak. Ideia posibleak: oroimenaren eragina, artxiboen hauskortasuna, sareetako irudia, bizitzea vs. erregistratzea."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Amonaren kutxan,",
+    "argazki horitu bat:",
+    "neska bat, irribarrez,",
+    "inork gogoratzen ez duen urte batean.",
+    "Ez du «gustuko dut» bakar bat ere.",
+    "Baina hemen dago oraindik."
+   ],
+   "model": "Poemak erakusten du paperezko argazki zahar batek urteak iraun dezakeela, sare sozialetako onespenik gabe ere. Irakurgaiak ere hala dio: paperezko argazkiak kutxetan aurki daitezke hamarkada geroago, eta artxibo digitalak, aldiz, erraz galtzen dira. Gainera, argazki hori ez zen besteei erakusteko atera."
+  }
+ },
+ {
+  "id": "e16",
+  "num": "16",
+  "title": "Lagunak, ez jostailuak",
+  "base": "2025 ez-ohikoa",
+  "mota": "W",
+  "text": {
+   "title": "Lagunak, ez jostailuak",
+   "paragraphs": [
+    "Gero eta etxe gehiagotan bizi da txakur edo katu bat. Askorentzat, familiako kide bat gehiago da: bakardadea arintzen du, ibiltzera behartzen gaitu eta baldintzarik gabeko maitasuna eskaintzen digu. Pandemiaren ondoren, gainera, animalia-adopzioek nabarmen egin zuten gora, etxean denbora gehiago igarotzen genuelako.",
+    "Hala ere, txanponak badu beste alde bat. Babesleku askok salatzen dute urtero milaka animalia abandonatzen direla, batez ere udan, oporrak hurbiltzen direnean. Askotan, bulkadaz hartutako animaliak dira: haur baten Gabonetako oparia, sare sozialetan modan dagoen arraza bat edo bakardade-une baten konponbide azkarra. Arduraren pisua iristen denean, ordea, batzuk ez daude hura onartzeko prest.",
+    "Animalia bat izatea erabaki handia da. Txakur bat hamabost urte bizi daiteke, eta urte horietan guztietan janaria, albaitaria, paseoak eta arreta beharko ditu. Gainera, ez da doakoa: txertoek, elikadurak eta ustekabeko gaixotasunek diru asko eska dezakete.",
+    "Legeak ere aldatu dira. Lege berrien arabera, animaliak ez dira gauzak, sentikortasuna duten izakiak baizik, eta haiek abandonatzea edo haiei tratu txarrak ematea zigortu egiten da. Erakunde askok erosi beharrean adoptatzea sustatzen dute, babeslekuetan etxe baten zain dauden animaliei aukera bat emateko.",
+    "Animalia bat etxera eramatea ez da jostailu bat erostea. Konpromiso luzea da, eta hura hartu aurretik, galdera erraz bati erantzun behar zaio: hamabost urte barru ere zainduko al dut?"
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Askorentzat, etxeko animalia:",
+     "options": [
+      {
+       "k": "a",
+       "t": "jostailu bat da."
+      },
+      {
+       "k": "b",
+       "t": "familiako kide bat gehiago da."
+      },
+      {
+       "k": "c",
+       "t": "zama bat da."
+      },
+      {
+       "k": "d",
+       "t": "modako osagarri bat da."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Pandemiaren ondoren:",
+     "options": [
+      {
+       "k": "a",
+       "t": "abandonuak desagertu ziren."
+      },
+      {
+       "k": "b",
+       "t": "animalia-adopzioek gora egin zuten."
+      },
+      {
+       "k": "c",
+       "t": "babeslekuak itxi ziren."
+      },
+      {
+       "k": "d",
+       "t": "animaliak garestitu ziren."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Testuaren arabera, animalia asko abandonatzen dira:",
+     "options": [
+      {
+       "k": "a",
+       "t": "Gabonetan."
+      },
+      {
+       "k": "b",
+       "t": "udan, oporrak hurbiltzean."
+      },
+      {
+       "k": "c",
+       "t": "lege berriengatik."
+      },
+      {
+       "k": "d",
+       "t": "txertoak garestiak direlako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Lege berrien arabera, animaliak:",
+     "options": [
+      {
+       "k": "a",
+       "t": "gauzak dira."
+      },
+      {
+       "k": "b",
+       "t": "sentikortasuna duten izakiak dira."
+      },
+      {
+       "k": "c",
+       "t": "ezin dira adoptatu."
+      },
+      {
+       "k": "d",
+       "t": "babeslekuetan bizi behar dute."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Egilearen ustez, animalia bat hartu aurretik:",
+     "options": [
+      {
+       "k": "a",
+       "t": "arraza modan dagoen begiratu behar da."
+      },
+      {
+       "k": "b",
+       "t": "haurrei galdetu behar zaie."
+      },
+      {
+       "k": "c",
+       "t": "urte askotan zainduko dugun pentsatu behar da."
+      },
+      {
+       "k": "d",
+       "t": "dirua aurreztu behar da soilik."
+      }
+     ],
+     "correct": "c"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Animalia-babesleku batek adopzio-kanpaina bat egingo du, eta webgunean testu honen gaia eta laburpena argitaratuko ditu.",
+   "gaia": "Etxeko animalia bat izateak dakarren ardura.",
+   "laburpena": "Etxeko animaliak familiako kide bihurtu dira, konpainia eta maitasuna eskaintzen baitituzte. Hala ere, asko bulkadaz hartzen dira eta gero abandonatu, batez ere udan. Animalia batek urte askotan zainketa, denbora eta dirua behar ditu, eta legeek izaki sentikortzat babesten dituzte. Horregatik, adopzioa sustatzen da, eta konpromiso luzea onartu behar da."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Animalia-adopzioek gora egin zuten, etxean denbora gehiago igarotzen genuelako.",
+      "element": "-nez",
+      "proposal": "Etxean denbora gehiago igarotzen genuenez, animalia-adopzioek gora egin zuten."
+     },
+     {
+      "sentence": "Urtero milaka animalia abandonatzen dira, batez ere udan.",
+      "element": "jende askok",
+      "proposal": "Jende askok milaka animalia abandonatzen ditu urtero, batez ere udan."
+     },
+     {
+      "sentence": "Txakur bat hamabost urte bizi daiteke.",
+      "element": "bizitza",
+      "proposal": "Txakur baten bizitzak hamabost urte iraun dezake."
+     },
+     {
+      "sentence": "Animaliak ez dira gauzak, sentikortasuna duten izakiak baizik.",
+      "element": "ordez",
+      "proposal": "Animaliak gauzak izan ordez, sentikortasuna duten izakiak dira."
+     },
+     {
+      "sentence": "Erakunde askok erosi beharrean adoptatzea sustatzen dute.",
+      "element": "hobe … baino",
+      "proposal": "Erakunde askoren ustez, hobe da animalia bat adoptatzea erostea baino."
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditzak",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Iaz, gure auzokoek txakur bat ____ babeslekuan.",
+      "hint": "adoptatu · lehenaldia",
+      "accepted": [
+       "adoptatu zuten"
+      ]
+     },
+     {
+      "sentence": "Datorren astean, albaitariak katua ____.",
+      "hint": "txertatu · geroaldia",
+      "accepted": [
+       "txertatuko du"
+      ]
+     },
+     {
+      "sentence": "Etxe handiago bat bagenu, bi txakur ____.",
+      "hint": "izan · baldintza, guk",
+      "accepted": [
+       "izango genituzke"
+      ]
+     },
+     {
+      "sentence": "Zuek ere babeslekuan boluntario ____.",
+      "hint": "aritu · ahalera, zuek",
+      "accepted": [
+       "ari zaitezkete",
+       "aritu ahal zarete"
+      ]
+     },
+     {
+      "sentence": "Babeslekuek herritarrei laguntza ____.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen diete"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Definizioak",
+    "instr": "Eman testuko hitz hauen sinonimo edo baliokide bana.",
+    "items": [
+     {
+      "w": "arindu",
+      "accepted": [
+       "gutxitu",
+       "leundu"
+      ]
+     },
+     {
+      "w": "nabarmen",
+      "accepted": [
+       "argi eta garbi",
+       "nabarmenki"
+      ]
+     },
+     {
+      "w": "bulkada",
+      "accepted": [
+       "inpultso",
+       "gogo-une"
+      ]
+     },
+     {
+      "w": "ustekabeko",
+      "accepted": [
+       "ezusteko",
+       "bat-bateko"
+      ]
+     },
+     {
+      "w": "sustatu",
+      "accepted": [
+       "bultzatu"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure herrian, udaren aurretik, animalien abandonuaren aurkako kanpaina bat egingo da. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "alkateari, herrian animalien babesa hobetzeko neurriak proposatuz (babesleku bat, txakurrentzako parkea, informazio-kanpaina…). Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Animalia bat adoptatu aurretik: dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak (egitura koherentea), itxiera. Ideia posibleak: denbora, dirua, oporrak, etxebizitza, albaitaria, adopzioa erosketaren aurrean."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "**«Ni ez naiz Gabonetako opari bat.**",
+    "**Hamabost Gabon biziko ditut zurekin.»**",
+    "*(Animalia-babesleku baten kanpainarako asmatutako kartela)*"
+   ],
+   "model": "Kartelak gogorarazten du animalia ez dela behin erabili eta ahazteko opari bat, urte luzez zaindu beharreko izakia baizik. Irakurgaiak ere ohartarazten du animalia asko bulkadaz oparitzen direla eta gero abandonatu egiten direla. Biek konpromisoaren garrantzia azpimarratzen dute."
+  }
+ },
+ {
+  "id": "e17",
+  "num": "17",
+  "title": "Makinak idatzi zuen nire idazlana",
+  "base": "2026 ohikoa",
+  "mota": "X",
+  "text": {
+   "title": "Makinak idatzi zuen nire idazlana",
+   "paragraphs": [
+    "Gaur egun, ikasle batek minutu gutxitan lor dezake idazlan oso bat, laburpen bat edo ariketa matematiko baten ebazpena. Nahikoa da adimen artifizialeko txat bati eskatzea. Irakasle askok dagoeneko ezin dute bereizi zer idatzi duen ikasleak eta zer makinak, eta etxeko lanen zentzua bera jarri da zalantzan.",
+    "Batzuek tranpa hutsa ikusten dute hor. Etxeko lanen helburua ez da emaitza bat ematea, ikasteko prozesua baizik: idazlan bat idazten duenak pentsatzen, antolatzen eta zuzentzen ikasten du. Makinari lana eskatzen dionak, beraz, emaitza du, baina ez du ezer ikasi. Azterketa-egunean, txatik gabe, hutsune hori agerian geratzen da.",
+    "Beste batzuek, ordea, tresna baliagarria ikusten dute. Kalkulagailuarekin gertatu zen bezala, adimen artifiziala ere eguneroko lanabes bihurtuko da, eta zentzuzkoa da hura ondo erabiltzen irakastea. Ikasle batek txatari eska diezaioke kontzeptu bat berriro azaltzeko, bere testuko akatsak seinalatzeko edo ideiak ordenatzen laguntzeko. Horrela erabilita, irakasle pertsonal baten antzeko zerbait izan daiteke.",
+    "Arazoa ez da, beraz, tresna, haren erabilera baizik. Horregatik, ikastetxe batzuek etxeko lanak aldatu dituzte: idazlanak gelan idazten dira, ahozko aurkezpenak ugaritu dira, eta ikasleei eskatzen zaie azaltzeko nola iritsi diren beren ondorioetara. Beste batzuek adimen artifiziala erabiltzeko arauak idatzi dituzte ikasleekin batera.",
+    "Edozein kasutan, eztabaida honek galdera zahar bat berpiztu du: zertarako ikasten dugu? Erantzuna «nota bat lortzeko» bada, makinak irabaziko du beti. «Pentsatzen ikasteko» bada, ordea, inork ezin du gure ordez egin."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zergatik jarri da zalantzan etxeko lanen zentzua?",
+     "answer": "Ikasleek minutu gutxitan lor ditzaketelako lanak adimen artifizialarekin, eta irakasleek ezin dutelako bereizi zer idatzi duen ikasleak eta zer makinak."
+    },
+    {
+     "q": "Zergatik uste dute batzuek adimen artifiziala erabiltzea tranpa dela?",
+     "answer": "Etxeko lanen helburua ikasteko prozesua delako, ez emaitza; makinari lana eskatzen dionak ez du ezer ikasten, eta azterketan agerian geratzen da."
+    },
+    {
+     "q": "Nola erabil daiteke adimen artifiziala modu baliagarrian, testuaren arabera?",
+     "answer": "Kontzeptuak berriro azaltzeko, testuko akatsak seinalatzeko edo ideiak ordenatzeko; irakasle pertsonal baten antzera."
+    },
+    {
+     "q": "Zer neurri hartu dituzte ikastetxe batzuek?",
+     "answer": "Idazlanak gelan idaztea, ahozko aurkezpen gehiago egitea, ondorioetara nola iritsi diren azaltzeko eskatzea, eta erabilera-arauak ikasleekin idaztea."
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikasleen ordezkaritzak adimen artifizialaren erabilerari buruzko eztabaida bat antolatu du, eta deialdian testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Adimen artifizialak etxeko lanetan duen eragina eta haren erabilera egokia.",
+   "laburpena": "Adimen artifizialak minutu gutxitan egin ditzake etxeko lanak, eta irakasleek nekez bereizten dute nork idatzi duen. Batzuen ustez tranpa da, ikasteko prozesua saltatzen delako; besteentzat, ondo erabiliz gero, tresna baliagarria da. Horregatik, ikastetxe batzuek lanak gelan egiten dituzte edo arauak adostu dituzte. Azken batean, pentsatzen ikastea ezin da makinaren esku utzi."
+  },
+  "a3": [
+   {
+    "kind": "akatsak",
+    "title": "Akatsak identifikatu eta zuzendu",
+    "instr": "Ikasle batek idatzitako ohar honetan sei akats daude. Aurkitu eta zuzendu horietako bost.",
+    "text": "Atzo, irakasleak esan zigun hemendik aurrera idazlanak gelan idatziko ditugula. Ikasle batzuek ez zeuden ados, eta haserratu egin ziren. Ordenagailuarekin idaztea errezagoa da, eta, batzutan, txatari galdetzen dugu zalantzak argitzeko. Hala ere, inportantea da guk geuk pentsatzea, makinek ezin baitute gure ordez ikasi.",
+    "pairs": [
+     {
+      "wrong": "batzuek",
+      "right": [
+       "batzuk"
+      ]
+     },
+     {
+      "wrong": "haserratu",
+      "right": [
+       "haserretu"
+      ]
+     },
+     {
+      "wrong": "errezagoa",
+      "right": [
+       "errazagoa"
+      ]
+     },
+     {
+      "wrong": "batzutan",
+      "right": [
+       "batzuetan"
+      ]
+     },
+     {
+      "wrong": "galdetzen dugu",
+      "right": [
+       "galdetzen diogu"
+      ]
+     },
+     {
+      "wrong": "inportantea",
+      "right": [
+       "garrantzitsua"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "bereizi",
+      "accepted": [
+       "desberdindu"
+      ]
+     },
+     {
+      "w": "hutsune",
+      "accepted": [
+       "gabezia",
+       "falta"
+      ]
+     },
+     {
+      "w": "lanabes",
+      "accepted": [
+       "tresna"
+      ]
+     },
+     {
+      "w": "seinalatu",
+      "accepted": [
+       "adierazi",
+       "erakutsi"
+      ]
+     },
+     {
+      "w": "berpiztu",
+      "accepted": [
+       "biziberritu",
+       "berriro piztu"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditza moldatu",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Iaz, irakasleak arau berriak ____ ikasleekin.",
+      "hint": "adostu · lehenaldia",
+      "accepted": [
+       "adostu zituen"
+      ]
+     },
+     {
+      "sentence": "Datorren ikasturtean, idazlan guztiak gelan ____.",
+      "hint": "egin · geroaldia, guk",
+      "accepted": [
+       "egingo ditugu"
+      ]
+     },
+     {
+      "sentence": "Txatik gabe idatziko bazenu, gehiago ____.",
+      "hint": "ikasi · baldintza, zu",
+      "accepted": [
+       "ikasiko zenuke"
+      ]
+     },
+     {
+      "sentence": "Kontzeptu bat ulertzen ez baduzu, txatari ____.",
+      "hint": "galdetu · ahalera, zuk-hari",
+      "accepted": [
+       "galde diezaiokezu",
+       "galdetu ahal diozu"
+      ]
+     },
+     {
+      "sentence": "Irakasleek ikasleei azalpenak ____.",
+      "hint": "eskatu · orainaldia",
+      "accepted": [
+       "eskatzen dizkiete"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak adimen artifiziala erabiltzeko arauak idatzi nahi ditu, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "ikastetxeko aldizkarirako: «Adimen artifiziala ikasgelan: tranpa ala tresna?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "zure tutoreari, ikasgelarako erabilera-arau batzuk proposatuz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: prozesua vs. emaitza, kalkulagailuaren adibidea, gelako idazketa, gardentasuna (nola erabili den adieraztea)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "IKASLEA: Idatzi nire idazlana.",
+    "TXATA: Ados. Zeri buruz?",
+    "IKASLEA: Ez dakit. Zuk erabaki."
+   ],
+   "model": "Elkarrizketak umorez erakusten du ikasleak ez duela ezer pentsatu nahi, ezta gaia aukeratu ere. Irakurgaiak ohartarazten du makinari lana uzten dionak emaitza lortzen duela, baina ez duela ikasten. Pentsatzeko lana, beraz, ezin da beste inoren esku utzi."
+  }
+ },
+ {
+  "id": "e18",
+  "num": "18",
+  "title": "Mendira, baina ez edonola",
+  "base": "2026 ez-ohikoa",
+  "mota": "Y",
+  "text": {
+   "title": "Mendira, baina ez edonola",
+   "paragraphs": [
+    "Asteburuetan, Euskal Herriko mendi ezagunenetako bideak jendez beteta egoten dira. Mendizaletasuna gure kulturaren parte da aspalditik, eta gero eta jende gehiagok aurkitzen du naturan atseden hartzeko eta buruari aire berria emateko modua. Medikuek ere gomendatzen dute: naturan ibiltzeak estresa gutxitzen du eta bihotza indartzen du.",
+    "Hala ere, mendi-ibilaldien ugaritzeak arazo berriak ekarri ditu. Sare sozialetan, argazki ikusgarri batek milaka bisitari erakar ditzake leku isil batera, eta lekuak ez daude beti prestatuta horrenbeste jende hartzeko. Bideak higatu egiten dira, zaborra pilatzen da eta animalia basatiak beren habitatetik urruntzen dira.",
+    "Gainera, mendizale berri askok ez dituzte arriskuak ezagutzen. Oinetako egokirik gabe, urik gabe edo eguraldiaren iragarpena begiratu gabe abiatzen dira, eta erreskate-taldeek gero eta dei gehiago jasotzen dituzte. Askotan, ezbeharrak ez dira mendiaren zailtasunagatik gertatzen, prestaketa faltagatik baizik.",
+    "Mendiko elkarteek oinarrizko arau batzuk gogorarazten dituzte. Ibilaldia aurretik prestatu behar da, norberaren mailari egokituta. Bidezidorretatik ez da irten behar, landaredia ez zapaltzeko. Zaborra etxera eraman behar da, baita fruta-azalak ere. Eta, batez ere, mendiak ez du presarik: eguraldia okertzen bada, atzera egitea ez da porrota, zuhurtzia baizik.",
+    "Mendia denona da, eta horregatik da denon ardura. Bertan aurkitzen dugun isiltasuna eta edertasuna zaintzen baditugu, gure ondorengoek ere haietaz gozatu ahal izango dute."
+   ]
+  },
+  "a1": {
+   "type": "open",
+   "questions": [
+    {
+     "q": "Zergatik gomendatzen dute medikuek naturan ibiltzea?",
+     "answer": "Estresa gutxitzen duelako eta bihotza indartzen duelako."
+    },
+    {
+     "q": "Zer arazo sortzen ditu mendi-ibilaldien ugaritzeak lekuetan?",
+     "answer": "Bideak higatzen dira, zaborra pilatzen da eta animalia basatiak beren habitatetik urruntzen dira; lekuak ez daude prestatuta horrenbeste jende hartzeko."
+    },
+    {
+     "q": "Zergatik jasotzen dituzte erreskate-taldeek gero eta dei gehiago?",
+     "answer": "Mendizale berri askok ez dituztelako arriskuak ezagutzen eta prestaketarik gabe abiatzen direlako (oinetako egokirik, urik edo eguraldiaren iragarpenik gabe)."
+    },
+    {
+     "q": "Zer arau gogorarazten dituzte mendiko elkarteek? Aipatu hiru.",
+     "answer": "Ibilaldia aurretik eta norberaren mailara prestatu, bidezidorretatik ez irten, zaborra etxera eraman eta eguraldia okertzen bada atzera egin. (Hiru nahikoa.)"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Herriko mendi-elkarteak udako irteeren egutegia argitaratuko du, eta sarreran testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Mendi-ibilaldien ugaritzeak dakartzan arriskuak eta mendian arduraz jokatzeko arauak.",
+   "laburpena": "Gero eta jende gehiago doa mendira, osasunerako onuragarria baita. Hala ere, jendetzak bideak hondatzen ditu, zaborra pilatzen du eta animaliak uxatzen ditu, eta mendizale berri askok prestaketarik gabe jokatzen dute, istripuak eraginez. Horregatik, ibilaldiak prestatu, bideetatik ez irten, zaborra eraman eta beharrezkoa denean atzera egin behar da."
+  },
+  "a3": [
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Mendira joateko zaletasuna.",
+      "accepted": [
+       "mendizaletasun"
+      ]
+     },
+     {
+      "def": "Erabileraren eraginez pixkanaka gastatu edo hondatu.",
+      "accepted": [
+       "higatu"
+      ]
+     },
+     {
+      "def": "Animalia edo landare bat bizi den ingurune naturala.",
+      "accepted": [
+       "habitat"
+      ]
+     },
+     {
+      "def": "Ustekabean gertatzen den istripu edo zorigaitza.",
+      "accepted": [
+       "ezbehar"
+      ]
+     },
+     {
+      "def": "Mendiko bide estua.",
+      "accepted": [
+       "bidezidor"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Naturan ibiltzeak estresa gutxitzen du.",
+      "element": null,
+      "proposal": "Naturan ibiltzen garenean, estres gutxiago izaten dugu."
+     },
+     {
+      "sentence": "Argazki ikusgarri batek milaka bisitari erakar ditzake leku isil batera.",
+      "element": null,
+      "proposal": "Argazki ikusgarri bati esker, milaka bisitari etor daitezke leku isil batera."
+     },
+     {
+      "sentence": "Oinetako egokirik gabe abiatzen dira.",
+      "element": null,
+      "proposal": "Oinetako egokiak jantzi gabe abiatzen dira."
+     },
+     {
+      "sentence": "Ezbeharrak ez dira mendiaren zailtasunagatik gertatzen, prestaketa faltagatik baizik.",
+      "element": null,
+      "proposal": "Ezbeharren arrazoia ez da mendiaren zailtasuna, prestaketa falta baizik."
+     },
+     {
+      "sentence": "Eguraldia okertzen bada, atzera egitea ez da porrota.",
+      "element": null,
+      "proposal": "Eguraldia okertuz gero, atzera egitea ez da porrota."
+     }
+    ]
+   },
+   {
+    "kind": "eratorpena",
+    "title": "Eratorpena",
+    "instr": "Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.",
+    "options": [
+     {
+      "suffix": "-tasun",
+      "words": [
+       "mendizaletasun",
+       "zailtasun",
+       "edertasun"
+      ]
+     },
+     {
+      "suffix": "-zale",
+      "words": [
+       "mendizale"
+      ]
+     },
+     {
+      "suffix": "-aldi",
+      "words": [
+       "ibilaldi"
+      ]
+     },
+     {
+      "suffix": "-pen",
+      "words": [
+       "iragarpen"
+      ]
+     },
+     {
+      "suffix": "-keta",
+      "words": [
+       "prestaketa"
+      ]
+     },
+     {
+      "suffix": "-di",
+      "words": [
+       "landaredi"
+      ]
+     },
+     {
+      "suffix": "-tzia",
+      "words": [
+       "zuhurtzia"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure ikastetxeak ikasturte amaierako mendi-irteera bat antolatu nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Iritzi-artikulua",
+     "desc": "eskualdeko aldizkarirako: «Mendia, sare sozialetako agertoki?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    },
+    {
+     "label": "B",
+     "genre": "Mezu elektronikoa",
+     "desc": "herriko mendi-elkarteari, irteera antolatzeko laguntza eskatuz eta taldearen ezaugarriak azalduz. Hartzailea, gaia eta agurrak."
+    }
+   ],
+   "notes": "Artikuluan: izenburua + izen-deiturak. Mezuan: hartzailea, gaia, agurrak, erregistro jasoa. Ideia posibleak: argazki-jendetza, ingurumen-kaltea, prestaketa, mendia ondorengoentzat; mezuan: ikasle kopurua, maila, data, segurtasuna."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Gailurrean,",
+    "denek mugikorra altxatuta.",
+    "Inork ez du begiratzen",
+    "behean dagoen",
+    "mundua."
+   ],
+   "model": "Poemak ironiaz erakusten du mendizale askok gailurra argazkirako agertoki gisa erabiltzen dutela, paisaiaz gozatu gabe. Irakurgaiak ere dio sare sozialetako argazkiek jendetza erakartzen dutela leku isiletara. Biek gogorarazten digute mendia bizitzeko dela, ez erakusteko."
+  }
+ },
+ {
+  "id": "e19",
+  "num": "19",
+  "title": "Zuzeneko musika, inoiz baino garestiago",
+  "base": "2025 ohikoa",
+  "mota": "Z",
+  "text": {
+   "title": "Zuzeneko musika, inoiz baino garestiago",
+   "paragraphs": [
+    "Inoiz ez da hain erraza izan musika entzutea. Mugikorrean milioika abesti ditugu eskura, ia doan. Paradoxikoki, zuzeneko musika inoiz baino garestiagoa da: jaialdi handietako sarrerek ehunka euro balio dute, eta talde ezagunen kontzertuetako txartelak minutu gutxitan agortzen dira, gero bikoitzean saltzeko.",
+    "Aldaketa hori ez da kasualitatea. Lehen, musikariek diskoen salmentatik ateratzen zuten dirua; gaur, plataforma digitalek ordaintzen dieten kopurua oso txikia da: zentimo-zati batzuk entzunaldi bakoitzeko. Ondorioz, zuzenekoak bihurtu dira sarrera-iturri nagusia, eta prezioak igo egin dira.",
+    "Bestalde, jaialdi handiek merkatua bereganatu dute. Enpresa gutxi batzuek antolatzen dituzte ekitaldi gehienak, eta haien helburua irabazia da, ez kultura. Horren aurrean, areto txikiak ixten ari dira hiri askotan, alokairu garestien eta bizilagunen kexen artean. Eta areto txiki horiek dira, hain zuzen, talde berriek lehen aldiz jotzeko dituzten tokiak.",
+    "Hala ere, badaude beste eredu batzuk. Herri askotan, jaietako kontzertuak doakoak dira, eta udalek edo jai-batzordeek antolatzen dituzte. Gaztetxeek eta kultur elkarteek prezio herrikoietan antolatzen dituzte emanaldiak, eta bertako taldeei lekua egiten diete. Eredu horiek gabe, euskal musika-eszena askoz pobreagoa izango litzateke.",
+    "Zuzeneko musikak ez luke luxua izan behar. Musikari bat jende artean entzuteak, abestiak batera kantatuz, pantailak eman ezin duen zerbait eskaintzen du: komunitate baten parte izatearen sentsazioa."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Lehen paragrafoan aipatzen den paradoxa da:",
+     "options": [
+      {
+       "k": "a",
+       "t": "musika gutxi entzuten dela, kontzertuak merkeak izan arren."
+      },
+      {
+       "k": "b",
+       "t": "musika grabatua ia doan dagoela, baina zuzenekoa inoiz baino garestiagoa dela."
+      },
+      {
+       "k": "c",
+       "t": "jaialdiak doakoak direla."
+      },
+      {
+       "k": "d",
+       "t": "txartelak ez direla saltzen."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Zuzenekoak sarrera-iturri nagusia bihurtu dira:",
+     "options": [
+      {
+       "k": "a",
+       "t": "musikariek nahiago dutelako."
+      },
+      {
+       "k": "b",
+       "t": "plataforma digitalek oso gutxi ordaintzen dutelako."
+      },
+      {
+       "k": "c",
+       "t": "diskoak inoiz baino gehiago saltzen direlako."
+      },
+      {
+       "k": "d",
+       "t": "udalek hala eskatu dutelako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Areto txikiak ixten ari dira:",
+     "options": [
+      {
+       "k": "a",
+       "t": "talde berririk ez dagoelako."
+      },
+      {
+       "k": "b",
+       "t": "alokairu garestiengatik eta bizilagunen kexengatik."
+      },
+      {
+       "k": "c",
+       "t": "jaialdiek erosi dituztelako."
+      },
+      {
+       "k": "d",
+       "t": "jendeak ez duelako musikarik entzuten."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Areto txikiak garrantzitsuak dira:",
+     "options": [
+      {
+       "k": "a",
+       "t": "talde berriek bertan jotzen dutelako lehen aldiz."
+      },
+      {
+       "k": "b",
+       "t": "sarrera garestiak saltzen dituztelako."
+      },
+      {
+       "k": "c",
+       "t": "enpresa handienak direlako."
+      },
+      {
+       "k": "d",
+       "t": "bizilagunek gustuko dituztelako."
+      }
+     ],
+     "correct": "a"
+    },
+    {
+     "q": "Egilearen ustez, zuzeneko musikak eskaintzen du:",
+     "options": [
+      {
+       "k": "a",
+       "t": "entzuteko kalitate hobea."
+      },
+      {
+       "k": "b",
+       "t": "komunitate baten parte izatearen sentsazioa."
+      },
+      {
+       "k": "c",
+       "t": "irabazi ekonomikoa."
+      },
+      {
+       "k": "d",
+       "t": "pantailen antzeko esperientzia."
+      }
+     ],
+     "correct": "b"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Herriko gaztetxeak kontzertu-ziklo bat antolatu du, eta egitarauaren sarreran testu honen gaia eta laburpena jarriko ditu.",
+   "gaia": "Zuzeneko musikaren garestitzea, haren zergatiak eta eredu alternatiboak.",
+   "laburpena": "Musika grabatua ia doan dago, baina kontzertuak inoiz baino garestiagoak dira: plataformek gutxi ordaintzen dietenez, musikariek zuzenekoetatik bizi behar dute, eta enpresa handiek jaialdien merkatua menderatzen dute. Areto txikiak, talde berrien ezinbesteko agertokiak, ixten ari dira. Jaietako kontzertu doakoek eta gaztetxeek, ordea, musika komunitatean gozatzeko aukera mantentzen dute."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Mugikorrean milioika abesti ditugu eskura.",
+      "element": "eskuragarri",
+      "proposal": "Mugikorrean milioika abesti daude eskuragarri."
+     },
+     {
+      "sentence": "Talde ezagunen kontzertuetako txartelak minutu gutxitan agortzen dira.",
+      "element": "saldu",
+      "proposal": "Talde ezagunen kontzertuetako txartel guztiak minutu gutxitan saltzen dira."
+     },
+     {
+      "sentence": "Plataforma digitalek ordaintzen dieten kopurua oso txikia da.",
+      "element": "gutxi",
+      "proposal": "Plataforma digitalek oso gutxi ordaintzen diete."
+     },
+     {
+      "sentence": "Areto txikiak ixten ari dira, alokairu garestien eta bizilagunen kexen artean.",
+      "element": "-lako",
+      "proposal": "Areto txikiak ixten ari dira, alokairuak garestiak direlako eta bizilagunek kexak dituztelako."
+     },
+     {
+      "sentence": "Eredu horiek gabe, euskal musika-eszena askoz pobreagoa izango litzateke.",
+      "element": "ez balego / ez baleude",
+      "proposal": "Eredu horiek ez baleude, euskal musika-eszena askoz pobreagoa izango litzateke."
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Sinonimoak",
+    "instr": "Eman sinonimo bana, testuko esanahiaren arabera.",
+    "items": [
+     {
+      "w": "agortu",
+      "accepted": [
+       "amaitu",
+       "bukatu"
+      ]
+     },
+     {
+      "w": "bereganatu",
+      "accepted": [
+       "menderatu",
+       "beretu"
+      ]
+     },
+     {
+      "w": "irabazi",
+      "accepted": [
+       "etekin",
+       "mozkin"
+      ]
+     },
+     {
+      "w": "herrikoi",
+      "accepted": [
+       "apal",
+       "xume",
+       "merke"
+      ]
+     },
+     {
+      "w": "emanaldi",
+      "accepted": [
+       "saio",
+       "ikuskizun"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "definizioak",
+    "title": "Definizioak",
+    "instr": "Aurkitu testuan definizio hauei dagozkien hitzak.",
+    "items": [
+     {
+      "def": "Egun batean edo gehiagotan egiten den musika-ekitaldi handia.",
+      "accepted": [
+       "jaialdi"
+      ]
+     },
+     {
+      "def": "Musika-ekitaldiak eta antzekoak egiteko gela edo lokala.",
+      "accepted": [
+       "areto"
+      ]
+     },
+     {
+      "def": "Gazteek beren kabuz kudeatzen duten gunea.",
+      "accepted": [
+       "gaztetxe"
+      ]
+     },
+     {
+      "def": "Abesti edo grabazio bat behin entzutea.",
+      "accepted": [
+       "entzunaldi"
+      ]
+     },
+     {
+      "def": "Egoera bat zalantzan jartzen duen eta itxuraz kontraesankorra den modua.",
+      "accepted": [
+       "paradoxikoki"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "udaleko kultura-zinegotziari, gazteentzako areto bat eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Iritzi-artikulua",
+     "desc": "tokiko aldizkarirako: «Kultura, luxua ala eskubidea?». Izenburua eta egilearen izen-deiturak (fikziozkoak)."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Artikuluan: izenburua + izen-deiturak. Ideia posibleak: talde berrien beharra, prezioak, herri-ereduak, aretoaren kudeaketa (nork, nola, ordutegiak, bizilagunak)."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Ez nuen abestiaren hitzik gogoratzen.",
+    "Ez zen beharrezkoa:",
+    "mila ahotsek kantatu zuten nirekin."
+   ],
+   "model": "Testuak erakusten du zuzeneko musikak komunitate bat sortzen duela: bakoitzak ahaztutakoa besteek osatzen dute, eta inor ez dago bakarrik. Irakurgaiak ere dio zuzenekoek pantailak eman ezin duena eskaintzen dutela: jende artean kantatzea eta talde baten parte sentitzea."
+  }
+ },
+ {
+  "id": "e20",
+  "num": "20",
+  "title": "Aspertzen ikasi",
+  "base": "2025 ez-ohikoa",
+  "mota": "W",
+  "text": {
+   "title": "Aspertzen ikasi",
+   "paragraphs": [
+    "Noiz aspertu zinen azkenekoz? Galdera arraroa dirudi, baina gazte askok ez dakite erantzuten. Autobusaren zain, ilaran edo gela batetik bestera, mugikorra beti dago eskura hutsune bakoitza betetzeko. Aspertzea, garai batean haurtzaroaren ohiko zatia zena, ia desagertu egin da gure bizitzetatik.",
+    "Lehen begiratuan, ez dirudi galera handia denik. Nork nahi du aspertu? Psikologo batzuek, ordea, beste ikuspegi bat proposatzen dute. Haien arabera, aspertzea ez da denbora galtzea, burmuinaren atsedenaldi beharrezkoa baizik. Kanpoko estimulurik ez dagoenean, gogoa bere kasa ibiltzen hasten da: oroitzapenak antolatzen ditu, arazoei irtenbideak bilatzen dizkie eta ideia berriak sortzen ditu.",
+    "Sortzaile askok aitortu dute haien ideiarik onenak aspertuta zeudenean etorri zitzaizkiela: dutxan, trenean edo leihotik begira. Ez da kasualitatea. Burmuinak lotura berriak egiteko denbora eta isiltasuna behar ditu, eta etengabeko estimuluek ez diote horretarako tarterik uzten.",
+    "Gainera, aspertzeak gure buruarekin egoten irakasten digu. Etengabe zerbaitekin entretenitzen denak zailtasunak izan ditzake bakardadea edo isiltasuna jasateko, eta, horregatik, berriro ere pantailara jotzen du, gurpil batean bezala.",
+    "Ez da mugikorra betiko itzaltzea kontua. Baina noizean behin ezer egin gabe egotea, leihotik begiratzea edo besterik gabe pentsatzea ez da denbora alferrik galtzea. Agian, aspertzen ikastea da gaur egun ikas dezakegun gauzarik baliotsuenetako bat."
+   ]
+  },
+  "a1": {
+   "type": "test",
+   "questions": [
+    {
+     "q": "Gazte askok ez dakite noiz aspertu ziren azkenekoz:",
+     "options": [
+      {
+       "k": "a",
+       "t": "inoiz ez dutelako denbora librerik."
+      },
+      {
+       "k": "b",
+       "t": "mugikorrak hutsune guztiak betetzen dituelako."
+      },
+      {
+       "k": "c",
+       "t": "aspertzea debekatuta dagoelako."
+      },
+      {
+       "k": "d",
+       "t": "gogoratzen ez dutelako."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Psikologo batzuen arabera, aspertzea:",
+     "options": [
+      {
+       "k": "a",
+       "t": "denbora galtzea da."
+      },
+      {
+       "k": "b",
+       "t": "burmuinaren atsedenaldi beharrezkoa da."
+      },
+      {
+       "k": "c",
+       "t": "haurtzaroko kontua da soilik."
+      },
+      {
+       "k": "d",
+       "t": "arriskutsua da."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Kanpoko estimulurik ez dagoenean, gogoak:",
+     "options": [
+      {
+       "k": "a",
+       "t": "lo egiten du."
+      },
+      {
+       "k": "b",
+       "t": "oroitzapenak antolatu, irtenbideak bilatu eta ideia berriak sortzen ditu."
+      },
+      {
+       "k": "c",
+       "t": "pantaila bat bilatzen du beti."
+      },
+      {
+       "k": "d",
+       "t": "ez du ezer egiten."
+      }
+     ],
+     "correct": "b"
+    },
+    {
+     "q": "Sortzaile askoren esanetan:",
+     "options": [
+      {
+       "k": "a",
+       "t": "ideiarik onenak aspertuta zeudenean etorri zitzaizkien."
+      },
+      {
+       "k": "b",
+       "t": "mugikorrak ideia berriak ematen dizkie."
+      },
+      {
+       "k": "c",
+       "t": "ez dira inoiz aspertzen."
+      },
+      {
+       "k": "d",
+       "t": "isiltasunak blokeatu egiten ditu."
+      }
+     ],
+     "correct": "a"
+    },
+    {
+     "q": "Etengabe entretenitzen denak:",
+     "options": [
+      {
+       "k": "a",
+       "t": "ideia gehiago ditu."
+      },
+      {
+       "k": "b",
+       "t": "zailtasunak izan ditzake bakardadea edo isiltasuna jasateko."
+      },
+      {
+       "k": "c",
+       "t": "ez du pantailarik behar."
+      },
+      {
+       "k": "d",
+       "t": "hobeto lo egiten du."
+      }
+     ],
+     "correct": "b"
+    }
+   ]
+  },
+  "a2": {
+   "context": "Ikastetxeko tutoretza-saio baterako «Pantailarik gabeko astea» erronka prestatu da, eta aurkezpen-orrian testu honen gaia eta laburpena jarriko dira.",
+   "gaia": "Aspertzearen balioa etengabeko estimuluen garaian.",
+   "laburpena": "Mugikorrak hutsune guztiak betetzen dituenez, gazteak ia ez dira aspertzen. Hala ere, psikologoen ustez aspertzea burmuinaren atsedenaldi beharrezkoa da: estimulurik gabe, gogoak oroitzapenak antolatzen ditu eta ideia berriak sortzen ditu. Gainera, norberarekin egoten irakasten du. Beraz, noizean behin ezer egin gabe egotea ez da denbora galtzea."
+  },
+  "a3": [
+   {
+    "kind": "berridazketak",
+    "title": "Berridazketak",
+    "instr": "Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.",
+    "items": [
+     {
+      "sentence": "Noiz aspertu zinen azkenekoz?",
+      "element": "azken aldia",
+      "proposal": "Noiz izan zen aspertu zinen azken aldia?"
+     },
+     {
+      "sentence": "Lehen begiratuan, ez dirudi galera handia denik.",
+      "element": "iruditu",
+      "proposal": "Lehen begiratuan, ez zaigu galera handia iruditzen."
+     },
+     {
+      "sentence": "Kanpoko estimulurik ez dagoenean, gogoa bere kasa ibiltzen hasten da.",
+      "element": "ezean",
+      "proposal": "Kanpoko estimulurik egon ezean, gogoa bere kasa ibiltzen hasten da."
+     },
+     {
+      "sentence": "Sortzaile askok aitortu dute haien ideiarik onenak aspertuta zeudenean etorri zitzaizkiela.",
+      "element": "esanetan",
+      "proposal": "Sortzaile askoren esanetan, haien ideiarik onenak aspertuta zeudenean etorri zitzaizkien."
+     },
+     {
+      "sentence": "Etengabeko estimuluek ez diote horretarako tarterik uzten.",
+      "element": "ezinezkoa",
+      "proposal": "Etengabeko estimuluekin, ezinezkoa da horretarako tarterik izatea."
+     }
+    ]
+   },
+   {
+    "kind": "aditzak",
+    "title": "Aditzak",
+    "instr": "",
+    "items": [
+     {
+      "sentence": "Atzo, autobusaren zain, ordu erdiz ____.",
+      "hint": "aspertu · lehenaldia, ni",
+      "accepted": [
+       "aspertu nintzen"
+      ]
+     },
+     {
+      "sentence": "Bihar, mugikorra etxean ____.",
+      "hint": "utzi · geroaldia, nik",
+      "accepted": [
+       "utziko dut"
+      ]
+     },
+     {
+      "sentence": "Mugikorrik ez bagenu, gehiago ____.",
+      "hint": "pentsatu · baldintza, guk",
+      "accepted": [
+       "pentsatuko genuke"
+      ]
+     },
+     {
+      "sentence": "Leihotik begira egonda, zuk ere ideia berriak ____.",
+      "hint": "izan · ahalera, zuk",
+      "accepted": [
+       "izan ditzakezu",
+       "izan ahal dituzu"
+      ]
+     },
+     {
+      "sentence": "Psikologoek gurasoei aholku hau ____.",
+      "hint": "eman · orainaldia",
+      "accepted": [
+       "ematen diete"
+      ]
+     }
+    ]
+   },
+   {
+    "kind": "sinonimoak",
+    "title": "Definizioak",
+    "instr": "Eman testuko hitz hauen sinonimo edo baliokide bana.",
+    "items": [
+     {
+      "w": "eskura",
+      "accepted": [
+       "eskuragarri",
+       "hurbil"
+      ]
+     },
+     {
+      "w": "atsedenaldi",
+      "accepted": [
+       "atseden",
+       "etenaldi"
+      ]
+     },
+     {
+      "w": "aitortu",
+      "accepted": [
+       "onartu",
+       "aitortu"
+      ]
+     },
+     {
+      "w": "tarte",
+      "accepted": [
+       "denbora",
+       "aukera"
+      ]
+     },
+     {
+      "w": "jasan",
+      "accepted": [
+       "eraman",
+       "pairatu",
+       "jasotu"
+      ]
+     }
+    ]
+   }
+  ],
+  "b1": {
+   "context": "Zure lehengusu txikiak, hamabi urte dituenak, lehen mugikorra jaso berri du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "options": [
+    {
+     "label": "A",
+     "genre": "Gutuna",
+     "desc": "lehengusuari, mugikorra erabiltzeko eta denbora librea bizitzeko aholkuak emanez. Lekua eta data, agurrak eta sinadura."
+    },
+    {
+     "label": "B",
+     "genre": "Dekalogoa",
+     "desc": "«Pantailarik gabeko denbora: dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera."
+    }
+   ],
+   "notes": "Gutunean: lekua eta data, agur hurbila, amaierako agurra eta sinadura; erregistro hurbila. Dekalogoan: sarrera, puntuak, itxiera. Ideia posibleak: jakinarazpenak itzali, logelan pantailarik ez, aspertzeko tarteak, kanpoko jarduerak, lagunekin aurrez aurre."
+  },
+  "b2": {
+   "intro": "Egin lotura (1 puntu)",
+   "lines": [
+    "Euria leihoan.",
+    "Ez dago ezer egiteko.",
+    "Begira: euria leihoan."
+   ],
+   "model": "Testuak erakusten du, itxuraz ezer egiteko ez dagoenean, gauza txikiei erreparatzeko aukera sortzen dela: euria bera ikuskizun bihurtzen da. Irakurgaiak ere dio aspertzeak gogoari bere kasa ibiltzeko tartea ematen diola, eta hortik sortzen direla ideia berriak."
+  }
+ }
+]
