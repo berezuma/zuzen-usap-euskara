@@ -1,53 +1,566 @@
 [
- {"id":"g01","arloa":"Soziolinguistika","izenburua":"«Estatu bat, hizkuntza bat»",
-  "galdera":"Ohikoa al da «Estatu bat, hizkuntza bat» eskema munduan? Azaldu zer ondorio dituen hizkuntza txiki eta gutxituentzat, euskararen adibidea erabiliz.",
-  "gakoak":["Munduan 6.000-7.000 hizkuntza daude eta 200 inguru estatu: eleaniztasuna da egoera ohikoena.","Eskemak hizkuntza bakarra jartzen du nagusi (administrazioa, hezkuntza, hedabideak).","Beste hizkuntzak gutxitzen dira: prestigio- eta erabilera-galera, ordezkapen-arriskua.","Euskararen kasua: lurralde zatitua, estatus juridiko desberdinak (EAE, Nafarroa, Ipar Euskal Herria).","Hizkuntza-eskubideak aipatzen dira irtenbide edo babes gisa."],
-  "eredua":"Ez da ohikoa: munduan 6.000 hizkuntza baino gehiago daude eta 200 inguru estatu baino ez; beraz, eleaniztasuna da arauzkoa. «Estatu bat, hizkuntza bat» ereduak hizkuntza bakarrari ematen dizkio funtzio ofizial eta prestigiodunak, eta besteak etxera eta lagunartera baztertzen ditu. Euskararen kasuan, gainera, lurraldea administratiboki zatituta dago: EAEn ofiziala da, Nafarroan eremuaren arabera, eta Ipar Euskal Herrian ez du ofizialtasunik. Horregatik dira garrantzitsuak hizkuntza-eskubideak."},
- {"id":"g07","arloa":"Dialektologia","izenburua":"Euskalkien jatorria",
-  "galdera":"Askotan entzun izan da euskalkiak erromatarren aurreko tribuetatik datozela. Zer dio egungo ikerketak euskalkien jatorriaz? Azaldu.",
-  "gakoak":["Euskalkiak Erdi Aroan sortu ziren, X. mendea baino lehentxeago.","Aurretik euskara homogeneoago bat zegoen: Euskara Batu Zaharra.","Euskalkiak geroagoko zatiketen ondorioa dira, dinamika soziopolitiko eta kulturalen eraginez.","Tribuekin edo elizbarruti zaharrekin lotzea uste zahar okerra da.","Zatiketak arian-arian gertatu dira, eta gaurko euskalki eta hizkerak horien isla dira."],
-  "eredua":"Egungo ikerketaren arabera, euskalkiak ez datoz erromatarren aurreko tribuetatik, ezta elizbarruti zaharretatik ere. Erdi Aroan sortu ziren, X. mendea baino lehentxeago, euskara batuago edo homogeneoago baten ondoren (Euskara Batu Zaharra deitzen zaio). Handik aurrera, garai bakoitzeko dinamika sozial eta politikoen eraginez, hizkera hura zatituz joan zen, eta zatiketa horien isla dira gaur ezagutzen ditugun euskalki eta hizkerak."},
- {"id":"g02","arloa":"Soziolinguistika","izenburua":"Maileguak eta kalkoak",
-  "galdera":"Azaldu zer den mailegua eta zer den kalkoa, eta nola bereiz daitezkeen (Mitxelenaren irizpidea). Eman bakoitzaren adibide bat gutxienez.",
-  "gakoak":["Mailegua: beste hizkuntza batetik hitz bat hartzea, askotan euskarara egokituta (adib. telebista, kafe).","Kalkoa: beste hizkuntzaren egitura edo esapide bat hitzez hitz itzultzea.","Mitxelenaren irizpidea: kalkoa da hizkuntzak berez baliabideak izan arren beste baten eredua hartzea.","Kalko-adibide bat (adib. «zeinetan» erako erlatiboak, «egun on bat izan»).","Maileguak ez dira berez txarrak: hizkuntza guztiek dituzte."],
-  "eredua":"Mailegua beste hizkuntza batetik hartutako hitza da, gehienetan euskararen ahoskera eta idazkerara egokitua: telebista edo kafe, adibidez. Kalkoa, berriz, beste hizkuntza baten egitura edo esapidea hitzez hitz itzultzea da. Mitxelenaren irizpidearen arabera, kalkoa da euskarak zerbait adierazteko bere baliabideak izan arren beste hizkuntzaren eredua hartzea: «zeinetan bizi naizen etxea» (gaztelaniazko «en la que»), «etxea, non bizi naizen» edo «bizi naizen etxea» esan beharrean."},
- {"id":"g11","arloa":"Hizkuntzaren historia","izenburua":"Mitxelenaren esaldia",
-  "galdera":"«Euskararen benetako misterioa ez da bere jatorria, ezpada iraun izana» (Koldo Mitxelena). Azaldu zer esan nahi duen esaldiak eta zer lotura duen euskararen historiarekin.",
-  "gakoak":["Euskara hizkuntza isolatua da: ez da indoeuroparra eta ez du ahaiderik ezagunik.","Jatorriari buruzko teoriak egon dira, baina ez dago frogarik.","Inguruko hizkuntzak latinizatu ziren (erromatartzea), eta euskarak iraun zuen.","Iraupena faktore historiko eta sozialen emaitza da, eta azken mendeetan atzerakada izan du.","Esaldiaren gaurkotasuna: biziraupena ez da ziurra; biziberritzea behar da."],
-  "eredua":"Euskara hizkuntza isolatua da: ez da indoeuroparra, eta ez zaio ahaiderik ezagutzen. Horregatik jatorriari buruzko teoriak ugari izan dira, frogarik gabe gehienak. Mitxelenaren ustez, ordea, harrigarriena ez da nondik datorren, baizik eta iraun izana: inguruko hizkuntza ia guztiak latinaren eraginez desagertu ziren, eta euskarak, mendeetan atzera eginda ere, bizirik jarraitzen du. Iraupen hori ez da betikoa: gaur egun ere hiztunen erabileraren eta transmisioaren menpe dago."},
- {"id":"g03","arloa":"Soziolinguistika","izenburua":"Kode-alternantzia",
-  "testua":"—Aizu, gaur entsegua daukagu, ezta?\n—Bai, baina primero bazkaldu behar dut, eh.\n—Vale, ondoren deituko dizut. Ah, eta ekarri gitarra, porfa.",
-  "galdera":"Irakurri elkarrizketa. Identifikatu kode-alternantziaren adibideak, azaldu zer den fenomeno hori, zergatik gertatzen den eta zer ondorio izan ditzakeen euskararentzat.",
-  "gakoak":["Definizioa: elkarrizketa berean hizkuntzak txandakatzea.","Adibideak testutik: «primero», «vale», «porfa».","Zergatiak: ohitura, adierazkortasuna, identitatea, hitza ez etortzea, erosotasuna.","Mailegutik bereiztea: hitza ez da euskarara egokitu, hiztunak hizkuntzaz aldatzen du.","Ondorioak hizkuntza gutxitu batean: erdararen presentzia normalizatzea; norberaren jarrerari buruzko hausnarketa."],
-  "eredua":"Elkarrizketan kode-alternantzia dago: hiztunek euskaraz hitz egiten dute, baina «primero», «vale» eta «porfa» gaztelaniaz txertatzen dituzte. Kode-alternantzia elkarrizketa berean hizkuntzak txandakatzea da, eta ez da mailegua, hitzak ez baitira euskarara egokitzen. Ohituragatik, adierazkortasunagatik edo identitateagatik gertatzen da, batez ere gazteen artean. Euskara bezalako hizkuntza gutxitu batean, ordea, erdararen presentzia areagotu eta normalizatu dezake."},
- {"id":"g08","arloa":"Dialektologia","izenburua":"Bonaparte eta Zuazo",
-  "galdera":"Alderatu Louis-Lucien Bonaparteren (XIX. mendea) eta Koldo Zuazoren (gaur egun) euskalkien sailkapenak. Zer erakusten du konparazioak euskararen azken 150 urteetako bilakaeraz?",
-  "gakoak":["Bonaparteren mapa (1863) lehen sailkapen zientifikoa da, Euskal Herrian eta Europan aurrekari.","Zuazoren sailkapena da gaur zabalen onartua (Euskalkiak, 2014).","Zuazoren euskalkiak izendatzen dira: mendebalekoa, erdialdekoa, nafarra, nafar-lapurtarra, zuberotarra (eta ekialdeko nafarra, galdua).","Konparazioak galera erakusten du: euskararen eremua txikitu da (Araba, Nafarroa hegoaldea, ekialdeko hizkerak).","Izenak aldatu dira: probintzien izenen ordez, eremu geografiko-linguistikoak."],
-  "eredua":"Bonapartek 1863an argitaratu zuen euskalkien lehen mapa zientifikoa, eta gaur Koldo Zuazoren sailkapena da onartuena: mendebalekoa, erdialdekoa, nafarra, nafar-lapurtarra eta zuberotarra, eta galdutako ekialdeko nafarra. Bi mapak alderatuz gero, argi ikusten da euskararen eremua txikitu egin dela: Arabako eta Nafarroa hegoaldeko hizkera asko desagertu dira, baita erronkariera eta zaraitzuera ere. Gainera, Zuazok probintzien izenak saihesten ditu, euskalkien mugak ez baitatoz bat muga administratiboekin."},
- {"id":"g04","arloa":"Soziolinguistika","izenburua":"Diglosia dago?",
-  "testua":"Ipar Euskal Herriko herri batean, herritar askok euskaraz egiten dute etxean eta lagunartean, baina udaletxeko eta administrazioko harrera, paperak eta jakinarazpenak frantsesez bakarrik egiten dira.",
-  "galdera":"Egoera horretan diglosiarik badago? Arrazoitu zure erantzuna, diglosia kontzeptua azalduz.",
-  "gakoak":["Diglosiaren definizioa: hizkuntzen (edo aldaeren) banaketa funtzionala, funtzio altu eta baxuekin.","Fergusonen (aldaera beraren) eta Fishmanen (hizkuntza desberdinen) ikuspegiak.","Egoeran: frantsesa funtzio formal eta ofizialetan, euskara etxe eta lagunartean: diglosia dago.","Elebitasuna (norbanakoa) eta diglosia (gizartea) bereiztea.","Ondorioak: euskararen prestigio-galera eta ordezkapen-arriskua."],
-  "eredua":"Bai, diglosia dago. Diglosia gizarte batean bi hizkuntzak funtzio desberdinak dituzteneko egoera da: batak funtzio altuak (administrazioa, hezkuntza formala) eta besteak baxuak (etxea, lagunartea). Fergusonek aldaera beraren banaketaz hitz egin zuen, eta Fishmanek hizkuntza desberdinetara zabaldu zuen kontzeptua. Adibidean, frantsesak funtzio ofizial guztiak betetzen ditu eta euskara esparru informaletara mugatzen da. Herritarrak elebidunak izan daitezke, baina gizartea diglosikoa da, eta horrek euskararen prestigioa eta etorkizuna ahultzen ditu."},
- {"id":"g12","arloa":"Hizkuntzaren historia","izenburua":"Lehen lekukotasunak",
-  "galdera":"Denboran atzera egingo duzu bidaia batean. Aukeratu euskararen historiako hiru mugarri (akitaniera, Erdi Aroko glosak, Etxepare, Leizarraga, Larramendi) eta azaldu bakoitzaren garrantzia. Zergatik du Etxepareren liburuak «Linguae Vasconum Primitiae» izenburua?",
-  "gakoak":["Akitaniera: euskara-antzeko lehen lekukotasunak, erromatar garaiko izenak harrietan.","Erdi Aroko glosak: euskarazko lehen esaldi idatzi ezagunetakoak.","Etxepare (1545): euskarazko lehen liburu inprimatua; izenburuak «euskaldunen lehen fruituak» esan nahi du eta euskara idatziaren hasiera aldarrikatzen du.","Leizarraga (1571): Testamentu Berriaren lehen itzulpena.","Larramendi: lehen gramatika (El imposible vencido, 1729) eta hiztegia (1745); euskara arauak dituen hizkuntza dela erakutsi."],
-  "eredua":"Lehenengo geltokia akitaniera litzateke: erromatar garaiko harrietako izenetan euskara-antzeko hizkuntza baten lehen aztarnak ageri dira. Bigarrena, Bernat Etxepareren Linguae Vasconum Primitiae (1545), euskarazko lehen liburu inprimatua; izenburuak «euskaldunen lehen fruituak» esan nahi du, eta euskara ere idatzizko hizkuntza izan zitekeela aldarrikatzen du. Hirugarrena, Larramendiren El imposible vencido (1729): lehen gramatika da, eta izenburuak berak erakusten du euskara arau gabeko hizkuntza zelako ustea gainditu nahi zuela."},
- {"id":"g05","arloa":"Soziolinguistika","izenburua":"Ezagutza eta erabilera",
-  "galdera":"Euskal Herrian euskara dakitenen kopurua handitu egin da azken hamarkadetan, baina erabilera ez da neurri berean hazi. Zer faktorek eragiten dute alde hori? Arrazoitu, zure inguruko adibideak erabiliz.",
-  "gakoak":["Ezagutza eta erabilera bereiztea.","Dentsitatea eta sare sozialak: euskaldunen proportzioa inguruan.","Gaitasun erlatiboa eta erosotasuna (zein hizkuntzatan errazago).","Harremanen hizkuntza-ohiturak (lehen hizkuntza finkatzea).","Aisialdia, hedabideak, euskaldun-motak (berriak, hartzaileak), motibazioa; norberaren adibideak."],
-  "eredua":"Euskara jakitea ez da nahikoa hura erabiltzeko. Lehenik, dentsitatea dago: euskaldunak gutxiengo diren inguruan, elkarrizketa askotan erdara nagusitzen da. Bigarrenik, gaitasun erlatiboa: euskaldun berri askok errazago egiten dute gaztelaniaz. Hirugarrenik, harremanen ohiturak: lagun batekin gaztelaniaz hasi bazinen, zaila da hizkuntzaz aldatzea. Nire ikastetxean, adibidez, gelan euskaraz aritzen gara, baina patioan gaztelania nagusitzen da. Aisialdiko eskaintzak eta motibazioak ere eragiten dute."},
- {"id":"g09","arloa":"Dialektologia","izenburua":"Euskara batua",
-  "galdera":"Noiz eta zertarako sortu zen euskara batua? Zergatik hartu zituen oinarritzat erdialdeko hizkerak, eta zer harreman izan behar luke euskalkiekin?",
-  "gakoak":["Euskaltzaindiaren lana; 1968ko Arantzazuko biltzarra mugarria.","Helburua: eredu estandar eta bateratzailea (eskola, administrazioa, hedabideak, literatura).","Oinarria: Gipuzkoa ekialdeko, Lapurdiko eta Nafarroa mendebaleko hizkerak.","Arrazoiak: hiztun-masa, ulergarritasuna, literatur tradizioa eta ospea.","Malgutasuna eta euskalkiekiko elkarelikadura; ez ditu euskalkiak ordezkatu behar."],
-  "eredua":"Euskara batua Euskaltzaindiak bultzatu zuen, eta 1968ko Arantzazuko biltzarra izan zen mugarri nagusia. Helburua euskaldun guztiontzako eredu estandar bat sortzea zen, eskolan, administrazioan eta hedabideetan erabiltzeko. Oinarritzat Gipuzkoa ekialdeko, Lapurdiko eta Nafarroa mendebaleko hizkerak hartu ziren, hiztun asko zituztelako, ulergarriak zirelako eta literatur tradizio handia zutelako. Batuak ez ditu euskalkiak ordezkatu behar: elkarri elikatu behar diote."},
- {"id":"g06","arloa":"Soziolinguistika","izenburua":"Arnasguneak eta biziberritzea",
-  "galdera":"Azaldu zer diren arnasguneak eta zergatik diren garrantzitsuak euskararen biziraupenerako. Lotu zure azalpena Fishmanen edo Txepetxen ekarpenekin.",
-  "gakoak":["Arnasgunea: euskaldunak gehiengo nabarmena diren eremua, non euskara den ohiko hizkuntza.","Erabilera naturala eta belaunaldien arteko transmisioa bermatzen dute.","Fishman: transmisioa familian eta komunitatean da gakoa (GIDS eskala).","Txepetx: ezagutza, erabilera eta atxikimendua (motibazioa) elkarri lotuta.","Arriskuak: etxebizitza, migrazioa, turismoa…; babesteko politikak."],
-  "eredua":"Arnasguneak euskaldunak gehiengo nabarmena diren herri edo eremuak dira, non euskara den eguneroko hizkuntza naturala. Garrantzitsuak dira hizkuntza familian eta kalean transmititzen delako, eta Fishmanen arabera belaunaldien arteko transmisioa da hizkuntza baten biziraupenaren gakoa. Txepetxen ikuspegitik, arnasguneetan ezagutzak, erabilerak eta atxikimenduak elkar elikatzen dute. Horregatik, etxebizitza-arazoak edo jende-mugimenduak arrisku dira, eta babestu egin behar dira."},
- {"id":"g10","arloa":"Dialektologia","izenburua":"Testu dialektal bat",
-  "testua":"«Gure aitak esan eban gaur etorriko zala, baina nik ez dot uste etorriko danik.»",
-  "galdera":"Zein euskalkitan idatzita dago esaldia? Identifikatu euskalki hori ezagutzeko balio duten bi ezaugarri, eman esaldiaren bertsioa euskara batuan, eta azaldu zer balio duten euskalkiek gaur egun.",
-  "gakoak":["Euskalkia: mendebalekoa (bizkaiera).","Adizkiak: «dot» (dut), «eban» (zuen).","«zala», «danik» (zela, denik): a/e txandaketa.","Batuera: «Gure aitak esan zuen gaur etorriko zela, baina nik ez dut uste etorriko denik.»","Euskalkien balioa: aniztasuna, identitatea, batuaren aberasgarri."],
-  "eredua":"Esaldia mendebaleko euskalkian dago. Bi ezaugarri: adizki laguntzaileak, «dot» (batuan «dut») eta «eban» («zuen»); eta «zala» eta «danik» bezalako formak, batuan «zela» eta «denik». Batuan: «Gure aitak esan zuen gaur etorriko zela, baina nik ez dut uste etorriko denik.» Euskalkiak ez dira akatsak: euskararen aniztasunaren erakusgarri dira, hiztunen identitatearen parte, eta batua aberasteko iturri."}
+ {
+  "id": "g01",
+  "arloa": "Soziolinguistika",
+  "izenburua": "«Estatu bat, hizkuntza bat»",
+  "galdera": "Ohikoa al da «Estatu bat, hizkuntza bat» eskema munduan? Azaldu zer ondorio dituen hizkuntza txiki eta gutxituentzat, euskararen adibidea erabiliz.",
+  "gakoak": [
+   "Munduan 6.000-7.000 hizkuntza daude eta 200 inguru estatu: eleaniztasuna da egoera ohikoena.",
+   "Eskemak hizkuntza bakarra jartzen du nagusi (administrazioa, hezkuntza, hedabideak).",
+   "Beste hizkuntzak gutxitzen dira: prestigio- eta erabilera-galera, ordezkapen-arriskua.",
+   "Euskararen kasua: lurralde zatitua, estatus juridiko desberdinak (EAE, Nafarroa, Ipar Euskal Herria).",
+   "Hizkuntza-eskubideak aipatzen dira irtenbide edo babes gisa."
+  ],
+  "eredua": "Ez da ohikoa: munduan 6.000 hizkuntza baino gehiago daude eta 200 inguru estatu baino ez; beraz, eleaniztasuna da arauzkoa. «Estatu bat, hizkuntza bat» ereduak hizkuntza bakarrari ematen dizkio funtzio ofizial eta prestigiodunak, eta besteak etxera eta lagunartera baztertzen ditu. Euskararen kasuan, gainera, lurraldea administratiboki zatituta dago: EAEn ofiziala da, Nafarroan eremuaren arabera, eta Ipar Euskal Herrian ez du ofizialtasunik. Horregatik dira garrantzitsuak hizkuntza-eskubideak."
+ },
+ {
+  "id": "g07",
+  "arloa": "Dialektologia",
+  "izenburua": "Euskalkien jatorria",
+  "galdera": "Askotan entzun izan da euskalkiak erromatarren aurreko tribuetatik datozela. Zer dio egungo ikerketak euskalkien jatorriaz? Azaldu.",
+  "gakoak": [
+   "Euskalkiak Erdi Aroan sortu ziren, X. mendea baino lehentxeago.",
+   "Aurretik euskara homogeneoago bat zegoen: Euskara Batu Zaharra.",
+   "Euskalkiak geroagoko zatiketen ondorioa dira, dinamika soziopolitiko eta kulturalen eraginez.",
+   "Tribuekin edo elizbarruti zaharrekin lotzea uste zahar okerra da.",
+   "Zatiketak arian-arian gertatu dira, eta gaurko euskalki eta hizkerak horien isla dira."
+  ],
+  "eredua": "Egungo ikerketaren arabera, euskalkiak ez datoz erromatarren aurreko tribuetatik, ezta elizbarruti zaharretatik ere. Erdi Aroan sortu ziren, X. mendea baino lehentxeago, euskara batuago edo homogeneoago baten ondoren (Euskara Batu Zaharra deitzen zaio). Handik aurrera, garai bakoitzeko dinamika sozial eta politikoen eraginez, hizkera hura zatituz joan zen, eta zatiketa horien isla dira gaur ezagutzen ditugun euskalki eta hizkerak."
+ },
+ {
+  "id": "g02",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Maileguak eta kalkoak",
+  "galdera": "Azaldu zer den mailegua eta zer den kalkoa, eta nola bereiz daitezkeen (Mitxelenaren irizpidea). Eman bakoitzaren adibide bat gutxienez.",
+  "gakoak": [
+   "Mailegua: beste hizkuntza batetik hitz bat hartzea, askotan euskarara egokituta (adib. telebista, kafe).",
+   "Kalkoa: beste hizkuntzaren egitura edo esapide bat hitzez hitz itzultzea.",
+   "Mitxelenaren irizpidea: kalkoa da hizkuntzak berez baliabideak izan arren beste baten eredua hartzea.",
+   "Kalko-adibide bat (adib. «zeinetan» erako erlatiboak, «egun on bat izan»).",
+   "Maileguak ez dira berez txarrak: hizkuntza guztiek dituzte."
+  ],
+  "eredua": "Mailegua beste hizkuntza batetik hartutako hitza da, gehienetan euskararen ahoskera eta idazkerara egokitua: telebista edo kafe, adibidez. Kalkoa, berriz, beste hizkuntza baten egitura edo esapidea hitzez hitz itzultzea da. Mitxelenaren irizpidearen arabera, kalkoa da euskarak zerbait adierazteko bere baliabideak izan arren beste hizkuntzaren eredua hartzea: «zeinetan bizi naizen etxea» (gaztelaniazko «en la que»), «etxea, non bizi naizen» edo «bizi naizen etxea» esan beharrean."
+ },
+ {
+  "id": "g11",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Mitxelenaren esaldia",
+  "galdera": "«Euskararen benetako misterioa ez da bere jatorria, ezpada iraun izana» (Koldo Mitxelena). Azaldu zer esan nahi duen esaldiak eta zer lotura duen euskararen historiarekin.",
+  "gakoak": [
+   "Euskara hizkuntza isolatua da: ez da indoeuroparra eta ez du ahaiderik ezagunik.",
+   "Jatorriari buruzko teoriak egon dira, baina ez dago frogarik.",
+   "Inguruko hizkuntzak latinizatu ziren (erromatartzea), eta euskarak iraun zuen.",
+   "Iraupena faktore historiko eta sozialen emaitza da, eta azken mendeetan atzerakada izan du.",
+   "Esaldiaren gaurkotasuna: biziraupena ez da ziurra; biziberritzea behar da."
+  ],
+  "eredua": "Euskara hizkuntza isolatua da: ez da indoeuroparra, eta ez zaio ahaiderik ezagutzen. Horregatik jatorriari buruzko teoriak ugari izan dira, frogarik gabe gehienak. Mitxelenaren ustez, ordea, harrigarriena ez da nondik datorren, baizik eta iraun izana: inguruko hizkuntza ia guztiak latinaren eraginez desagertu ziren, eta euskarak, mendeetan atzera eginda ere, bizirik jarraitzen du. Iraupen hori ez da betikoa: gaur egun ere hiztunen erabileraren eta transmisioaren menpe dago."
+ },
+ {
+  "id": "g03",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Kode-alternantzia",
+  "testua": "—Aizu, gaur entsegua daukagu, ezta?\n—Bai, baina primero bazkaldu behar dut, eh.\n—Vale, ondoren deituko dizut. Ah, eta ekarri gitarra, porfa.",
+  "galdera": "Irakurri elkarrizketa. Identifikatu kode-alternantziaren adibideak, azaldu zer den fenomeno hori, zergatik gertatzen den eta zer ondorio izan ditzakeen euskararentzat.",
+  "gakoak": [
+   "Definizioa: elkarrizketa berean hizkuntzak txandakatzea.",
+   "Adibideak testutik: «primero», «vale», «porfa».",
+   "Zergatiak: ohitura, adierazkortasuna, identitatea, hitza ez etortzea, erosotasuna.",
+   "Mailegutik bereiztea: hitza ez da euskarara egokitu, hiztunak hizkuntzaz aldatzen du.",
+   "Ondorioak hizkuntza gutxitu batean: erdararen presentzia normalizatzea; norberaren jarrerari buruzko hausnarketa."
+  ],
+  "eredua": "Elkarrizketan kode-alternantzia dago: hiztunek euskaraz hitz egiten dute, baina «primero», «vale» eta «porfa» gaztelaniaz txertatzen dituzte. Kode-alternantzia elkarrizketa berean hizkuntzak txandakatzea da, eta ez da mailegua, hitzak ez baitira euskarara egokitzen. Ohituragatik, adierazkortasunagatik edo identitateagatik gertatzen da, batez ere gazteen artean. Euskara bezalako hizkuntza gutxitu batean, ordea, erdararen presentzia areagotu eta normalizatu dezake."
+ },
+ {
+  "id": "g08",
+  "arloa": "Dialektologia",
+  "izenburua": "Bonaparte eta Zuazo",
+  "galdera": "Alderatu Louis-Lucien Bonaparteren (XIX. mendea) eta Koldo Zuazoren (gaur egun) euskalkien sailkapenak. Zer erakusten du konparazioak euskararen azken 150 urteetako bilakaeraz?",
+  "gakoak": [
+   "Bonaparteren mapa (1863) lehen sailkapen zientifikoa da, Euskal Herrian eta Europan aurrekari.",
+   "Zuazoren sailkapena da gaur zabalen onartua (Euskalkiak, 2014).",
+   "Zuazoren euskalkiak izendatzen dira: mendebalekoa, erdialdekoa, nafarra, nafar-lapurtarra, zuberotarra (eta ekialdeko nafarra, galdua).",
+   "Konparazioak galera erakusten du: euskararen eremua txikitu da (Araba, Nafarroa hegoaldea, ekialdeko hizkerak).",
+   "Izenak aldatu dira: probintzien izenen ordez, eremu geografiko-linguistikoak."
+  ],
+  "eredua": "Bonapartek 1863an argitaratu zuen euskalkien lehen mapa zientifikoa, eta gaur Koldo Zuazoren sailkapena da onartuena: mendebalekoa, erdialdekoa, nafarra, nafar-lapurtarra eta zuberotarra, eta galdutako ekialdeko nafarra. Bi mapak alderatuz gero, argi ikusten da euskararen eremua txikitu egin dela: Arabako eta Nafarroa hegoaldeko hizkera asko desagertu dira, baita erronkariera eta zaraitzuera ere. Gainera, Zuazok probintzien izenak saihesten ditu, euskalkien mugak ez baitatoz bat muga administratiboekin."
+ },
+ {
+  "id": "g04",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Diglosia dago?",
+  "testua": "Ipar Euskal Herriko herri batean, herritar askok euskaraz egiten dute etxean eta lagunartean, baina udaletxeko eta administrazioko harrera, paperak eta jakinarazpenak frantsesez bakarrik egiten dira.",
+  "galdera": "Egoera horretan diglosiarik badago? Arrazoitu zure erantzuna, diglosia kontzeptua azalduz.",
+  "gakoak": [
+   "Diglosiaren definizioa: hizkuntzen (edo aldaeren) banaketa funtzionala, funtzio altu eta baxuekin.",
+   "Fergusonen (aldaera beraren) eta Fishmanen (hizkuntza desberdinen) ikuspegiak.",
+   "Egoeran: frantsesa funtzio formal eta ofizialetan, euskara etxe eta lagunartean: diglosia dago.",
+   "Elebitasuna (norbanakoa) eta diglosia (gizartea) bereiztea.",
+   "Ondorioak: euskararen prestigio-galera eta ordezkapen-arriskua."
+  ],
+  "eredua": "Bai, diglosia dago. Diglosia gizarte batean bi hizkuntzak funtzio desberdinak dituzteneko egoera da: batak funtzio altuak (administrazioa, hezkuntza formala) eta besteak baxuak (etxea, lagunartea). Fergusonek aldaera beraren banaketaz hitz egin zuen, eta Fishmanek hizkuntza desberdinetara zabaldu zuen kontzeptua. Adibidean, frantsesak funtzio ofizial guztiak betetzen ditu eta euskara esparru informaletara mugatzen da. Herritarrak elebidunak izan daitezke, baina gizartea diglosikoa da, eta horrek euskararen prestigioa eta etorkizuna ahultzen ditu."
+ },
+ {
+  "id": "g12",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Lehen lekukotasunak",
+  "galdera": "Denboran atzera egingo duzu bidaia batean. Aukeratu euskararen historiako hiru mugarri (akitaniera, Erdi Aroko glosak, Etxepare, Leizarraga, Larramendi) eta azaldu bakoitzaren garrantzia. Zergatik du Etxepareren liburuak «Linguae Vasconum Primitiae» izenburua?",
+  "gakoak": [
+   "Akitaniera: euskara-antzeko lehen lekukotasunak, erromatar garaiko izenak harrietan.",
+   "Erdi Aroko glosak: euskarazko lehen esaldi idatzi ezagunetakoak.",
+   "Etxepare (1545): euskarazko lehen liburu inprimatua; izenburuak «euskaldunen lehen fruituak» esan nahi du eta euskara idatziaren hasiera aldarrikatzen du.",
+   "Leizarraga (1571): Testamentu Berriaren lehen itzulpena.",
+   "Larramendi: lehen gramatika (El imposible vencido, 1729) eta hiztegia (1745); euskara arauak dituen hizkuntza dela erakutsi."
+  ],
+  "eredua": "Lehenengo geltokia akitaniera litzateke: erromatar garaiko harrietako izenetan euskara-antzeko hizkuntza baten lehen aztarnak ageri dira. Bigarrena, Bernat Etxepareren Linguae Vasconum Primitiae (1545), euskarazko lehen liburu inprimatua; izenburuak «euskaldunen lehen fruituak» esan nahi du, eta euskara ere idatzizko hizkuntza izan zitekeela aldarrikatzen du. Hirugarrena, Larramendiren El imposible vencido (1729): lehen gramatika da, eta izenburuak berak erakusten du euskara arau gabeko hizkuntza zelako ustea gainditu nahi zuela."
+ },
+ {
+  "id": "g05",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Ezagutza eta erabilera",
+  "galdera": "Euskal Herrian euskara dakitenen kopurua handitu egin da azken hamarkadetan, baina erabilera ez da neurri berean hazi. Zer faktorek eragiten dute alde hori? Arrazoitu, zure inguruko adibideak erabiliz.",
+  "gakoak": [
+   "Ezagutza eta erabilera bereiztea.",
+   "Dentsitatea eta sare sozialak: euskaldunen proportzioa inguruan.",
+   "Gaitasun erlatiboa eta erosotasuna (zein hizkuntzatan errazago).",
+   "Harremanen hizkuntza-ohiturak (lehen hizkuntza finkatzea).",
+   "Aisialdia, hedabideak, euskaldun-motak (berriak, hartzaileak), motibazioa; norberaren adibideak."
+  ],
+  "eredua": "Euskara jakitea ez da nahikoa hura erabiltzeko. Lehenik, dentsitatea dago: euskaldunak gutxiengo diren inguruan, elkarrizketa askotan erdara nagusitzen da. Bigarrenik, gaitasun erlatiboa: euskaldun berri askok errazago egiten dute gaztelaniaz. Hirugarrenik, harremanen ohiturak: lagun batekin gaztelaniaz hasi bazinen, zaila da hizkuntzaz aldatzea. Nire ikastetxean, adibidez, gelan euskaraz aritzen gara, baina patioan gaztelania nagusitzen da. Aisialdiko eskaintzak eta motibazioak ere eragiten dute."
+ },
+ {
+  "id": "g09",
+  "arloa": "Dialektologia",
+  "izenburua": "Euskara batua",
+  "galdera": "Noiz eta zertarako sortu zen euskara batua? Zergatik hartu zituen oinarritzat erdialdeko hizkerak, eta zer harreman izan behar luke euskalkiekin?",
+  "gakoak": [
+   "Euskaltzaindiaren lana; 1968ko Arantzazuko biltzarra mugarria.",
+   "Helburua: eredu estandar eta bateratzailea (eskola, administrazioa, hedabideak, literatura).",
+   "Oinarria: Gipuzkoa ekialdeko, Lapurdiko eta Nafarroa mendebaleko hizkerak.",
+   "Arrazoiak: hiztun-masa, ulergarritasuna, literatur tradizioa eta ospea.",
+   "Malgutasuna eta euskalkiekiko elkarelikadura; ez ditu euskalkiak ordezkatu behar."
+  ],
+  "eredua": "Euskara batua Euskaltzaindiak bultzatu zuen, eta 1968ko Arantzazuko biltzarra izan zen mugarri nagusia. Helburua euskaldun guztiontzako eredu estandar bat sortzea zen, eskolan, administrazioan eta hedabideetan erabiltzeko. Oinarritzat Gipuzkoa ekialdeko, Lapurdiko eta Nafarroa mendebaleko hizkerak hartu ziren, hiztun asko zituztelako, ulergarriak zirelako eta literatur tradizio handia zutelako. Batuak ez ditu euskalkiak ordezkatu behar: elkarri elikatu behar diote."
+ },
+ {
+  "id": "g06",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Arnasguneak eta biziberritzea",
+  "galdera": "Azaldu zer diren arnasguneak eta zergatik diren garrantzitsuak euskararen biziraupenerako. Lotu zure azalpena Fishmanen edo Txepetxen ekarpenekin.",
+  "gakoak": [
+   "Arnasgunea: euskaldunak gehiengo nabarmena diren eremua, non euskara den ohiko hizkuntza.",
+   "Erabilera naturala eta belaunaldien arteko transmisioa bermatzen dute.",
+   "Fishman: transmisioa familian eta komunitatean da gakoa (GIDS eskala).",
+   "Txepetx: ezagutza, erabilera eta atxikimendua (motibazioa) elkarri lotuta.",
+   "Arriskuak: etxebizitza, migrazioa, turismoa…; babesteko politikak."
+  ],
+  "eredua": "Arnasguneak euskaldunak gehiengo nabarmena diren herri edo eremuak dira, non euskara den eguneroko hizkuntza naturala. Garrantzitsuak dira hizkuntza familian eta kalean transmititzen delako, eta Fishmanen arabera belaunaldien arteko transmisioa da hizkuntza baten biziraupenaren gakoa. Txepetxen ikuspegitik, arnasguneetan ezagutzak, erabilerak eta atxikimenduak elkar elikatzen dute. Horregatik, etxebizitza-arazoak edo jende-mugimenduak arrisku dira, eta babestu egin behar dira."
+ },
+ {
+  "id": "g10",
+  "arloa": "Dialektologia",
+  "izenburua": "Testu dialektal bat",
+  "testua": "«Gure aitak esan eban gaur etorriko zala, baina nik ez dot uste etorriko danik.»",
+  "galdera": "Zein euskalkitan idatzita dago esaldia? Identifikatu euskalki hori ezagutzeko balio duten bi ezaugarri, eman esaldiaren bertsioa euskara batuan, eta azaldu zer balio duten euskalkiek gaur egun.",
+  "gakoak": [
+   "Euskalkia: mendebalekoa (bizkaiera).",
+   "Adizkiak: «dot» (dut), «eban» (zuen).",
+   "«zala», «danik» (zela, denik): a/e txandaketa.",
+   "Batuera: «Gure aitak esan zuen gaur etorriko zela, baina nik ez dut uste etorriko denik.»",
+   "Euskalkien balioa: aniztasuna, identitatea, batuaren aberasgarri."
+  ],
+  "eredua": "Esaldia mendebaleko euskalkian dago. Bi ezaugarri: adizki laguntzaileak, «dot» (batuan «dut») eta «eban» («zuen»); eta «zala» eta «danik» bezalako formak, batuan «zela» eta «denik». Batuan: «Gure aitak esan zuen gaur etorriko zela, baina nik ez dut uste etorriko denik.» Euskalkiak ez dira akatsak: euskararen aniztasunaren erakusgarri dira, hiztunen identitatearen parte, eta batua aberasteko iturri."
+ },
+ {
+  "id": "g13",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Hizkuntza handiak eta txikiak",
+  "galdera": "Zergatik ditu ingelesak hainbeste milioi hiztun, eta euskarak ez? Bereizi hizkuntza handiak, txikiak eta gutxituak, eta kokatu euskara sailkapen horretan.",
+  "gakoak": [
+   "Hizkuntza baten tamaina ez da hizkuntza-ezaugarria, faktore historiko-politikoen ondorioa baizik.",
+   "Ingelesaren hedapena: kolonizazioa, inperioa, ekonomia eta kultura-industria.",
+   "Hizkuntza handia/txikia: hiztun-kopurua; gutxitua: estatus eta erabilera mugatuak, beste hizkuntza baten menpe.",
+   "Euskara txikia eta gutxitua da: ia milioi bat hiztun, eta erdaren menpeko egoera.",
+   "Hizkuntza «erraldoien» hazkundeak beste hizkuntza batzuen gutxitzea ekarri du."
+  ],
+  "eredua": "Ingelesaren tamaina ez dator hizkuntzatik bertatik, historiatik baizik: kolonizazioak, Britainiar Inperioak eta, geroago, AEBen botere ekonomiko eta kulturalak mundu osora zabaldu zuten. Hizkuntza handiak hiztun asko dituztenak dira; txikiak, gutxi dituztenak; eta gutxituak, beste hizkuntza baten menpe bizi direnak, estatus eta erabilera mugatuekin. Euskara txikia eta gutxitua da: ia milioi bat hiztun ditu, eta gaztelaniaren eta frantsesaren menpeko egoeran bizi da."
+ },
+ {
+  "id": "g14",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Hizkuntza isolatua eta eranskaria",
+  "galdera": "Zer esan nahi da euskara hizkuntza genetikoki isolatua dela esaten denean? Eta tipologikoki eranskaria dela? Eman adibideak.",
+  "gakoak": [
+   "Isolatua: ez dago frogatuta beste hizkuntza edo familiarekiko ahaidetasunik.",
+   "Europako hizkuntza gehienak indoeuroparrak dira; euskara ez.",
+   "Jatorriari buruzko teoriak (kaukasoarra, iberiarra…) ez dira frogatu.",
+   "Eranskaria: hitzen oinarriei atzizkiak eransten zaizkie (etxe-a-n, etxe-ko-a-ri).",
+   "Tipologia ez da ahaidetasuna: hungariera edo japoniera ere eranskariak dira, ahaide izan gabe."
+  ],
+  "eredua": "Euskara isolatua da: ez zaio ezagutzen ahaiderik, eta ez da Europako hizkuntza gehienen familia indoeuroparrekoa. Teoria asko egon dira (kaukasoarra, iberiarra…), baina bat ere ez da frogatu. Tipologikoki, berriz, eranskaria da: hitzen oinarriari atzizkiak eransten zaizkio, «etxe-a-n» edo «etxe-ko-a-ri» bezala. Ezaugarri hori beste hizkuntza batzuek ere badute, hungarierak edo japonierak adibidez, baina horrek ez du esan nahi ahaideak direnik."
+ },
+ {
+  "id": "g15",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Euskara-islandiera pidgina",
+  "galdera": "XVII. mendean, Islandian balea-ehizan zebiltzan euskal arrantzaleek eta islandiarrek komunikatzeko hizkera bat erabili zuten. Azaldu zer den pidgin bat, zertan bereizten den kreolera batetik, eta zer erakusten digun kasu horrek.",
+  "gakoak": [
+   "Pidgina: hizkuntza komunik ez duten taldeek komunikatzeko sortutako hizkera sinplifikatua.",
+   "Ez da inoren ama-hizkuntza; erabilera mugatua du (merkataritza, lana).",
+   "Kreolera: pidgin bat belaunaldi baten ama-hizkuntza bihurtzen denean, eta osatu egiten da.",
+   "Euskara-islandiera pidgina glosarioetan jaso zen: euskara, ingelesa eta beste hizkuntza batzuen nahasketa.",
+   "Kasuak euskal arrantzaleen nazioarteko presentzia eta hizkuntza-ukipena erakusten ditu."
+  ],
+  "eredua": "Pidgina hizkuntza komunik ez duten taldeek komunikatzeko sortzen duten hizkera sinplifikatua da: ez da inoren ama-hizkuntza, eta lanean edo merkataritzan bakarrik erabiltzen da. Pidgin bat belaunaldi berri baten ama-hizkuntza bihurtzen denean, osatu eta kreolera bihurtzen da. XVII. mendeko euskara-islandiera pidgina glosarioetan jaso zen, eta erakusten du euskal baleazaleak urrutiko itsasoetan ibiltzen zirela eta euskara nazioarteko ukipen-egoeretan ere erabili zela."
+ },
+ {
+  "id": "g16",
+  "arloa": "Dialektologia",
+  "izenburua": "Bidaia euskalkietan barrena",
+  "galdera": "Bilbotik Maulera bidaiatuko duzu, Euskal Herria mendebaletik ekialdera zeharkatuz. Zein euskalkiren eremuak igaroko dituzu (Koldo Zuazoren sailkapenaren arabera)? Aipatu horietako biren ezaugarriren bat.",
+  "gakoak": [
+   "Bost euskalki bizi izendatzen dira: mendebalekoa, erdialdekoa, nafarra, nafar-lapurtarra, zuberotarra.",
+   "Ordena geografikoa zuzena da (mendebaletik ekialdera).",
+   "Mendebaleko euskalkiaren ezaugarri bat (adib. «dot», «dozu» adizkiak).",
+   "Zuberotarraren ezaugarri bat (adib. ü bokala, h ahoskatua).",
+   "Euskalkien mugak ez datoz bat muga administratiboekin."
+  ],
+  "eredua": "Bilbon mendebaleko euskalkiaren eremuan hasiko nintzateke, eta Gipuzkoan erdialdekoa entzungo nuke. Nafarroa iparraldean nafarra, Lapurdin eta Nafarroa Beherean nafar-lapurtarra, eta Maulen, azkenik, zuberotarra. Mendebaleko euskalkian «dot» eta «dozu» bezalako adizkiak entzungo nituzke («dut», «duzu» batuan), eta zuberotarran ü bokala eta h ahoskatua. Euskalkien mugak ez datoz bat probintzien mugekin."
+ },
+ {
+  "id": "g17",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Euskaldun-motak",
+  "galdera": "Azaldu zer diren euskaldun zaharrak, euskaldun berriak eta hiztun hartzaileak. Zer aurreiritzi egon ohi dira horien inguruan, eta zer iritzi duzu?",
+  "gakoak": [
+   "Euskaldun zaharrak (natiboak): euskara etxean jaso dutenak, ama-hizkuntza gisa.",
+   "Euskaldun berriak: euskara eskolan edo helduaroan ikasi dutenak.",
+   "Hartzaileak: ulertzen dute, baina ez dute ia hitz egiten.",
+   "Aurreiritziak: «benetako euskalduna» natiboa bakarrik dela, berrien euskara «okerra» dela…",
+   "Iritzi arrazoitua: hiztun berriak ezinbestekoak dira euskararen etorkizunerako."
+  ],
+  "eredua": "Euskaldun zaharrak euskara etxean, ama-hizkuntza gisa, jaso dutenak dira. Euskaldun berriek, berriz, eskolan edo helduaroan ikasi dute. Hartzaileek ulertzen dute, baina ia ez dute hitz egiten. Askotan entzuten da «benetako» euskaldunak natiboak direla edo berrien euskara ez dela naturala. Nire ustez, aurreiritzi horiek kaltegarriak dira: gaur egun euskaldun gehienak berriak dira, eta haiek gabe euskarak ez luke etorkizunik izango."
+ },
+ {
+  "id": "g18",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Frantziako Iraultza",
+  "galdera": "Zer ondorio izan zituen Frantziako Iraultzak euskararentzat Ipar Euskal Herrian? Lotu gaur egungo egoerarekin.",
+  "gakoak": [
+   "Iraultzak «nazio bat, hizkuntza bat» ideia ezarri zuen: frantsesa hizkuntza bakar.",
+   "Gainerako hizkuntzak («patois») desagerrarazteko politika (Grégoireren txostena, 1794).",
+   "Eskola eta administrazioa frantsesez; euskara gutxietsia eta eskolan zigortua.",
+   "Ondorioa: transmisioaren etena eta erabileraren galera luzean.",
+   "Gaur: euskarak ez du ofizialtasunik Ipar Euskal Herrian."
+  ],
+  "eredua": "Frantziako Iraultzak nazio bakar eta hizkuntza bakar baten ideia ezarri zuen: frantsesa zen herritartasunaren hizkuntza, eta gainerakoak, «patois» gisa gutxietsiak, desagertu beharrekoak ziren (Grégoireren txostena, 1794). Eskola eta administrazioa frantsesez antolatu ziren, eta euskara eskolan zigortu ere egin zen. Horrek, denborarekin, belaunaldien arteko transmisioa eten zuen. Gaur egun ere euskarak ez du ofizialtasunik Ipar Euskal Herrian."
+ },
+ {
+  "id": "g19",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Dendan, zein hizkuntzatan?",
+  "galdera": "Denda batera sartu zara eta atzerritik etorritako dendari bat aurkitu duzu. Zein hizkuntzatan zuzenduko zatzaizkio, eta zergatik? Hausnartu hizkuntza-aurreiritziei buruz.",
+  "gakoak": [
+   "Hautua arrazoitzen da (euskaraz hasi, edo ez).",
+   "Aurreiritzia identifikatzen da: itxuragatik euskaraz ez dakiela suposatzea.",
+   "Etorkinek euskara ikasteko eta erabiltzeko aukera izatea (integrazioa).",
+   "Hizkuntza-eskubideak eta hizkuntza-ohiturak (erdarara aldatzeko joera).",
+   "Irtenbide praktikoak: euskaraz hasi, ulertzen ez badu egokitu; Euskaraldiko rolak."
+  ],
+  "eredua": "Euskaraz hasiko nintzateke. Askotan, itxuragatik edo azentuagatik euskaraz ez dakiela suposatzen dugu, eta zuzenean gaztelaniara aldatzen gara; hori aurreiritzia da. Etorkin askok euskara ikasi dute edo ikasten ari dira, eta guk erdaraz eginez gero, aukera hori kentzen diegu. Ulertzen ez badu, egokitu egingo nintzateke, baina lehen hitza euskaraz izango litzateke. Horixe da Euskaraldiak proposatzen duena."
+ },
+ {
+  "id": "g20",
+  "arloa": "Dialektologia",
+  "izenburua": "Batua eta euskalkiak, elkarri",
+  "galdera": "Azaldu euskalkiek eta euskara batuak elkarri egin diezazkioketen hiru ekarpen.",
+  "gakoak": [
+   "Batuak euskalkiei: idazketa-eredua, hiztun guztien arteko komunikazioa, prestigioa eta esparru formalak.",
+   "Euskalkiek batuari: lexikoa, esamoldeak, adierazkortasuna eta naturaltasuna.",
+   "Batuaren malgutasuna: tokian tokiko «koloreak» onartzen ditu.",
+   "Elkarelikadura beharrezkoa da: ez dira etsaiak.",
+   "Adibide zehatz bat gutxienez."
+  ],
+  "eredua": "Lehenik, batuak euskalki guztietako hiztunei elkar ulertzeko eta idazteko eredu komun bat ematen die, eta eskola, administrazio eta hedabideetako esparru formaletan sartzeko aukera. Bigarrenik, euskalkiek batua aberasten dute: hitz, esamolde eta adierazkortasun naturala ematen diote, batua hizkera artifizial bihur ez dadin. Hirugarrenik, batua malgua da, eta tokian tokiko koloreak onartzen ditu: hiztun batek bere euskalkiko formak erabil ditzake testuinguru informaletan."
+ },
+ {
+  "id": "g21",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Elebitasuna eta diglosia",
+  "galdera": "«Elebiduna izatea» eta «gizarte diglosiko batean bizitzea» ez dira gauza bera. Azaldu bien arteko aldea, adibideekin.",
+  "gakoak": [
+   "Elebitasuna: norbanakoaren gaitasuna bi hizkuntza erabiltzeko.",
+   "Diglosia: gizartean hizkuntzek funtzio desberdinak eta prestigio desberdina izatea.",
+   "Elebiduna izan daiteke norbait diglosiarik gabeko gizartean, eta alderantziz.",
+   "Euskal Herriko adibidea: euskaldun gehienak elebidunak dira, eta gizartean erdarak funtzio gehiago ditu.",
+   "Diglosiaren ondorioa: hizkuntza ahularen ordezkapena, edo, batzuetan, biziraupena funtzio jakinetan."
+  ],
+  "eredua": "Elebitasuna norbanakoaren ezaugarria da: bi hizkuntza ezagutzea eta erabiltzea. Diglosia, berriz, gizartearena: bi hizkuntzak funtzio eta prestigio desberdinekin banatuta egotea. Pertsona elebidun bat diglosiarik gabeko gizarte batean bizi daiteke, eta gizarte bat diglosikoa izan daiteke hiztun elebakarrekin ere. Euskal Herrian ia euskaldun guztiak elebidunak dira, eta gizartean gaztelaniak eta frantsesak funtzio gehiago dituzte: elebitasuna eta diglosia batera daude."
+ },
+ {
+  "id": "g22",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "El imposible vencido",
+  "galdera": "Zergatik du euskararen lehen gramatikak (Larramendi, 1729) «El imposible vencido» izenburua? Kokatu lana bere garaian.",
+  "gakoak": [
+   "Egilea Manuel Larramendi (XVIII. mendea); gramatika 1729an eta hiztegi hirueledun bat 1745ean.",
+   "Garai hartan euskara arau gabeko hizkuntza zela, idazteko eta irakasteko «ezinezkoa», uste zen.",
+   "Izenburuak «ezina» gainditu dela aldarrikatzen du: euskarak gramatika du.",
+   "Apologia: euskararen defentsa eta duintasuna.",
+   "Lanak eragina izan zuen euskararen idazketan eta ondorengo idazleengan."
+  ],
+  "eredua": "Manuel Larramendik 1729an argitaratu zuen euskararen lehen gramatika, eta 1745ean hiztegi hirueledun bat. Garai hartan, askoren ustez euskara arau gabeko hizkuntza zen, eta ezinezkoa zen hura gramatika batean biltzea. Izenburuak, beraz, erronka hori gainditu dela adierazten du: «ezina» garaitu da, eta euskarak, beste hizkuntzek bezala, arauak ditu. Lana euskararen defentsa ere bada, eta eragin handia izan zuen."
+ },
+ {
+  "id": "g23",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Ordezkapena eta heriotza",
+  "galdera": "Zein dira hizkuntza baten ordezkapena eta heriotza eragin dezaketen faktore nagusiak? Identifikatu horietakoren bat zure eguneroko errealitatean.",
+  "gakoak": [
+   "Bi faktore nagusi: hiztunek hizkuntza ez erabiltzea, eta hurrengo belaunaldiari ez transmititzea.",
+   "Hiztun-komunitate sendo baten beharra.",
+   "Beste faktore batzuk: prestigio falta, estatus juridiko ahula, hizkuntza nagusiaren presioa.",
+   "Ordezkapen-moten aipamena (adib. euskalki batzuen galera).",
+   "Norberaren inguruko adibide zehatza."
+  ],
+  "eredua": "Hizkuntza bat bi arrazoi nagusirengatik ordezkatzen da: hiztunek ez dutelako erabiltzen eta ez dutelako hurrengo belaunaldiari transmititzen. Horren atzean prestigio falta, babes juridiko ahula eta hizkuntza nagusiaren presioa egon ohi dira. Erronkarieraren kasua adibide garbia da. Nire inguruan, adibidez, euskaraz dakiten guraso batzuek gaztelaniaz egiten diete seme-alabei, erosoago sentitzen direlako; hori transmisio-etena da."
+ },
+ {
+  "id": "g24",
+  "arloa": "Dialektologia",
+  "izenburua": "Erronkariera eta zaraitzuera",
+  "galdera": "Erronkariera eta zaraitzuera galdutako hizkerak dira. Zer gertatu zen, eta zer erakusten digu kasu horrek euskalkien bilakaeraz?",
+  "gakoak": [
+   "Ekialdeko nafarrako hizkerak ziren, Nafarroako ipar-ekialdeko haranetakoak.",
+   "XX. mendean galdu ziren; azken hiztunak mende amaieran hil ziren.",
+   "Arrazoiak: transmisioaren etena, prestigio falta, gaztelaniaren presioa, emigrazioa.",
+   "Ordezkapen-prozesu baten adibidea da.",
+   "Bonaparteren mapan bizirik ageri dira; gaurko mapetan, galduta."
+  ],
+  "eredua": "Erronkariera eta zaraitzuera Nafarroako ipar-ekialdeko haranetako hizkerak ziren, ekialdeko nafarraren barruan. XX. mendean galdu ziren: familiek gaztelaniaz hazi zituzten seme-alabak, euskarak prestigiorik ez zuelako eta emigrazioak haranak hustu zituelako. Azken hiztunak mende amaieran hil ziren. Kasuak ordezkapen-prozesu bat erakusten du, eta argi ikusten da Bonaparteren mapa eta gaurkoak alderatuz gero."
+ },
+ {
+  "id": "g25",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Sare sozialetan, zein hizkuntzatan?",
+  "galdera": "Sare sozial batean kontua ireki nahi duzu, zuk sortutako edukiak igotzeko, baina zalantza duzu: zein hizkuntzatan igoko dituzu? Azaldu eta arrazoitu zure hautua.",
+  "gakoak": [
+   "Hautu argia eta arrazoitua.",
+   "Audientziaren tamaina eta hizkuntza-komunitatearen arteko tentsioa.",
+   "Algoritmoak eta euskarazko edukiaren eskasia.",
+   "Euskara esparru berrietan erabiltzearen garrantzia (normalizazioa, gazteentzako ereduak).",
+   "Aukera eleanitzak (azpitituluak, bi hizkuntzak)."
+  ],
+  "eredua": "Euskaraz igoko nituzke, azpitituluekin gaztelaniaz edo ingelesez. Badakit euskaraz audientzia txikiagoa izango dudala eta algoritmoek ez dutela euskarazko edukia lehenesten. Hala ere, gazteok sare sozialetan pasatzen dugu denbora asko, eta euskarazko edukirik ez badago, euskara eskolako hizkuntza bihurtzen da. Azpitituluekin, euskaraz ez dakitenek ere ikus dezakete nire lana, eta euskarak esparru berri batean presentzia izango du."
+ },
+ {
+  "id": "g26",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Euskararen atzerakada geografikoa",
+  "galdera": "Euskararen eremua txikitu egin da azken mendeetan. Azaldu atzerakada horren nondik norakoak eta arrazoi nagusiak.",
+  "gakoak": [
+   "Antzina eremu zabalagoa: toponimia eta lekukotasun historikoak.",
+   "Atzerakada nabarmena Araban eta Nafarroa erdialde-hegoaldean, batez ere XVIII-XX. mendeetan.",
+   "Mapen konparazioa (adib. Bonaparte 1863 eta gaurkoak).",
+   "Arrazoiak: hirien, merkataritzaren, eskolaren eta administrazioaren hizkuntza erdara; prestigio falta.",
+   "Industrializazioa eta migrazioak; azken hamarkadetako berreskurapena ezagutzan."
+  ],
+  "eredua": "Toponimiak eta lekukotasun historikoek erakusten dute euskara gaur baino eremu zabalagoan hitz egiten zela. Azken mendeetan, batez ere XVIII.etik XX.era, atzera egin zuen Araban eta Nafarroako erdialde eta hegoaldean, Bonaparteren 1863ko mapa eta gaurkoak alderatuta ikus daitekeen bezala. Arrazoi nagusiak: hirietan, merkataritzan, eskolan eta administrazioan erdara nagusitu zen, eta euskarak prestigioa galdu zuen. Industrializazioak eta migrazioek ere eragin zuten."
+ },
+ {
+  "id": "g27",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Hezkuntza-ereduak",
+  "galdera": "Zergatik daude EAEko hezkuntzan hizkuntza-eredu bat baino gehiago (A, B eta D)? Zer eragin izan dute euskararen ezagutzan?",
+  "gakoak": [
+   "Ereduak 1980ko hamarkadan ezarri ziren, euskara normalizatzeko legearen ondoren.",
+   "A: gaztelaniaz, euskara ikasgai; B: bi hizkuntzetan; D: euskaraz, gaztelania ikasgai.",
+   "Familien aukera-askatasuna eta egoera soziolinguistiko desberdinak.",
+   "Eragina: gazteen artean euskararen ezagutza asko hazi da; D eredua nagusitu da.",
+   "Muga: ezagutza ez da erabilera; gaurko eztabaida ereduen inguruan."
+  ],
+  "eredua": "Hizkuntza-ereduak 1980ko hamarkadan ezarri ziren EAEn, euskara normalizatzeko legearen ondoren, familia bakoitzak hizkuntza-eredua aukeratu ahal izateko. A ereduan gaztelaniaz ikasten da eta euskara ikasgaia da; B ereduan bi hizkuntzak erabiltzen dira; D ereduan euskaraz ikasten da. Emaitza nabarmena izan da: gazte gehienak euskaldunak dira gaur, eta D eredua nagusi da. Hala ere, ezagutzak ez dakar automatikoki erabilera."
+ },
+ {
+  "id": "g28",
+  "arloa": "Dialektologia",
+  "izenburua": "«Batuak euskalkiak hil ditu»",
+  "galdera": "«Euskara batuak euskalkiak hil ditu.» Ados al zaude esaldiarekin? Arrazoitu zure erantzuna.",
+  "gakoak": [
+   "Iritzi argia eta arrazoitua.",
+   "Euskalkien galera batua sortu baino lehenagokoa da (ordezkapena erdararen eraginez).",
+   "Batuaren helburua ez zen euskalkiak ordezkatzea, eredu komun bat sortzea baizik.",
+   "Batuak euskara esparru berrietara eraman du (eskola, hedabideak).",
+   "Arrisku erreala: hiztun berriek batua bakarrik ezagutzea; elkarelikaduraren beharra."
+  ],
+  "eredua": "Ez nago ados. Euskalkien galera, erronkarieraren kasuan bezala, batua sortu aurretik hasi zen, eta erdararen presioak eragin zuen, ez batuak. Batuaren helburua ez zen euskalkiak ordezkatzea, euskaldun guztiontzako eredu komun bat sortzea baizik, eta horri esker sartu da euskara eskolan eta hedabideetan. Egia da hiztun berri askok batua bakarrik ezagutzen dutela, baina horren aurrean euskalkiak ere zaindu eta erabili behar dira."
+ },
+ {
+  "id": "g29",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Euskaraldia: ahobizi eta belarriprest",
+  "galdera": "Euskaraldian, zer da ahobizi izatea eta zer belarriprest izatea? Zer onura ditu hautu bakoitzak?",
+  "gakoak": [
+   "Euskaraldia: hizkuntza-ohiturak aldatzeko ariketa soziala (lehena 2018an).",
+   "Ahobizi: euskaraz egiten die ulertzen duten guztiei, eta ezezagunei, hasieran behintzat.",
+   "Belarriprest: nahi du besteek euskaraz egin diezaioten; berak ahal duen moduan erantzuten du.",
+   "Onurak: euskararen erabilera handitzea, ohiturak aldatzea, ulertzen dutenen sarea ikusaraztea.",
+   "Belarriprest egokia da euskaraz ulertu baina erraz hitz egiten ez dutenentzat."
+  ],
+  "eredua": "Euskaraldia hizkuntza-ohiturak aldatzeko ariketa soziala da, 2018an egin zen lehen aldiz. Ahobiziek euskaraz egiten diete ulertzen duten guztiei, eta ezezagunei ere bai, hasieran behintzat. Belarriprestek, berriz, euskaraz egin diezaieten eskatzen dute, nahiz eta beraiek ahal duten moduan erantzun. Ahobizi izateak euskararen erabilera zuzenean handitzen du; belarriprest izateak, berriz, euskara ulertzen duten baina hitz egiteko erraztasunik ez dutenak ere sartzen ditu."
+ },
+ {
+  "id": "g30",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Lehen lekukotasun idatziak",
+  "galdera": "Zein dira euskararen edo euskara-antzeko hizkuntza baten lehen lekukotasun idatziak? Zer informazio ematen digute?",
+  "gakoak": [
+   "Akitaniera: erromatar garaiko inskripzioetako pertsona- eta jainko-izenak.",
+   "Izen horiek euskarazko hitzekin lotzen dira (adib. «andere», «senar»).",
+   "Erdi Aroko glosak: euskarazko lehen esaldi idatzietakoak (Errioxako monasterio batean).",
+   "Toponimia eta agiri zaharretako izenak.",
+   "Ematen duten informazioa: euskararen antzinatasuna eta antzinako hedadura."
+  ],
+  "eredua": "Lehen lekukotasunak akitanierakoak dira: erromatar garaiko inskripzioetan pertsona- eta jainko-izenak ageri dira, eta horietako batzuk euskarazko hitzekin lotzen dira, «andere» edo «senar» bezala. Erdi Aroan, Errioxako monasterio batean idatzitako glosetan, euskarazko lehen esaldietako batzuk aurkitu ziren. Toponimiak eta agiri zaharretako izenek ere informazio ugari ematen dute. Guztiek erakusten dute euskara antzinakoa dela eta gaur baino eremu zabalagoan hitz egiten zela."
+ },
+ {
+  "id": "g31",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Corpus- eta estatus-plangintza",
+  "galdera": "Bereizi corpus-plangintza eta estatus-plangintza, euskararen adibideekin. Zein da Euskaltzaindiaren zeregina?",
+  "gakoak": [
+   "Corpus-plangintza: hizkuntza bera lantzea (araua, ortografia, terminologia, hiztegiak).",
+   "Estatus-plangintza: hizkuntzaren lekua gizartean (legeak, ofizialtasuna, erabilera-esparruak).",
+   "Euskarazko adibideak: batua eta hiztegiak (corpusa); ofizialtasuna, hezkuntza-ereduak, eskakizunak (estatusa).",
+   "Euskaltzaindia: araugintza (batua, arauak, hiztegiak) eta hizkuntzaren zaintza.",
+   "Biak beharrezkoak dira eta elkarri lotuta daude."
+  ],
+  "eredua": "Corpus-plangintzak hizkuntza bera lantzen du: ortografia, gramatika, terminologia eta hiztegiak. Euskaltzaindiak batua eta haren arauak finkatu ditu, eta horixe da corpus-plangintza. Estatus-plangintzak, berriz, hizkuntzaren lekua erabakitzen du gizartean: ofizialtasuna, legeak, hezkuntza-ereduak edo lanpostuetako hizkuntza-eskakizunak. Biak beharrezkoak dira: estandarrik gabe zaila da esparru formaletan sartzea, eta estatusik gabe estandarrak ez du erabilerarik."
+ },
+ {
+  "id": "g32",
+  "arloa": "Dialektologia",
+  "izenburua": "Louis-Lucien Bonaparte",
+  "galdera": "Nor izan zen Louis-Lucien Bonaparte, eta zer garrantzi du bere lanak euskalkien ikerketan?",
+  "gakoak": [
+   "XIX. mendeko hizkuntzalaria, Napoleonen familiakoa.",
+   "1863an euskalkien mapa argitaratu zuen.",
+   "Zortzi euskalki eta hainbat azpieuskalki bereizi zituen.",
+   "Landa-lana eta laguntzaile euskaldunen sarea erabili zituen.",
+   "Garrantzia: lehen sailkapen zientifikoa, Europako dialektologian ere aitzindaria, eta gaurko mapekin alderatzeko oinarria."
+  ],
+  "eredua": "Louis-Lucien Bonaparte XIX. mendeko hizkuntzalaria izan zen, Napoleonen familiakoa. Euskara ikertu zuen, eta 1863an euskalkien mapa argitaratu zuen, zortzi euskalki eta hainbat azpieuskalki bereiziz. Horretarako landa-lana egin zuen, laguntzaile euskaldunen sare batekin. Bere lana euskalkien lehen sailkapen zientifikoa da, Europan ere aitzindaria, eta gaur ere oinarri ezinbestekoa da euskararen azken 150 urteetako galera ikusteko."
+ },
+ {
+  "id": "g33",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Hizkuntza-eskakizunak",
+  "galdera": "Lanpostu publikoetan hizkuntza-eskakizunak ezartzen dira. Aipatu alde eta kontra dauden argudioak, eta eman zure iritzia.",
+  "gakoak": [
+   "Aldeko argudioa: herritarren eskubidea euskaraz artatuak izateko.",
+   "Administrazioaren betebeharra bi hizkuntza ofizialetan.",
+   "Kontrako argudioak: aukera-berdintasuna, langile-eskasia sektore batzuetan.",
+   "Eskakizunen mailakatzea eta denbora-epeak (neurritasuna).",
+   "Iritzi pertsonala, arrazoitua."
+  ],
+  "eredua": "Aldeko argudio nagusia herritarren eskubidea da: euskara ofiziala den lurraldean, herritarrek euskaraz artatuak izateko eskubidea dute, eta administrazioak hori bermatu behar du. Kontrako argudioen arabera, eskakizunek aukera-berdintasuna mugatu dezakete, edo langile-eskasia sortu sektore batzuetan. Nire ustez, eskakizunak beharrezkoak dira, baina lanpostuaren arabera mailakatuta eta euskara ikasteko baliabideekin, inor kanpoan gera ez dadin."
+ },
+ {
+  "id": "g34",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Pizkundetik gaur arte",
+  "galdera": "Aipatu euskararen historia sozialeko hiru une, XIX. mende amaieratik gaur arte (adib. Pizkundea, diktadura, 1960-70eko berpiztea), eta azaldu bakoitzaren eragina.",
+  "gakoak": [
+   "Pizkundea (XIX. amaiera-Gerra Zibila): foruzaletasuna eta abertzaletasuna, euskararen aldeko mugimendu kulturala.",
+   "Diktadura: euskararen debekua eta zapalkuntza esparru publikoan.",
+   "1960-70eko berpiztea: ikastolak, batua, helduen alfabetatzea, kantagintza.",
+   "Gaur: ofizialtasuna (EAE), hezkuntza, biziberritze-ekimenak.",
+   "Kronologia eta lotura zuzenak."
+  ],
+  "eredua": "Lehenik, Pizkundea: XIX. mende amaieratik Gerra Zibilera, foruzaletasunaren eta abertzaletasunaren eskutik, euskararen aldeko mugimendu kultural indartsua sortu zen. Bigarrenik, diktadura: gerraren ondoren euskara debekatu eta esparru publikotik baztertu zen. Hirugarrenik, 1960-70eko berpiztea: ikastolak sortu ziren, euskara batua finkatu zen eta helduen alfabetatzea eta kantagintza berria zabaldu ziren. Horri esker iritsi gara gaurko ofizialtasunera eta hezkuntza-sistemara."
+ },
+ {
+  "id": "g35",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Euskararen ezagutza",
+  "galdera": "Euskararen ezagutza: nondik gatozen eta non gauden. Nola banatzen da ezagutza lurraldeka eta adin-taldeka, eta zer azalpen du banaketa horrek?",
+  "gakoak": [
+   "Ezagutza hazi egin da azken hamarkadetan, batez ere gazteen artean.",
+   "Lurraldeen arteko aldeak: EAE, Nafarroa eta Ipar Euskal Herria.",
+   "Gazteen ezagutza handiagoa hezkuntzari zor zaio.",
+   "Ipar Euskal Herrian atzerakada, ofizialtasun eta transmisio faltagatik.",
+   "Ezagutza ez da erabilera: datuen interpretazio kritikoa."
+  ],
+  "eredua": "Azken hamarkadetan euskararen ezagutza nabarmen hazi da, batez ere gazteen artean, hezkuntzari esker. Lurraldeen artean, ordea, alde handiak daude: EAEn handitu egin da; Nafarroan, eremuaren arabera; eta Ipar Euskal Herrian atzera egin du, euskarak ofizialtasunik ez duelako eta transmisioa ahuldu delako. Gazteek euskara ezagutzen dute, baina horrek ez du esan nahi erabiltzen dutenik: ezagutza eta erabilera bereizi behar dira."
+ },
+ {
+  "id": "g36",
+  "arloa": "Dialektologia",
+  "izenburua": "Euskalkiak gaur",
+  "galdera": "Zergatik da garrantzitsua euskalkiak ezagutzea eta entzutea gaur egun? Aipatu euskalkiak ezagutzera emateko baliabide edo ekimenen bat.",
+  "gakoak": [
+   "Euskalkiak euskararen aniztasunaren eta ondarearen parte dira.",
+   "Ulermena: hiztun berriek euskalkidunak ulertzeko beharra.",
+   "Identitatea eta tokiko hizkerekiko atxikimendua.",
+   "Baliabideak: euskalkiak.eus, ahozko ondarearen bildumak, atlasak, kantuak.",
+   "Euskalkiek eta batuak elkar elikatzea."
+  ],
+  "eredua": "Euskalkiak euskararen aniztasunaren eta ondarearen parte dira, eta tokian tokiko hiztunen identitatearekin lotuta daude. Gainera, batua bakarrik ezagutzen duten hiztun berriek zailtasunak izan ditzakete euskalkidunak ulertzeko, eta horrek erdarara aldatzea eragin dezake. Euskalkiak ezagutzeko baliabideak badaude: euskalkiak.eus webgunea, ahozko ondarearen grabazio-bildumak edo Euskaltzaindiaren atlasa. Kantuak ere aukera ona dira."
+ },
+ {
+  "id": "g37",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Euskarari buruzko mitoak",
+  "galdera": "Askotan entzuten da euskara hizkuntza zaila edo primitiboa dela. Zer iritzi duzu? Arrazoitu, hizkuntzalaritzaren ikuspegitik.",
+  "gakoak": [
+   "Ez dago hizkuntza primitiborik: hizkuntza guztiak sistema osoak dira.",
+   "Zailtasuna erlatiboa da: ikaslearen ama-hizkuntzaren araberakoa.",
+   "Euskara eranskaria izateak ez du zailago egiten berez.",
+   "Milaka heldu euskaldundu dira: ikasgarria da.",
+   "Mitoen ondorioak: jarrera negatiboak eta ikasteko motibazio galera."
+  ],
+  "eredua": "Bi ideiak mitoak dira. Hizkuntzalaritzaren arabera, ez dago hizkuntza primitiborik: hizkuntza guztiak sistema osoak dira, eta hiztunen behar guztiak adierazteko gai. Zailtasuna, berriz, erlatiboa da: gaztelaniadun batentzat euskara zaila izan daiteke ama-hizkuntzarekin zerikusirik ez duelako, baina berdin gertatzen da euskaldun batek txinera ikasten duenean. Milaka heldu euskaldundu dira. Mito horiek kaltegarriak dira, ikasteko gogoa kentzen dutelako."
+ },
+ {
+  "id": "g38",
+  "arloa": "Hizkuntzaren historia",
+  "izenburua": "Etxepare: «Euskara, jalgi hadi plazara»",
+  "galdera": "Bernat Etxepareren liburuan (1545) euskarari buruzko aldarria agertzen da («Euskara, jalgi hadi plazara»). Zer adierazten du aldarri horrek, eta zergatik da garrantzitsua liburua?",
+  "gakoak": [
+   "Etxepare: Linguae Vasconum Primitiae (1545), euskarazko lehen liburu inprimatua.",
+   "Aldarriak euskara esparru publikora ateratzeko deia egiten du.",
+   "Inprentak euskarari ematen dion prestigioa eta zabalkundea.",
+   "Izenburua: «euskaldunen lehen fruituak».",
+   "Garrantzia: euskarazko literatura idatziaren hasiera eta euskararen aldeko kontzientzia."
+  ],
+  "eredua": "Bernat Etxepareren Linguae Vasconum Primitiae (1545) euskarazko lehen liburu inprimatua da, eta izenburuak «euskaldunen lehen fruituak» esan nahi du. Liburuan, Etxeparek euskarari kanpora eta plazara ateratzeko deia egiten dio: orain arte idatzi gabe egon den hizkuntzak inprentaren bidez prestigioa eta zabalkundea lor ditzakeela aldarrikatzen du. Horregatik da garrantzitsua: euskarazko literatura idatziaren hasiera markatzen du, baita euskararen aldeko kontzientziarena ere."
+ },
+ {
+  "id": "g39",
+  "arloa": "Soziolinguistika",
+  "izenburua": "Koadrilla eta hizkuntza-gatazka",
+  "galdera": "Erdaldun bat euskaldunen koadrilla batera batu da, eta talde osoa gaztelaniaz aritzen hasi da. Zer ondorio linguistiko izan ditzake egoera horrek, eta zer irtenbide proposatuko zenuke?",
+  "gakoak": [
+   "Egoeraren identifikazioa: gatazka txikia eta egokitze-arau baten eragina.",
+   "Ondorioa: taldearen hizkuntza aldatzea, eta ohitura finkatzea.",
+   "Irtenbideak: euskaraz jarraitu ulertzen duen neurrian, laguntza eman ikasteko, belarriprest-ahobizi dinamikak.",
+   "Errespetua eta inklusioa: inor ez baztertzea.",
+   "Euskara ikasteko aukera eta motibazioa."
+  ],
+  "eredua": "Hau hizkuntza-gatazka txiki baten adibidea da: pertsona bakar bat dela eta, talde osoa erdarara egokitzen da, eta ohitura hori finkatzeko arriskua dago, koadrillaren hizkuntza betiko aldatuz. Nik proposatuko nuke euskaraz jarraitzea berak ulertzen duen neurrian, behar denean laguntza emanez eta euskara ikasteko gonbita eginez. Hori ez da inor baztertzea: talde euskaldun batean sartzea euskara ikasteko aukera ere bada."
+ },
+ {
+  "id": "g40",
+  "arloa": "Dialektologia",
+  "izenburua": "Testu dialektal bat (II)",
+  "testua": "«Etxia txukun utzi det, eta zuk bazkaria prestatu dezu?»",
+  "galdera": "Zein euskalkitako formak dira esaldikoak? Identifikatu bi ezaugarri, eta eman esaldia euskara batuan.",
+  "gakoak": [
+   "Euskalkia: erdialdekoa (gipuzkera).",
+   "«det», «dezu» adizkiak (batuan «dut», «duzu»).",
+   "«etxia»: e+a > ia bilakaera (batuan «etxea»).",
+   "Batuera: «Etxea txukun utzi dut, eta zuk bazkaria prestatu duzu?»",
+   "Euskalkiko formak ez dira akatsak: testuinguru informalean egokiak."
+  ],
+  "eredua": "Erdialdeko euskalkiko formak dira, gipuzkerakoak. Lehen ezaugarria adizki laguntzaileetan dago: «det» eta «dezu», batuan «dut» eta «duzu». Bigarrena «etxia» forma da: e+a elkartzean «ia» bihurtzen da, batuko «etxea» ordez. Batuan: «Etxea txukun utzi dut, eta zuk bazkaria prestatu duzu?» Forma horiek ez dira akatsak: ahozkotasunean eta testuinguru informaletan guztiz egokiak dira."
+ }
 ]
