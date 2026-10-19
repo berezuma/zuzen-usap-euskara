@@ -1,13 +1,29 @@
 // Zuzenketa-logika: funtzio puruak, nabigatzailerik gabe probatzeko modukoak.
 // Irizpideak: 2025 eta 2026ko USaPeko zuzenketa-irizpide ofizialak.
 
+// 2027ko egitura (EHU, 2025eko azaroko argibideak).
 export const SECTIONS = [
-  { id: 'a1', label: 'A.1', name: 'Ulermena', max: 2 },
-  { id: 'a2', label: 'A.2', name: 'Gaia eta laburpena', max: 1.5 },
-  { id: 'a3', label: 'A.3', name: 'Hizkuntza', max: 1.5 },
-  { id: 'b1', label: 'B.1', name: 'Idazlana', max: 4 },
-  { id: 'b2', label: 'B.2', name: 'Egin lotura', max: 1 },
+  { id: 's11', label: '1.1', name: 'Ulermena', max: 2 },
+  { id: 's12', label: '1.2', name: 'Idazlana', max: 2 },
+  { id: 's21', label: '2.1', name: 'Hizkuntza', max: 1.5 },
+  { id: 's22', label: '2.2', name: 'Gizartea', max: 1.5 },
+  { id: 's3', label: '3', name: 'Literatura', max: 3 },
 ];
+
+/** Eredu bakoitzari 2.2 eta 3. ataletako bi galdera esleitzen zaizkio (ikasleak bat aukeratzen du). */
+export function picks(m, banks) {
+  const i = parseInt(m.num, 10) - 1;
+  const g = banks.gizartea, gt = banks.literatura.gaitegia, ir = banks.literatura.irakurgaiak;
+  const p = (i % Math.floor(g.length / 2)) * 2;
+  return { s22: [g[p], g[p + 1]], s3: [gt[i % gt.length], ir[i % ir.length]] };
+}
+
+/** Galdera irekien autoebaluazioa: betetako gakoen proportzioa, 0,25eko urratsetan. */
+export function keyScore(ticks, total, max) {
+  if (!Array.isArray(ticks)) return null;
+  const n = ticks.filter(Boolean).length;
+  return Math.round((max * n / total) * 4) / 4;
+}
 
 export const RUBRIC = [
   ['Eskatutako generoa idatzi dut, eta gaiari lotzen natzaio.', 'Ez bada: ariketak 0 puntu.'],
@@ -211,8 +227,43 @@ export function gradeA3(m, bi, ans, self = {}) {
   return { items, pts: Math.min(5, ok) * 0.1, pending };
 }
 
-/** Nota osoa. Ikasleak ebaluatu gabeko zatiak «pending» gisa zenbatzen dira. */
-export function score(m, att) {
+/** Nota osoa, 2027ko egituran. Zati zaharrak kalkulatu eta atal berrietara eskalatzen dira. */
+export function score(m, att, banks) {
+  const old = scoreOld(m, att);
+  const s = att.self || {};
+  const a = att.ans;
+  const out = { parts: {}, pending: 0, old };
+  // 1.1: galderak 1 p (2tik eskalatuta) + gaia 0,5 + laburpena 0,5 (1etik eskalatuta)
+  const a1 = old.parts.a1.pts * 0.5;
+  const gaia = norm(a.a2.gaia) && s.gaia !== undefined ? s.gaia : 0;
+  const lab = norm(a.a2.lab) && s.lab !== undefined ? s.lab * 0.5 : 0;
+  out.parts.s11 = { pts: a1 + gaia + lab, mode: old.parts.a1.mode === 'auto' ? 'mixed' : 'self', pending: (old.parts.a1.pending || 0) + old.parts.a2.pending };
+  // 1.2: idazlana 4 puntutan ebaluatu eta erdira eskalatu
+  out.parts.s12 = { pts: old.parts.b1.pts * 0.5, mode: 'self', pending: old.parts.b1.pending, b1: old.parts.b1 };
+  // 2.1: aukeratutako blokea, 0,5etik 1,5era
+  const ch = a.ch21;
+  if (ch === 0 || ch === 1) {
+    const r = gradeA3(m, ch, a.a3[ch], s.a3);
+    out.parts.s21 = { pts: r.pts * 3, mode: 'auto', pending: r.pending };
+  } else out.parts.s21 = { pts: 0, mode: 'auto', pending: 0 };
+  // 2.2 eta 3: galdera irekiak, gakoen zerrendarekin
+  const pk = banks ? picks(m, banks) : null;
+  for (const [id, max] of [['s22', 1.5], ['s3', 3]]) {
+    const q = pk && (a['ch' + id] === 0 || a['ch' + id] === 1) ? pk[id][a['ch' + id]] : null;
+    const text = a['t' + id] || '';
+    if (!q || !norm(text)) { out.parts[id] = { pts: 0, mode: 'self', pending: 0 }; continue; }
+    const v = keyScore(s['k' + id], q.gakoak.length, max);
+    out.parts[id] = { pts: v ?? 0, mode: 'self', pending: v === null ? 1 : 0 };
+  }
+  for (const sec of SECTIONS) out.pending += out.parts[sec.id].pending || 0;
+  out.pen = old.pen;
+  const sum = SECTIONS.reduce((acc, sec) => acc + out.parts[sec.id].pts, 0);
+  out.total = round(Math.max(0, Math.min(10, sum - out.pen)));
+  return out;
+}
+
+/** 2025–2026ko egiturako kalkulua (barne-erabilerarako). */
+export function scoreOld(m, att) {
   const s = att.self || {};
   const out = { parts: {}, pending: 0 };
   // A.1
@@ -276,8 +327,6 @@ export function score(m, att) {
   const ort = Math.max(0, (s.ort || 0) - 1) * 0.25;
   const gram = Math.min(1, (s.gram || 0) * 0.25);
   out.pen = Math.min(2, ort + gram);
-  const sum = SECTIONS.reduce((acc, sec) => acc + out.parts[sec.id].pts, 0);
-  out.total = round(Math.max(0, Math.min(10, sum - out.pen)));
   return out;
 }
 
@@ -292,5 +341,6 @@ export function emptyAnswers(m) {
     }),
     b1: { opt: '', text: '' },
     b2: { text: '' },
+    ch21: null, ch22: null, ch3: null, ts22: '', ts3: '',
   };
 }
