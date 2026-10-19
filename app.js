@@ -101,17 +101,29 @@ function viewHome() {
         <div class="eyebrow">Arau ezkutuak</div>
         <h2 style="font-size:21px">Zuzentzaileak horrela kentzen ditu puntuak</h2>
         <div class="rules">
-          <div><span>Idazlana 169–179 hitz</span><span class="mono">−0,5</span></div>
-          <div><span>Idazlana 148 hitz edo gutxiago</span><span class="mono">−2,5</span></div>
-          <div><span>Generoaren konbentziorik ez (izenburua, sinadura…)</span><span class="mono">−0,5</span></div>
+          <div><span>2.1, 2.2 eta 3. ataletan, bi galdera: bakarra erantzun</span><span class="mono">aukera</span></div>
+          <div><span>Idazlana 169–179 hitz (2025–26ko araua)</span><span class="mono">−0,5</span></div>
+          <div><span>Idazlana 148 hitz edo gutxiago (2025–26ko araua)</span><span class="mono">−2,5</span></div>
           <div><span>Eskatutakoa ez den generoa</span><span class="mono">0 puntu</span></div>
-          <div><span>Akats ortografikoa (lehena doan)</span><span class="mono">−0,25</span></div>
+          <div><span>Akats ortografikoa (lehena doan; gehienez −2)</span><span class="mono">−0,25</span></div>
           <div><span>Laburpenean 60. hitzetik aurrerakoa</span><span class="mono" style="color:var(--muted)">ez da irakurtzen</span></div>
         </div>
       </div>
     </section>
 
     <div class="banner" role="note"><span><b>Probako bertsioa, 2027ko egiturarekin.</b> Ereduak eta galderak irakasle baten berrikuspenaren zain daude. Akatsen bat ikusten baduzu, esan zure irakasleari.</span></div>
+
+    <section class="card" style="display:flex;flex-direction:column;gap:14px" aria-labelledby="eg-h">
+      <div class="sechead"><h2 id="eg-h" style="font-size:22px">2027ko azterketa, atalez atal</h2><a class="linkbtn" href="#/ikasi">Ikasi eduki berriak →</a></div>
+      <div class="lines">
+        <div><span><b>1. Ulermena eta ekoizpen idatzia</b> <span class="muted" style="font-size:14px">· testu ez-literarioa, aukerarik gabe</span></span><span class="mono">4 p</span></div>
+        <div><span style="padding-left:16px">1.1 Ulermena · 1.2 Idazlana</span><span class="mono muted">2 + 2</span></div>
+        <div><span><b>2. Hizkuntza eta gizartea</b> <span class="muted" style="font-size:14px">· bi galderatik bat, azpiatal bakoitzean</span></span><span class="mono">3 p</span></div>
+        <div><span style="padding-left:16px">2.1 Hizkuntza · 2.2 Gizartea <span class="chip ok" style="font-size:11px;padding:2px 8px">berria</span></span><span class="mono muted">1,5 + 1,5</span></div>
+        <div><span><b>3. Literatura</b> <span class="chip ok" style="font-size:11px;padding:2px 8px">berria</span> <span class="muted" style="font-size:14px">· bi galderatik bat: gaitegia edo irakurgaiak</span></span><span class="mono">3 p</span></div>
+      </div>
+      <p class="muted" style="font-size:13px">Iturria: EHUren «USaP – Euskara eta literatura II» argibideak (2025eko azaroa). 1.1eko gaia eta laburpena eta idazlanaren arauak ez daude oraindik berretsita.</p>
+    </section>
 
     <section style="display:flex;flex-direction:column;gap:14px" aria-labelledby="ered-h">
       <div class="sechead">
@@ -134,7 +146,7 @@ function viewHome() {
       <div><b>Idazlana, gizartea eta literatura, zuk</b><p class="muted" style="font-size:15px;margin-top:4px">Errubrikekin eta eredu-erantzunekin ebaluatzen duzu zure lana.</p></div>
       <div><b>Zure gailuan</b><p class="muted" style="font-size:15px;margin-top:4px">Konturik ez. Zure erantzunak nabigatzaile honetan gordetzen dira, eta ez dira inora bidaltzen.</p></div>
     </section>
-    <footer class="footer"><span>Irizpideak: EHUren 2025 eta 2026ko USaPeko zuzenketa-irizpideak (Euskara eta Literatura II).</span><span>Nota orientagarria da, ez ofiziala.</span></footer>
+    <footer class="footer"><span>Irizpideak: EHUren 2025 eta 2026ko zuzenketa-irizpideak, eta 2027ko azterketa-ereduaren argibideak (2025eko azaroa).</span><span>Nota orientagarria da, ez ofiziala.</span></footer>
   </main>`;
 }
 
@@ -502,6 +514,7 @@ function resOpen(m, att, s, id) {
   return `<section class="card" style="display:flex;flex-direction:column;gap:14px">
     <div class="sechead"><h2 style="font-size:20px">${name} · ${esc(q.izenburua)}</h2><span class="mono">${v === null ? '—' : fmt(v)} / ${fmt(max)}</span></div>
     <p style="font:18px/1.5 var(--read)">${esc(q.galdera)}</p>
+    ${(() => { const f = [...BANKS.ikasi.gizartea, ...BANKS.ikasi.literatura].find((x) => x.galderak.includes(q.id)); return f ? `<a class="linkbtn" href="#/ikasi/${f.id}" style="align-self:flex-start">Ikasi gai hau: ${esc(f.izenburua)} →</a>` : ''; })()}
     <div class="cmp">${yours(text)}<div class="model">${q.eredua ? `<div class="eyebrow">Eredu-erantzuna</div>${esc(q.eredua)}` : '<div class="eyebrow">Eredu-erantzunik ez</div>Irakurgaiei buruzko galderetan zure irakurketa da gakoa: erabili beheko zerrenda zure erantzuna ebaluatzeko.'}</div></div>
     <div><div class="eyebrow" style="margin-bottom:6px">Markatu zure erantzunak betetzen dituen gakoak · ${fmt(max)} p, proportzioan</div>
       ${q.gakoak.map((g, i) => `<label class="crit" style="justify-content:flex-start;gap:12px;cursor:pointer"><input type="checkbox" data-tick="${id}" data-i="${i}" ${Array.isArray(ticks) && ticks[i] ? 'checked' : ''} style="width:20px;height:20px;accent-color:var(--accent);flex:none"><span>${esc(g)}</span></label>`).join('')}</div>
