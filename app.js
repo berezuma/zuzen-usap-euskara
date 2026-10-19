@@ -530,25 +530,26 @@ function practiceHtml(q) {
       </details></div></details>`;
 }
 
+const LEARN = [['gizartea', '2.2 Gizartea'], ['literatura', '3. Literatura']];
+const findQ = (qid) => [...BANKS.gizartea, ...BANKS.literatura.gaitegia, ...BANKS.literatura.irakurgaiak].find((q) => q.id === qid);
+
 function viewLearn(id) {
-  const L = BANKS.ikasi.gizartea;
+  const L = LEARN.flatMap(([k]) => BANKS.ikasi[k]);
   const i = L.findIndex((x) => x.id === id);
   if (i < 0) {
-    const groups = [...new Set(L.map((x) => x.arloa))];
     app.innerHTML = `${top('learn')}<main class="wrap">
       <div style="display:flex;flex-direction:column;gap:8px"><h1 style="font-size:clamp(30px,4vw,44px)">Ikasi</h1>
         <p class="muted" style="max-width:62ch;font-size:17px">2027ko USaPeko eduki berriak, EHUren gaitegiaren ordenan. Fitxa bakoitzaren amaieran, gai horretako galderak dituzu praktikatzeko.</p></div>
-      <section style="display:flex;flex-direction:column;gap:18px"><h2 style="font-size:26px">2.2 Gizartea</h2>
-        ${groups.map((g) => `<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">${esc(g)}</div><div class="grid">
-          ${L.filter((x) => x.arloa === g).map((x) => `<a class="mcard" href="#/ikasi/${x.id}"><span class="mono muted" style="font-size:13px">${esc(x.gaia)}. gaia</span><h3>${esc(x.izenburua)}</h3><span class="sub">${x.galderak.length} galdera praktikatzeko</span></a>`).join('')}
+      ${LEARN.map(([k, title]) => { const F = BANKS.ikasi[k]; return `<section style="display:flex;flex-direction:column;gap:18px"><h2 style="font-size:26px">${title}</h2>
+        ${[...new Set(F.map((x) => x.arloa))].map((g) => `<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">${esc(g)}</div><div class="grid">
+          ${F.filter((x) => x.arloa === g).map((x) => `<a class="mcard" href="#/ikasi/${x.id}"><span class="mono muted" style="font-size:13px">${esc(x.gaia)}. gaia</span><h3>${esc(x.izenburua)}</h3><span class="sub">${x.galderak.length} galdera praktikatzeko</span></a>`).join('')}
         </div></div>`).join('')}
-      </section>
-      <section class="card"><h2 style="font-size:22px">3. Literatura</h2><p class="muted" style="margin-top:6px">Laster: garaiak, autore nagusiak eta nahitaezko irakurgaiak.</p></section>
+      </section>`; }).join('')}
     </main>`;
     return;
   }
   const f = L[i], prev = L[i - 1], next = L[i + 1];
-  const qs = f.galderak.map((qid) => BANKS.gizartea.find((q) => q.id === qid)).filter(Boolean);
+  const qs = f.galderak.map(findQ).filter(Boolean);
   app.innerHTML = `${top('learn')}<main class="wrap" style="max-width:860px">
     <a class="linkbtn" href="#/ikasi" style="align-self:flex-start">← Ikasi</a>
     <div><div class="eyebrow">${esc(f.arloa)} · ${esc(f.gaia)}. gaia</div><h1 style="font-size:clamp(28px,4vw,40px)">${esc(f.izenburua)}</h1></div>
