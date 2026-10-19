@@ -1,0 +1,405 @@
+{
+ "gizartea": [
+  {
+   "id": "aniztasuna",
+   "arloa": "Soziolinguistika",
+   "gaia": "1",
+   "izenburua": "Hizkuntza-aniztasuna munduan",
+   "testua": [
+    "Munduan 6.000-7.000 hizkuntza inguru daude, eta 200 inguru estatu baino ez. Eleaniztasuna da, beraz, egoera ohikoena; «Estatu bat, hizkuntza bat» eskema salbuespena da, eta hizkuntza txiki eta gutxituentzat kaltegarria.",
+    "Hizkuntzak hiru modutara sailka daitezke: filogenetikoki (jatorriaren arabera, familiatan: indoeuroparra da hiztun gehien dituena), tipologikoki (egitura gramatikalaren arabera) eta soziolinguistikoki (hizkuntza handiak, txikiak eta gutxituak).",
+    "Euskara genetikoki isolatua da: ez zaio ahaiderik ezagutzen, eta Europako hizkuntza ez-indoeuropar bakanetako bat da. Tipologikoki eranskaria da, hungariera edo japoniera bezala. Soziolinguistikoki txikia eta gutxitua da. Lurralde administratiboki zatitu batean hitz egiten da, eta horrek estatus juridiko desberdinak dakartza: ofiziala EAEn, eremuaren araberakoa Nafarroan, eta ez-ofiziala Ipar Euskal Herrian.",
+    "Euskal Herrian beste hizkuntza batzuk ere hitz egiten dira edo egin izan dira: gaztelania, frantsesa eta gaskoia (Baionaldean)."
+   ],
+   "kontzeptuak": [
+    [
+     "Hizkuntza vs aldaera",
+     "Hizkuntzaren eta euskalkien edo aldaeren arteko bereizketa."
+    ],
+    [
+     "Hizkuntza-familia",
+     "Jatorri komuna duten hizkuntzen multzoa (adib. indoeuroparra)."
+    ],
+    [
+     "Hizkuntza isolatua",
+     "Ahaiderik ezagutzen ez zaion hizkuntza."
+    ],
+    [
+     "Hizkuntza eranskaria",
+     "Hitzaren oinarriari atzizkiak eransten zaizkio (etxe-a-n)."
+    ],
+    [
+     "Hizkuntza gutxitua",
+     "Beste hizkuntza baten menpe bizi dena, estatus eta erabilera mugatuekin."
+    ],
+    [
+     "Hizkuntza-eskubideak",
+     "Hiztunek beren hizkuntza erabiltzeko dituzten eskubideak."
+    ]
+   ],
+   "gogoratu": [
+    "6.000-7.000 hizkuntza / 200 inguru estatu",
+    "Euskara: isolatua, eranskaria, txikia eta gutxitua",
+    "Mitoak: ez dago hizkuntza «primitiborik», eta zailtasuna erlatiboa da"
+   ],
+   "galderak": [
+    "g01",
+    "g13",
+    "g37",
+    "g14"
+   ]
+  },
+  {
+   "id": "ukipena-linguistikoa",
+   "arloa": "Soziolinguistika",
+   "gaia": "2.1",
+   "izenburua": "Ukipenaren ondorio linguistikoak",
+   "testua": [
+    "Hizkuntzak elkarren ondoan bizi direnean, elkarri eragiten diote. Interferentziak sortzen dira: hizkuntza baten ezaugarriak beste batean agertzea.",
+    "Mailegua beste hizkuntza batetik hartutako hitza da, askotan egokitua (telebista, kafe). Kalkoa, berriz, beste hizkuntzaren egitura edo esapidea hitzez hitz itzultzea da. Mitxelenaren irizpidearen arabera, kalkoa da hizkuntzak berez baliabideak izan arren beste baten eredua hartzea (adib. «zeinetan» erako erlatiboak, gaztelaniazko «en el que» eredura).",
+    "Pidgina hizkuntza komunik ez duten taldeek komunikatzeko sortzen duten hizkera sinplifikatua da; ama-hizkuntza bihurtzen denean, kreolera da. Adibide ezaguna: XVII. mendeko euskara-islandiera pidgina, euskal baleazaleek Islandian erabilia.",
+    "Kode-alternantzia elkarrizketa berean hizkuntzak txandakatzea da («primero bazkaldu behar dut»). Lingua franca, berriz, ama-hizkuntza desberdinak dituztenek komunikatzeko erabiltzen duten hizkuntza da."
+   ],
+   "kontzeptuak": [
+    [
+     "Interferentzia",
+     "Hizkuntza baten ezaugarriak beste batean agertzea."
+    ],
+    [
+     "Mailegua",
+     "Beste hizkuntza batetik hartutako hitza."
+    ],
+    [
+     "Kalkoa",
+     "Beste hizkuntzaren egitura hitzez hitz itzultzea, berezko baliabideak izan arren."
+    ],
+    [
+     "Pidgina",
+     "Komunikatzeko sortutako hizkera sinplifikatua; inoren ama-hizkuntza ez."
+    ],
+    [
+     "Kreolera",
+     "Ama-hizkuntza bihurtu den pidgina."
+    ],
+    [
+     "Kode-alternantzia",
+     "Elkarrizketa berean hizkuntzak txandakatzea."
+    ],
+    [
+     "Lingua franca",
+     "Hizkuntza desberdinetako hiztunen arteko komunikazio-hizkuntza."
+    ]
+   ],
+   "gogoratu": [
+    "Mitxelenaren irizpidea: kalkoa = berezko baliabideak izan arren beste ereduari jarraitzea",
+    "Euskara-islandiera pidgina: XVII. mendea, baleazaleak"
+   ],
+   "galderak": [
+    "g02",
+    "g03",
+    "g15"
+   ]
+  },
+  {
+   "id": "ukipena-indibiduala",
+   "arloa": "Soziolinguistika",
+   "gaia": "2.2",
+   "izenburua": "Ukipenaren ondorio indibidualak",
+   "testua": [
+    "Oinarrizko kontzeptuak: ama-hizkuntza (etxean jasotakoa), lehen hizkuntza (lehenik ikasia edo gehien erabilia), bigarren hizkuntza, elebitasuna eta eleaniztasuna (norbanakoak bi hizkuntza edo gehiago erabiltzeko duen gaitasuna).",
+    "Euskaldun-motak: euskaldun zaharrak (natiboak, euskara etxean jaso dutenak), euskaldun berriak (eskolan edo helduaroan ikasi dutenak), hartzaileak (ulertzen dute, baina ia ez dute hitz egiten), eta hiztun pasiboak edo aktiboak, erabileraren arabera.",
+    "Euskararen ezagutza hazi egin da azken hamarkadetan, batez ere gazteen artean eta hezkuntzari esker, baina alde handiak daude lurraldeen artean. Ezagutza ez da erabilera.",
+    "Hizkuntzak ikasteko motibazioak: integratzailea edo sinbolikoa (komunitate batekin bat egitea, identitatea) eta instrumentala edo praktikoa (lana, ikasketak)."
+   ],
+   "kontzeptuak": [
+    [
+     "Ama-hizkuntza",
+     "Haurtzaroan etxean jasotako hizkuntza."
+    ],
+    [
+     "Elebitasuna",
+     "Norbanakoaren gaitasuna bi hizkuntza erabiltzeko."
+    ],
+    [
+     "Euskaldun berria",
+     "Euskara eskolan edo helduaroan ikasi duena."
+    ],
+    [
+     "Hiztun hartzailea",
+     "Ulertzen du, baina ia ez du hitz egiten."
+    ],
+    [
+     "Motibazio integratzailea",
+     "Hizkuntza komunitatearekin bat egiteko ikastea."
+    ],
+    [
+     "Motibazio instrumentala",
+     "Hizkuntza helburu praktikoetarako ikastea."
+    ]
+   ],
+   "gogoratu": [
+    "Ezagutza ≠ erabilera",
+    "Euskaldun gehienak gaur berriak dira",
+    "Aurreiritziak: «benetako euskalduna» natiboa bakarrik dela"
+   ],
+   "galderak": [
+    "g05",
+    "g17",
+    "g19",
+    "g35"
+   ]
+  },
+  {
+   "id": "ukipena-soziala",
+   "arloa": "Soziolinguistika",
+   "gaia": "2.3",
+   "izenburua": "Ukipenaren ondorio sozialak",
+   "testua": [
+    "Diglosia gizarte batean hizkuntzek (edo aldaerek) funtzio desberdinak dituzteneko egoera da: batak funtzio altuak (administrazioa, hezkuntza formala) eta besteak baxuak (etxea, lagunartea). Fergusonek aldaera beraren banaketaz hitz egin zuen; Fishmanek hizkuntza desberdinetara zabaldu zuen kontzeptua.",
+    "Elebitasuna norbanakoarena da; diglosia, gizartearena. Biak batera ager daitezke, edo bata bestea gabe. Diglosiak hizkuntza ahularen biziraupena ere ahalbidetu dezake funtzio jakin batzuetan.",
+    "Hizkuntza-gatazka hizkuntzek ukipenean lehian daudenean sortzen da. Gatazka-motak: asimilazioa, estigmatizazioa, ordezkapena.",
+    "Hizkuntza bat ordezkatu edo hiltzeko bi faktore nagusi daude: hiztunek ez erabiltzea eta hurrengo belaunaldiari ez transmititzea. Euskararen adibideak: ekialdeko nafarra (erronkariera, zaraitzuera), Iruñerriko, Arabako gehieneko eta Bizkai mendebaleko hizkerak."
+   ],
+   "kontzeptuak": [
+    [
+     "Diglosia",
+     "Hizkuntzen banaketa funtzionala gizartean, prestigio desberdinekin."
+    ],
+    [
+     "Funtzio altuak / baxuak",
+     "Esparru formalak / informalak."
+    ],
+    [
+     "Hizkuntza-gatazka",
+     "Hizkuntzen arteko lehia ukipen-egoeran."
+    ],
+    [
+     "Ordezkapena",
+     "Hizkuntza bat beste batek pixkanaka ordezkatzea."
+    ],
+    [
+     "Transmisioa",
+     "Hizkuntza belaunaldi batetik bestera igarotzea."
+    ]
+   ],
+   "gogoratu": [
+    "Ferguson (aldaerak) / Fishman (hizkuntzak)",
+    "Elebitasuna: norbanakoa · Diglosia: gizartea",
+    "Ordezkapena: erabilera eza + transmisio eza"
+   ],
+   "galderak": [
+    "g04",
+    "g21",
+    "g23",
+    "g39"
+   ]
+  },
+  {
+   "id": "politika",
+   "arloa": "Soziolinguistika",
+   "gaia": "3",
+   "izenburua": "Hizkuntza-politika eta -plangintza",
+   "testua": [
+    "Hizkuntza-politika hizkuntzen egoerari buruzko erabakien multzoa da; plangintza, erabaki horiek gauzatzeko tresnak. Hizkuntza-ekologiak hizkuntzen arteko orekan jartzen du arreta.",
+    "Corpus-plangintzak hizkuntza bera lantzen du (araua, ortografia, terminologia, hiztegiak: Euskaltzaindiaren eremua). Estatus-plangintzak hizkuntzaren lekua erabakitzen du gizartean (ofizialtasuna, legeak, hezkuntza-ereduak, lanpostuetako hizkuntza-eskakizunak).",
+    "Biziberritzea: Fishmanek belaunaldien arteko transmisioa jarri zuen erdigunean (GIDS eskala). Txepetxek ezagutza, erabilera eta atxikimendua (motibazioa) elkarri lotuta aztertu zituen. Arnasguneak euskaldunak gehiengo nabarmena diren eremuak dira, non euskara den ohiko hizkuntza.",
+    "XX. mendearen bigarren erdian biziberritze-aroa hasi zen (ikastolak, batua, euskaltegiak). Ekimen berriagoak: Bai Euskarari ziurtagiria, Korrika, Euskaraldia (ahobizi eta belarriprest rolak). EAEko hezkuntzan A, B eta D ereduak daude."
+   ],
+   "kontzeptuak": [
+    [
+     "Corpus-plangintza",
+     "Hizkuntza bera lantzea: araua, terminologia."
+    ],
+    [
+     "Estatus-plangintza",
+     "Hizkuntzaren lekua gizartean: legeak, ofizialtasuna."
+    ],
+    [
+     "Arnasgunea",
+     "Euskara ohiko hizkuntza den eremu euskalduna."
+    ],
+    [
+     "Biziberritzea",
+     "Ahultzen ari den hizkuntza indartzeko prozesua."
+    ],
+    [
+     "Ahobizi / belarriprest",
+     "Euskaraldiko rolak: euskaraz egin / euskaraz egin diezaiotela eskatu."
+    ]
+   ],
+   "gogoratu": [
+    "Fishman: transmisioa (GIDS)",
+    "Txepetx: ezagutza + erabilera + atxikimendua",
+    "Korrika (1980tik), Euskaraldia (2018tik)"
+   ],
+   "galderak": [
+    "g06",
+    "g25",
+    "g27",
+    "g29",
+    "g31",
+    "g33"
+   ]
+  },
+  {
+   "id": "euskalkien-jatorria",
+   "arloa": "Dialektologia",
+   "gaia": "4",
+   "izenburua": "Euskalkien jatorria",
+   "testua": [
+    "Euskalkiak Erdi Aroan sortu ziren, X. mendea baino lehentxeago. Aurretik euskara homogeneoago bat zegoen, Euskara Batu Zaharra deritzona, eta euskalkiak haren ondoko zatiketen ondorioa dira.",
+    "Uste zahar okerrak: euskalkiak erromatarren aurreko tribuekin edo elizbarruti zaharrekin lotzea. Gaur badakigu zatiketak arian-arian gertatu zirela, garaian garaiko dinamika soziopolitiko eta kulturalen ondorioz.",
+    "Gaur egun ezagutzen ditugun euskalki, azpieuskalki eta hizkerak zatiketa horien isla dira."
+   ],
+   "kontzeptuak": [
+    [
+     "Euskalkia",
+     "Euskararen aldaera geografikoa."
+    ],
+    [
+     "Euskara Batu Zaharra",
+     "Euskalkiak sortu aurreko euskara homogeneoagoa."
+    ]
+   ],
+   "gogoratu": [
+    "Erdi Aroa, X. mendea baino lehentxeago",
+    "Ez tribuak, ez elizbarrutiak"
+   ],
+   "galderak": [
+    "g07"
+   ]
+  },
+  {
+   "id": "euskalkien-sailkapena",
+   "arloa": "Dialektologia",
+   "gaia": "5",
+   "izenburua": "Euskalkien sailkapena eta ezaugarriak",
+   "testua": [
+    "Louis-Lucien Bonapartek 1863an argitaratu zuen euskalkien lehen mapa zientifikoa: zortzi euskalki eta hainbat azpieuskalki bereizi zituen, landa-lanaren eta laguntzaile euskaldunen bidez. Europako dialektologian ere aitzindaria izan zen.",
+    "Gaur zabalen onartua Koldo Zuazoren sailkapena da (Euskalkiak, 2014): mendebaleko euskalkia, erdialdekoa, nafarra, nafar-lapurtarra eta zuberotarra, eta galdutako ekialdeko nafarra (erronkariera, zaraitzuera).",
+    "Bi mapak alderatuz gero, euskalkien azken 150 urteetako bilakaera ikusten da, batez ere galera: euskararen eremua txikitu egin da Araban eta Nafarroa erdialde-hegoaldean.",
+    "Ezaugarri bereizgarri batzuk: mendebalekoan «dot», «dozu», «eban» (dut, duzu, zuen); erdialdekoan «det», «dezu»; zuberotarran ü bokala eta h ahoskatua."
+   ],
+   "kontzeptuak": [
+    [
+     "Bonaparte (1863)",
+     "Lehen sailkapen zientifikoa: 8 euskalki."
+    ],
+    [
+     "Zuazo (2014)",
+     "Gaurko sailkapena: 5 euskalki bizi + ekialdeko nafarra galdua."
+    ]
+   ],
+   "gogoratu": [
+    "Mendebalekoa · erdialdekoa · nafarra · nafar-lapurtarra · zuberotarra",
+    "Euskalkien mugak ≠ muga administratiboak"
+   ],
+   "galderak": [
+    "g08",
+    "g10",
+    "g16",
+    "g24",
+    "g32",
+    "g40"
+   ]
+  },
+  {
+   "id": "batua",
+   "arloa": "Dialektologia",
+   "gaia": "6",
+   "izenburua": "Euskara batua",
+   "testua": [
+    "Euskara batua Euskaltzaindiak bultzatu zuen eredu estandarra da. Aurrekari bat 1964ko Baionako bilera izan zen, eta 1968ko Arantzazuko biltzarra izan zen mugarri nagusia.",
+    "Oinarri linguistikoak: Gipuzkoa ekialdeko, Lapurdiko eta Nafarroa mendebaleko hizkerak. Arrazoiak: hiztun-masa handia, ulergarritasuna, eta literatur tradizioa eta ospea.",
+    "Helburua: eredu landu, estandar eta bateratzailea lortzea, eskolan, administrazioan, hedabideetan eta literaturan erabiltzeko. Eredu malgua da: tokian tokiko «koloreak» onartzen ditu.",
+    "Euskalkiek eta batuak elkar elikatu behar dute: batuak komunikazioa eta prestigioa ematen ditu; euskalkiek lexikoa, adierazkortasuna eta naturaltasuna. Euskaltzaindiak arauak finkatzen eta hizkuntza zaintzen jarraitzen du."
+   ],
+   "kontzeptuak": [
+    [
+     "Estandarra",
+     "Hiztun guztientzako eredu landu eta komuna."
+    ],
+    [
+     "Euskaltzaindia",
+     "Euskararen akademia: araugintza eta zaintza."
+    ]
+   ],
+   "gogoratu": [
+    "1968, Arantzazu",
+    "Oinarria: Gipuzkoa ekialdea, Lapurdi, Nafarroa mendebala",
+    "Batua ≠ euskalkien etsaia"
+   ],
+   "galderak": [
+    "g09",
+    "g20",
+    "g28",
+    "g36"
+   ]
+  },
+  {
+   "id": "geografia-historia",
+   "arloa": "Hizkuntzaren historia",
+   "gaia": "7",
+   "izenburua": "Geografia historikoa eta bilakabide soziala",
+   "testua": [
+    "Euskara gaur baino eremu zabalagoan hitz egin zen; toponimiak eta lekukotasun historikoek erakusten dute. Azken mendeetan, batez ere XVIII.etik XX.era, atzera egin zuen Araban eta Nafarroa erdialde-hegoaldean: hirien, merkataritzaren, eskolaren eta administrazioaren hizkuntza erdara zen, eta euskarak prestigioa galdu zuen.",
+    "Frantziako Iraultzak «nazio bat, hizkuntza bat» ideia ezarri zuen: gainerako hizkuntzak desagerrarazi nahi izan ziren, eta euskara eskolatik baztertu zen Ipar Euskal Herrian.",
+    "XIX. mende amaieratik Gerra Zibilera, Pizkundea: foruzaletasunaren eta abertzaletasunaren eskutik, euskararen aldeko mugimendu kulturala. Francoren diktaduran, euskara debekatu eta esparru publikotik baztertu zen.",
+    "1960-70eko hamarkadetan berpiztea etorri zen (ikastolak, batua, helduen alfabetatzea, kantagintza), eta gero ofizialtasuna EAEn eta biziberritze-ekimenak."
+   ],
+   "kontzeptuak": [
+    [
+     "Atzerakada",
+     "Euskararen eremu geografikoaren txikitzea."
+    ],
+    [
+     "Pizkundea",
+     "XIX. amaiera-1936ko euskararen aldeko mugimendu kulturala."
+    ]
+   ],
+   "gogoratu": [
+    "Iraultza: frantsesa hizkuntza bakar",
+    "Diktadura: debekua",
+    "1960-70: ikastolak, batua"
+   ],
+   "galderak": [
+    "g18",
+    "g26",
+    "g34",
+    "g11"
+   ]
+  },
+  {
+   "id": "lekukotasunak",
+   "arloa": "Hizkuntzaren historia",
+   "gaia": "8",
+   "izenburua": "Lehenengo lekukotasunak eta egileak",
+   "testua": [
+    "Akitaniera: erromatar garaiko inskripzioetako pertsona- eta jainko-izenak; batzuk euskarazko hitzekin lotzen dira (andere, senar…). Euskararen edo euskara-antzeko hizkuntza baten lehen lekukotasunak dira.",
+    "Erdi Aroko glosak: Errioxako monasterio batean idatzitako oharretan, euskarazko lehen esaldietako batzuk.",
+    "Bernat Etxepare, Linguae Vasconum Primitiae (1545): euskarazko lehen liburu inprimatua; izenburuak «euskaldunen lehen fruituak» esan nahi du, eta euskara plazara ateratzeko deia egiten du.",
+    "Joanes Leizarraga, Testamentu Berria (1571): Itun Berriaren lehen itzulpena. Manuel Larramendi: lehen gramatika, El imposible vencido (1729), eta hiztegi hirueleduna (1745)."
+   ],
+   "kontzeptuak": [
+    [
+     "Akitaniera",
+     "Euskara-antzeko lehen lekukotasunak, erromatar garaian."
+    ],
+    [
+     "Glosak",
+     "Erdi Aroko eskuizkribuetako oharrak."
+    ]
+   ],
+   "gogoratu": [
+    "1545 Etxepare · 1571 Leizarraga · 1729 Larramendi",
+    "«Euskararen benetako misterioa ez da bere jatorria, ezpada iraun izana» (Mitxelena)"
+   ],
+   "galderak": [
+    "g12",
+    "g22",
+    "g30",
+    "g38"
+   ]
+  }
+ ]
+}

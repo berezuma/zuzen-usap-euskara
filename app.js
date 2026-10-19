@@ -51,6 +51,7 @@ function route() {
   if (parts[0] === 'azterketa' && byId(parts[1])) return viewExam(byId(parts[1]));
   if (parts[0] === 'emaitza' && byId(parts[1])) return viewResult(byId(parts[1]));
   if (parts[0] === 'gimnasioa') return parts[1] ? viewDrill(parts[1]) : viewGym();
+  if (parts[0] === 'ikasi') { window.scrollTo(0, 0); return viewLearn(parts[1]); }
   return viewHome();
 }
 
@@ -59,6 +60,7 @@ function top(active) {
     <a class="wordmark" href="#/">zuzen<span>.</span></a>
     <nav class="nav" aria-label="Nagusia">
       <a href="#/" ${active === 'home' ? 'aria-current="page"' : ''}>Azterketak</a>
+      <a href="#/ikasi" ${active === 'learn' ? 'aria-current="page"' : ''}>Ikasi</a>
       <a href="#/gimnasioa" ${active === 'gym' ? 'aria-current="page"' : ''}>Gimnasioa</a>
     </nav></div></header>`;
 }
@@ -516,6 +518,50 @@ function resB2(m, att, s) {
   </section>`;
 }
 
+/* ---------- ikasi ---------- */
+function practiceHtml(q) {
+  return `<details class="card"><summary style="cursor:pointer;font-weight:700">${esc(q.izenburua)}</summary>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+      ${q.testua ? `<blockquote style="margin:0;padding:12px 14px;background:var(--ground);border-radius:10px;white-space:pre-line;font:17px/1.6 var(--read)">${esc(q.testua)}</blockquote>` : ''}
+      <p style="font:18px/1.5 var(--read)">${esc(q.galdera)}</p>
+      <details class="more"><summary>Ikusi gakoak${q.eredua ? ' eta eredu-erantzuna' : ''}</summary>
+        <ul style="margin:8px 0;padding-left:20px;display:flex;flex-direction:column;gap:4px">${q.gakoak.map((g) => `<li>${esc(g)}</li>`).join('')}</ul>
+        ${q.eredua ? `<div class="cmp"><div class="model" style="grid-column:1/-1"><div class="eyebrow">Eredu-erantzuna</div>${esc(q.eredua)}</div></div>` : ''}
+      </details></div></details>`;
+}
+
+function viewLearn(id) {
+  const L = BANKS.ikasi.gizartea;
+  const i = L.findIndex((x) => x.id === id);
+  if (i < 0) {
+    const groups = [...new Set(L.map((x) => x.arloa))];
+    app.innerHTML = `${top('learn')}<main class="wrap">
+      <div style="display:flex;flex-direction:column;gap:8px"><h1 style="font-size:clamp(30px,4vw,44px)">Ikasi</h1>
+        <p class="muted" style="max-width:62ch;font-size:17px">2027ko USaPeko eduki berriak, EHUren gaitegiaren ordenan. Fitxa bakoitzaren amaieran, gai horretako galderak dituzu praktikatzeko.</p></div>
+      <section style="display:flex;flex-direction:column;gap:18px"><h2 style="font-size:26px">2.2 Gizartea</h2>
+        ${groups.map((g) => `<div style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">${esc(g)}</div><div class="grid">
+          ${L.filter((x) => x.arloa === g).map((x) => `<a class="mcard" href="#/ikasi/${x.id}"><span class="mono muted" style="font-size:13px">${esc(x.gaia)}. gaia</span><h3>${esc(x.izenburua)}</h3><span class="sub">${x.galderak.length} galdera praktikatzeko</span></a>`).join('')}
+        </div></div>`).join('')}
+      </section>
+      <section class="card"><h2 style="font-size:22px">3. Literatura</h2><p class="muted" style="margin-top:6px">Laster: garaiak, autore nagusiak eta nahitaezko irakurgaiak.</p></section>
+    </main>`;
+    return;
+  }
+  const f = L[i], prev = L[i - 1], next = L[i + 1];
+  const qs = f.galderak.map((qid) => BANKS.gizartea.find((q) => q.id === qid)).filter(Boolean);
+  app.innerHTML = `${top('learn')}<main class="wrap" style="max-width:860px">
+    <a class="linkbtn" href="#/ikasi" style="align-self:flex-start">← Ikasi</a>
+    <div><div class="eyebrow">${esc(f.arloa)} · ${esc(f.gaia)}. gaia</div><h1 style="font-size:clamp(28px,4vw,40px)">${esc(f.izenburua)}</h1></div>
+    <div style="display:flex;flex-direction:column;gap:14px;font:18px/1.65 var(--read);max-width:68ch">${f.testua.map((p) => `<p>${md(p)}</p>`).join('')}</div>
+    <section class="card"><h2 style="font-size:20px;margin-bottom:6px">Kontzeptu nagusiak</h2>
+      <dl style="margin:0">${f.kontzeptuak.map(([t, d]) => `<div style="padding:10px 0;border-bottom:1px solid var(--line)"><dt style="font-weight:700">${esc(t)}</dt><dd style="margin:2px 0 0" class="muted">${esc(d)}</dd></div>`).join('')}</dl></section>
+    <section class="card" style="display:flex;flex-direction:column;gap:8px"><h2 style="font-size:20px">Gogoratu</h2>
+      <div class="chips">${f.gogoratu.map((g) => `<span class="chip ok" style="white-space:normal">${esc(g)}</span>`).join('')}</div></section>
+    ${qs.length ? `<section style="display:flex;flex-direction:column;gap:10px"><h2 style="font-size:22px">Praktikatu</h2>${qs.map(practiceHtml).join('')}</section>` : ''}
+    <div class="navrow">${prev ? `<a class="btn ghost" href="#/ikasi/${prev.id}">← ${esc(prev.izenburua)}</a>` : '<span></span>'}${next ? `<a class="btn primary" href="#/ikasi/${next.id}">${esc(next.izenburua)} →</a>` : ''}</div>
+  </main>`;
+}
+
 /* ---------- gimnasioa ---------- */
 const GYM = {
   sinonimoak: { name: 'Sinonimoak', desc: 'Hitz bat bere testuinguruan: eman sinonimo bat.' },
@@ -716,6 +762,6 @@ window.addEventListener('pagehide', () => { if (currentAtt) saveAtt(currentAtt);
 
 /* ---------- abiaraztea ---------- */
 const getJSON = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
-Promise.all([getJSON('data/ereduak.json'), getJSON('data/gizartea.json'), getJSON('data/literatura.json')])
-  .then(([data, gizartea, literatura]) => { MODELS = data; BANKS = { gizartea, literatura }; route(); })
+Promise.all([getJSON('data/ereduak.json'), getJSON('data/gizartea.json'), getJSON('data/literatura.json'), getJSON('data/ikasi.json')])
+  .then(([data, gizartea, literatura, ikasi]) => { MODELS = data; BANKS = { gizartea, literatura, ikasi }; route(); })
   .catch(() => { app.innerHTML = '<p class="loading">Ezin izan dira ereduak kargatu. Freskatu orria, mesedez.</p>'; });
