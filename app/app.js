@@ -1,11 +1,12 @@
 import {
   SECTIONS, RUBRIC, PENALTY_BANDS, norm, countWords, fmt, round, loose, exact, wordPenalty, conventions,
-  usedConnectors, copiedChunk, bandFor, textNormOf, gradeA3, score, emptyAnswers,
+  usedConnectors, copiedChunk, bandFor, textNormOf, gradeA3, score, emptyAnswers, picks, keyScore,
 } from './grading.js';
 
 const EXAM_MS = 90 * 60 * 1000;
 const app = document.getElementById('app');
 let MODELS = [];
+let BANKS = null;
 let ui = { filter: 'all', confirm: null, gym: null };
 let ticker = null;
 
@@ -29,7 +30,7 @@ const chip = (ok, text) => `<span class="chip ${ok ? 'ok' : 'bad'}">${ok ? icon.
 
 function getAtt(id) { return store.get('att:' + id, null); }
 function saveAtt(att) { att.updated = Date.now(); store.set('att:' + att.id, att); }
-function newAtt(m) { const a = { id: m.id, started: Date.now(), elapsed: 0, section: 'a1', finished: false, ans: emptyAnswers(m), self: {} }; saveAtt(a); return a; }
+function newAtt(m) { const a = { id: m.id, started: Date.now(), elapsed: 0, section: 's11', finished: false, ans: emptyAnswers(m), self: {} }; saveAtt(a); return a; }
 
 function setPath(obj, path, val) {
   const keys = path.split('.');
@@ -87,7 +88,7 @@ function viewHome() {
       <div class="main">
         <div class="eyebrow" style="color:var(--bar-muted)">Euskara eta Literatura II · USaP</div>
         <h1>Egin USaP-a, etxean eta lasai.</h1>
-        <p>90 minutu, azterketa ofizialaren egitura eta zuzentzaileen irizpide berberak. Bukatzean, puntuz puntu jakingo duzu non irabazi eta non galdu duzun.</p>
+        <p>2027ko USaPeko egitura berria: ulermena eta idazlana, hizkuntza eta gizartea, eta literatura. Bukatzean, puntuz puntu jakingo duzu non irabazi eta non galdu duzun.</p>
         <div style="display:flex;flex-wrap:wrap;gap:10px">
           <a class="btn primary" href="#/azterketa/${next.id}">${getAtt(next.id) ? 'Jarraitu' : 'Hasi'}: ${esc(next.num)}. eredua</a>
           <a class="btn" style="border:1px solid #3A3E47;color:var(--bar-ink)" href="#/gimnasioa">Gimnasioa</a>
@@ -108,7 +109,7 @@ function viewHome() {
       </div>
     </section>
 
-    <div class="banner" role="note"><span><b>Probako bertsioa.</b> Ereduak irakasle baten berrikuspenaren zain daude. Akatsen bat ikusten baduzu, esan zure irakasleari.</span></div>
+    <div class="banner" role="note"><span><b>Probako bertsioa, 2027ko egiturarekin.</b> Ereduak eta galderak irakasle baten berrikuspenaren zain daude. Akatsen bat ikusten baduzu, esan zure irakasleari.</span></div>
 
     <section style="display:flex;flex-direction:column;gap:14px" aria-labelledby="ered-h">
       <div class="sechead">
@@ -127,8 +128,8 @@ function viewHome() {
     </section>
 
     <section class="card" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px">
-      <div><b>A atala, automatikoki</b><p class="muted" style="font-size:15px;margin-top:4px">Testa, sinonimoak, aditzak, akatsak eta eratorpena txantiloiarekin zuzentzen dira.</p></div>
-      <div><b>B atala, zuk</b><p class="muted" style="font-size:15px;margin-top:4px">Idazlana errubrika ofizialarekin ebaluatzen duzu, galdera zehatzei erantzunez.</p></div>
+      <div><b>Hizkuntza, automatikoki</b><p class="muted" style="font-size:15px;margin-top:4px">Testa, sinonimoak, aditzak, akatsak eta eratorpena txantiloiarekin zuzentzen dira.</p></div>
+      <div><b>Idazlana, gizartea eta literatura, zuk</b><p class="muted" style="font-size:15px;margin-top:4px">Errubrikekin eta eredu-erantzunekin ebaluatzen duzu zure lana.</p></div>
       <div><b>Zure gailuan</b><p class="muted" style="font-size:15px;margin-top:4px">Konturik ez. Zure erantzunak nabigatzaile honetan gordetzen dira, eta ez dira inora bidaltzen.</p></div>
     </section>
     <footer class="footer"><span>Irizpideak: EHUren 2025 eta 2026ko USaPeko zuzenketa-irizpideak (Euskara eta Literatura II).</span><span>Nota orientagarria da, ez ofiziala.</span></footer>
@@ -140,9 +141,10 @@ function viewExam(m) {
   let att = getAtt(m.id);
   if (att && att.finished) { location.hash = `#/emaitza/${m.id}`; return; }
   if (!att) att = newAtt(m);
+  fixAtt(att);
   const sec = att.section;
   const wide = matchMedia('(min-width: 981px)').matches;
-  const showReading = sec !== 'b1';
+  const showReading = sec === 's11' || sec === 's21';
   app.innerHTML = `
   <div class="xbar"><div class="in">
     <div class="title"><a class="close" href="#/" aria-label="Itxi (zure erantzunak gordeta geratzen dira)">${icon.close}</a>
@@ -173,9 +175,20 @@ function viewExam(m) {
 }
 let currentAtt = null;
 
+// 2025–2026ko egiturako saiakerak egitura berrira egokitu
+function fixAtt(att) {
+  if (!SECTIONS.some((x) => x.id === att.section)) att.section = 's11';
+  for (const k of ['ch21', 'ch22', 'ch3']) if (att.ans[k] === undefined) att.ans[k] = null;
+  for (const k of ['ts22', 'ts3']) if (att.ans[k] === undefined) att.ans[k] = '';
+}
+
 function hasAnswers(att, id) {
-  const v = att.ans[id];
-  return JSON.stringify(v).replace(/"(opt|text|gaia|lab|w|r|word|suf)":/g, '').replace(/[{}[\]",:\s]/g, '').length > 0;
+  const a = att.ans;
+  const f = (v) => JSON.stringify(v ?? '').replace(/"(opt|text|gaia|lab|w|r|word|suf)":/g, '').replace(/null/g, '').replace(/[{}[\]",:\s]/g, '').length > 0;
+  if (id === 's11') return f(a.a1) || f(a.a2);
+  if (id === 's12') return !!norm(a.b1.text);
+  if (id === 's21') return a.ch21 === 0 || a.ch21 === 1;
+  return !!norm(a['t' + id]);
 }
 
 function readingHtml(m) {
@@ -194,42 +207,53 @@ function sectionHtml(m, att, sec) {
       : `<button class="btn accent" data-act="finish">${ui.confirm === 'finish' ? 'Ziur? Bai, amaitu eta zuzendu' : 'Amaitu eta zuzendu'}</button>`}
   </div>`;
   let body = '';
-  if (sec === 'a1') {
+  if (sec === 's11') {
     if (m.a1.type === 'test') {
-      body = `<div class="q">${qhead('A.1 Ulermenari buruzko galderak', '2 p · 0,4 galderako')}<p class="instr">Aukeratu erantzun zuzena (bakarra). Erantzun okerrek ez dute punturik kentzen.</p>
+      body = `<div class="q">${qhead('1.1 Ulermenari buruzko galderak', '1 p · 0,2 galderako')}<p class="instr">Aukeratu erantzun zuzena (bakarra). Erantzun okerrek ez dute punturik kentzen.</p>
       <div class="items">${m.a1.questions.map((q, i) => `<fieldset style="border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:8px">
         <legend class="prompt" style="padding:0;margin-bottom:6px"><span class="mono muted" style="font-size:14px">${i + 1}.</span> ${md(q.q)}</legend>
         <div class="opts">${q.options.map((o) => `<label class="opt"><input type="radio" name="a1-${i}" value="${o.k}" data-path="a1.${i}" ${a.a1[i] === o.k ? 'checked' : ''}><span>${o.k}) ${md(o.t)}</span></label>`).join('')}</div>
       </fieldset>`).join('')}</div></div>`;
     } else {
-      body = `<div class="q">${qhead('A.1 Ulermenari buruzko galderak', '2 p · 0,5 galderako')}<p class="instr">Erantzun galderei zure hitzak erabiliz, testutik kopiatu gabe.</p>
+      body = `<div class="q">${qhead('1.1 Ulermenari buruzko galderak', '1 p · 0,25 galderako')}<p class="instr">Erantzun galderei zure hitzak erabiliz, testutik kopiatu gabe.</p>
       <div class="items">${m.a1.questions.map((q, i) => `<div class="item"><span class="l">${LETTERS[i]})</span><div class="stack">
         <label class="prompt" for="a1-${i}">${md(q.q)}</label>
         <textarea id="a1-${i}" rows="3" data-path="a1.${i}">${esc(a.a1[i] || '')}</textarea></div></div>`).join('')}</div></div>`;
     }
-  } else if (sec === 'a2') {
-    body = `<div class="ctx"><div class="eyebrow">Testuingurua</div>${md(m.a2.context)}</div>
-    <div class="q">${qhead('A.2.1 Gaia', '0,5 p · esaldi bakarra', 'a2-gaia')}
+  }
+  if (sec === 's11') {
+    body += `<div class="ctx"><div class="eyebrow">Testuingurua</div>${md(m.a2.context)}</div>
+    <div class="q">${qhead('1.1 Gaia', '0,5 p · esaldi bakarra', 'a2-gaia')}
       <input type="text" id="a2-gaia" data-path="a2.gaia" value="${esc(a.a2.gaia)}" autocomplete="off">
       <div class="chips" id="gaia-live"></div></div>
-    <div class="q">${qhead('A.2.2 Laburpena', '1 p · gehienez 60 hitz', 'a2-lab')}
+    <div class="q">${qhead('1.1 Laburpena', '0,5 p · gehienez 60 hitz', 'a2-lab')}
       <p class="instr">Zure hitzekin. Ez kopiatu testuko esaldiak, eta ez erabili «egileak dioenez» erako egiturarik.</p>
       <textarea id="a2-lab" rows="7" data-path="a2.lab">${esc(a.a2.lab)}</textarea>
       <div id="lab-live" style="display:flex;flex-direction:column;gap:10px"></div></div>`;
-  } else if (sec === 'a3') {
-    body = m.a3.map((b, bi) => `<div class="q">${qhead(`A.3.${bi + 1} ${b.title}`, '0,5 p · 0,1 itemeko')}<p class="instr">${md(b.instr)}</p>${a3Html(m, b, bi, a.a3[bi])}</div>`).join('');
-  } else if (sec === 'b1') {
+  } else if (sec === 's21') {
+    const ch = a.ch21;
+    body = `<div class="ctx"><div class="eyebrow">2.1 Hizkuntza · 1,5 p</div>Bi galdera dituzu: aukeratu <b>bat</b> eta erantzun hari bakarrik.</div>
+    <div class="genres">${[0, 1].map((i) => `<button class="genre" data-act="choose" data-k="ch21" data-v="${i}" aria-pressed="${ch === i}"><b>${i ? 'B' : 'A'} · ${esc(m.a3[i].title)}</b><span>${md(m.a3[i].instr)}</span></button>`).join('')}</div>
+    ${ch === 0 || ch === 1 ? `<div class="q">${qhead(`2.1 ${m.a3[ch].title}`, '1,5 p · 0,3 itemeko')}<p class="instr">${md(m.a3[ch].instr)}</p>${a3Html(m, m.a3[ch], ch, a.a3[ch])}</div>` : ''}`;
+  } else if (sec === 's22' || sec === 's3') {
+    const pk = picks(m, BANKS)[sec];
+    const ch = a['ch' + sec];
+    const max = sec === 's22' ? '1,5' : '3';
+    const qt = (q) => (sec === 's22' ? `${q.arloa} · ${q.izenburua}` : q.autorea ? `Gaitegia · ${q.autorea}` : `Irakurgaia · ${q.liburua}`);
+    body = `<div class="ctx"><div class="eyebrow">${sec === 's22' ? '2.2 Gizartea' : '3. Literatura'} · ${max} p</div>Bi galdera dituzu: aukeratu <b>bat</b> eta erantzun hari bakarrik.</div>
+    <div class="genres">${pk.map((q, i) => `<button class="genre" data-act="choose" data-k="ch${sec}" data-v="${i}" aria-pressed="${ch === i}"><b>${i ? 'B' : 'A'} · ${esc(qt(q))}</b><span>${esc(q.galdera)}</span></button>`).join('')}</div>
+    ${ch === 0 || ch === 1 ? `<div class="q">${qhead(qt(pk[ch]), max + ' p', 'open-text')}
+      ${pk[ch].testua ? `<blockquote style="white-space:pre-line">${esc(pk[ch].testua)}</blockquote>` : ''}
+      <p class="prompt">${esc(pk[ch].galdera)}</p>
+      <textarea id="open-text" rows="12" data-path="t${sec}">${esc(a['t' + sec] || '')}</textarea>
+      <p class="muted" id="open-live" style="font-size:14px"></p></div>` : ''}`;
+  } else if (sec === 's12') {
     body = `<div class="ctx"><div class="eyebrow">Testuingurua</div>${md(m.b1.context)}</div>
+    <div class="banner" role="note"><span><b>2027: idazlanak 2 puntu balio ditu.</b> Hitz-muga eta kenketak ez daude oraindik berretsita: hemen 2025–2026ko arauak aplikatzen dira (4 puntutan), eta emaitza erdira eskalatzen da.</span></div>
     <div class="genres">${m.b1.options.map((o) => `<button class="genre" data-act="genre" data-v="${o.label}" aria-pressed="${a.b1.opt === o.label}"><b>${o.label} · ${esc(o.genre)}</b><span>${md(o.desc.charAt(0).toUpperCase() + o.desc.slice(1))}</span></button>`).join('')}</div>
-    <div class="b1grid"><div class="q">${qhead('B.1 Idazlan nagusia', '4 p · gutxienez 180 hitz', 'b1-text')}
+    <div class="b1grid"><div class="q">${qhead('1.2 Ekoizpen idatzia', '2 p · gutxienez 180 hitz', 'b1-text')}
       <textarea id="b1-text" rows="22" data-path="b1.text" placeholder="${a.b1.opt ? '' : 'Lehenik, aukeratu generoa goian.'}">${esc(a.b1.text)}</textarea></div>
       <aside class="q b1side" id="b1-live" aria-label="Idazlanaren egoera"></aside></div>`;
-  } else if (sec === 'b2') {
-    body = `<div class="q">${qhead('B.2 Egin lotura', '1 p · 50 hitz', 'b2-text')}
-      <p class="instr">${md(m.b2.intro)}</p>
-      <blockquote>${m.b2.lines.map(md).join('<br>')}</blockquote>
-      <textarea id="b2-text" rows="5" data-path="b2.text">${esc(a.b2.text)}</textarea>
-      <div id="b2-live"></div></div>`;
   }
   return body + nav;
 }
@@ -306,6 +330,8 @@ function live(m, att) {
       <div style="display:flex;flex-direction:column;gap:8px"><div class="eyebrow">Lokailuak · ${usedCount} desberdin</div>
         <div class="chips">${conns.map((c) => `<span class="chip ${c.used ? 'on' : ''}">${esc(c.c)}</span>`).join('')}</div></div>`;
   }
+  const ol = document.getElementById('open-live');
+  if (ol) { const n = countWords(getPath(a, document.getElementById('open-text').dataset.path)); ol.textContent = n ? `${n} hitz` : ''; }
   const b2 = document.getElementById('b2-live');
   if (b2) {
     const n = countWords(a.b2.text);
@@ -317,12 +343,13 @@ function live(m, att) {
 function viewResult(m) {
   const att = getAtt(m.id);
   if (!att) { location.hash = `#/azterketa/${m.id}`; return; }
+  fixAtt(att);
   if (!att.finished) { att.finished = true; att.finishedAt = Date.now(); }
-  const sc = score(m, att);
+  const sc = score(m, att, BANKS);
   att.result = { total: sc.total, pending: sc.pending };
   saveAtt(att);
   const s = att.self;
-  const tag = (p) => (p.pending ? `<span class="tag todo">${p.pending} ebaluatzeko</span>` : p.mode === 'auto' ? '<span class="tag auto">automatikoa</span>' : '<span class="tag self">zuk ebaluatua</span>');
+  const tag = (p) => (p.pending ? `<span class="tag todo">${p.pending} ebaluatzeko</span>` : p.mode === 'auto' ? '<span class="tag auto">automatikoa</span>' : p.mode === 'mixed' ? '<span class="tag auto">automatikoa + zuk</span>' : '<span class="tag self">zuk ebaluatua</span>');
   const y = window.scrollY;
   app.innerHTML = `${top('home')}
   <main class="wrap" style="gap:24px">
@@ -338,7 +365,7 @@ function viewResult(m) {
       <div class="card" style="display:flex;flex-direction:column;gap:10px">
         <div class="eyebrow">Zure nota orientagarria</div>
         <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap"><span class="big">${fmt(sc.total)}</span><span class="muted" style="font-size:18px">/ 10</span></div>
-        <p style="font-size:15px">${sc.pending ? `<b>Partziala.</b> ${sc.pending} zati falta zaizkizu ebaluatzeko: jarraitu behean, eta nota eguneratu egingo da.` : 'Ebaluazio osoa. Gogoratu: B ataleko puntuak zuk erabaki dituzu errubrikarekin.'}</p>
+        <p style="font-size:15px">${sc.pending ? `<b>Partziala.</b> ${sc.pending} zati falta zaizkizu ebaluatzeko: jarraitu behean, eta nota eguneratu egingo da.` : 'Ebaluazio osoa. Gogoratu: idazlanaren eta galdera irekien puntuak zuk erabaki dituzu, errubrikarekin.'}</p>
       </div>
       <div class="card lines">
         ${SECTIONS.map((sec) => { const p = sc.parts[sec.id]; return `<div><span>${sec.label} ${esc(sec.name)} ${tag(p)}</span><span class="mono">${fmt(p.pts)} / ${fmt(sec.max)}</span></div>`; }).join('')}
@@ -348,9 +375,10 @@ function viewResult(m) {
 
     ${resA1(m, att, s)}
     ${resA2(m, att, s)}
-    ${m.a3.map((b, bi) => resA3(m, att, bi)).join('')}
-    ${resB1(m, att, s, sc.parts.b1)}
-    ${resB2(m, att, s)}
+    ${resB1(m, att, s, sc.parts.s12.b1)}
+    ${att.ans.ch21 === 0 || att.ans.ch21 === 1 ? resA3(m, att, att.ans.ch21) : '<section class="card"><h2 style="font-size:20px">2.1 Hizkuntza</h2><p class="muted">Ez duzu galderarik aukeratu: 0 puntu.</p></section>'}
+    ${resOpen(m, att, s, 's22')}
+    ${resOpen(m, att, s, 's3')}
     <section class="card" style="display:flex;flex-direction:column;gap:12px">
       <h2 style="font-size:20px">Zuzentasuna</h2>
       <p class="muted" style="font-size:15px">Irakurri berriro zure erantzunak eta zenbatu akatsak. Lehen akats ortografikoa doan da; akats bera errepikatuz gero, behin bakarrik zenbatzen da. Gehienez −2 puntu guztira, eta gramatikagatik −1.</p>
@@ -369,7 +397,7 @@ const yours = (t) => `<div><div class="eyebrow">Zure erantzuna</div>${t ? esc(t)
 function resA1(m, att, s) {
   const a = att.ans.a1;
   if (m.a1.type === 'test') {
-    return `<section class="card"><h2 style="font-size:20px;margin-bottom:8px">A.1 Ulermena</h2>${m.a1.questions.map((q, i) => {
+    return `<section class="card"><h2 style="font-size:20px;margin-bottom:8px">1.1 Ulermena · galderak</h2>${m.a1.questions.map((q, i) => {
       const ok = a[i] === q.correct;
       const corr = q.options.find((o) => o.k === q.correct);
       return `<div class="res"><span class="mark ${ok ? 'ok' : 'bad'}">${ok ? '✓' : '✗'}</span><div class="body"><span>${i + 1}. ${md(q.q)}</span>
@@ -380,7 +408,7 @@ function resA1(m, att, s) {
     <p class="muted" style="font-size:15px">Alderatu zure erantzuna ereduarekin. Zuzentzaileek ikuspegi zabala erabiltzen dute: ideia bera zure hitzekin badago, zuzena da.</p>
     ${m.a1.questions.map((q, i) => `<div style="display:flex;flex-direction:column;gap:8px"><b>${LETTERS[i]}) ${md(q.q)}</b>
       <div class="cmp">${yours(a[i])}<div class="model"><div class="eyebrow">Erantzun-eredua</div>${md(q.answer)}</div></div>
-      ${norm(a[i]) ? segBtns(`a1.${i}`, [[0.5, 'Zuzena · 0,5'], [0.25, 'Erdizka · 0,25'], [0, 'Okerra · 0']], s.a1?.[i]) : '<span class="muted">Erantzunik gabe: 0</span>'}</div>`).join('')}
+      ${norm(a[i]) ? segBtns(`a1.${i}`, [[0.5, 'Zuzena'], [0.25, 'Erdizka'], [0, 'Okerra']], s.a1?.[i]) : '<span class="muted">Erantzunik gabe: 0</span>'}</div>`).join('')}
   </section>`;
 }
 
@@ -388,13 +416,13 @@ function resA2(m, att, s) {
   const a = att.ans.a2;
   const n = countWords(a.lab);
   const labShown = n > 60 ? a.lab.trim().split(/\s+/).slice(0, 60).join(' ') + ' […]' : a.lab;
-  return `<section class="card" style="display:flex;flex-direction:column;gap:16px"><h2 style="font-size:20px">A.2 Gaia eta laburpena</h2>
+  return `<section class="card" style="display:flex;flex-direction:column;gap:16px"><h2 style="font-size:20px">1.1 Ulermena · gaia eta laburpena</h2>
     <b>Gaia</b><div class="cmp">${yours(a.gaia)}<div class="model"><div class="eyebrow">Eredua</div>${md(m.a2.gaia)}</div></div>
     ${norm(a.gaia) ? segBtns('gaia', [[0.5, 'Gaia zehatz jasota · 0,5'], [0.25, 'Erdizka · 0,25'], [0, 'Ez · 0']], s.gaia) : ''}
     <b>Laburpena <span class="muted mono" style="font-weight:400;font-size:13px">${n} hitz${n > 60 ? ' · lehen 60ak bakarrik' : ''}</span></b>
     <div class="cmp">${yours(labShown)}<div class="model"><div class="eyebrow">Eredu-laburpena</div>${md(m.a2.laburpena)}</div></div>
     <ul class="muted" style="margin:0;padding-left:20px;font-size:14px"><li>Ideia nagusi guztiak jaso dituzu?</li><li>Zure hitzekin idatzi duzu, kopiatu gabe?</li><li>Trinkoa, koherentea eta kohesionatua da?</li></ul>
-    ${norm(a.lab) ? segBtns('lab', [[1, '1'], [0.75, '0,75'], [0.5, '0,5'], [0.25, '0,25'], [0, '0']], s.lab) : ''}
+    ${norm(a.lab) ? segBtns('lab', [[1, 'Oso ona'], [0.75, 'Ona'], [0.5, 'Erdizka'], [0.25, 'Ahula'], [0, 'Ez']], s.lab) : ''}
   </section>`;
 }
 
@@ -404,7 +432,7 @@ function resA3(m, att, bi) {
   const r = gradeA3(m, bi, ans, att.self.a3);
   const rows = (b.kind === 'akatsak' || b.kind === 'eratorpena') ? ans : b.items;
   const okCount = r.items.filter((x) => x.state === 'ok').length;
-  return `<section class="card"><div class="sechead" style="margin-bottom:8px"><h2 style="font-size:20px">A.3.${bi + 1} ${esc(b.title)}</h2><span class="mono">${fmt(r.pts)} / 0,5</span></div>
+  return `<section class="card"><div class="sechead" style="margin-bottom:8px"><h2 style="font-size:20px">2.1 Hizkuntza · ${esc(b.title)}</h2><span class="mono">${fmt(r.pts * 3)} / 1,5</span></div>
   ${b.kind === 'akatsak' ? `<p class="muted" style="font-size:14px;margin-bottom:6px">Akats guztiak: ${b.pairs.map((p) => `${esc(p.wrong)} → <b>${esc(p.right[0])}</b>`).join(' · ')}</p>` : ''}
   ${b.kind === 'eratorpena' ? `<p class="muted" style="font-size:14px;margin-bottom:6px">Aukerak: ${b.options.map((o) => `${esc(o.suffix)} (${esc(o.words.join(', '))})`).join(' · ')}</p>` : ''}
   ${rows.map((row, i) => {
@@ -435,13 +463,13 @@ function resA3(m, att, bi) {
 function resB1(m, att, s, p) {
   const a = att.ans.b1;
   if (!p.opt || !p.words) {
-    return `<section class="card"><h2 style="font-size:20px">B.1 Idazlana</h2><p class="muted">Ez duzu idazlanik idatzi${p.opt ? '' : ' edo generoa aukeratu'}: 0 puntu.</p></section>`;
+    return `<section class="card"><h2 style="font-size:20px">1.2 Idazlana</h2><p class="muted">Ez duzu idazlanik idatzi${p.opt ? '' : ' edo generoa aukeratu'}: 0 puntu.</p></section>`;
   }
   const rub = RUBRIC.map((_, i) => s.rub?.[i]);
   const band = p.band;
   const steps = band && band.hi > 0 ? [band.lo, band.lo + 0.25, band.lo + 0.5, band.lo + 0.75, band.hi] : [];
   return `<section class="card" style="display:flex;flex-direction:column;gap:16px">
-    <div class="sechead"><h2 style="font-size:20px">B.1 Idazlana · ${esc(p.opt.genre)}</h2><span class="mono">${fmt(p.pts)} / 4</span></div>
+    <div class="sechead"><h2 style="font-size:20px">1.2 Idazlana · ${esc(p.opt.genre)}</h2><span class="mono">${fmt(p.pts)} / 4 → ${fmt(p.pts / 2)} / 2</span></div>
     <div class="lines">
       <div><span>Hitz-kopurua: ${p.words}</span><span class="mono ${p.wp ? 'pen' : ''}">${p.wp ? '−' + fmt(p.wp) : '0'}</span></div>
       <div><span>Generoaren konbentzioak ${p.conv.map((c) => chip(c.ok, c.label)).join(' ')}</span><span class="mono ${p.convPen ? 'pen' : ''}">${p.convPen ? '−0,5' : '0'}</span></div>
@@ -457,6 +485,25 @@ function resB1(m, att, s, p) {
       <span style="font-size:13px">Azken puntuazioa: ${fmt(p.chosen ?? 0)} ${p.wp ? `− ${fmt(p.wp)} (hitzak)` : ''} ${p.convPen ? '− 0,5 (konbentzioak)' : ''} = <b>${fmt(p.pts)}</b></span></div>`
       : '<p class="muted" style="font-size:14px">Erantzun galdera guztiei banda ikusteko.</p>'}
     <details class="more"><summary>Txantiloiaren oharrak</summary><p style="padding-top:8px;font-size:15px">${md(m.b1.notes)}</p></details>
+  </section>`;
+}
+
+function resOpen(m, att, s, id) {
+  const max = id === 's22' ? 1.5 : 3;
+  const name = id === 's22' ? '2.2 Gizartea' : '3. Literatura';
+  const ch = att.ans['ch' + id];
+  const text = att.ans['t' + id] || '';
+  if (!(ch === 0 || ch === 1) || !norm(text)) return `<section class="card"><h2 style="font-size:20px">${name}</h2><p class="muted">Ez duzu erantzunik idatzi: 0 puntu.</p></section>`;
+  const q = picks(m, BANKS)[id][ch];
+  const ticks = s['k' + id];
+  const v = keyScore(ticks, q.gakoak.length, max);
+  return `<section class="card" style="display:flex;flex-direction:column;gap:14px">
+    <div class="sechead"><h2 style="font-size:20px">${name} · ${esc(q.izenburua)}</h2><span class="mono">${v === null ? '—' : fmt(v)} / ${fmt(max)}</span></div>
+    <p style="font:18px/1.5 var(--read)">${esc(q.galdera)}</p>
+    <div class="cmp">${yours(text)}<div class="model">${q.eredua ? `<div class="eyebrow">Eredu-erantzuna</div>${esc(q.eredua)}` : '<div class="eyebrow">Eredu-erantzunik ez</div>Irakurgaiei buruzko galderetan zure irakurketa da gakoa: erabili beheko zerrenda zure erantzuna ebaluatzeko.'}</div></div>
+    <div><div class="eyebrow" style="margin-bottom:6px">Markatu zure erantzunak betetzen dituen gakoak · ${fmt(max)} p, proportzioan</div>
+      ${q.gakoak.map((g, i) => `<label class="crit" style="justify-content:flex-start;gap:12px;cursor:pointer"><input type="checkbox" data-tick="${id}" data-i="${i}" ${Array.isArray(ticks) && ticks[i] ? 'checked' : ''} style="width:20px;height:20px;accent-color:var(--accent);flex:none"><span>${esc(g)}</span></label>`).join('')}</div>
+    ${Array.isArray(ticks) ? '' : `<button class="btn ghost" data-act="tick-none" data-k="${id}" style="align-self:flex-start">Ez dut bat ere betetzen</button>`}
   </section>`;
 }
 
@@ -587,6 +634,16 @@ app.addEventListener('input', (e) => {
 app.addEventListener('change', (e) => {
   const el = e.target;
   if (el.dataset.path && currentAtt && el.type === 'radio') { setPath(currentAtt.ans, el.dataset.path, el.value); saveAtt(currentAtt); }
+  if (el.dataset.tick) {
+    const m = byId(location.hash.split('/')[2]);
+    const att = getAtt(m.id);
+    const id = el.dataset.tick;
+    const q = picks(m, BANKS)[id][att.ans['ch' + id]];
+    const arr = Array.isArray(att.self['k' + id]) ? att.self['k' + id] : q.gakoak.map(() => false);
+    arr[Number(el.dataset.i)] = el.checked;
+    att.self['k' + id] = arr;
+    saveAtt(att); viewResult(m); return;
+  }
   if (el.dataset.self) {
     const m = byId(location.hash.split('/')[2]);
     const att = getAtt(m.id);
@@ -605,6 +662,10 @@ app.addEventListener('click', (e) => {
     const m = byId(currentAtt.id);
     clearInterval(ticker); viewExam(m); window.scrollTo(0, 0); return;
   }
+  if (act === 'choose' && currentAtt) {
+    currentAtt.ans[el.dataset.k] = Number(el.dataset.v); saveAtt(currentAtt);
+    clearInterval(ticker); viewExam(byId(currentAtt.id)); return;
+  }
   if (act === 'genre' && currentAtt) {
     currentAtt.ans.b1.opt = el.dataset.v; saveAtt(currentAtt);
     document.querySelectorAll('.genre').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === el.dataset.v)));
@@ -620,6 +681,12 @@ app.addEventListener('click', (e) => {
   if (act === 'restart' && m) {
     if (ui.confirm !== 'restart') { ui.confirm = 'restart'; viewResult(m); return; }
     store.del('att:' + m.id); ui.confirm = null; location.hash = `#/azterketa/${m.id}`; return;
+  }
+  if (act === 'tick-none' && m) {
+    const att = getAtt(m.id);
+    const id = el.dataset.k;
+    att.self['k' + id] = picks(m, BANKS)[id][att.ans['ch' + id]].gakoak.map(() => false);
+    saveAtt(att); viewResult(m); return;
   }
   if (act === 'self' && m) {
     const att = getAtt(m.id);
@@ -648,7 +715,7 @@ window.addEventListener('hashchange', () => { if (currentAtt) saveAtt(currentAtt
 window.addEventListener('pagehide', () => { if (currentAtt) saveAtt(currentAtt); });
 
 /* ---------- abiaraztea ---------- */
-fetch('data/ereduak.json')
-  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((data) => { MODELS = data; route(); })
+const getJSON = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+Promise.all([getJSON('data/ereduak.json'), getJSON('data/gizartea.json'), getJSON('data/literatura.json')])
+  .then(([data, gizartea, literatura]) => { MODELS = data; BANKS = { gizartea, literatura }; route(); })
   .catch(() => { app.innerHTML = '<p class="loading">Ezin izan dira ereduak kargatu. Freskatu orria, mesedez.</p>'; });
