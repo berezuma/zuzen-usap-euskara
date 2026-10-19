@@ -401,5 +401,314 @@
     "g38"
    ]
   }
+ ],
+ "literatura": [
+  {
+   "id": "ohiturazkoa",
+   "arloa": "A. Mende hasierako literatura",
+   "gaia": "1",
+   "izenburua": "Ohiturazko narratibaren aroa",
+   "galderak": [
+    "l01",
+    "l17",
+    "l09"
+   ],
+   "testua": [
+    "XX. mende hasieran sortu zen euskal nobelagintza, ohiturazko eleberriaren eskutik. Landa- eta itsas giroa idealizatzen du, ohiturak deskribatzen ditu, eta balio tradizionalak goraipatzen ditu (erlijioa, familia, euskara), modernitatea eta hiria mehatxutzat aurkeztuz. Narratzaile orojakilea, deskribapen luzeak eta pertsonaia tipikoak dira nagusi.",
+    "Txomin Agirre da gaiko autore nagusia: Kresala (1906) arrantzale-herri batean kokatzen da, eta Garoa (1912) baserri-giroan. Beste nobela batzuk: Etxeitaren Josetxo (1909), Azkueren Ardi galdua (1918), Jean Etxepareren Beribilez (1930).",
+    "Ipuingintzan eta kazetaritzan ere bada ohiturazko narratibarik: Kirikiñoren Abarrak (1918) eta Errose Bustintza «Mañariko»ren ipuinak Hegoaldean; Jean Etxepareren Buruxkak (1910) eta Jean Barbierren Supazter xokoan (1924) Iparraldean."
+   ],
+   "kontzeptuak": [
+    [
+     "Txomin Agirre · Kresala (1906), Garoa (1912)",
+     "Gaiko autore nagusia: ohiturazko eleberriaren eredua."
+    ],
+    [
+     "Ohiturazko eleberria",
+     "Landa-giro idealizatua, balio tradizionalak, modernitatearen aurkako jarrera."
+    ],
+    [
+     "Kirikiño · Abarrak (1918)",
+     "Ohiturazko ipuingintza Hegoaldean."
+    ],
+    [
+     "Jean Barbier · Supazter xokoan (1924)",
+     "Ohiturazko ipuingintza Iparraldean."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusia: Txomin Agirre",
+    "Erruralismoa eta idealizazioa",
+    "Narratzaile orojakilea"
+   ]
+  },
+  {
+   "id": "pizkundea",
+   "arloa": "A. Mende hasierako literatura",
+   "gaia": "2",
+   "izenburua": "Euskal Pizkundeko poesia",
+   "galderak": [
+    "l02",
+    "l16"
+   ],
+   "testua": [
+    "Aurrekariak XIX. mendeko olerkari eta bertsolariak dira, foruzaletasunari eta herri-giroari lotuak: Elizanburu, Iparragirre, Zaldubi, Arrese-Beitia, Etxahun, Bilintx. Kantatzeko poemak eta bertso jarriak, hizkuntza herrikoian.",
+    "Gerra aurrean (1930eko hamarkada), Euskal Pizkundeak poesia modernizatu zuen. Aitzolen ekimenak bultzatu zuen giroa. Gaiko autore nagusiak Lauaxeta eta Lizardi dira: Lizardiren Biotz-begietan (1932) liburuan natura eta barne-mundua uztartzen dira; Lauaxetaren Arrats beran (1935) liburuak iruditeria berritzailea eta sinbolismoa ditu. Biek hizkuntza landu eta garbizalea erabili zuten.",
+    "Beste egile batzuk: Orixeren lehen lanak, Jautarkol, Sorne Unzueta eta Tene Mujika. Gerrak ildo hori eten zuen: Lauaxeta 1937an fusilatu zuten."
+   ],
+   "kontzeptuak": [
+    [
+     "Lizardi · Biotz-begietan (1932)",
+     "Natura eta barne-mundua; sentsibilitate handia."
+    ],
+    [
+     "Lauaxeta · Arrats beran (1935)",
+     "Iruditeria berritzailea, sinbolismoa, erromantzeak."
+    ],
+    [
+     "Aitzol",
+     "Pizkundeko kultur ekimenen bultzatzailea."
+    ],
+    [
+     "Hizkuntza garbizalea",
+     "Erdal hitzak saihesteko joera, hizkuntza jasoa."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusiak: Lauaxeta eta Lizardi",
+    "Aurrekariak: Iparragirre, Bilintx, Elizanburu",
+    "Gerrak eten zuen"
+   ]
+  },
+  {
+   "id": "gerraostea",
+   "arloa": "B. Gerra ondoko urteetatik modernitatera",
+   "gaia": "3",
+   "izenburua": "Gerraosteko lehen literatura",
+   "galderak": [
+    "l11",
+    "l12"
+   ],
+   "testua": [
+    "Gerra Zibilak eta Bigarren Mundu Gerrak etena ekarri zuten: idazle batzuk hil ziren, beste batzuk espetxeratu edo erbesteratu, eta barnean euskarazko argitalpenak oso mugatuta geratu ziren.",
+    "Erbestean, batez ere Ameriketan, literatura bizirik mantendu zen: Jokin Zaitegiren lana eta Euzko-Gogoa aldizkaria dira ekarpen nagusiak. Martin Ugalderen Itzulera baten historia (1990) erbestearen esperientziarekin lotzen da.",
+    "Barnean, eredu tradizionalaren arrastoak ageri dira: Orixeren Euskaldunak (1950) poema luzeak euskal herri tradizionala irudikatzen du; Julene Azpeitiak eta Jon Andoni Irazustak ohiturazko narratiba jarraitu zuten; Jon Etxaidek nobela historikoa landu zuen (Joanak joan, 1955); eta Juan Antonio Loidiren Amabost egun Urgain'en (1955) euskarazko lehen polizia-eleberria da."
+   ],
+   "kontzeptuak": [
+    [
+     "Euzko-Gogoa",
+     "Jokin Zaitegiren aldizkaria, erbestean."
+    ],
+    [
+     "Orixe · Euskaldunak (1950)",
+     "Euskal herri tradizionalaren poema luzea."
+    ],
+    [
+     "Loidi · Amabost egun Urgain'en (1955)",
+     "Euskarazko lehen polizia-eleberria."
+    ],
+    [
+     "Etxaide · Joanak joan (1955)",
+     "Nobela historikoa."
+    ]
+   ],
+   "gogoratu": [
+    "Etena eta erbestea",
+    "Tradizioaren jarraipena barnean"
+   ]
+  },
+  {
+   "id": "narratiba-modernoa",
+   "arloa": "B. Gerra ondoko urteetatik modernitatera",
+   "gaia": "4",
+   "izenburua": "Euskal narratiba modernoa",
+   "galderak": [
+    "l04",
+    "l05",
+    "l06",
+    "l10",
+    "l18"
+   ],
+   "testua": [
+    "Txillardegiren Leturiaren egunkari ezkutua (1957) euskal nobela modernoaren abiapuntua da: existentzialismoaren eraginez, gizaki modernoaren barne-krisia du gai (bizitzaren zentzua, bakardadea), egunkari-forman eta lehen pertsonan, ohiturazko nobelarekin hautsiz.",
+    "Ramon Saizarbitoriak nouveau roman frantsesaren eragina ekarri zuen: Egunero hasten delako (1969) eta Ehun metro (1976) nobeletan egitura esperimentala, denbora-hausturak eta ikuspegi-aldaketak ditugu, eta gai garaikide eta tabuak.",
+    "Jon Miranderen narraziogintza (ipuinak; Haur besoetakoa, 1970) heterodoxoa eta probokatzailea da, estilo landuarekin.",
+    "Arantxa Urretabizkaiaren Zergatik panpox (1978) emakume-ahotsaren agerrera da: emakume protagonista bat, barne-bakarrizketaren bidez."
+   ],
+   "kontzeptuak": [
+    [
+     "Txillardegi · Leturiaren egunkari ezkutua (1957)",
+     "Existentzialismoa; nobela modernoaren hasiera."
+    ],
+    [
+     "Saizarbitoria · Egunero hasten delako (1969), Ehun metro (1976)",
+     "Nouveau roman-a; berrikuntza formala."
+    ],
+    [
+     "Mirande · Haur besoetakoa (1970)",
+     "Narraziogintza heterodoxoa."
+    ],
+    [
+     "Urretabizkaia · Zergatik panpox (1978)",
+     "Emakume-ahotsa; barne-bakarrizketa."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusiak: Txillardegi, Saizarbitoria, Urretabizkaia",
+    "Existentzialismoa → nouveau roman-a",
+    "Ohiturazkoarekin haustura"
+   ]
+  },
+  {
+   "id": "poesia-modernoa",
+   "arloa": "B. Gerra ondoko urteetatik modernitatera",
+   "gaia": "5",
+   "izenburua": "Euskal poesia modernoa",
+   "galderak": [
+    "l03",
+    "l13",
+    "l14",
+    "l20"
+   ],
+   "testua": [
+    "Gabriel Arestiren poesia soziala da ardatza: Harri eta herri (1964) liburuarekin, poesia gizarte-salaketarako tresna bihurtu zen, hiri- eta langile-giroa ekarriz eta hizkuntza herrikoi eta zuzena erabiliz. «Nire aitaren etxea» poema ezaguna da. Aresti euskara batuaren aldekoa izan zen.",
+    "Poesia eta kantagintza: Ez dok amairu mugimenduaren inguruan, Xabier Leteren kantuek eta Joxean Artzeren poesiak (Isturitzetik Tolosan barru, 1969) poesia gizarteratu zuten.",
+    "Emakumeen poesia: Amaia Lasa eta Arantxa Urretabizkaia dira erreferenteak, emakumeen esperientzia eta intimitatea poesiaren gai bihurtuz."
+   ],
+   "kontzeptuak": [
+    [
+     "Aresti · Harri eta herri (1964)",
+     "Poesia soziala; gaiko autore nagusia."
+    ],
+    [
+     "Ez dok amairu",
+     "1960ko hamarkadako kantagintza-mugimendua."
+    ],
+    [
+     "Lete eta Artze",
+     "Poesia eta kantagintza; poesia esperimentala (Artze)."
+    ],
+    [
+     "Amaia Lasa, Arantxa Urretabizkaia",
+     "Emakumeen poesia."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusia: Gabriel Aresti",
+    "Poesia soziala eta konpromisoa",
+    "1960-70: literatura eta euskararen berpiztea batera"
+   ]
+  },
+  {
+   "id": "narratiba-xx",
+   "arloa": "C. Modernitatetik postmodernitatera",
+   "gaia": "6",
+   "izenburua": "XX. mende amaierako narratiba",
+   "galderak": [
+    "l07",
+    "l15",
+    "l19"
+   ],
+   "testua": [
+    "Narratibak bide asko hartu zituen: errealismo magikoa (Anjel Lertxundi, Joan Mari Irigoien, Inazio Mujika-Iraola), narratiba fantastikoa (Bernardo Atxaga, Joseba Sarrionandia, Mariasun Landa) eta literatura errealista (Joxe Austin Arrieta, Ramon Saizarbitoria, Arantxa Urretabizkaia, Itxaro Borda…).",
+    "Bernardo Atxaga da ardatza, eta Obabakoak (1989) erreferentzia nagusia: Obaba fikziozko herrian kokatutako istorioak, narratiba fantastikoa eta metaliteratura uztartuz. Espainiako Narratiba Saria jaso zuen eta hizkuntza askotara itzuli zen, euskal literatura nazioartera zabalduz.",
+    "Ipuingintzarako antologiak lagungarri dira: Euskal ipuinen antologia bat (Aldekoa, 1993), Mende berrirako ipuinak (Olaziregi, 2005), Eskuko ekipajea (Egaña, 2020)."
+   ],
+   "kontzeptuak": [
+    [
+     "Atxaga · Obabakoak (1989)",
+     "Narratiba fantastikoa, metaliteratura, nazioartekotzea."
+    ],
+    [
+     "Errealismo magikoa",
+     "Gertaera magikoak errealitatean, naturaltasunez."
+    ],
+    [
+     "Pott banda (1978)",
+     "Atxaga, Sarrionandia eta beste gazte batzuen taldea."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusia: Bernardo Atxaga",
+    "Obaba: fikziozko herria",
+    "Askotariko bideak: magikoa, fantastikoa, errealista"
+   ]
+  },
+  {
+   "id": "poesia-xx",
+   "arloa": "C. Modernitatetik postmodernitatera",
+   "gaia": "7",
+   "izenburua": "XX. mende amaierako poesia",
+   "galderak": [
+    "l08"
+   ],
+   "testua": [
+    "Poesia autonomizatu egin zen: literatura literatura gisa, ez tresna politiko edo didaktiko soil gisa. Joseba Sarrionandia da ardatza, eta Hnuy illa nyha majah yahoo (1995) erreferentziazko lana, 1985-1995eko poemak biltzen dituena.",
+    "Sarrionandiaren gai nagusiak: bidaia, itsasoa, erbestea, kartzela eta nostalgia. Intertestualitatea ere ezaugarri nagusia da: munduko literaturarekin elkarrizketan idazten du, itzulpenen eta aipuen bidez.",
+    "Beste poeta batzuk: Bernardo Atxaga, Koldo Izagirre, Tere Irastortza, Itxaro Borda. Antologiak: XX. mendeko poesia kaierak bilduma eta Bideko hitza (Olasagarre, 2020)."
+   ],
+   "kontzeptuak": [
+    [
+     "Sarrionandia · Hnuy illa nyha majah yahoo (1995)",
+     "Gaiko autore nagusia; poemak 1985-1995."
+    ],
+    [
+     "Intertestualitatea",
+     "Beste testu eta literatura batzuekiko elkarrizketa."
+    ],
+    [
+     "Literaturaren autonomia",
+     "Literatura bere balio estetikoagatik."
+    ]
+   ],
+   "gogoratu": [
+    "Autore nagusia: Joseba Sarrionandia",
+    "Bidaia, itsasoa, erbestea"
+   ]
+  },
+  {
+   "id": "irakurgaiak",
+   "arloa": "Nahitaezko irakurgaiak",
+   "gaia": "8",
+   "izenburua": "Irakurgaiak prestatzeko gida",
+   "galderak": [
+    "r01",
+    "r02",
+    "r07",
+    "r08",
+    "r03",
+    "r04",
+    "r09",
+    "r10",
+    "r05",
+    "r06",
+    "r11",
+    "r12"
+   ],
+   "testua": [
+    "Hiru nahitaezko irakurgai daude: Bernardo Atxagaren Bi anai (1985; berridatzitako edizio berria ere irakur daiteke, eta azterketan bien arteko aldeak kontuan hartuko dira), Karmele Jaioren Aitaren etxea (2019), eta Miren Agur Meaberen Azalaren kodea (2001, poema-liburua).",
+    "Galderak irekiak izango dira, eta liburuak irakurri dituzula erakutsi beharko duzu: forma, edukia, hausnarketa eta sorkuntza. Ez da buruz ikastea; zure irakurketa arrazoitzea baizik.",
+    "Liburu bakoitzerako, egin fitxa bat: pertsonaiak eta haien bilakaera; narratzailea eta ikuspegia; denboraren antolaketa; espazioa; gai nagusiak; sinboloak; izenburuaren esanahia; amaieraren interpretazioa; eta pasarte gakoak, orrialde-zenbakiekin. Poema-liburuan: gai nagusiak, irudi errepikatuak, baliabide estilistikoak eta zure poema gogokoenak."
+   ],
+   "kontzeptuak": [
+    [
+     "Bi anai · Bernardo Atxaga (1985)",
+     "Eleberria; bi edizio (jatorrizkoa eta berridatzia)."
+    ],
+    [
+     "Aitaren etxea · Karmele Jaio (2019)",
+     "Eleberria."
+    ],
+    [
+     "Azalaren kodea · Miren Agur Meabe (2001)",
+     "Poema-liburua."
+    ]
+   ],
+   "gogoratu": [
+    "Erantzun bakoitzean: tesi argia + liburuko adibide zehatzak",
+    "Bi anai: edizioen arteko aldeak",
+    "Izenburua, amaiera, sinboloak: galdera-mota ohikoak"
+   ]
+  }
  ]
 }
