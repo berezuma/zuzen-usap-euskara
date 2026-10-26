@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T23:59:00Z",
+  "title": "Design System: USaPeuskara",
+  "extensions": {
+    "colorMeta": {
+      "pen": { "role": "primary", "displayName": "Ikaslearen tinta" },
+      "red": { "role": "secondary", "displayName": "Zuzentzailearen gorria" },
+      "ok": { "role": "tertiary", "displayName": "Puntu irabaziak" },
+      "desk": { "role": "neutral", "displayName": "Mahaia" },
+      "paper": { "role": "neutral", "displayName": "Orria" },
+      "night": { "role": "neutral", "displayName": "Gaua" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hasierako izenburua bakarrik." },
+      "reading": { "displayName": "Irakurgaia", "purpose": "Irakurgaiak, galderak eta ikaslearen erantzunak." }
+    },
+    "shadows": [
+      { "name": "float", "value": "0 6px 20px rgba(15, 19, 34, .28)", "purpose": "Benetan flotatzen duten elementuak: Irakurgaia botoia, denbora-abisua." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.23, 1, .32, 1)", "purpose": "Sakatzea, sarrerak, aldaketak." },
+      { "name": "ease-drawer", "value": "cubic-bezier(.32, .72, 0, 1)", "purpose": "Beheko orria eta karpeten sarrera." },
+      { "name": "press", "value": "transform 140ms", "purpose": "scale(.97) botoietan." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "720px" },
+      { "name": "tablet", "value": "980px" }
+    ]
+  },
+  "components": [
+    { "name": "Botoi nagusia", "kind": "button", "refersTo": "button-primary", "description": "Ekintza nagusia, pantailako bakarra.", "html": "<button class=\"ds-btn\">Hasi azterketa</button>", "css": ".ds-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border:0;border-radius:4px;background:#1E43B5;color:#fff;font:600 16px/1 'General Sans',system-ui,sans-serif;cursor:pointer;transition:transform 140ms cubic-bezier(.23,1,.32,1)}.ds-btn:active{transform:scale(.97)}" },
+    { "name": "Erantzun-eremua", "kind": "input", "refersTo": "field", "description": "Ikaslearen idazkia, tinta urdinez.", "html": "<input class=\"ds-in\" value=\"nagikeria\">", "css": ".ds-in{width:100%;min-height:48px;padding:11px 13px;border:0;border-bottom:2px solid #E3E7EE;border-radius:4px 4px 0 0;background:#F3F5F8;color:#1E43B5;font:400 17px/1.55 Literata,Georgia,serif}.ds-in:focus{outline:0;border-bottom-color:#1E43B5;background:#E4EAFA}" },
+    { "name": "Txip zuzena", "kind": "chip", "refersTo": "chip-ok", "description": "Egoera bizia idaztean.", "html": "<span class=\"ds-chip\">Esaldi bakarra</span>", "css": ".ds-chip{display:inline-flex;padding:6px 10px;border-radius:4px;background:#E1F2E8;color:#17734A;font:500 14px/1.3 'General Sans',system-ui,sans-serif}" },
+    { "name": "Nabigazioa", "kind": "nav", "description": "Wordmark eta hiru esteka.", "html": "<nav class=\"ds-nav\"><b>USaPeuskara<span>.</span></b><a aria-current=\"page\">Azterketak</a><a>Ikasi</a><a>Gimnasioa</a></nav>", "css": ".ds-nav{display:flex;gap:4px;align-items:center;background:#fff;padding:10px 16px;font:600 16px 'General Sans',system-ui,sans-serif}.ds-nav b{font-size:24px;margin-right:auto;letter-spacing:-.03em}.ds-nav b span{color:#C01B2C}.ds-nav a{padding:12px;border-radius:4px;color:#4F566B}.ds-nav a[aria-current]{background:#F3F5F8;color:#151A2C}" },
+    { "name": "Zuzentzailearen zirkulua", "kind": "custom", "description": "Nota edo kenketa inguratzen duen obalo gorria.", "html": "<span class=\"ds-ring\"><svg viewBox=\"0 0 100 70\" preserveAspectRatio=\"none\"><path d=\"M58 6C30 3 6 14 5 34c-1 20 24 31 49 30 25-1 42-13 41-31C94 15 74 5 48 7\"/></svg><span>−0,5</span></span>", "css": ".ds-ring{position:relative;display:inline-grid;place-items:center;width:92px;height:64px;color:#C01B2C;font:700 26px/1 'General Sans',system-ui,sans-serif}.ds-ring svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}.ds-ring path{fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}.ds-ring>span{position:relative}" }
+  ],
+  "narrative": {
+    "northStar": "Azterketa-orria eta boligrafo gorria",
+    "overview": "Paper zuria, ikaslearen tinta urdina eta zuzentzailearen gorria. Hasiera karpeta-pila bat da; azterketa eta ikasketa-pantailak lasaiak eta zehatzak.",
+    "keyCharacteristics": ["Hiru tinta", "Bi letra-mota (General Sans, Literata)", "Tonu-urratsak itzalen ordez", "Zirkulu gorria signature gisa"],
+    "rules": [
+      { "name": "Hiru tinten araua", "body": "Urdina ikaslearena, gorria zuzentzailearena, berdea irabazitako puntuak.", "section": "colors" },
+      { "name": "Ikaslearen idazkia", "body": "Erantzunak Literata letra-motan eta tinta urdinez.", "section": "typography" },
+      { "name": "Orriak ez dira flotatzen", "body": "Gainazalak tonu-urratsez; itzala benetan flotatzen dutenentzat bakarrik.", "section": "elevation" }
+    ],
+    "dos": ["Erabili gorria kenketetarako bakarrik", "Animazioak behin bakarrik", "Irakurgaia beti eskura mugikorrean"],
+    "donts": ["Gradienterik ez", "Monospace-rik ez", "Izenburuen gaineko etiketarik ez", "Testigantza asmaturik ez"]
+  }
+}
