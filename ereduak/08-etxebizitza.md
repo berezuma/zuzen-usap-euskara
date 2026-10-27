@@ -81,7 +81,7 @@ a) ezegonkor · b) irentsi · c) aurrezki · d) asmatu · e) baldintzatu
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure herrian gazteentzako etxebizitza-plan bat eztabaidatzen ari dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure herrian gazteentzako etxebizitza-plan bat eztabaidatzen ari dira. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** alkateari, gazteentzako etxebizitza-neurriak eskatuz eta proposamen zehatzak eginez. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Etxebizitza partekatuan bizitzeko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera.

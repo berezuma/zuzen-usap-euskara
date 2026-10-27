@@ -56,7 +56,7 @@ e) Akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Notak ala ikaskuntza?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Hitzaldia** jardunaldiaren hasieran 1. Batxilergoko ikasleen aurrean irakurtzeko. Entzuleei zuzendutako agurra, sarrera, garapena eta amaierako eskerrak.

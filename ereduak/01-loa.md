@@ -56,7 +56,7 @@ e) Gurasoek mugikorra gauean kentzeko ____ guri. (eskatu · orainaldia)
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure herriko udalak gazteen osasunari buruzko kanpaina bat antolatu du, eta herritarren iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure herriko udalak gazteen osasunari buruzko kanpaina bat antolatu du, eta herritarren iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** herriko aldizkarirako: «Eskolak beranduago hasi beharko lirateke?». Izenburua eta egilearen izen-deiturak (fikziozkoak) jarri behar dituzu.
 - **B aukera — Mezu elektronikoa** zure ikastetxeko zuzendaritzari, ikasleen loa zaintzeko neurri bat proposatuz. Hartzailea, gaia eta agurrak idatzi behar dituzu, erregistro egokian.

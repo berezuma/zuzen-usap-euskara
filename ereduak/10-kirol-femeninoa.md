@@ -56,7 +56,7 @@ e) Neskek kirola egiteari uzten ez badiote, etorkizuneko txapeldunak ez dira sal
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure herriko kiroldegian, neskentzako taldeek ordutegi okerrenak eta instalazio txarrenak dituzte. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure herriko kiroldegian, neskentzako taldeek ordutegi okerrenak eta instalazio txarrenak dituzte. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** herriko aldizkarirako: «Berdintasuna, kiroldegian ere». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** udaleko kirol-batzordeari, egoera azaldu eta konponbideak proposatuz. Hartzailea, gaia eta agurrak.

@@ -106,14 +106,14 @@ export function gradeEratorpena(block, rows, textNorm) {
 }
 
 export function wordPenalty(n) {
-  if (n >= 180) return 0;
-  if (n >= 169) return 0.5;
-  if (n >= 159) return 1;
-  if (n >= 149) return 1.5;
+  if (n >= 150) return 0;
+  if (n >= 139) return 0.5;
+  if (n >= 129) return 1;
+  if (n >= 119) return 1.5;
   return 2.5;
 }
 
-export const PENALTY_BANDS = [['180+', 0], ['169–179', 0.5], ['159–168', 1], ['149–158', 1.5], ['≤148', 2.5]];
+export const PENALTY_BANDS = [['150+', 0], ['139–149', 0.5], ['129–138', 1], ['119–128', 1.5], ['≤118', 2.5]];
 
 /** Generoaren konbentzioak, heuristika sinpleekin. Ikasleak berak berresten du emaitzetan. */
 export function conventions(genre, text) {

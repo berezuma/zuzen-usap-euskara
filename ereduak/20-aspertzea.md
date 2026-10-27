@@ -81,7 +81,7 @@ a) eskura · b) atsedenaldi · c) aitortu · d) tarte · e) jasan
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure lehengusu txikiak, hamabi urte dituenak, lehen mugikorra jaso berri du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure lehengusu txikiak, hamabi urte dituenak, lehen mugikorra jaso berri du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** lehengusuari, mugikorra erabiltzeko eta denbora librea bizitzeko aholkuak emanez. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Pantailarik gabeko denbora: dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera.

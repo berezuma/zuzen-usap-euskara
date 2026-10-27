@@ -81,7 +81,7 @@ e) Bat-batean eta indarrez egiten duen euri handia.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure eskualdean lehorte-alerta ezarri dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure eskualdean lehorte-alerta ezarri dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** udaleko ingurumen-zinegotziari, ikastetxean ura aurrezteko kanpaina bat proposatuz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Ura etxean aurrezteko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera.

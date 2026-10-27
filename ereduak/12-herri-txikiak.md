@@ -81,7 +81,7 @@ a) hustutze · b) erakarri · c) erronka · d) aldaera · e) landa-eremu
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure aitona-amonen herrian autobus-zerbitzua kentzeko asmoa dago. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure aitona-amonen herrian autobus-zerbitzua kentzeko asmoa dago. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** Foru Aldundiko garraio-sailari, zerbitzua mantentzeko eskatuz eta arrazoiak emanez. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Herri txiki batera bizitzera etortzen direnentzako dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera.

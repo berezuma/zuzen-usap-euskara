@@ -81,7 +81,7 @@ e) Egoera bat zalantzan jartzen duen eta itxuraz kontraesankorra den modua.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** udaleko kultura-zinegotziari, gazteentzako areto bat eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Iritzi-artikulua** tokiko aldizkarirako: «Kultura, luxua ala eskubidea?». Izenburua eta egilearen izen-deiturak (fikziozkoak).

@@ -81,7 +81,7 @@ e) Begiratzen duenaren irudia islatzen duen objektua.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Udalak herriko liburutegiaren ordutegia murriztea erabaki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Udalak herriko liburutegiaren ordutegia murriztea erabaki du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** alkateari, erabakia berriz aztertzeko eta azterketa-garaian ordutegia luzatzeko eskatuz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Iritzi-artikulua** tokiko aldizkarirako: «Liburutegiak, Interneten garaian?». Izenburua eta egilearen izen-deiturak (fikziozkoak).

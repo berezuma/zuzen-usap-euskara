@@ -54,7 +54,7 @@ e) Elikagai-bankuak boluntarioei eskerrak ____. (eman · orainaldia)
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak boluntario-astea antolatu nahi du, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak boluntario-astea antolatu nahi du, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Boluntariotza: elkartasuna ala zerbitzu publikoen ordezkoa?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** herriko elkarte bati (elikagai-bankua, adinekoen egoitza…), boluntario gisa aritzeko eskaintza eginez. Hartzailea, gaia eta agurrak.

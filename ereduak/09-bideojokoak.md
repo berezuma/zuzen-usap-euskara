@@ -54,7 +54,7 @@ e) Jokoek etengabe jakinarazpenak ____ jokalariei. (bidali · orainaldia)
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxean bideojokoei buruzko eztabaida sortu da, eta batzuek eskola-orduetan joko hezitzaileak erabiltzea proposatu dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxean bideojokoei buruzko eztabaida sortu da, eta batzuek eskola-orduetan joko hezitzaileak erabiltzea proposatu dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Bideojokoak: debekatu ala ulertu?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** ikastetxeko zuzendaritzari, bideojokoen erabilera arduratsuari buruzko tailer bat proposatuz. Hartzailea, gaia eta agurrak.

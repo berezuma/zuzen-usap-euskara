@@ -54,7 +54,7 @@ e) Bizilagunek udalari neurri gehiago ____. (eskatu · orainaldia)
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Udalak turismoari buruzko eztabaida ireki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Udalak turismoari buruzko eztabaida ireki du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** tokiko egunkarirako: «Turismoa: aberastasuna ala arriskua?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** udaleko turismo-sailari, bizilagunen eta bisitarien arteko bizikidetza hobetzeko proposamenak eginez. Hartzailea, gaia eta agurrak.

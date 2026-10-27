@@ -81,7 +81,7 @@ a) aurreiritzi · b) axolagabe · c) zaharkitu · d) estutu · e) trukean
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak eta herriko egoitzak «Belaunaldiak lotzen» egitasmoa abiatuko dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak eta herriko egoitzak «Belaunaldiak lotzen» egitasmoa abiatuko dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** zure aiton edo amonari (edo adineko senide bati), egitasmoan parte hartzera gonbidatuz eta zergatia azalduz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Belaunaldiak lotzeko dekalogoa». Aurkezpena edo sarrera, puntu nagusiak (ez dute zertan hamar izan) eta itxiera.

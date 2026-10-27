@@ -54,7 +54,7 @@ e) Irakasleek ikasleei azalpenak ____. (eskatu · orainaldia)
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak adimen artifiziala erabiltzeko arauak idatzi nahi ditu, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak adimen artifiziala erabiltzeko arauak idatzi nahi ditu, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Adimen artifiziala ikasgelan: tranpa ala tresna?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** zure tutoreari, ikasgelarako erabilera-arau batzuk proposatuz. Hartzailea, gaia eta agurrak.

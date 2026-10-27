@@ -81,7 +81,7 @@ a) arindu · b) nabarmen · c) bulkada · d) ustekabeko · e) sustatu
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure herrian, udaren aurretik, animalien abandonuaren aurkako kanpaina bat egingo da. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure herrian, udaren aurretik, animalien abandonuaren aurkako kanpaina bat egingo da. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** alkateari, herrian animalien babesa hobetzeko neurriak proposatuz (babesleku bat, txakurrentzako parkea, informazio-kanpaina…). Lekua eta data, agurrak eta sinadura.
 - **B aukera — Dekalogoa**: «Animalia bat adoptatu aurretik: dekalogoa». Aurkezpena edo sarrera, puntu nagusiak eta itxiera.

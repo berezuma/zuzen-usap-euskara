@@ -56,7 +56,7 @@ e) Eguraldia okertzen bada, atzera egitea ez da porrota.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak ikasturte amaierako mendi-irteera bat antolatu nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak ikasturte amaierako mendi-irteera bat antolatu nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** eskualdeko aldizkarirako: «Mendia, sare sozialetako agertoki?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** herriko mendi-elkarteari, irteera antolatzeko laguntza eskatuz eta taldearen ezaugarriak azalduz. Hartzailea, gaia eta agurrak.

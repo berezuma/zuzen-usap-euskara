@@ -81,7 +81,7 @@ e) Zerbait erosten duen pertsona.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikasgelak arropa-truke azoka bat antolatu nahi du ikastetxean. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikasgelak arropa-truke azoka bat antolatu nahi du ikastetxean. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** ikastetxeko zuzendariari, azoka egiteko baimena eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Moda merkea: nork ordaintzen du?». Izenburua eta egilearen izen-deiturak (fikziozkoak).

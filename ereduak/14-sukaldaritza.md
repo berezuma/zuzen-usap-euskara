@@ -56,7 +56,7 @@ e) Ikasle askok lehen aldiz zuritu dute patata bat.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak hautazko ikasgai berri bat sortu nahi du, eta sukaldaritza da aukeretako bat. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak hautazko ikasgai berri bat sortu nahi du, eta sukaldaritza da aukeretako bat. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Sukaldaritza, derrigorrezko ikasgaia?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** ikastetxeko zuzendaritzari, sukaldaritza-tailer bat proposatuz eta antolaketa azalduz. Hartzailea, gaia eta agurrak.

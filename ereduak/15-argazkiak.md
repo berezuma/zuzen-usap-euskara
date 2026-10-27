@@ -81,7 +81,7 @@ e) Egunero gertatzen dena; eguneroko bizitza.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Zure ikastetxeak «Denbora-kapsula» egitasmoa abiatu du: ikasleek orain idatzitako testuak hamar urte barru irekiko dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Zure ikastetxeak «Denbora-kapsula» egitasmoa abiatu du: ikasleek orain idatzitako testuak hamar urte barru irekiko dira. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Gutuna** hamar urte barruko zeure buruari, gaur gogoratu nahi zenituzkeen uneei buruz. Lekua eta data, agurrak eta sinadura.
 - **B aukera — Iritzi-artikulua** ikastetxeko aldizkarirako: «Argazkiak ala bizipenak?». Izenburua eta egilearen izen-deiturak (fikziozkoak).

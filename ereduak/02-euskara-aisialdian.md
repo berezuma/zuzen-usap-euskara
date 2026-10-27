@@ -56,7 +56,7 @@ e) Euskara bizirik egongo da gazteek beren bizitzako une onenekin lotzen badute.
 
 ### B.1 Idazlan nagusia (4 puntu)
 
-**Testuingurua:** Gazte-asanbladak «Euskaraz bizi» egitasmoa jarri nahi du martxan. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.
+**Testuingurua:** Gazte-asanbladak «Euskaraz bizi» egitasmoa jarri nahi du martxan. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.
 
 - **A aukera — Iritzi-artikulua** eskualdeko aldizkarirako: «Euskara, eskolako hizkuntza soilik?». Izenburua eta egilearen izen-deiturak (fikziozkoak).
 - **B aukera — Mezu elektronikoa** udaleko euskara-teknikariari, gazteentzako euskarazko jarduera bat proposatuz. Hartzailea, gaia eta agurrak.
