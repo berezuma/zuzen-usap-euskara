@@ -181,7 +181,7 @@ function reveal(first) {
   els.forEach((e) => io.observe(e));
 }
 
-const DEMO_WORDS = 172;
+const DEMO_WORDS = 142;
 function demoHtml(n) {
   const wp = wordPenalty(n);
   return `<div class="verdict"><span class="ring ${wp ? '' : 'zero'}" id="demo-ring">${ringSvg}<span>${wp ? '−' + fmt(wp) : '0'}</span></span>
@@ -223,7 +223,7 @@ function viewHome() {
       </div>
       <div class="slip reveal" style="--i:1">
         <div class="dial"><label for="demo-words">1.2 Idazlana <output id="demo-out" for="demo-words">${DEMO_WORDS} hitz</output></label>
-          <input type="range" id="demo-words" min="140" max="200" step="1" value="${DEMO_WORDS}"></div>
+          <input type="range" id="demo-words" min="110" max="170" step="1" value="${DEMO_WORDS}"></div>
         <div id="demo" aria-live="polite">${demoHtml(DEMO_WORDS)}</div>
         <p class="small muted">2025–2026ko araua, 4 puntutan. 2027ko muga ez dago oraindik berretsita.</p>
         <h3>Beste arau batzuk</h3>
@@ -394,7 +394,7 @@ function sectionHtml(m, att, sec) {
     body = `<div class="ctx"><b>Testuingurua.</b> ${md(m.b1.context)}</div>
     <p class="note">${icon.info}<span><b>2027: idazlanak 2 puntu balio ditu.</b> Hitz-muga eta kenketak ez daude oraindik berretsita: hemen 2025–2026ko arauak aplikatzen dira (4 puntutan), eta emaitza erdira eskalatzen da.</span></p>
     <div class="choices">${m.b1.options.map((o) => `<button class="choice" data-act="genre" data-v="${o.label}" aria-pressed="${a.b1.opt === o.label}"><b>${o.label} · ${esc(o.genre)}</b><span>${md(o.desc.charAt(0).toUpperCase() + o.desc.slice(1))}</span></button>`).join('')}</div>
-    <div class="b1grid"><div class="q">${qhead('1.2 Ekoizpen idatzia', '2 p · gutxienez 180 hitz', 'b1-text')}
+    <div class="b1grid"><div class="q">${qhead('1.2 Ekoizpen idatzia', '2 p · gutxienez 150 hitz', 'b1-text')}
       <textarea id="b1-text" rows="22" data-path="b1.text" placeholder="${a.b1.opt ? '' : 'Lehenik, aukeratu generoa goian.'}">${esc(a.b1.text)}</textarea></div>
       <aside class="q b1side" id="b1-live" aria-label="Idazlanaren egoera"></aside></div>`;
   }
@@ -464,7 +464,7 @@ function live(m, att) {
     const conns = usedConnectors(text);
     const usedCount = conns.filter((c) => c.used).length;
     b1.innerHTML = `
-      <div class="wc"><b>${n}</b><span class="muted">hitz · ${n >= 180 ? 'nahikoa' : `${180 - n} falta 180era iristeko`}</span></div>
+      <div class="wc"><b>${n}</b><span class="muted">hitz · ${n >= 150 ? 'nahikoa' : `${150 - n} falta 150era iristeko`}</span></div>
       <div class="bands" aria-label="Hitz-kopuruagatiko kenketak">${PENALTY_BANDS.map(([r, pen]) => `<div class="${pen === wp ? `on ${pen === 0 ? 'ok' : ''}` : ''}"><span>${r}</span><b>${pen ? '−' + fmt(pen) : '0'}</b></div>`).join('')}</div>
       <p style="font-size:16px">${n === 0 ? 'Idazten hasi ahala, hemen ikusiko duzu zenbat puntu galduko zenituzkeen hitz-kopuruagatik.' : wp ? `Orain bidaliz gero, <b>−${fmt(wp)} puntu</b> kenduko lizkizukete hitz-kopuruagatik, idazlana ona izanda ere.` : 'Ez dago hitz-kopuruagatiko kenketarik.'}</p>
       ${opt ? `<div style="display:flex;flex-direction:column;gap:8px"><span class="label">Generoaren konbentzioak · ${esc(opt.genre)}</span><div class="chips">${conv.map((c) => chip(c.ok, c.label)).join('')}</div>

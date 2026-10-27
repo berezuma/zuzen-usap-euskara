@@ -174,7 +174,7 @@
    }
   ],
   "b1": {
-   "context": "Zure herriko udalak gazteen osasunari buruzko kanpaina bat antolatu du, eta herritarren iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure herriko udalak gazteen osasunari buruzko kanpaina bat antolatu du, eta herritarren iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -364,7 +364,7 @@
    }
   ],
   "b1": {
-   "context": "Gazte-asanbladak «Euskaraz bizi» egitasmoa jarri nahi du martxan. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Gazte-asanbladak «Euskaraz bizi» egitasmoa jarri nahi du martxan. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -638,7 +638,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikasgelak arropa-truke azoka bat antolatu nahi du ikastetxean. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikasgelak arropa-truke azoka bat antolatu nahi du ikastetxean. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -918,7 +918,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak eta herriko egoitzak «Belaunaldiak lotzen» egitasmoa abiatuko dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak eta herriko egoitzak «Belaunaldiak lotzen» egitasmoa abiatuko dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -1115,7 +1115,7 @@
    }
   ],
   "b1": {
-   "context": "Udalak turismoari buruzko eztabaida ireki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Udalak turismoari buruzko eztabaida ireki du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -1316,7 +1316,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -1589,7 +1589,7 @@
    }
   ],
   "b1": {
-   "context": "Udalak herriko liburutegiaren ordutegia murriztea erabaki du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Udalak herriko liburutegiaren ordutegia murriztea erabaki du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -1870,7 +1870,7 @@
    }
   ],
   "b1": {
-   "context": "Zure herrian gazteentzako etxebizitza-plan bat eztabaidatzen ari dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure herrian gazteentzako etxebizitza-plan bat eztabaidatzen ari dira. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -2068,7 +2068,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxean bideojokoei buruzko eztabaida sortu da, eta batzuek eskola-orduetan joko hezitzaileak erabiltzea proposatu dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxean bideojokoei buruzko eztabaida sortu da, eta batzuek eskola-orduetan joko hezitzaileak erabiltzea proposatu dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -2266,7 +2266,7 @@
    }
   ],
   "b1": {
-   "context": "Zure herriko kiroldegian, neskentzako taldeek ordutegi okerrenak eta instalazio txarrenak dituzte. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure herriko kiroldegian, neskentzako taldeek ordutegi okerrenak eta instalazio txarrenak dituzte. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -2542,7 +2542,7 @@
    }
   ],
   "b1": {
-   "context": "Zure eskualdean lehorte-alerta ezarri dute. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure eskualdean lehorte-alerta ezarri dute. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -2825,7 +2825,7 @@
    }
   ],
   "b1": {
-   "context": "Zure aitona-amonen herrian autobus-zerbitzua kentzeko asmoa dago. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure aitona-amonen herrian autobus-zerbitzua kentzeko asmoa dago. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -3024,7 +3024,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak boluntario-astea antolatu nahi du, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak boluntario-astea antolatu nahi du, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -3217,7 +3217,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak hautazko ikasgai berri bat sortu nahi du, eta sukaldaritza da aukeretako bat. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak hautazko ikasgai berri bat sortu nahi du, eta sukaldaritza da aukeretako bat. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -3492,7 +3492,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak «Denbora-kapsula» egitasmoa abiatu du: ikasleek orain idatzitako testuak hamar urte barru irekiko dira. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak «Denbora-kapsula» egitasmoa abiatu du: ikasleek orain idatzitako testuak hamar urte barru irekiko dira. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -3775,7 +3775,7 @@
    }
   ],
   "b1": {
-   "context": "Zure herrian, udaren aurretik, animalien abandonuaren aurkako kanpaina bat egingo da. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure herrian, udaren aurretik, animalien abandonuaren aurkako kanpaina bat egingo da. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -3972,7 +3972,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak adimen artifiziala erabiltzeko arauak idatzi nahi ditu, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak adimen artifiziala erabiltzeko arauak idatzi nahi ditu, eta ikasleen iritzia jaso nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -4162,7 +4162,7 @@
    }
   ],
   "b1": {
-   "context": "Zure ikastetxeak ikasturte amaierako mendi-irteera bat antolatu nahi du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure ikastetxeak ikasturte amaierako mendi-irteera bat antolatu nahi du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -4440,7 +4440,7 @@
    }
   ],
   "b1": {
-   "context": "Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
@@ -4722,7 +4722,7 @@
    }
   ],
   "b1": {
-   "context": "Zure lehengusu txikiak, hamabi urte dituenak, lehen mugikorra jaso berri du. Aukeratu **bat** eta idatzi gutxienez **180 hitz**.",
+   "context": "Zure lehengusu txikiak, hamabi urte dituenak, lehen mugikorra jaso berri du. Aukeratu **bat** eta idatzi gutxienez **150 hitz**.",
    "options": [
     {
      "label": "A",
