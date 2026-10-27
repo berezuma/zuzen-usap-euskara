@@ -26,4 +26,13 @@ eta ireki http://127.0.0.1:8765
 
 ## Argitaratzeko
 
-Edozein hosting estatikok balio du (Vercel, Netlify, GitHub Pages…): igo karpeta hau bere horretan. Ez du build urratsik.
+GitHub Pages-en argitaratzen da `gh-pages` adarretik (domeinua: https://usapeuskara.berezuma.com, `CNAME` fitxategian). `main`-era push egiteak **ez du** webgunea eguneratzen; horretarako, biltegiaren errotik:
+
+```
+git push origin main
+git subtree push --prefix app origin gh-pages
+```
+
+GitHub Pages-ek minutu bat edo gehiago behar izan dezake aldaketak erakusteko; nabigatzaileak bertsio zaharra erakusten badu, freskatu Ctrl+Shift+R eginez.
+
+Ez du build urratsik: beste edozein hosting estatikok ere balio du (Vercel, Netlify…), karpeta hau bere horretan igota.
