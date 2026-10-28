@@ -113,7 +113,7 @@ e) Gazte batek etxe bat izatea ez da luxutzat hartu behar.
 
 **A.3.2** a) utzi zuen · b) eraikiko ditu · c) ordainduko nuke · d) eska dezakete / eskatu ahal dute · e) eskatzen dizkiete
 
-**A.3.3** a) behin-behineko, aldakor · b) jan, xahutu · c) aurreztutako dirua, gordailu · d) sortu, irudikatu · e) mugatu, eragin, determinatu
+**A.3.3** a) behin-behineko, aldakor, prekario, ziurgabe, iragankor, segurtasunik gabeko, egonkortasunik gabeko · b) jan, xahutu, eraman, hartu, kendu · c) aurreztutako dirua, gordailu, gordetako dirua, diru-gordailu · d) sortu, irudikatu, aurkitu, topatu, diseinatu, eratu · e) mugatu, eragin, determinatu, markatu, eragina izan, zehaztu, erabaki
 
 **B.1** Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak (egitura koherentea), itxiera. Ideia posibleak: alokairu soziala, kooperatibak, belaunaldien arteko programak; dekalogoan: garbiketa-txandak, gastuak, isiltasun-orduak, bisitak.
 

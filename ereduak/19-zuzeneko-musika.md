@@ -112,7 +112,7 @@ c) Plataforma digitalek oso gutxi ordaintzen diete.
 d) Areto txikiak ixten ari dira, alokairuak garestiak direlako eta bizilagunek kexak dituztelako.
 e) Eredu horiek ez baleude, euskal musika-eszena askoz pobreagoa izango litzateke.
 
-**A.3.2** a) amaitu, bukatu · b) menderatu, beretu · c) etekin, mozkin · d) apal, xume, merke · e) saio, ikuskizun
+**A.3.2** a) amaitu, bukatu, ahitu, akabatu, saldu, desagertu · b) menderatu, beretu, hartu, kontrolatu, eskuratu, monopolizatu, nagusitu · c) etekin, mozkin, onura, probetxu, dirua, diru-irabazi · d) apal, xume, merke, ekonomiko, eskuragarri, irisgarri, baxu, popular · e) saio, ikuskizun, kontzertu, ekitaldi, errezital
 
 **A.3.3** a) jaialdi · b) areto · c) gaztetxe · d) entzunaldi · e) paradoxikoki
 

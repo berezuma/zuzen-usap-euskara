@@ -112,7 +112,7 @@ e) Agian ez da beharrezkoa etxe berean bizitzea.
 
 **A.3.2** a) kontatu zigun · b) joango dira · c) egongo nintzateke · d) har dezakezue / hartu ahal duzue · e) eskatzen diete
 
-**A.3.3** a) aurrejuzku · b) arduragabe, ezaxola · c) antzinakotu, modaz pasatu · d) sendotu, indartu · e) ordainean, truke gisa
+**A.3.3** a) aurrejuzku, aurrejuzgu, estereotipo, topiko · b) arduragabe, ezaxola, ezaxolati, interesgabe, indiferente · c) antzinakotu, modaz pasatu, zahartu, atzeratu, garaiz kanpo geratu · d) sendotu, indartu, hertsitu, hurbildu, sakondu, trinkotu · e) ordainean, truke gisa, horren truke, horren ordainean, ordain gisa
 
 **B.1** Gutunean: lekua eta data, agur hurbila baina errespetuzkoa, amaierako agurra eta sinadura. Dekalogoan: sarrera, puntuak (aginterazkoan edo -tzea erako egiturekin, koherentziaz) eta itxiera. Ideia posibleak: entzutea, galdetzea, teknologia irakastea, oroitzapenak jasotzea, aurreiritziak gainditzea.
 

@@ -111,7 +111,7 @@ c) Gezurrak azkar zabaltzen direnez, iturri fidagarriak bereiztea ezinbestekoa d
 d) Jende gehiagok zerbitzua erabili arren, kultura da krisi garaietan mozten den lehen gauza.
 e) Hura zaintzea liburuak zaintzea da, baita elkarbizitza zaintzea ere.
 
-**A.3.2** a) utzi, aldi baterako eman · b) frogatu, baieztatu · c) sinesgarri, ziur · d) gaitzetsi, agerian jarri · e) murriztu, kendu
+**A.3.2** a) utzi, aldi baterako eman, maileguan hartu, maileguz hartu, aldi baterako hartu, maileguan eman · b) frogatu, baieztatu, ziurtatu, kontrastatu, berretsi, konprobatu · c) sinesgarri, ziur, konfiantzazko, seguru, sinesteko moduko · d) gaitzetsi, agerian jarri, kexatu, deitoratu, kritikatu, salaketa egin · e) murriztu, kendu, gutxitu, mugatu, txikitu
 
 **A.3.3** a) liburuzain · b) apal · c) zurrumurru · d) etorkin · e) ispilu
 

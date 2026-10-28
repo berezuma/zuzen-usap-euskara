@@ -88,7 +88,7 @@ Nerabe askok behar baino gutxiago egiten dute lo, ez alferkeriagatik, baizik eta
 
 **A.3.1** Ikasleak → Ikasleek · haundiz → handiz · Hondoren → Ondoren · bapatean → bat-batean · garrantzitsuak dira → garrantzitsua da · Zihur → Ziur
 
-**A.3.2** a) nagikeria · b) nabaria, agerikoa, argia · c) batez ere, batik bat, bereziki · d) ekiditea, baztertzea · e) adiago, argiago
+**A.3.2** a) nagikeria, alferreria, nagitasuna, alfertasuna · b) nabaria, agerikoa, argia, nabarmena, bistakoa, garbia, agerian dagoena · c) batez ere, batik bat, batipat, nagusiki, gehienbat · d) ekiditea, baztertzea, alboratzea, ez hartzea, kentzea, uztea · e) adiago, argiago, esnaago, itzarrago, biziago
 
 **A.3.3** a) etorriko dira · b) gomendatu zigun · c) egongo ginateke · d) sar zaitezke / sartu ahal zara · e) eskatzen digute
 

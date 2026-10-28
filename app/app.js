@@ -1,5 +1,5 @@
 import {
-  SECTIONS, RUBRIC, PENALTY_BANDS, norm, countWords, fmt, round, loose, exact, wordPenalty, conventions,
+  SECTIONS, RUBRIC, PENALTY_BANDS, norm, countWords, fmt, round, loose, synonym, exact, wordPenalty, conventions,
   usedConnectors, copiedChunk, bandFor, textNormOf, gradeA3, score, emptyAnswers, picks, keyScore,
 } from './grading.js';
 
@@ -720,7 +720,7 @@ function pool(type) {
     if (type === 'sinonimoak' && b.kind === 'sinonimoak') b.items.forEach((it) => {
       const stem = norm(it.w).slice(0, Math.max(4, norm(it.w).length - 2));
       const sent = sentences(m).find((x) => norm(x).includes(stem));
-      out.push({ prompt: sent ? highlight(sent, it.w) : `<mark>${esc(it.w)}</mark>`, ask: `Eman «${it.w}» hitzaren sinonimo bat, testuinguru honetan.`, accepted: it.accepted, match: loose, src: m });
+      out.push({ prompt: sent ? highlight(sent, it.w) : `<mark>${esc(it.w)}</mark>`, ask: `Eman «${it.w}» hitzaren sinonimo bat, testuinguru honetan.`, accepted: it.accepted, match: (a, acc) => synonym(a, acc, it.w), src: m });
     });
     if (type === 'aditzak' && b.kind === 'aditzak') b.items.forEach((it) => {
       out.push({ prompt: esc(it.sentence), ask: `(${it.hint})`, accepted: it.accepted, match: exact, src: m });

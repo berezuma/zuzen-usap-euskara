@@ -114,7 +114,7 @@ e) Etengabeko estimuluekin, ezinezkoa da horretarako tarterik izatea.
 
 **A.3.2** a) aspertu nintzen · b) utziko dut · c) pentsatuko genuke · d) izan ditzakezu / izan ahal dituzu · e) ematen diete
 
-**A.3.3** a) eskuragarri, hurbil · b) atseden, etenaldi · c) onartu, aitortu (esan) · d) denbora, aukera · e) eraman, pairatu, jasotu
+**A.3.3** a) eskuragarri, hurbil, gertu, esku-eskura, alboan, prest · b) atseden, etenaldi, deskantsu, geldialdi, atseden-tarte, pausaldi, lasaialdi · c) onartu, adierazi, esan, konfesatu, kontatu, jakinarazi · d) denbora, aukera, leku, toki, une, asti, beta, espazio · e) eraman, pairatu, aguantatu, eutsi, gainditu, onartu
 
 **B.1** Gutunean: lekua eta data, agur hurbila, amaierako agurra eta sinadura; erregistro hurbila. Dekalogoan: sarrera, puntuak, itxiera. Ideia posibleak: jakinarazpenak itzali, logelan pantailarik ez, aspertzeko tarteak, kanpoko jarduerak, lagunekin aurrez aurre.
 

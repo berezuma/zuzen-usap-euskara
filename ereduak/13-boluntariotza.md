@@ -86,7 +86,7 @@ Auzolanaren tradizioa jarraituz, gazte askok boluntario-lana egiten dute elikaga
 
 **A.3.1** haundia → handia · bildu genuen → bildu genituen · zergaitik → zergatik · erantzun genion → erantzun genien · dala → dela · gonbidatuak → gonbidatuta
 
-**A.3.2** a) antolatu, banandu · b) bilketa, uztaroa (fruitu-bilketa) · c) abisatu, ohartu · d) -(r)en lekua hartu · e) alferrik, ordainik gabe
+**A.3.2** a) antolatu, banandu, bereizi, ordenatu, multzokatu, banatu · b) bilketa, uztaroa, fruitu, ekoizpen · c) abisatu, abisua eman, adierazi, gogorarazi, oharra eman · d) ordeztu, lekua hartu, tokia hartu, ordezkoa izan, aldatu · e) alferrik, alperrik, ordainik gabe, doan, dohainik, ezertarako ez, probetxurik gabe
 
 **A.3.3** a) lagundu zuten · b) garbituko dugu · c) izango zinatekete · d) parte har dezake / parte hartu ahal du · e) ematen dizkie
 

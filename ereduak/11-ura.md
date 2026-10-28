@@ -114,7 +114,7 @@ c) Tenperatura altuagoen ondorioz, lurrunketa areagotu egiten da.
 d) Hodi zaharretan ur asko galtzen da bidean, inor konturatu gabe.
 e) Ezinezkoa da urik gabe bizitzea.
 
-**A.3.2** a) gogor, indartsu · b) bereganatu, edan · c) handitu, ugaritu · d) debalde, ezertarako ez · e) zikoizkeria, diru-zalekeria
+**A.3.2** a) gogor, indartsu, bizi, basati, zakar, oldarkor · b) bereganatu, edan, irentsi, hartu, zurrupatu, jaso · c) handitu, ugaritu, gehitu, igo, emendatu, hazi, indartu · d) debalde, ezertarako ez, alperrik, probetxurik gabe, etekinik gabe · e) zikoizkeria, diru-zalekeria, zikoiztasun, zekentasun, xuhurkeria
 
 **A.3.3** a) lehorte · b) urtegi · c) hodi · d) ureztatu · e) ur-jasa (jasa)
 

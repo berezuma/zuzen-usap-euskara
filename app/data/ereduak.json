@@ -94,7 +94,10 @@
      {
       "w": "alferkeria",
       "accepted": [
-       "nagikeria"
+       "nagikeria",
+       "alferreria",
+       "nagitasuna",
+       "alfertasuna"
       ]
      },
      {
@@ -102,7 +105,11 @@
       "accepted": [
        "nabaria",
        "agerikoa",
-       "argia"
+       "argia",
+       "nabarmena",
+       "bistakoa",
+       "garbia",
+       "agerian dagoena"
       ]
      },
      {
@@ -110,21 +117,30 @@
       "accepted": [
        "batez ere",
        "batik bat",
-       "bereziki"
+       "batipat",
+       "nagusiki",
+       "gehienbat"
       ]
      },
      {
       "w": "saihestea",
       "accepted": [
        "ekiditea",
-       "baztertzea"
+       "baztertzea",
+       "alboratzea",
+       "ez hartzea",
+       "kentzea",
+       "uztea"
       ]
      },
      {
       "w": "erneago",
       "accepted": [
        "adiago",
-       "argiago"
+       "argiago",
+       "esnaago",
+       "itzarrago",
+       "biziago"
       ]
      }
     ]
@@ -565,7 +581,9 @@
      {
       "w": "kutsatzaile",
       "accepted": [
-       "zikintzaile"
+       "zikintzaile",
+       "kutsadura-eragile",
+       "kutsadura-iturri"
       ]
      },
      {
@@ -573,28 +591,43 @@
       "accepted": [
        "urri",
        "txiki",
-       "apal"
+       "apal",
+       "baxu",
+       "murritz",
+       "kaskar",
+       "xume"
       ]
      },
      {
       "w": "ahultasun",
       "accepted": [
        "hauskortasun",
-       "makaltasun"
+       "makaltasun",
+       "ahulezia",
+       "ahulgune",
+       "ezegonkortasun"
       ]
      },
      {
       "w": "askatu",
       "accepted": [
        "isuri",
-       "jaregin"
+       "jaregin",
+       "jaulki",
+       "bota",
+       "igorri",
+       "utzi"
       ]
      },
      {
       "w": "iraunkor",
       "accepted": [
        "sendo",
-       "luzaroko"
+       "luzaroko",
+       "iraupen luzeko",
+       "gogor",
+       "erresistente",
+       "luzaroan irauten duen"
       ]
      }
     ]
@@ -883,35 +916,51 @@
      {
       "w": "aurreiritzi",
       "accepted": [
-       "aurrejuzku"
+       "aurrejuzku",
+       "aurrejuzgu",
+       "estereotipo",
+       "topiko"
       ]
      },
      {
       "w": "axolagabe",
       "accepted": [
        "arduragabe",
-       "ezaxola"
+       "ezaxola",
+       "ezaxolati",
+       "interesgabe",
+       "indiferente"
       ]
      },
      {
       "w": "zaharkitu",
       "accepted": [
        "antzinakotu",
-       "modaz pasatu"
+       "modaz pasatu",
+       "zahartu",
+       "atzeratu",
+       "garaiz kanpo geratu"
       ]
      },
      {
       "w": "estutu",
       "accepted": [
        "sendotu",
-       "indartu"
+       "indartu",
+       "hertsitu",
+       "hurbildu",
+       "sakondu",
+       "trinkotu"
       ]
      },
      {
       "w": "trukean",
       "accepted": [
        "ordainean",
-       "truke gisa"
+       "truke gisa",
+       "horren truke",
+       "horren ordainean",
+       "ordain gisa"
       ]
      }
     ]
@@ -1037,7 +1086,10 @@
       "w": "arrotz",
       "accepted": [
        "ezezagun",
-       "kanpotar"
+       "kanpotar",
+       "kanpoko",
+       "atzerritar",
+       "lekuz kanpo"
       ]
      },
      {
@@ -1045,27 +1097,41 @@
       "accepted": [
        "agerian",
        "argi",
-       "ageriko"
+       "ageriko",
+       "nabarmen",
+       "begi-bistako",
+       "bistako",
+       "garbi"
       ]
      },
      {
       "w": "sakon",
       "accepted": [
        "larri",
-       "handi"
+       "handi",
+       "garrantzitsu",
+       "serio",
+       "latz"
       ]
      },
      {
       "w": "ordezkatu",
       "accepted": [
        "aldatu",
-       "-en lekua hartu"
+       "ordeztu",
+       "lekua hartu",
+       "tokia hartu"
       ]
      },
      {
       "w": "mugatu",
       "accepted": [
-       "murriztu"
+       "murriztu",
+       "gutxitu",
+       "mugak jarri",
+       "muga jarri",
+       "kontrolatu",
+       "arautu"
       ]
      }
     ]
@@ -1517,35 +1583,53 @@
       "w": "mailegatu",
       "accepted": [
        "utzi",
-       "aldi baterako eman"
+       "aldi baterako eman",
+       "maileguan hartu",
+       "maileguz hartu",
+       "aldi baterako hartu",
+       "maileguan eman"
       ]
      },
      {
       "w": "egiaztatu",
       "accepted": [
        "frogatu",
-       "baieztatu"
+       "baieztatu",
+       "ziurtatu",
+       "kontrastatu",
+       "berretsi",
+       "konprobatu"
       ]
      },
      {
       "w": "fidagarri",
       "accepted": [
        "sinesgarri",
-       "ziur"
+       "ziur",
+       "konfiantzazko",
+       "seguru",
+       "sinesteko moduko"
       ]
      },
      {
       "w": "salatu",
       "accepted": [
        "gaitzetsi",
-       "agerian jarri"
+       "agerian jarri",
+       "kexatu",
+       "deitoratu",
+       "kritikatu",
+       "salaketa egin"
       ]
      },
      {
       "w": "moztu",
       "accepted": [
        "murriztu",
-       "kendu"
+       "kendu",
+       "gutxitu",
+       "mugatu",
+       "txikitu"
       ]
      }
     ]
@@ -1834,28 +1918,42 @@
       "w": "ezegonkor",
       "accepted": [
        "behin-behineko",
-       "aldakor"
+       "aldakor",
+       "prekario",
+       "ziurgabe",
+       "iragankor",
+       "segurtasunik gabeko",
+       "egonkortasunik gabeko"
       ]
      },
      {
       "w": "irentsi",
       "accepted": [
        "jan",
-       "xahutu"
+       "xahutu",
+       "eraman",
+       "hartu",
+       "kendu"
       ]
      },
      {
       "w": "aurrezki",
       "accepted": [
        "aurreztutako dirua",
-       "gordailu"
+       "gordailu",
+       "gordetako dirua",
+       "diru-gordailu"
       ]
      },
      {
       "w": "asmatu",
       "accepted": [
        "sortu",
-       "irudikatu"
+       "irudikatu",
+       "aurkitu",
+       "topatu",
+       "diseinatu",
+       "eratu"
       ]
      },
      {
@@ -1863,7 +1961,11 @@
       "accepted": [
        "mugatu",
        "eragin",
-       "determinatu"
+       "determinatu",
+       "markatu",
+       "eragina izan",
+       "zehaztu",
+       "erabaki"
       ]
      }
     ]
@@ -1991,34 +2093,52 @@
       "w": "baliotsu",
       "accepted": [
        "garrantzitsu",
-       "aberats"
+       "aberats",
+       "onuragarri",
+       "erabilgarri",
+       "preziatu",
+       "estimagarri"
       ]
      },
      {
       "w": "sustatu",
       "accepted": [
        "bultzatu",
-       "indartu"
+       "indartu",
+       "garatu",
+       "suspertu",
+       "akuilatu",
+       "hobetu"
       ]
      },
      {
       "w": "ausazko",
       "accepted": [
-       "zorizko"
+       "zorizko",
+       "zoriaren araberako",
+       "zoriko",
+       "ezusteko"
       ]
      },
      {
       "w": "uztartu",
       "accepted": [
        "bateratu",
-       "konbinatu"
+       "konbinatu",
+       "elkartu",
+       "lotu",
+       "txandakatu"
       ]
      },
      {
       "w": "adostu",
       "accepted": [
        "hitzartu",
-       "itundu"
+       "itundu",
+       "erabaki",
+       "ados jarri",
+       "negoziatu",
+       "zehaztu"
       ]
      }
     ]
@@ -2470,35 +2590,54 @@
       "w": "bortitz",
       "accepted": [
        "gogor",
-       "indartsu"
+       "indartsu",
+       "bizi",
+       "basati",
+       "zakar",
+       "oldarkor"
       ]
      },
      {
       "w": "xurgatu",
       "accepted": [
        "bereganatu",
-       "edan"
+       "edan",
+       "irentsi",
+       "hartu",
+       "zurrupatu",
+       "jaso"
       ]
      },
      {
       "w": "areagotu",
       "accepted": [
        "handitu",
-       "ugaritu"
+       "ugaritu",
+       "gehitu",
+       "igo",
+       "emendatu",
+       "hazi",
+       "indartu"
       ]
      },
      {
       "w": "alferrik",
       "accepted": [
        "debalde",
-       "ezertarako ez"
+       "ezertarako ez",
+       "alperrik",
+       "probetxurik gabe",
+       "etekinik gabe"
       ]
      },
      {
       "w": "zekenkeria",
       "accepted": [
        "zikoizkeria",
-       "diru-zalekeria"
+       "diru-zalekeria",
+       "zikoiztasun",
+       "zekentasun",
+       "xuhurkeria"
       ]
      }
     ]
@@ -2790,35 +2929,54 @@
       "w": "hustutze",
       "accepted": [
        "despopulatze",
-       "jendez hustea"
+       "jendez hustea",
+       "despopulazio",
+       "biztanle-galera",
+       "populazio-galera",
+       "hustuketa"
       ]
      },
      {
       "w": "erakarri",
       "accepted": [
        "beregana ekarri",
-       "bildu"
+       "bildu",
+       "ekarri",
+       "lortu"
       ]
      },
      {
       "w": "erronka",
       "accepted": [
        "desafio",
-       "proba"
+       "proba",
+       "zailtasun",
+       "helburu",
+       "zeregin zail",
+       "apustu"
       ]
      },
      {
       "w": "aldaera",
       "accepted": [
        "aldakuntza",
-       "bariante"
+       "bariante",
+       "aldaki",
+       "hizkera",
+       "euskalki",
+       "dialekto",
+       "berezitasun"
       ]
      },
      {
       "w": "landa-eremu",
       "accepted": [
        "nekazal eremu",
-       "landa-gune"
+       "landa-gune",
+       "landa",
+       "nekazaritza-eremu",
+       "baserri-eremu",
+       "herri txiki"
       ]
      }
     ]
@@ -2947,34 +3105,52 @@
       "w": "sailkatu",
       "accepted": [
        "antolatu",
-       "banandu"
+       "banandu",
+       "bereizi",
+       "ordenatu",
+       "multzokatu",
+       "banatu"
       ]
      },
      {
       "w": "uzta",
       "accepted": [
        "bilketa",
-       "uztaroa"
+       "uztaroa",
+       "fruitu",
+       "ekoizpen"
       ]
      },
      {
       "w": "ohartarazi",
       "accepted": [
        "abisatu",
-       "ohartu"
+       "abisua eman",
+       "adierazi",
+       "gogorarazi",
+       "oharra eman"
       ]
      },
      {
       "w": "ordezkatu",
       "accepted": [
-       "-en lekua hartu"
+       "ordeztu",
+       "lekua hartu",
+       "tokia hartu",
+       "ordezkoa izan",
+       "aldatu"
       ]
      },
      {
       "w": "debalde",
       "accepted": [
        "alferrik",
-       "ordainik gabe"
+       "alperrik",
+       "ordainik gabe",
+       "doan",
+       "dohainik",
+       "ezertarako ez",
+       "probetxurik gabe"
       ]
      }
     ]
@@ -3420,35 +3596,57 @@
       "w": "bakan",
       "accepted": [
        "gutxi",
-       "urri"
+       "urri",
+       "arraro",
+       "eskas",
+       "bakar",
+       "apur"
       ]
      },
      {
       "w": "hauskor",
       "accepted": [
        "ahul",
-       "apurkor"
+       "apurkor",
+       "makal",
+       "ezegonkor",
+       "galkor"
       ]
      },
      {
       "w": "zaharkitu",
       "accepted": [
        "antzinakotu",
-       "modaz pasatu"
+       "modaz pasatu",
+       "zahartu",
+       "atzeratu",
+       "erabilgabe geratu",
+       "baliogabe geratu",
+       "garaiz kanpo geratu"
       ]
      },
      {
       "w": "eszenaratu",
       "accepted": [
        "antzeztu",
-       "agertoki bihurtu"
+       "agertoki bihurtu",
+       "taularatu",
+       "antzezpen bihurtu",
+       "ikuskizun bihurtu",
+       "irudikatu"
       ]
      },
      {
       "w": "arrunt",
       "accepted": [
        "ohiko",
-       "xume"
+       "xume",
+       "normal",
+       "ohizko",
+       "apal",
+       "hutsal",
+       "soil",
+       "eguneroko"
       ]
      }
     ]
@@ -3741,34 +3939,54 @@
       "w": "arindu",
       "accepted": [
        "gutxitu",
-       "leundu"
+       "leundu",
+       "murriztu",
+       "apaldu",
+       "eztitu",
+       "txikitu"
       ]
      },
      {
       "w": "nabarmen",
       "accepted": [
        "argi eta garbi",
-       "nabarmenki"
+       "asko",
+       "ikaragarri",
+       "izugarri",
+       "dezente",
+       "nabariki"
       ]
      },
      {
       "w": "bulkada",
       "accepted": [
        "inpultso",
-       "gogo-une"
+       "gogo-une",
+       "kapritxo",
+       "apeta",
+       "bat-bateko gogo",
+       "une bateko gogo"
       ]
      },
      {
       "w": "ustekabeko",
       "accepted": [
        "ezusteko",
-       "bat-bateko"
+       "bat-bateko",
+       "ustegabeko",
+       "aurreikusi gabeko",
+       "espero gabeko"
       ]
      },
      {
       "w": "sustatu",
       "accepted": [
-       "bultzatu"
+       "bultzatu",
+       "indartu",
+       "gomendatu",
+       "akuilatu",
+       "zabaldu",
+       "defendatu"
       ]
      }
     ]
@@ -3895,34 +4113,61 @@
      {
       "w": "bereizi",
       "accepted": [
-       "desberdindu"
+       "desberdindu",
+       "ezberdindu",
+       "antzeman",
+       "igarri",
+       "ezagutu",
+       "jakin"
       ]
      },
      {
       "w": "hutsune",
       "accepted": [
        "gabezia",
-       "falta"
+       "falta",
+       "eskasia",
+       "hutsa",
+       "akats",
+       "ahulezia",
+       "ezjakintasun"
       ]
      },
      {
       "w": "lanabes",
       "accepted": [
-       "tresna"
+       "tresna",
+       "lan-tresna",
+       "baliabide",
+       "erreminta",
+       "gailu",
+       "bitarteko"
       ]
      },
      {
       "w": "seinalatu",
       "accepted": [
        "adierazi",
-       "erakutsi"
+       "erakutsi",
+       "markatu",
+       "azpimarratu",
+       "nabarmendu",
+       "aipatu",
+       "aurkitu",
+       "identifikatu"
       ]
      },
      {
       "w": "berpiztu",
       "accepted": [
        "biziberritu",
-       "berriro piztu"
+       "berriro piztu",
+       "birpiztu",
+       "berritu",
+       "suspertu",
+       "berreskuratu",
+       "gogora ekarri",
+       "mahai gainean jarri"
       ]
      }
     ]
@@ -4367,21 +4612,34 @@
       "w": "agortu",
       "accepted": [
        "amaitu",
-       "bukatu"
+       "bukatu",
+       "ahitu",
+       "akabatu",
+       "saldu",
+       "desagertu"
       ]
      },
      {
       "w": "bereganatu",
       "accepted": [
        "menderatu",
-       "beretu"
+       "beretu",
+       "hartu",
+       "kontrolatu",
+       "eskuratu",
+       "monopolizatu",
+       "nagusitu"
       ]
      },
      {
       "w": "irabazi",
       "accepted": [
        "etekin",
-       "mozkin"
+       "mozkin",
+       "onura",
+       "probetxu",
+       "dirua",
+       "diru-irabazi"
       ]
      },
      {
@@ -4389,14 +4647,22 @@
       "accepted": [
        "apal",
        "xume",
-       "merke"
+       "merke",
+       "ekonomiko",
+       "eskuragarri",
+       "irisgarri",
+       "baxu",
+       "popular"
       ]
      },
      {
       "w": "emanaldi",
       "accepted": [
        "saio",
-       "ikuskizun"
+       "ikuskizun",
+       "kontzertu",
+       "ekitaldi",
+       "errezital"
       ]
      }
     ]
@@ -4686,28 +4952,47 @@
       "w": "eskura",
       "accepted": [
        "eskuragarri",
-       "hurbil"
+       "hurbil",
+       "gertu",
+       "esku-eskura",
+       "alboan",
+       "prest"
       ]
      },
      {
       "w": "atsedenaldi",
       "accepted": [
        "atseden",
-       "etenaldi"
+       "etenaldi",
+       "deskantsu",
+       "geldialdi",
+       "atseden-tarte",
+       "pausaldi",
+       "lasaialdi"
       ]
      },
      {
       "w": "aitortu",
       "accepted": [
        "onartu",
-       "aitortu"
+       "adierazi",
+       "esan",
+       "konfesatu",
+       "kontatu",
+       "jakinarazi"
       ]
      },
      {
       "w": "tarte",
       "accepted": [
        "denbora",
-       "aukera"
+       "aukera",
+       "leku",
+       "toki",
+       "une",
+       "asti",
+       "beta",
+       "espazio"
       ]
      },
      {
@@ -4715,7 +5000,10 @@
       "accepted": [
        "eraman",
        "pairatu",
-       "jasotu"
+       "aguantatu",
+       "eutsi",
+       "gainditu",
+       "onartu"
       ]
      }
     ]

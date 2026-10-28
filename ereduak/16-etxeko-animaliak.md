@@ -114,7 +114,7 @@ e) Erakunde askoren ustez, hobe da animalia bat adoptatzea erostea baino.
 
 **A.3.2** a) adoptatu zuten · b) txertatuko du · c) izango genituzke · d) ari zaitezkete / aritu ahal zarete · e) eskatzen diete
 
-**A.3.3** a) gutxitu, leundu · b) argi eta garbi, nabarmenki · c) inpultso, gogo-une · d) ezusteko, bat-bateko · e) bultzatu
+**A.3.3** a) gutxitu, leundu, murriztu, apaldu, eztitu, txikitu · b) argi eta garbi, asko, ikaragarri, izugarri, dezente, nabariki · c) inpultso, gogo-une, kapritxo, apeta, bat-bateko gogo, une bateko gogo · d) ezusteko, bat-bateko, ustegabeko, aurreikusi gabeko, espero gabeko · e) bultzatu, indartu, gomendatu, akuilatu, zabaldu, defendatu
 
 **B.1** Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak (egitura koherentea), itxiera. Ideia posibleak: denbora, dirua, oporrak, etxebizitza, albaitaria, adopzioa erosketaren aurrean.
 

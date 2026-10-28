@@ -57,6 +57,13 @@ export function loose(answer, accepted) {
   return a.startsWith(stemOf(b)) && a.length <= b.length + 8;
 }
 
+/** Sinonimoak: testuko hitz bera (deklinatuta ere) ez da onartzen, erro bereko sinonimo zehatzagoa ez bada. */
+export function synonym(answer, accepted, word) {
+  if (!loose(answer, accepted)) return false;
+  if (!loose(answer, word)) return true;
+  return norm(answer) !== norm(word) && stemOf(norm(accepted)).length > stemOf(norm(word)).length;
+}
+
 /** Aditz-formak: forma osoa behar da (esaldi osoa idatzi badu ere, barruan bilatzen da). */
 export function exact(answer, accepted) {
   const a = norm(answer), b = norm(accepted);
@@ -217,7 +224,8 @@ export function gradeA3(m, bi, ans, self = {}) {
     items = block.items.map((it, i) => {
       const a = ans[i] || '';
       if (!norm(a)) return { state: 'empty' };
-      if (it.accepted.some((acc) => match(a, acc))) return { state: 'ok' };
+      const ok = block.kind === 'sinonimoak' ? (acc) => synonym(a, acc, it.w) : (acc) => match(a, acc);
+      if (it.accepted.some(ok)) return { state: 'ok' };
       if (ov[i] === true) return { state: 'ok', override: true };
       return { state: 'bad' };
     });

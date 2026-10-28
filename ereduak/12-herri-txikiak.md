@@ -115,7 +115,7 @@ e) Zerbitzu horiek izan ezean, herri txikiak asteburuak pasatzeko toki polit bih
 
 **A.3.2** a) itxi zuen · b) etorriko da · c) geratuko lirateke · d) lan egin dezakegu / lan egin ahal dugu · e) eskatzen diote
 
-**A.3.3** a) despopulatze, jendez hustea · b) beregana ekarri, bildu · c) desafio, proba · d) aldakuntza, bariante · e) nekazal eremu, landa-gune
+**A.3.3** a) despopulatze, jendez hustea, despopulazio, biztanle-galera, populazio-galera, hustuketa · b) beregana ekarri, bildu, ekarri, lortu · c) desafio, proba, zailtasun, helburu, zeregin zail, apustu · d) aldakuntza, bariante, aldaki, hizkera, euskalki, dialekto, berezitasun · e) nekazal eremu, landa-gune, landa, nekazaritza-eremu, baserri-eremu, herri txiki
 
 **B.1** Gutunean: lekua eta data, agurrak, sinadura; erregistro jasoa. Dekalogoan: sarrera, puntuak, itxiera. Ideia posibleak: adinekoen mugikortasuna, ikasleak, osasun-zentroa; dekalogoan: bizilagunak ezagutu, tokiko ohiturak errespetatu, euskara erabili, herriko jardueretan parte hartu.
 

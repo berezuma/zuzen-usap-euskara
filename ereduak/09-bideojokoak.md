@@ -83,7 +83,7 @@ Bideojokoak denbora-galtzetzat hartu izan dira, baina joko askok plangintza, lan
 
 **A.3.1** zuen → zituen · Amak → Ama · jokuak → jokoak · Nere → Nire · ez dira → ez da · familia guztiak … hitz egingo dugu → familiako guztiok … hitz egingo dugu (edo: familia osoak … hitz egingo du)
 
-**A.3.2** a) garrantzitsu, aberats · b) bultzatu, indartu · c) zorizko · d) bateratu, konbinatu · e) hitzartu, itundu
+**A.3.2** a) garrantzitsu, aberats, onuragarri, erabilgarri, preziatu, estimagarri · b) bultzatu, indartu, garatu, suspertu, akuilatu, hobetu · c) zorizko, zoriaren araberako, zoriko, ezusteko · d) bateratu, konbinatu, elkartu, lotu, txandakatu · e) hitzartu, itundu, erabaki, ados jarri, negoziatu, zehaztu
 
 **A.3.3** a) oparitu zidaten · b) erabiliko ditu · c) lo egingo zenuke · d) jolas gaitezke / jolastu ahal gara · e) bidaltzen dizkiete
 

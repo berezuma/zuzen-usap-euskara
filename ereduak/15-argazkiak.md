@@ -115,7 +115,7 @@ c) Zerbait fotografiatzean, burmuinak gutxiago gogoratzen du.
 d) Posible da paperezko argazki zahar bat kutxa batean aurkitzea berrogei urte geroago.
 e) Ez dugu argazkiak ateratzeari utzi behar.
 
-**A.3.2** a) gutxi, urri · b) ahul, apurkor · c) antzinakotu, modaz pasatu · d) antzeztu, agertoki bihurtu · e) ohiko, xume
+**A.3.2** a) gutxi, urri, arraro, eskas, bakar, apur · b) ahul, apurkor, makal, ezegonkor, galkor · c) antzinakotu, modaz pasatu, zahartu, atzeratu, erabilgabe geratu, baliogabe geratu, garaiz kanpo geratu · d) antzeztu, agertoki bihurtu, taularatu, antzezpen bihurtu, ikuskizun bihurtu, irudikatu · e) ohiko, xume, normal, ohizko, apal, hutsal, soil, eguneroko
 
 **A.3.3** a) jaunartze · b) artxibo · c) artelan · d) paradoxikoki · e) egunerokotasun
 

@@ -84,7 +84,7 @@ Turismoak ekonomia biziberritu du, lanpostuak sortu eta ondarea zaharberritzen l
 
 **A.3.1** itxasoa → itsasoa · Turistak → Turistek · bost hotel berriak → bost hotel berri · zeuden → zegoen · Zergaitik → Zergatik · Gaztek → Gazteek
 
-**A.3.2** a) ezezagun, kanpotar · b) agerian, argi, ageriko · c) larri, handi · d) aldatu, -(r)en lekua hartu · e) murriztu
+**A.3.2** a) ezezagun, kanpotar, kanpoko, atzerritar, lekuz kanpo · b) agerian, argi, ageriko, nabarmen, begi-bistako, bistako, garbi · c) larri, handi, garrantzitsu, serio, latz · d) aldatu, ordeztu, lekua hartu, tokia hartu · e) murriztu, gutxitu, mugak jarri, muga jarri, kontrolatu, arautu
 
 **A.3.3** a) etorri ziren · b) ezarriko du · c) geratuko lirateke · d) ezagut dezakete / ezagutu ahal dute · e) eskatzen dizkiote
 

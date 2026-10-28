@@ -84,7 +84,7 @@ Adimen artifizialak minutu gutxitan egin ditzake etxeko lanak, eta irakasleek ne
 
 **A.3.1** batzuek → batzuk · haserratu → haserretu · errezagoa → errazagoa · batzutan → batzuetan · galdetzen dugu → galdetzen diogu · inportantea → garrantzitsua
 
-**A.3.2** a) desberdindu · b) gabezia, falta · c) tresna · d) adierazi, erakutsi · e) biziberritu, berriro piztu
+**A.3.2** a) desberdindu, ezberdindu, antzeman, igarri, ezagutu, jakin · b) gabezia, falta, eskasia, hutsa, akats, ahulezia, ezjakintasun · c) tresna, lan-tresna, baliabide, erreminta, gailu, bitarteko · d) adierazi, erakutsi, markatu, azpimarratu, nabarmendu, aipatu, aurkitu, identifikatu · e) biziberritu, berriro piztu, birpiztu, berritu, suspertu, berreskuratu, gogora ekarri, mahai gainean jarri
 
 **A.3.3** a) adostu zituen · b) egingo ditugu · c) ikasiko zenuke · d) galde diezaiokezu / galdetu ahal diozu · e) eskatzen dizkiete
 

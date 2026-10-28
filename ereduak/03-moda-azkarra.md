@@ -112,7 +112,7 @@ c) Hondamendi larriek hainbat aldiz sistemaren ahultasuna erakutsi duten arren, 
 d) Botoi bat josteko ez da ia denborarik behar.
 e) Gero eta gazte gehiagok egiten dute; gainera, modan egoteko modu bat bihurtu da.
 
-**A.3.2** a) zikintzaile · b) urri, txiki, apal · c) hauskortasun, makaltasun · d) isuri, jaregin · e) sendo, luzaroko
+**A.3.2** a) zikintzaile, kutsadura-eragile, kutsadura-iturri · b) urri, txiki, apal, baxu, murritz, kaskar, xume · c) hauskortasun, makaltasun, ahulezia, ahulgune, ezegonkortasun · d) isuri, jaregin, jaulki, bota, igorri, utzi · e) sendo, luzaroko, iraupen luzeko, gogor, erresistente, luzaroan irauten duen
 
 **A.3.3** a) tindagai · b) lantegi · c) hondamendi · d) zuntz · e) erosle
 
