@@ -46,17 +46,6 @@ Azterketa (A eta B atalak) eta, `---` lerroaren ondoren, **TXANTILOIA**:
 
 Goiburuak berdinak dira fitxategi guztietan, aplikaziorako JSON bihurtzeko moduan.
 
-## Egiaztatzeko zerrenda
+## Egile-eskubideak
 
-- [ ] Irakurgaien euskara (batua, erregistroa, puntuazioa)
-- [ ] **Testuen luzera:** irakurgaiek ~185–220 hitz dituzte. Litekeena da azterketa ofizialekoak baino laburragoak izatea; egiaztatu benetako azterketekin eta, behar izanez gero, luzatu.
-- [ ] A.1: test-galderetan aukera bakarra izan dadila zuzena
-- [ ] A.3: sinonimo-zerrendak eta aditz-formak (aditz-moldaketetan forma bat baino gehiago onar daitezke)
-- [ ] A.3 akatsen ariketak: zehazki sei akats, ez gehiago, ez gutxiago
-- [ ] Eredu-laburpenak eta B.2ko eredu-erantzunak
-- [ ] Aipuak egiaztatu:
-  - 02: Mikel Zarateri egotzitako esaldia (egilea eta testua)
-  - 04: «Zahar hitz, zuhur hitz» atsotitza
-  - 07: Borgesen aipuaren itzulpena
-
-Gainerako testu guztiak (irakurgaiak, poemak, komikiak, iragarkiak) originalak eta fikziozkoak dira. Ez dute egile-eskubideen arazorik.
+Testu guztiak (irakurgaiak, poemak, komikiak, iragarkiak) originalak eta fikziozkoak dira, aipu labur hauek izan ezik: Mikel Zarateri egotzitako esaldia (02), «Zahar hitz, zuhur hitz» atsotitza (04) eta Borgesen aipuaren itzulpena (07). Ez dute egile-eskubideen arazorik.
