@@ -29,7 +29,7 @@ Zuzentzaileak berak kentzen dituen puntuak erakusten ditu, idazten ari zaren bit
 - Simulazioa (5 atal, kronometroa, erantzunak automatikoki gordeta), emaitzak eta autoebaluazioa, gimnasioa (2.1eko itemak banan-banan) eta Ikasi (2.2 Gizartea eta 3. Literatura fitxak).
 - Web estatikoa: HTML, CSS eta JavaScript modulu hutsak, build urratsik gabe. GitHub Pages-en argitaratzen da (`gh-pages` adarra, `app/` karpeta).
 - Ez dago zerbitzaririk, konturik ez adimen artifizialik: dena `localStorage`-n (`zuzen:` aurrizkia, bateragarritasunagatik).
-- DBEO: ez da daturik biltzen; ez dago cookierik, analitikarik ez hirugarrenen baliabiderik (letra-motak zerbitzari propiotik). Pribatutasun-politika eta lege-oharra aplikazioaren barruan daude, eta erabiltzaileak bere datuak ezaba ditzake.
+- DBEO: ez da datu pertsonalik biltzen; ez dago cookierik ez hirugarrenen baliabiderik (letra-motak eta `count.js` zerbitzari propiotik). Bisitak modu anonimoan zenbatzen dira GoatCounter-ekin (cookierik gabe, inoiz ez erantzunik); edozein datu berri bidali aurretik, eguneratu pribatutasun-politika. Pribatutasun-politika eta lege-oharra aplikazioaren barruan daude, eta erabiltzaileak bere datuak ezaba ditzake.
 - Nota **orientagarria** da, ez ofiziala. 2027ko idazlanaren hitz-muga eta kenketak ez daude oraindik berretsita.
 - Terminologia: atalak 1.1 Ulermena, 1.2 Idazlana, 2.1 Hizkuntza, 2.2 Gizartea, 3 Literatura. Ereduak 01–20. Interfaze osoa euskaraz.
 
