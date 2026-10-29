@@ -163,37 +163,24 @@ function viewLegal() {
 
 // tresnak erabiltzen dituen agiri ofizialak; aldatzen badira, eguneratu hemen eta grading.js-en
 const SOURCES = [
-  { title: 'USaP – Euskara eta literatura II irakasgairako argibideak', org: 'EHU (Unibertsitatera Sartzeko Proba), Euskara eta Literatura II irakasgaiaren koordinazioa', date: '2025eko azaroa',
-    use: '2027ko azterketaren egitura (1.1/1.2, 2.1/2.2 eta 3. atala), zuzentasunaren irizpide orokorrak, literaturako gaitegia eta nahitaezko irakurgaiak, eta “Hizkuntza eta gizartea” ataleko gaitegia.' },
-  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2026ko USaP, ohiko deialdia)', org: 'EHU', date: '2026',
-    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
-  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2026ko USaP, ez-ohiko deialdia)', org: 'EHU', date: '2026',
-    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
-  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2025eko USaP, ohiko deialdia)', org: 'EHU', date: '2025',
-    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
-  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2025eko USaP, ez-ohiko deialdia)', org: 'EHU', date: '2025',
-    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
+  { title: 'USaP – Euskara eta literatura II irakasgairako argibideak', org: 'EHU', date: '2025' },
+  { title: '2025 eta 2026ko azterketak eta zuzentzeko eta kalifikatzeko irizpideak (ohiko eta ez-ohiko deialdiak)', org: 'EHU', date: '2025–2026' },
 ];
 
 function viewSources() {
   app.innerHTML = `${top()}
   <main class="wrap narrow legal">
     <div class="page-h"><h1>Iturriak eta irizpideak</h1><p>Azken berrikuspena: ${UPDATED}.</p></div>
-    <p class="lead-p">Tresna hau indarrean dauden dokumentu ofizialetan oinarritzen da. Ez dago lotuta ez EHUrekin ez beste inongo erakunderekin. Dokumentu ofizialak aldatzen badira, tresna eguneratuko da.</p>
+    <p class="lead-p">USaPeuskara Batxilergoko ikasleei Euskara eta Literatura II azterketa prestatzen laguntzeko doako tresna bat da. Edukiak eta ariketak argitaratutako dokumentu ofizial hauetan oinarritzen dira:</p>
 
-    <section class="stack" aria-labelledby="src-h"><h2 id="src-h">Erabilitako dokumentu ofizialak</h2>
-      <ol class="sources">${SOURCES.map((d) => `
-        <li><p class="src-t">${d.title}</p>
-          <p class="src-m">${d.org} · ${d.date}</p>
-          <p>${d.use}</p></li>`).join('')}
-      </ol></section>
+    <ul class="sources" aria-label="Dokumentu ofizialak">${SOURCES.map((d) => `
+      <li><p class="src-t">${d.title}</p><p class="src-m">${d.org}, ${d.date}</p></li>`).join('')}
+    </ul>
 
-    <section class="stack"><h2>Nola erabiltzen dira</h2>
-      <p>Azterketaren egitura, atal bakoitzaren puntuazioa eta zuzentasunagatiko kenketak dokumentu horietatik hartu dira, 2027ko egiturara egokituta. Zuzenketa automatikoa erantzun itxietan bakarrik egiten da (test-galderak, sinonimoak, berridazketak…); idazlana, gizartea eta literatura zuk zeuk ebaluatzen dituzu, errubrika ofizialaren irizpideak galdera bihurtuta.</p>
-      <p>Ereduak, testuak, galderak eta eredu-erantzunak proiektu honek sortuak dira, ez dira azterketa ofizialak, eta irakasle baten berrikuspenaren zain daude. Emandako nota orientagarria da, ez ofiziala.</p></section>
-
-    <section class="stack"><h2>Akatsik ikusi duzu?</h2>
-      <p>Irizpide ofizialekin bat ez datorren zerbait ikusten baduzu, edo dokumentu berririk argitaratu bada, idatzi <a href="mailto:${EMAIL}">${EMAIL}</a> helbidera.</p></section>
+    <section class="stack">
+      <p>Gaitegia edo azterketaren eredua aldatzen bada, tresna dokumentu ofizial berrietara egokituko da ahalik eta lasterren.</p>
+      <p>USaPeuskara proiektu pertsonala eta independentea da, eta ez dago lotuta ez EHUrekin ez beste inongo erakunderekin. Ez du ordezkatzen ez azterketa ofiziala ez ikastetxeetako irakasleen lana; entrenatzeko baliabide osagarria da. Ematen duen nota orientagarria da, ez ofiziala.</p>
+      <p>Akatsen bat ikusi baduzu edo dokumentu ofizial berri baten berri baduzu, idatzi <a href="mailto:${EMAIL}">${EMAIL}</a> helbidera.</p></section>
   </main>${siteFoot()}`;
 }
 
@@ -238,8 +225,9 @@ function viewHome() {
   app.innerHTML = `${top('home')}
   <section class="hero ${first ? 'enter' : ''}" aria-labelledby="hero-h"><div class="in">
     <div class="head"><h1 id="hero-h">Egin <span style="white-space:nowrap">USaP-a</span> etxean.</h1>
-    <p class="lead rise" style="--i:1">Euskara eta Literatura II, 2027ko egituran: 90 minutu eta bost atal, zuzentzaileen irizpide ofizialekin zuzenduta. Bukatzean, puntuz puntu jakingo duzu non irabazi eta non galdu duzun.
-    ${done.length ? `<span class="stats"><b>${done.length}</b> eredu eginda · batez beste <b>${avg}</b></span>` : ''}</p></div>
+    <p class="lead rise" style="--i:1">Euskara eta Literatura II, indarreko ereduan: 90 minutu eta bost atal, zuzentzaileen irizpide ofizialetan oinarrituta zuzenduta. Bukatzean, puntuz puntu ikusiko duzu non irabazi eta non galdu duzun.
+    ${done.length ? `<span class="stats"><b>${done.length}</b> eredu eginda · batez beste <b>${avg}</b></span>` : ''}
+    <span class="src-note"><span>Indarreko dokumentu ofizialetan oinarritua</span> · <span>Proiektu independentea</span> · <a href="#/iturriak">Iturriak</a></span></p></div>
     <div class="folders">
       <ol style="list-style:none;margin:0;padding:0" aria-label="Azterketaren atalak">
         ${SECTIONS.map((s, i) => `<li class="folder f${i + 1}" style="--i:${i}"><span class="tab">${s.label} ${esc(s.name)} <small>${fmt(s.max)} p</small></span><div class="body"></div></li>`).join('')}

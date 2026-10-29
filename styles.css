@@ -115,6 +115,9 @@ button { font: inherit; color: inherit; }
 .hero .lead { font: 400 var(--s-lead)/1.4 var(--read); color: var(--night-muted); max-width: 40ch; display: flex; flex-direction: column; gap: 16px; padding-bottom: .4em; }
 .hero .stats { font: 500 16px/1.4 var(--ui); color: var(--night-muted); }
 .hero .stats b { color: var(--night-ink); font-weight: 600; }
+.hero .src-note { font: 400 14px/1.5 var(--ui); color: var(--night-muted); }
+.hero .src-note > * { white-space: nowrap; }
+.hero .src-note a { color: var(--night-ink); }
 
 /* karpeta-pila: atal bakoitza karpeta bat, bere hegalarekin */
 .folders { position: relative; margin-top: clamp(16px, 3vw, 32px); }
@@ -420,7 +423,7 @@ details.more[open] summary::before { transform: rotate(45deg); }
 .legal h2 { font-size: clamp(22px, 19px + .8vw, 28px); }
 .legal p { max-width: 66ch; }
 .legal .lead-p { font: 400 var(--s-lead)/1.45 var(--read); }
-.sources { display: flex; flex-direction: column; gap: 20px; padding-left: 1.4em; margin: 0; }
+.sources { display: flex; flex-direction: column; gap: 16px; list-style: none; padding: 0; margin: 0; }
 .sources li { display: flex; flex-direction: column; gap: 4px; }
 .sources .src-t { font-weight: 600; }
 .sources .src-m { color: var(--muted); font-size: 15px; }
