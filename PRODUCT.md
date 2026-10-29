@@ -42,7 +42,7 @@ Zuzentzaileak berak kentzen dituen puntuak erakusten ditu, idazten ari zaren bit
 ## Evidence on Hand
 
 - 20 eredu (`ereduak/*.md`, `app/data/ereduak.json`), Gizartea eta Literatura galdera-bankuak, Ikasi fitxak.
-- Ez dago testigantzarik, erabiltzaile-zifrarik edo irakasleen oniritzirik: ez asmatu. Ereduak irakasle baten berrikuspenaren zain daude (egileak erabakita, hasierako "Probako bertsioa" oharra kendu da, 2026-10-27).
+- Ez dago testigantzarik, erabiltzaile-zifrarik edo irakasleen oniritzirik: ez asmatu. Ez aipatu ereduak irakasle baten berrikuspenaren zain daudenik (egileak erabakita, 2026-10-29; "Probako bertsioa" oharra ere kendu zen, 2026-10-27).
 
 ## Product Principles
 

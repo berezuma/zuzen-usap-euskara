@@ -46,9 +46,7 @@ Azterketa (A eta B atalak) eta, `---` lerroaren ondoren, **TXANTILOIA**:
 
 Goiburuak berdinak dira fitxategi guztietan, aplikaziorako JSON bihurtzeko moduan.
 
-## Argitaratu aurretik: irakaslearen berrikuspena
-
-AArekin idatzitako zirriborroak dira. **Euskara-irakasle batek berrikusi behar ditu.** Zerrenda:
+## Egiaztatzeko zerrenda
 
 - [ ] Irakurgaien euskara (batua, erregistroa, puntuazioa)
 - [ ] **Testuen luzera:** irakurgaiek ~185–220 hitz dituzte. Litekeena da azterketa ofizialekoak baino laburragoak izatea; egiaztatu benetako azterketekin eta, behar izanez gero, luzatu.

@@ -5,4 +5,4 @@ Batxilergoko ikasleek USaPeko Euskara eta Literatura II azterketa simulatzeko et
 - `app/`: web aplikazioa (estatikoa; GitHub Pages-en argitaratzen da `gh-pages` adarretik: `git subtree push --prefix app origin gh-pages`; `main`-era push egiteak ez du webgunea eguneratzen, ikus `app/README.md`). Domeinua: https://usapeuskara.berezuma.com (`app/CNAME`)
 - `ereduak/`: 20 entrenamendu-eredu Markdown formatuan, txantiloiekin
 
-Ereduak irakasle baten berrikuspenaren zain dauden zirriborroak dira. Xehetasunak: `ereduak/README.md` eta `app/README.md`.
+Xehetasunak: `ereduak/README.md` eta `app/README.md`.
