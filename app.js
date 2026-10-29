@@ -38,7 +38,12 @@ const chip = (ok, text) => `<span class="chip ${ok ? 'ok' : 'bad'}">${ok ? icon.
 
 function getAtt(id) { return store.get('att:' + id, null); }
 function saveAtt(att) { att.updated = Date.now(); store.set('att:' + att.id, att); }
-function newAtt(m) { const a = { id: m.id, started: Date.now(), elapsed: 0, section: 's11', finished: false, ans: emptyAnswers(m), self: {} }; saveAtt(a); return a; }
+// bisita-kontagailu anonimoa (GoatCounter, cookierik gabe): orri-mota eta gertaerak bakarrik, ez erantzunik
+function track(path, event = false) {
+  try { window.goatcounter?.count?.({ path, title: event ? path : document.title, event }); } catch {}
+}
+
+function newAtt(m) { track(`azterketa-hasi/${m.id}`, true); const a = { id: m.id, started: Date.now(), elapsed: 0, section: 's11', finished: false, ans: emptyAnswers(m), self: {} }; saveAtt(a); return a; }
 
 function setPath(obj, path, val) {
   const keys = path.split('.');
@@ -55,6 +60,7 @@ function getPath(obj, path) { return path.split('.').reduce((o, k) => (o == null
 function route() {
   clearInterval(ticker); ticker = null;
   const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+  track(`/${parts[0] || ''}`);
   ui.confirm = null;
   if (parts[0] === 'azterketa' && byId(parts[1])) return viewExam(byId(parts[1]));
   if (parts[0] === 'emaitza' && byId(parts[1])) return viewResult(byId(parts[1]));
@@ -80,7 +86,7 @@ function top(active) {
 const EMAIL = 'info@berezuma.com';
 const SITE = 'usapeuskara.berezuma.com';
 const AUTHOR = 'Beñat Erezuma';
-const UPDATED = '2026ko urriaren 27a';
+const UPDATED = '2026ko urriaren 29a';
 
 function siteFoot() {
   return `<footer class="site-foot"><div class="in">
@@ -93,7 +99,7 @@ function siteFoot() {
     </nav>
     <div class="foot-notes">
       <p>Beñat Erezumaren doako proiektu pertsonala, EHUrekin lotura ofizialik gabea. Irizpideak: EHUren 2025 eta 2026ko zuzenketa-irizpideak, eta 2027ko azterketa-ereduaren argibideak (2025eko azaroa); ikusi <a href="#/iturriak">iturriak</a>. Nota orientagarria da, ez ofiziala.</p>
-      <p>Ez dago cookierik, konturik ez estatistikarik: zure erantzunak gailu honetan bakarrik gordetzen dira.</p>
+      <p>Ez dago cookierik ez konturik: zure erantzunak gailu honetan bakarrik gordetzen dira. Bisitak modu anonimoan zenbatzen dira, inor identifikatu gabe.</p>
     </div>
   </div></footer>`;
 }
@@ -108,7 +114,7 @@ function viewPrivacy() {
   app.innerHTML = `${top()}
   <main class="wrap narrow legal">
     <div class="page-h"><h1>Pribatutasun-politika</h1><p>Azken eguneratzea: ${UPDATED}.</p></div>
-    <p class="lead-p">Laburbilduz: USaPeuskarak ez du zure daturik biltzen. Ez dago konturik, formulariorik, cookierik, estatistikarik ez publizitaterik. Zure erantzunak zure gailuan bakarrik gordetzen dira, eta zuk ezaba ditzakezu orri honetan bertan.</p>
+    <p class="lead-p">Laburbilduz: USaPeuskarak ez du zure daturik biltzen. Ez dago konturik, formulariorik, cookierik ez publizitaterik. Bisitak modu anonimoan zenbatzen dira, inor identifikatu gabe. Zure erantzunak zure gailuan bakarrik gordetzen dira, eta zuk ezaba ditzakezu orri honetan bertan.</p>
 
     <section class="paper erase" aria-labelledby="erase-h">
       <h2 id="erase-h">Zure datuak gailu honetan</h2>
@@ -125,14 +131,19 @@ function viewPrivacy() {
 
     <section class="stack"><h2>Ostatua</h2>
       <p>Webgunea GitHub Pages-en dago (GitHub, Inc.). Edozein webgunetan bezala, zerbitzariak konexioaren datu teknikoak (IP helbidea, data eta nabigatzailea) erregistra ditzake segurtasunerako eta zerbitzua emateko, guk horietara sarbiderik izan gabe. Oinarri juridikoa interes legitimoa da (DBEO, 6.1.f artikulua). GitHub-ek datu horiek nola tratatzen dituen haren <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">pribatutasun-adierazpenean</a> azaltzen da, Europatik kanpoko transferentzietarako bermeak barne.</p>
-      <p>Letra-motak eta gainerako fitxategi guztiak webgune beretik zerbitzatzen dira: ez da hirugarrenen zerbitzurik kargatzen (Google Fonts edo antzekorik ez).</p></section>
+      <p>Letra-motak eta gainerako fitxategi guztiak webgune beretik zerbitzatzen dira, bisita-kontagailuaren script-a barne: ez da hirugarrenen fitxategirik kargatzen (Google Fonts edo antzekorik ez).</p></section>
+
+    <section class="stack"><h2>Bisita-kontaketa anonimoa</h2>
+      <p>Zenbat lagunek erabiltzen duten jakiteko, <a href="https://www.goatcounter.com" rel="noopener">GoatCounter</a> erabiltzen da, kode irekiko bisita-kontagailua. Ez du cookierik erabiltzen, ez du zure gailuan ezer gordetzen, eta ez du zu identifikatzen ez zure jarraipenik egiten.</p>
+      <p>Orri bat irekitzean edo azterketa bat hasi eta bukatzean, datu hauek bidaltzen dira: zein orri edo gertaera den (adibidez, «azterketa hasi»), nondik iritsi zaren (aurreko webgunea), pantailaren zabalera eta nabigatzaile-mota. Ez da inoiz bidaltzen zure erantzunik, notarik ez idazlanik. Bisitari bakarrak egun berean behin bakarrik zenbatzeko, IP helbidea eta nabigatzailea egunero aldatzen den kode batekin nahasten dira, eta IP helbidea ez da gordetzen; hurrengo egunean ezinezkoa da bisita bat aurrekoekin lotzea. Emaitza kopuru orokorrak dira bakarrik (adibidez, «gaur 140 bisitari»).</p>
+      <p>Oinarri juridikoa interes legitimoa da (DBEO, 6.1.f artikulua): zerbitzua hobetzea eta zenbat erabiltzen den jakitea. Gailuan ezer gordetzen ez denez, ez da baimenik eskatzen. Xehetasunak: <a href="https://www.goatcounter.com/help/privacy" rel="noopener">GoatCounter-en pribatutasun-politika</a>. Iragarki- edo jarraipen-blokeatzaile batek kontaketa hau ere blokea dezake, eta tresnak berdin funtzionatzen du.</p></section>
 
     <section class="stack"><h2>Zure eskubideak</h2>
       <p>Datuak babesteko araudiak (DBEO eta 3/2018 Lege Organikoa) eskubide hauek ematen dizkizu: sarbidea, zuzenketa, ezabaketa, aurka egitea, tratamendua mugatzea eta eramangarritasuna. Zure gailuko datuak zuk zeuk kontrolatzen dituzu: goiko botoiarekin ezaba ditzakezu, edo nabigatzailearen ezarpenetan webgune honen datuak garbituz. Bestelako zalantzarik baduzu, idatzi <a href="mailto:${EMAIL}">${EMAIL}</a> helbidera.</p>
       <p>Erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (<a href="https://www.aepd.es" rel="noopener">aepd.es</a>).</p></section>
 
     <section class="stack"><h2>Adingabeak</h2>
-      <p>Webgunea batxilergoko ikasleentzat da, eta ez du inoren daturik biltzen, ezta adingabeenik ere.</p></section>
+      <p>Webgunea batxilergoko ikasleentzat da, eta ez du inoren datu pertsonalik biltzen, ezta adingabeenik ere.</p></section>
 
     <section class="stack"><h2>Aldaketak</h2>
       <p>Politika hau aldatzen bada, orri honetan argitaratuko da, eguneratze-data aldatuta.</p></section>
@@ -155,7 +166,7 @@ function viewLegal() {
     <section class="stack"><h2>Jabetza intelektuala</h2>
       <p>Webgunearen testuak, ereduak eta diseinua Beñat Erezumarenak dira, eta hezkuntza-erabilerarako erabil daitezke, iturria aipatuta. Letra-motak: General Sans (Indian Type Foundry, ITF Free Font License) eta Literata (TypeTogether, SIL Open Font License).</p></section>
     <section class="stack"><h2>Pribatutasuna</h2>
-      <p>Ez da daturik biltzen. Xehetasunak: <a href="#/pribatutasuna">pribatutasun-politika</a>.</p></section>
+      <p>Ez da datu pertsonalik biltzen; bisitak modu anonimoan zenbatzen dira. Xehetasunak: <a href="#/pribatutasuna">pribatutasun-politika</a>.</p></section>
     <section class="stack"><h2>Lege aplikagarria</h2>
       <p>Lege-ohar hau Espainiako eta Europar Batasuneko legeriaren arabera arautzen da.</p></section>
   </main>${siteFoot()}`;
@@ -519,7 +530,7 @@ function viewResult(m) {
   const att = getAtt(m.id);
   if (!att) { location.hash = `#/azterketa/${m.id}`; return; }
   fixAtt(att);
-  if (!att.finished) { att.finished = true; att.finishedAt = Date.now(); }
+  if (!att.finished) { att.finished = true; att.finishedAt = Date.now(); track(`azterketa-bukatu/${m.id}`, true); }
   const sc = score(m, att, BANKS);
   att.result = { total: sc.total, pending: sc.pending };
   saveAtt(att);
@@ -911,7 +922,7 @@ app.addEventListener('click', (e) => {
   }
   if (act === 'finish' && currentAtt) {
     if (ui.confirm !== 'finish') { ui.confirm = 'finish'; el.textContent = 'Ziur? Bai, amaitu eta zuzendu'; return; }
-    currentAtt.finished = true; currentAtt.finishedAt = Date.now(); saveAtt(currentAtt);
+    currentAtt.finished = true; currentAtt.finishedAt = Date.now(); saveAtt(currentAtt); track(`azterketa-bukatu/${currentAtt.id}`, true);
     location.hash = `#/emaitza/${currentAtt.id}`; return;
   }
   const m = byId(location.hash.split('/')[2]);
