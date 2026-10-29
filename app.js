@@ -62,6 +62,7 @@ function route() {
   if (parts[0] === 'ikasi') { window.scrollTo(0, 0); return viewLearn(parts[1]); }
   if (parts[0] === 'pribatutasuna') { window.scrollTo(0, 0); return viewPrivacy(); }
   if (parts[0] === 'lege-oharra') { window.scrollTo(0, 0); return viewLegal(); }
+  if (parts[0] === 'iturriak') { window.scrollTo(0, 0); return viewSources(); }
   return viewHome();
 }
 
@@ -85,12 +86,13 @@ function siteFoot() {
   return `<footer class="site-foot"><div class="in">
     <p class="name" aria-hidden="true">USaPeuskara<span>.</span></p>
     <nav class="foot-links" aria-label="Oina">
+      <a href="#/iturriak">Iturriak eta irizpideak</a>
       <a href="#/pribatutasuna">Pribatutasuna</a>
       <a href="#/lege-oharra">Lege-oharra</a>
       <a href="mailto:${EMAIL}">${EMAIL}</a>
     </nav>
     <div class="foot-notes">
-      <p>Beñat Erezumaren doako proiektu pertsonala, EHUrekin lotura ofizialik gabea. Irizpideak: EHUren 2025 eta 2026ko zuzenketa-irizpideak, eta 2027ko azterketa-ereduaren argibideak (2025eko azaroa). Nota orientagarria da, ez ofiziala.</p>
+      <p>Beñat Erezumaren doako proiektu pertsonala, EHUrekin lotura ofizialik gabea. Irizpideak: EHUren 2025 eta 2026ko zuzenketa-irizpideak, eta 2027ko azterketa-ereduaren argibideak (2025eko azaroa); ikusi <a href="#/iturriak">iturriak</a>. Nota orientagarria da, ez ofiziala.</p>
       <p>Ez dago cookierik, konturik ez estatistikarik: zure erantzunak gailu honetan bakarrik gordetzen dira.</p>
     </div>
   </div></footer>`;
@@ -147,7 +149,7 @@ function viewLegal() {
     <section class="stack"><h2>Helburua</h2>
       <p>Batxilergoko ikasleei USaPeko Euskara eta Literatura II azterketa prestatzen laguntzea: azterketa simulatzea eta zuzenketa-irizpide ofizialak ezagutzea.</p></section>
     <section class="stack"><h2>EHUrekiko lotura</h2>
-      <p>USaPeuskarak ez du Euskal Herriko Unibertsitatearekin (EHU) lotura ofizialik. Azterketen egitura eta zuzenketa-irizpideak EHUk argitaratutako agiri publikoetatik hartu dira, iturri gisa aipatuta. Ereduak eta galderak proiektu honek sortuak dira, eta ez dira azterketa ofizialak.</p></section>
+      <p>USaPeuskarak ez du Euskal Herriko Unibertsitatearekin (EHU) lotura ofizialik. Azterketen egitura eta zuzenketa-irizpideak EHUk argitaratutako agiri publikoetatik hartu dira, iturri gisa aipatuta (ikusi <a href="#/iturriak">iturriak eta irizpideak</a>). Ereduak eta galderak proiektu honek sortuak dira, eta ez dira azterketa ofizialak.</p></section>
     <section class="stack"><h2>Erantzukizuna</h2>
       <p>Emandako nota orientagarria da, eta ez du azterketa ofizialeko emaitzarik bermatzen. Edukiak arretaz prestatu dira, baina akatsak egon daitezke; ikusten baduzu, idatzi <a href="mailto:${EMAIL}">${EMAIL}</a> helbidera.</p></section>
     <section class="stack"><h2>Jabetza intelektuala</h2>
@@ -156,6 +158,42 @@ function viewLegal() {
       <p>Ez da daturik biltzen. Xehetasunak: <a href="#/pribatutasuna">pribatutasun-politika</a>.</p></section>
     <section class="stack"><h2>Lege aplikagarria</h2>
       <p>Lege-ohar hau Espainiako eta Europar Batasuneko legeriaren arabera arautzen da.</p></section>
+  </main>${siteFoot()}`;
+}
+
+// tresnak erabiltzen dituen agiri ofizialak; aldatzen badira, eguneratu hemen eta grading.js-en
+const SOURCES = [
+  { title: 'USaP – Euskara eta literatura II irakasgairako argibideak', org: 'EHU (Unibertsitatera Sartzeko Proba), Euskara eta Literatura II irakasgaiaren koordinazioa', date: '2025eko azaroa',
+    use: '2027ko azterketaren egitura (1.1/1.2, 2.1/2.2 eta 3. atala), zuzentasunaren irizpide orokorrak, literaturako gaitegia eta nahitaezko irakurgaiak, eta “Hizkuntza eta gizartea” ataleko gaitegia.' },
+  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2026ko USaP, ohiko deialdia)', org: 'EHU', date: '2026',
+    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
+  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2026ko USaP, ez-ohiko deialdia)', org: 'EHU', date: '2026',
+    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
+  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2025eko USaP, ohiko deialdia)', org: 'EHU', date: '2025',
+    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
+  { title: 'Euskara eta Literatura II. Zuzentzeko eta kalifikatzeko irizpideak (2025eko USaP, ez-ohiko deialdia)', org: 'EHU', date: '2025',
+    use: 'Azterketa honen egitura duten ereduak, eta horien puntuazioak eta kenketak.' },
+];
+
+function viewSources() {
+  app.innerHTML = `${top()}
+  <main class="wrap narrow legal">
+    <div class="page-h"><h1>Iturriak eta irizpideak</h1><p>Azken berrikuspena: ${UPDATED}.</p></div>
+    <p class="lead-p">Tresna hau indarrean dauden dokumentu ofizialetan oinarritzen da. Ez dago lotuta ez EHUrekin ez beste inongo erakunderekin. Dokumentu ofizialak aldatzen badira, tresna eguneratuko da.</p>
+
+    <section class="stack" aria-labelledby="src-h"><h2 id="src-h">Erabilitako dokumentu ofizialak</h2>
+      <ol class="sources">${SOURCES.map((d) => `
+        <li><p class="src-t">${d.title}</p>
+          <p class="src-m">${d.org} · ${d.date}</p>
+          <p>${d.use}</p></li>`).join('')}
+      </ol></section>
+
+    <section class="stack"><h2>Nola erabiltzen dira</h2>
+      <p>Azterketaren egitura, atal bakoitzaren puntuazioa eta zuzentasunagatiko kenketak dokumentu horietatik hartu dira, 2027ko egiturara egokituta. Zuzenketa automatikoa erantzun itxietan bakarrik egiten da (test-galderak, sinonimoak, berridazketak…); idazlana, gizartea eta literatura zuk zeuk ebaluatzen dituzu, errubrika ofizialaren irizpideak galdera bihurtuta.</p>
+      <p>Ereduak, testuak, galderak eta eredu-erantzunak proiektu honek sortuak dira, ez dira azterketa ofizialak, eta irakasle baten berrikuspenaren zain daude. Emandako nota orientagarria da, ez ofiziala.</p></section>
+
+    <section class="stack"><h2>Akatsik ikusi duzu?</h2>
+      <p>Irizpide ofizialekin bat ez datorren zerbait ikusten baduzu, edo dokumentu berririk argitaratu bada, idatzi <a href="mailto:${EMAIL}">${EMAIL}</a> helbidera.</p></section>
   </main>${siteFoot()}`;
 }
 
