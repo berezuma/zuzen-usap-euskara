@@ -32,7 +32,39 @@
 .st-idx a span:first-child { font-weight: 600; }
 .st-idx a span:last-child { color: var(--muted); }
 .st-poem { font-family: var(--read); white-space: pre-line; padding-left: 16px; border-left: 3px solid var(--paper-3); }
+.st-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.st-btn2 { font: 600 16px/1 var(--ui); background: transparent; color: var(--pen); border: 1.5px solid var(--pen); padding: 11px 18px; border-radius: var(--r); cursor: pointer; }
+.st-num { color: var(--faint); font-family: var(--ui); font-size: 13px; margin-right: 8px; }
+.st-pts { font: 500 15px var(--ui); color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+.st-ctx { background: var(--paper-2); padding: 14px 16px; border-radius: var(--r); }
+.st-quote { font-family: var(--read); padding-left: 16px; border-left: 3px solid var(--paper-3); white-space: pre-line; }
+.st-opt { display: flex; flex-direction: column; gap: 10px; padding: 14px 0; border-top: 1px solid var(--paper-3); }
+.st-opt h3 { font-size: 18px; }
+.st-print-only { display: none; }
+@page { size: A4; margin: 16mm 16mm 18mm; @bottom-right { content: counter(page) " / " counter(pages); font: 9pt sans-serif; color: #555; } }
+@media print {
+  :root { --ink: #000; --muted: #333; --faint: #555; --paper-2: #fff; --paper-3: #999; --desk: #fff; --pen: #000; }
+  html, body { background: #fff !important; color: #000; }
+  body { font-size: 10.5pt; }
+  .top, .site-foot, .bzf, .st-noprint, script + div[class^="bzf"] { display: none !important; }
+  .wrap { padding: 0; max-width: none; gap: 14px; }
+  .st-print-only { display: block; }
+  .page-h h1 { font-size: 22pt; line-height: 1.05; }
+  .page-h p { font-size: 10.5pt; }
+  .st-body { gap: 16px; }
+  .st-body h2 { font-size: 13pt; border-bottom: 1px solid #000; padding-bottom: 3px; }
+  .st-read p, .st-read li, .st-quote { line-height: 1.45; }
+  .st-ctx { border: 1px solid #999; padding: 8px 10px; }
+  .st-list li, .st-opt, .st-ctx, .st-quote { break-inside: avoid; }
+  .st-body h2, .st-opt h3 { break-after: avoid; }
+  a { color: #000; text-decoration: none; }
+  .st-phead { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+  .st-phead .who { font: 10pt var(--ui); display: flex; flex-direction: column; gap: 10px; }
+  .st-phead .qr { display: flex; gap: 10px; align-items: center; font: 9pt/1.3 var(--ui); max-width: 78mm; }
+  .st-phead .qr img { width: 24mm; height: 24mm; }
+}
 </style>
+
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "USaP Euskara azterketa-ereduak (2027): 20 eredu simulatzeko", "description": "USaP Euskara eta Literatura II azterketaren 20 eredu, 2025 eta 2026ko azterketa ofizialen egituran eta 2027ra egokituak. Doan, konturik gabe, zuzenketa irizpide ofizialekin.", "inLanguage": "eu", "url": "https://usapeuskara.berezuma.com/ereduak/", "hasPart": [{"@type": "Quiz", "name": "Loa, galtzen ari garen ondasuna", "url": "https://usapeuskara.berezuma.com/ereduak/01-loa-galtzen-ari-garen-ondasuna/"}, {"@type": "Quiz", "name": "Euskaraz bizi, ikasgelatik kanpo ere", "url": "https://usapeuskara.berezuma.com/ereduak/02-euskaraz-bizi-ikasgelatik-kanpo-ere/"}, {"@type": "Quiz", "name": "Arropa merkea, prezio garestia", "url": "https://usapeuskara.berezuma.com/ereduak/03-arropa-merkea-prezio-garestia/"}, {"@type": "Quiz", "name": "Bi belaunaldi, mahai berean", "url": "https://usapeuskara.berezuma.com/ereduak/04-bi-belaunaldi-mahai-berean/"}, {"@type": "Quiz", "name": "Bisitariak, bizilagunak eta oreka", "url": "https://usapeuskara.berezuma.com/ereduak/05-bisitariak-bizilagunak-eta-oreka/"}, {"@type": "Quiz", "name": "Akatsak egiteko eskubidea", "url": "https://usapeuskara.berezuma.com/ereduak/06-akatsak-egiteko-eskubidea/"}, {"@type": "Quiz", "name": "Liburutegiak: isiltasunetik plazara", "url": "https://usapeuskara.berezuma.com/ereduak/07-liburutegiak-isiltasunetik-plazara/"}, {"@type": "Quiz", "name": "Gurasoen etxetik, noiz?", "url": "https://usapeuskara.berezuma.com/ereduak/08-gurasoen-etxetik-noiz/"}, {"@type": "Quiz", "name": "Jolasa ala denbora-galtzea?", "url": "https://usapeuskara.berezuma.com/ereduak/09-jolasa-ala-denbora-galtzea/"}, {"@type": "Quiz", "name": "Harmailak betetzen ari dira", "url": "https://usapeuskara.berezuma.com/ereduak/10-harmailak-betetzen-ari-dira/"}, {"@type": "Quiz", "name": "Ura ez da betikoa", "url": "https://usapeuskara.berezuma.com/ereduak/11-ura-ez-da-betikoa/"}, {"@type": "Quiz", "name": "Herri txikiak, isiltasunean", "url": "https://usapeuskara.berezuma.com/ereduak/12-herri-txikiak-isiltasunean/"}, {"@type": "Quiz", "name": "Doan, baina ez debalde", "url": "https://usapeuskara.berezuma.com/ereduak/13-doan-baina-ez-debalde/"}, {"@type": "Quiz", "name": "Sukaldea, ahaztutako ikasgela", "url": "https://usapeuskara.berezuma.com/ereduak/14-sukaldea-ahaztutako-ikasgela/"}, {"@type": "Quiz", "name": "Milaka argazki, oroitzapen gutxi", "url": "https://usapeuskara.berezuma.com/ereduak/15-milaka-argazki-oroitzapen-gutxi/"}, {"@type": "Quiz", "name": "Lagunak, ez jostailuak", "url": "https://usapeuskara.berezuma.com/ereduak/16-lagunak-ez-jostailuak/"}, {"@type": "Quiz", "name": "Makinak idatzi zuen nire idazlana", "url": "https://usapeuskara.berezuma.com/ereduak/17-makinak-idatzi-zuen-nire-idazlana/"}, {"@type": "Quiz", "name": "Mendira, baina ez edonola", "url": "https://usapeuskara.berezuma.com/ereduak/18-mendira-baina-ez-edonola/"}, {"@type": "Quiz", "name": "Zuzeneko musika, inoiz baino garestiago", "url": "https://usapeuskara.berezuma.com/ereduak/19-zuzeneko-musika-inoiz-baino-garestiago/"}, {"@type": "Quiz", "name": "Aspertzen ikasi", "url": "https://usapeuskara.berezuma.com/ereduak/20-aspertzen-ikasi/"}]}</script>
 </head>
 <body>
@@ -46,7 +78,7 @@
 <main class="wrap narrow">
 <div class="page-h">
   <h1>USaP Euskara azterketa-ereduak</h1>
-  <p>Euskara eta Literatura II azterketa prestatzeko 20 eredu. Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta: 90 minutu, bost atal eta 10 puntu.</p>
+  <p>Euskara eta Literatura II azterketa prestatzeko 20 eredu, online egiteko edo inprimatzeko. Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta: 90 minutu, bost atal eta 10 puntu.</p>
   <a class="st-cta" href="/">Ireki simulatzailea</a>
 </div>
 <div class="st-body">

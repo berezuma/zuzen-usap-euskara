@@ -10,6 +10,8 @@ ERANTZUNIK GABE (erantzunak aplikazioan bakarrik daude). Gainera,
 Erabilera (app/ karpetatik):
     python3 tools/build-seo.py
 Ereduak aldatzen diren bakoitzean, build-data.py-ren ondoren exekutatu.
+QR kodeak (qr/eNN.svg) sortzeko segno behar da (pip install segno); ez badago,
+lehendik dauden QR fitxategiak erabiltzen dira.
 """
 import html
 import json
@@ -34,7 +36,8 @@ def esc(s):
 
 def md(s):
     """Testu laua + **lodia** → HTML segurua."""
-    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', esc(s))
+    s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', esc(s))
+    return re.sub(r'(^|[\s(])\*(\S.*?\S|\S)\*(?=[\s).,;:]|$)', r'\1<em>\2</em>', s)
 
 
 def slugify(s):
@@ -46,7 +49,7 @@ def slug_of(m):
     return f"{m['num']}-{slugify(m['title'])}"
 
 
-def page(title, desc, path, body, jsonld=None):
+def page(title, desc, path, body, jsonld=None, extra_head=''):
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ''
     return f"""<!doctype html>
 <html lang="eu">
@@ -82,7 +85,39 @@ def page(title, desc, path, body, jsonld=None):
 .st-idx a span:first-child {{ font-weight: 600; }}
 .st-idx a span:last-child {{ color: var(--muted); }}
 .st-poem {{ font-family: var(--read); white-space: pre-line; padding-left: 16px; border-left: 3px solid var(--paper-3); }}
+.st-btns {{ display: flex; flex-wrap: wrap; gap: 10px; }}
+.st-btn2 {{ font: 600 16px/1 var(--ui); background: transparent; color: var(--pen); border: 1.5px solid var(--pen); padding: 11px 18px; border-radius: var(--r); cursor: pointer; }}
+.st-num {{ color: var(--faint); font-family: var(--ui); font-size: 13px; margin-right: 8px; }}
+.st-pts {{ font: 500 15px var(--ui); color: var(--muted); margin-left: 10px; letter-spacing: 0; }}
+.st-ctx {{ background: var(--paper-2); padding: 14px 16px; border-radius: var(--r); }}
+.st-quote {{ font-family: var(--read); padding-left: 16px; border-left: 3px solid var(--paper-3); white-space: pre-line; }}
+.st-opt {{ display: flex; flex-direction: column; gap: 10px; padding: 14px 0; border-top: 1px solid var(--paper-3); }}
+.st-opt h3 {{ font-size: 18px; }}
+.st-print-only {{ display: none; }}
+@page {{ size: A4; margin: 16mm 16mm 18mm; @bottom-right {{ content: counter(page) " / " counter(pages); font: 9pt sans-serif; color: #555; }} }}
+@media print {{
+  :root {{ --ink: #000; --muted: #333; --faint: #555; --paper-2: #fff; --paper-3: #999; --desk: #fff; --pen: #000; }}
+  html, body {{ background: #fff !important; color: #000; }}
+  body {{ font-size: 10.5pt; }}
+  .top, .site-foot, .bzf, .st-noprint, script + div[class^="bzf"] {{ display: none !important; }}
+  .wrap {{ padding: 0; max-width: none; gap: 14px; }}
+  .st-print-only {{ display: block; }}
+  .page-h h1 {{ font-size: 22pt; line-height: 1.05; }}
+  .page-h p {{ font-size: 10.5pt; }}
+  .st-body {{ gap: 16px; }}
+  .st-body h2 {{ font-size: 13pt; border-bottom: 1px solid #000; padding-bottom: 3px; }}
+  .st-read p, .st-read li, .st-quote {{ line-height: 1.45; }}
+  .st-ctx {{ border: 1px solid #999; padding: 8px 10px; }}
+  .st-list li, .st-opt, .st-ctx, .st-quote {{ break-inside: avoid; }}
+  .st-body h2, .st-opt h3 {{ break-after: avoid; }}
+  a {{ color: #000; text-decoration: none; }}
+  .st-phead {{ display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; border-bottom: 2px solid #000; padding-bottom: 10px; }}
+  .st-phead .who {{ font: 10pt var(--ui); display: flex; flex-direction: column; gap: 10px; }}
+  .st-phead .qr {{ display: flex; gap: 10px; align-items: center; font: 9pt/1.3 var(--ui); max-width: 78mm; }}
+  .st-phead .qr img {{ width: 24mm; height: 24mm; }}
+}}
 </style>
+{extra_head}
 {ld}
 </head>
 <body>
@@ -114,6 +149,10 @@ def page(title, desc, path, body, jsonld=None):
 """
 
 
+def pts(t):
+    return f'<span class="st-pts">{t}</span>'
+
+
 def a1_html(a1):
     out = []
     for q in a1.get('questions', []):
@@ -121,42 +160,110 @@ def a1_html(a1):
         if q.get('options'):
             opts = '<ol>' + ''.join(f"<li>{md(o['t'])}</li>" for o in q['options']) + '</ol>'
         out.append(f"<li>{md(q['q'])}{opts}</li>")
-    kind = 'test-galderak' if a1.get('type') == 'test' else 'galdera irekiak'
-    return f"<p class=\"st-muted\">Ulermena: {kind}.</p><ol class=\"st-list\">{''.join(out)}</ol>"
+    instr = ('Aukeratu erantzun zuzena (bakarra). Erantzun okerrek ez dute punturik kentzen.'
+             if a1.get('type') == 'test' else 'Erantzun galderei zure hitzak erabiliz, testutik kopiatu gabe.')
+    each = '0,2' if a1.get('type') == 'test' else '0,25'
+    return (f"<h3>Ulermenari buruzko galderak{pts(f'1 p · {each} galderako')}</h3>"
+            f"<p>{instr}</p><ol class=\"st-list\">{''.join(out)}</ol>")
 
 
-def model_page(m):
+def a3_html(b):
+    k = b['kind']
+    if k == 'akatsak':
+        return f"<p class=\"st-quote\">{esc(b.get('text', ''))}</p>"
+    if k == 'eratorpena':
+        return ''
+    rows = []
+    for it in b.get('items', []):
+        if k == 'sinonimoak':
+            rows.append(f"<strong>{esc(it['w'])}</strong>")
+        elif k == 'definizioak':
+            rows.append(md(it['def']))
+        elif k == 'aditzak':
+            rows.append(f"{esc(it['sentence'])} <span class=\"st-muted\">({esc(it.get('hint', ''))})</span>")
+        elif k == 'berridazketak':
+            el = f" <span class=\"st-muted\">· Erabili: {esc(it['element'])}</span>" if it.get('element') else ''
+            rows.append(esc(it['sentence']) + el)
+    return '<ol class="st-list" type="a">' + ''.join(f'<li>{r}</li>' for r in rows) + '</ol>'
+
+
+def picks(m, banks):
+    """grading.js-eko picks()-en kopia: eredu bakoitzari 2.2 eta 3. ataletako bi galdera."""
+    i = int(m['num']) - 1
+    g, gt, ir = banks['gizartea'], banks['literatura']['gaitegia'], banks['literatura']['irakurgaiak']
+    p = (i % (len(g) // 2)) * 2
+    return {'s22': [g[p], g[p + 1]], 's3': [gt[i % len(gt)], ir[i % len(ir)]]}
+
+
+def qr_svg(m):
+    """QR kodea (segno instalatuta badago); bestela lehendik dagoena erabiltzen da."""
+    f = ROOT / 'qr' / f"{m['id']}.svg"
+    try:
+        import segno
+        f.parent.mkdir(exist_ok=True)
+        segno.make(f"{BASE}/#/azterketa/{m['id']}", error='m').save(str(f), scale=4, border=0, dark='#000')
+    except ImportError:
+        pass
+    return f"/qr/{m['id']}.svg" if f.exists() else None
+
+
+def model_page(m, banks):
     t = m['text']
     path = f"/ereduak/{slug_of(m)}/"
     n = int(m['num'])
     title = f"USaP Euskara azterketa-eredua {n}: {m['title']}"
-    first = t['paragraphs'][0] if t.get('paragraphs') else ''
     desc = (f"USaP Euskara eta Literatura II azterketaren {n}. eredua ({m['base']} egitura): "
-            f"«{m['title']}». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.")
-    paras = ''.join(f"<p>{md(p)}</p>" for p in t.get('paragraphs', []))
+            f"«{m['title']}». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.")
+    paras = ''.join(f"<p><span class=\"st-num\">{i + 1}</span>{md(p)}</p>" for i, p in enumerate(t.get('paragraphs', [])))
     a2 = m.get('a2') or {}
-    a3 = ''.join(
-        f"<li><strong>{md(x.get('title', ''))}.</strong> {md(x.get('instr', ''))}</li>" for x in m.get('a3', []))
     b1 = m.get('b1') or {}
-    b1opts = ''.join(f"<li><strong>{md(o['genre'])}</strong>, {md(o['desc'])}</li>" for o in b1.get('options', []))
-    b2 = m.get('b2') or {}
-    poem = '\n'.join(esc(l) for l in b2.get('lines', []))
-    cta = f'<a class="st-cta" href="/#/azterketa/{esc(m["id"])}">Egin azterketa hau simulazio gisa</a>'
-    body = f"""<div class="page-h">
-  <p class="st-muted">{n}. eredua · {esc(m['base'])} egitura · Euskara eta Literatura II</p>
+    pk = picks(m, banks)
+    sim = f"/#/azterketa/{esc(m['id'])}"
+    qr = qr_svg(m)
+    qr_html = (f'<div class="qr"><img src="{qr}" alt="">'
+               f'<span><strong>Zuzendu online.</strong> Eskaneatu kodea edo zoaz hona: usapeuskara.berezuma.com, {n}. eredua. '
+               f'Idatzi zure erantzunak eta jaso zuzenketa eta eredu-erantzunak.</span></div>') if qr else ''
+    a3_opts = ''.join(
+        f"<div class=\"st-opt\"><h3>{'AB'[i]} · {esc(b['title'])}</h3><p>{md(b.get('instr', ''))}</p>{a3_html(b)}</div>"
+        for i, b in enumerate(m.get('a3', [])[:2]))
+    g_opts = ''.join(
+        f"<div class=\"st-opt\"><h3>{'AB'[i]} · {esc(q['arloa'])} · {esc(q['izenburua'])}</h3><p>{esc(q['galdera'])}</p></div>"
+        for i, q in enumerate(pk['s22']))
+    lt = []
+    for i, q in enumerate(pk['s3']):
+        head = f"Gaitegia · {q['autorea']}" if q.get('autorea') else f"Irakurgaia · {q['liburua']}"
+        txt = f"<p class=\"st-quote\">{esc(q['testua'])}</p>" if q.get('testua') else ''
+        lt.append(f"<div class=\"st-opt\"><h3>{'AB'[i]} · {esc(head)}</h3>{txt}<p>{esc(q['galdera'])}</p></div>")
+    b1opts = ''.join(f"<div class=\"st-opt\"><h3>{esc(o['label'])} · {esc(o['genre'])}</h3><p>{md(o['desc'][:1].upper() + o['desc'][1:])}</p></div>"
+                     for o in b1.get('options', []))
+    body = f"""<div class="st-print-only st-phead">
+  <div class="who"><strong>USaP · Euskara eta Literatura II · {n}. eredua</strong><span>Izen-abizenak: ______________________________</span><span>Data: ____________ · 90 minutu · 10 puntu</span></div>
+  {qr_html}
+</div>
+<div class="page-h">
+  <p class="st-muted st-noprint">{n}. eredua · {esc(m['base'])} egitura · Euskara eta Literatura II</p>
   <h1>{esc(m['title'])}</h1>
-  <p>USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua. Hemen testua eta galderak dituzu; erantzun eta zuzendu, puntuz puntu, aplikazioan.</p>
-  {cta}
+  <p class="st-noprint">USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua: 90 minutu, bost atal eta 10 puntu. Egin online, denbora neurtuta eta zuzenketa automatikoarekin, edo inprimatu eta egin paperean, benetako azterketan bezala.</p>
+  <p class="st-print-only">Idatzi erantzunak aparteko orrietan. 2.1, 2.2 eta 3. ataletan, aukeratu galdera <strong>bat</strong> eta erantzun hari bakarrik.</p>
+  <div class="st-btns st-noprint"><a class="st-cta" href="{sim}">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
 </div>
 <div class="st-body">
-<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">Testua</h2>{paras}</section>
-<section aria-labelledby="a1-h"><h2 id="a1-h">1.1 Testuaren ulermena</h2>{a1_html(m.get('a1') or {})}</section>
-<section aria-labelledby="a2-h"><h2 id="a2-h">1.2 Gaia eta laburpena</h2><p>{md(a2.get('context', ''))}</p></section>
-<section aria-labelledby="a3-h"><h2 id="a3-h">Hizkuntza-ariketak</h2><ul class="st-list">{a3}</ul></section>
-<section aria-labelledby="b1-h"><h2 id="b1-h">Idazlana</h2><p>{md(b1.get('context', ''))}</p><ul class="st-list">{b1opts}</ul></section>
-<section aria-labelledby="b2-h"><h2 id="b2-h">Literatura</h2><p>{md(b2.get('intro', ''))}</p><p class="st-poem">{poem}</p></section>
-<section><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p>{cta}
-<p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
+<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">{'Testua' if t.get('title', m['title']) == m['title'] else 'Testua: ' + esc(t['title'])}</h2>{paras}</section>
+<section aria-labelledby="s11-h"><h2 id="s11-h">1.1 Ulermena{pts('2 p')}</h2>
+  {a1_html(m.get('a1') or {})}
+  <p class="st-ctx"><strong>Testuingurua.</strong> {md(a2.get('context', ''))}</p>
+  <h3>Gaia{pts('0,5 p · esaldi bakarra')}</h3>
+  <h3>Laburpena{pts('0,5 p · gehienez 60 hitz')}</h3>
+  <p>Zure hitzekin. Ez kopiatu testuko esaldiak, eta ez erabili «egileak dioenez» erako egiturarik.</p>
+</section>
+<section aria-labelledby="s12-h"><h2 id="s12-h">1.2 Idazlana{pts('2 p · gutxienez 150 hitz')}</h2>
+  <p class="st-ctx"><strong>Testuingurua.</strong> {md(b1.get('context', ''))}</p>{b1opts}</section>
+<section aria-labelledby="s21-h"><h2 id="s21-h">2.1 Hizkuntza{pts('1,5 p · aukeratu bat')}</h2>{a3_opts}</section>
+<section aria-labelledby="s22-h"><h2 id="s22-h">2.2 Gizartea{pts('1,5 p · aukeratu bat')}</h2>{g_opts}</section>
+<section aria-labelledby="s3-h"><h2 id="s3-h">3. Literatura{pts('3 p · aukeratu bat')}</h2>{''.join(lt)}</section>
+<section class="st-noprint"><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude, azterketa bukatzean. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p>
+  <div class="st-btns"><a class="st-cta" href="{sim}">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
+  <p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
 </div>"""
     ld = {
         '@context': 'https://schema.org', '@type': 'Quiz', 'name': title, 'description': desc,
@@ -164,7 +271,10 @@ def model_page(m):
         'about': 'USaP Euskara eta Literatura II', 'learningResourceType': 'Azterketa-eredua',
         'isAccessibleForFree': True, 'author': {'@type': 'Person', 'name': 'Beñat Erezuma', 'url': 'https://berezuma.com/'},
     }
-    return path, page(title, desc, path, body, ld)
+    foot = f'usapeuskara.berezuma.com · USaP Euskara, {n}. eredua'
+    extra = (f'<style>@page {{ @bottom-left {{ content: "{foot}"; font: 9pt sans-serif; color: #555; }} }}</style>\n'
+             f'<script>addEventListener("beforeprint",function(){{try{{window.goatcounter&&goatcounter.count({{path:"inprimatu/{m["id"]}",event:true}})}}catch(e){{}}}});</script>')
+    return path, page(title, desc, path, body, ld, extra)
 
 
 def index_page(models):
@@ -177,7 +287,7 @@ def index_page(models):
         f"<span>{esc(m['base'])} egitura</span></a></li>" for m in models)
     body = f"""<div class="page-h">
   <h1>USaP Euskara azterketa-ereduak</h1>
-  <p>Euskara eta Literatura II azterketa prestatzeko 20 eredu. Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta: 90 minutu, bost atal eta 10 puntu.</p>
+  <p>Euskara eta Literatura II azterketa prestatzeko 20 eredu, online egiteko edo inprimatzeko. Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta: 90 minutu, bost atal eta 10 puntu.</p>
   <a class="st-cta" href="/">Ireki simulatzailea</a>
 </div>
 <div class="st-body">
@@ -194,11 +304,13 @@ def index_page(models):
 
 
 def main():
-    models = json.loads((ROOT / 'data' / 'ereduak.json').read_text(encoding='utf-8'))
+    load = lambda n: json.loads((ROOT / 'data' / f'{n}.json').read_text(encoding='utf-8'))
+    models = load('ereduak')
+    banks = {'gizartea': load('gizartea'), 'literatura': load('literatura')}
     if OUT.exists():
         shutil.rmtree(OUT)
     paths = []
-    for builder in [lambda: index_page(models)] + [lambda m=m: model_page(m) for m in models]:
+    for builder in [lambda: index_page(models)] + [lambda m=m: model_page(m, banks) for m in models]:
         path, doc = builder()
         f = ROOT / path.strip('/') / 'index.html'
         f.parent.mkdir(parents=True, exist_ok=True)
