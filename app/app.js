@@ -278,7 +278,8 @@ function viewHome() {
     <section class="stack" style="gap:20px" aria-labelledby="ered-h">
       <div class="index-head reveal">
         <div><h2 id="ered-h" class="sec-h">20 azterketa-eredu</h2>
-          <p>Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta.</p></div>
+          <p>Bakoitzak 2025 edo 2026ko azterketa ofizial baten egitura jarraitzen du, 2027ra egokituta.</p>
+          <p><a href="/ereduak/">Paperean egiteko: inprimatzeko bertsioak</a></p></div>
         <div class="seg" role="group" aria-label="Iragazi egituraren arabera">
           ${filters.map(([k, l]) => `<button data-act="filter" data-v="${k}" aria-pressed="${ui.filter === k}">${esc(l)}</button>`).join('')}
         </div>
