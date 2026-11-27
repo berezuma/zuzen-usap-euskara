@@ -92,6 +92,7 @@ function siteFoot() {
   return `<footer class="site-foot"><div class="in">
     <p class="name" aria-hidden="true">USaPeuskara<span>.</span></p>
     <nav class="foot-links" aria-label="Oina">
+      <a href="/ereduak/">Azterketa-ereduak, testu gisa</a>
       <a href="#/iturriak">Iturriak eta irizpideak</a>
       <a href="#/pribatutasuna">Pribatutasuna</a>
       <a href="#/lege-oharra">Lege-oharra</a>
