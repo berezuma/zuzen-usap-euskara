@@ -56,6 +56,9 @@ function setPath(obj, path, val) {
 }
 function getPath(obj, path) { return path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj); }
 
+// eredu-orri estatikoa (tools/build-seo.py-ren slug bera): inprimatzeko bertsioa
+const printUrl = (m) => `/ereduak/${m.num}-${m.title.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
+
 /* ---------- ibilbideak ---------- */
 function route() {
   clearInterval(ticker); ticker = null;
@@ -79,6 +82,7 @@ function top(active) {
       <a href="#/" ${active === 'home' ? 'aria-current="page"' : ''}>Azterketak</a>
       <a href="#/ikasi" ${active === 'learn' ? 'aria-current="page"' : ''}>Ikasi</a>
       <a href="#/gimnasioa" ${active === 'gym' ? 'aria-current="page"' : ''}>Gimnasioa</a>
+      <a href="/ereduak/">Paperean</a>
     </nav></div></header>`;
 }
 
@@ -247,7 +251,8 @@ function viewHome() {
       <div class="folder front" style="--i:5">
         <div class="body">
           <div><h2>${esc(next.title)}</h2><p>${parseInt(next.num, 10)}. eredua · ${esc(next.base)} egitura · ${nextAtt ? 'erdizka utzi duzu, jarraitu nahi duzunean' : 'zure erantzunak gailu honetan gordetzen dira'}</p></div>
-          <a class="btn primary" href="#/azterketa/${next.id}">${nextAtt ? 'Jarraitu azterketa' : 'Hasi azterketa'}</a>
+          <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center"><a class="btn primary" href="#/azterketa/${next.id}">${nextAtt ? 'Jarraitu azterketa' : 'Hasi azterketa'}</a>
+          <a class="btn ghost" href="${printUrl(next)}">Inprimatu</a></div>
         </div>
       </div>
     </div>
