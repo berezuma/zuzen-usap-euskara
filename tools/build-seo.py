@@ -291,7 +291,7 @@ def index_page(models):
   <a class="st-cta" href="/">Ireki simulatzailea</a>
 </div>
 <div class="st-body">
-<section aria-labelledby="l-h"><h2 id="l-h">20 eredu</h2><ol class="st-idx">{items}</ol></section>
+<section aria-labelledby="l-h"><h2 id="l-h">20 eredu</h2><p>Paperean egiteko, ireki eredu bat eta sakatu <strong>Inprimatu</strong>: azterketa-orri garbia aterako da, QR kode batekin, online zuzentzeko.</p><ol class="st-idx">{items}</ol></section>
 <section aria-labelledby="z-h"><h2 id="z-h">Nola funtzionatzen du</h2>
 <p>Aukeratu eredu bat eta egin azterketa denbora neurtuta. Hizkuntza-ariketak automatikoki zuzentzen dira; idazlana, gizartea eta literatura zuk ebaluatzen dituzu, errubrika ofizialaren galderekin eta eredu-erantzunekin. Bukatzean, puntuz puntu ikusiko duzu non irabazi eta non galdu duzun. Ez dago konturik: zure erantzunak gailu honetan gordetzen dira.</p></section>
 </div>"""
