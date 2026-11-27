@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>USaP Euskara azterketa-eredua 19: Zuzeneko musika, inoiz baino garestiago</title>
-<meta name="description" content="USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.">
+<meta name="description" content="USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.">
 <meta name="author" content="Beñat Erezuma">
 <meta name="theme-color" content="#0F1322">
 <link rel="canonical" href="https://usapeuskara.berezuma.com/ereduak/19-zuzeneko-musika-inoiz-baino-garestiago/">
@@ -12,7 +12,7 @@
 <meta property="og:locale" content="eu_ES">
 <meta property="og:site_name" content="USaP Euskara">
 <meta property="og:title" content="USaP Euskara azterketa-eredua 19: Zuzeneko musika, inoiz baino garestiago">
-<meta property="og:description" content="USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.">
+<meta property="og:description" content="USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.">
 <meta property="og:url" content="https://usapeuskara.berezuma.com/ereduak/19-zuzeneko-musika-inoiz-baino-garestiago/">
 <link rel="stylesheet" href="/styles.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F1322'/%3E%3Ctext x='14' y='23' font-family='sans-serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3EU%3C/text%3E%3Ccircle cx='24' cy='21' r='2.6' fill='%23E5394A'/%3E%3C/svg%3E">
@@ -32,8 +32,41 @@
 .st-idx a span:first-child { font-weight: 600; }
 .st-idx a span:last-child { color: var(--muted); }
 .st-poem { font-family: var(--read); white-space: pre-line; padding-left: 16px; border-left: 3px solid var(--paper-3); }
+.st-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.st-btn2 { font: 600 16px/1 var(--ui); background: transparent; color: var(--pen); border: 1.5px solid var(--pen); padding: 11px 18px; border-radius: var(--r); cursor: pointer; }
+.st-num { color: var(--faint); font-family: var(--ui); font-size: 13px; margin-right: 8px; }
+.st-pts { font: 500 15px var(--ui); color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+.st-ctx { background: var(--paper-2); padding: 14px 16px; border-radius: var(--r); }
+.st-quote { font-family: var(--read); padding-left: 16px; border-left: 3px solid var(--paper-3); white-space: pre-line; }
+.st-opt { display: flex; flex-direction: column; gap: 10px; padding: 14px 0; border-top: 1px solid var(--paper-3); }
+.st-opt h3 { font-size: 18px; }
+.st-print-only { display: none; }
+@page { size: A4; margin: 16mm 16mm 18mm; @bottom-right { content: counter(page) " / " counter(pages); font: 9pt sans-serif; color: #555; } }
+@media print {
+  :root { --ink: #000; --muted: #333; --faint: #555; --paper-2: #fff; --paper-3: #999; --desk: #fff; --pen: #000; }
+  html, body { background: #fff !important; color: #000; }
+  body { font-size: 10.5pt; }
+  .top, .site-foot, .bzf, .st-noprint, script + div[class^="bzf"] { display: none !important; }
+  .wrap { padding: 0; max-width: none; gap: 14px; }
+  .st-print-only { display: block; }
+  .page-h h1 { font-size: 22pt; line-height: 1.05; }
+  .page-h p { font-size: 10.5pt; }
+  .st-body { gap: 16px; }
+  .st-body h2 { font-size: 13pt; border-bottom: 1px solid #000; padding-bottom: 3px; }
+  .st-read p, .st-read li, .st-quote { line-height: 1.45; }
+  .st-ctx { border: 1px solid #999; padding: 8px 10px; }
+  .st-list li, .st-opt, .st-ctx, .st-quote { break-inside: avoid; }
+  .st-body h2, .st-opt h3 { break-after: avoid; }
+  a { color: #000; text-decoration: none; }
+  .st-phead { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+  .st-phead .who { font: 10pt var(--ui); display: flex; flex-direction: column; gap: 10px; }
+  .st-phead .qr { display: flex; gap: 10px; align-items: center; font: 9pt/1.3 var(--ui); max-width: 78mm; }
+  .st-phead .qr img { width: 24mm; height: 24mm; }
+}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "USaP Euskara azterketa-eredua 19: Zuzeneko musika, inoiz baino garestiago", "description": "USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.", "inLanguage": "eu", "url": "https://usapeuskara.berezuma.com/ereduak/19-zuzeneko-musika-inoiz-baino-garestiago/", "educationalLevel": "Batxilergoa 2", "about": "USaP Euskara eta Literatura II", "learningResourceType": "Azterketa-eredua", "isAccessibleForFree": true, "author": {"@type": "Person", "name": "Beñat Erezuma", "url": "https://berezuma.com/"}}</script>
+<style>@page { @bottom-left { content: "usapeuskara.berezuma.com · USaP Euskara, 19. eredua"; font: 9pt sans-serif; color: #555; } }</style>
+<script>addEventListener("beforeprint",function(){try{window.goatcounter&&goatcounter.count({path:"inprimatu/e19",event:true})}catch(e){}});</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "USaP Euskara azterketa-eredua 19: Zuzeneko musika, inoiz baino garestiago", "description": "USaP Euskara eta Literatura II azterketaren 19. eredua (2025 ohikoa egitura): «Zuzeneko musika, inoiz baino garestiago». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.", "inLanguage": "eu", "url": "https://usapeuskara.berezuma.com/ereduak/19-zuzeneko-musika-inoiz-baino-garestiago/", "educationalLevel": "Batxilergoa 2", "about": "USaP Euskara eta Literatura II", "learningResourceType": "Azterketa-eredua", "isAccessibleForFree": true, "author": {"@type": "Person", "name": "Beñat Erezuma", "url": "https://berezuma.com/"}}</script>
 </head>
 <body>
 <header class="top"><div class="in">
@@ -44,23 +77,34 @@
     <a href="/#/gimnasioa">Gimnasioa</a>
   </nav></div></header>
 <main class="wrap narrow">
+<div class="st-print-only st-phead">
+  <div class="who"><strong>USaP · Euskara eta Literatura II · 19. eredua</strong><span>Izen-abizenak: ______________________________</span><span>Data: ____________ · 90 minutu · 10 puntu</span></div>
+  <div class="qr"><img src="/qr/e19.svg" alt=""><span><strong>Zuzendu online.</strong> Eskaneatu kodea edo zoaz hona: usapeuskara.berezuma.com, 19. eredua. Idatzi zure erantzunak eta jaso zuzenketa eta eredu-erantzunak.</span></div>
+</div>
 <div class="page-h">
-  <p class="st-muted">19. eredua · 2025 ohikoa egitura · Euskara eta Literatura II</p>
+  <p class="st-muted st-noprint">19. eredua · 2025 ohikoa egitura · Euskara eta Literatura II</p>
   <h1>Zuzeneko musika, inoiz baino garestiago</h1>
-  <p>USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua. Hemen testua eta galderak dituzu; erantzun eta zuzendu, puntuz puntu, aplikazioan.</p>
-  <a class="st-cta" href="/#/azterketa/e19">Egin azterketa hau simulazio gisa</a>
+  <p class="st-noprint">USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua: 90 minutu, bost atal eta 10 puntu. Egin online, denbora neurtuta eta zuzenketa automatikoarekin, edo inprimatu eta egin paperean, benetako azterketan bezala.</p>
+  <p class="st-print-only">Idatzi erantzunak aparteko orrietan. 2.1, 2.2 eta 3. ataletan, aukeratu galdera <strong>bat</strong> eta erantzun hari bakarrik.</p>
+  <div class="st-btns st-noprint"><a class="st-cta" href="/#/azterketa/e19">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
 </div>
 <div class="st-body">
-<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">Testua</h2><p>Inoiz ez da hain erraza izan musika entzutea. Mugikorrean milioika abesti ditugu eskura, ia doan. Paradoxikoki, zuzeneko musika inoiz baino garestiagoa da: jaialdi handietako sarrerek ehunka euro balio dute, eta talde ezagunen kontzertuetako txartelak minutu gutxitan agortzen dira, gero bikoitzean saltzeko.</p><p>Aldaketa hori ez da kasualitatea. Lehen, musikariek diskoen salmentatik ateratzen zuten dirua; gaur, plataforma digitalek ordaintzen dieten kopurua oso txikia da: zentimo-zati batzuk entzunaldi bakoitzeko. Ondorioz, zuzenekoak bihurtu dira sarrera-iturri nagusia, eta prezioak igo egin dira.</p><p>Bestalde, jaialdi handiek merkatua bereganatu dute. Enpresa gutxi batzuek antolatzen dituzte ekitaldi gehienak, eta haien helburua irabazia da, ez kultura. Horren aurrean, areto txikiak ixten ari dira hiri askotan, alokairu garestien eta bizilagunen kexen artean. Eta areto txiki horiek dira, hain zuzen, talde berriek lehen aldiz jotzeko dituzten tokiak.</p><p>Hala ere, badaude beste eredu batzuk. Herri askotan, jaietako kontzertuak doakoak dira, eta udalek edo jai-batzordeek antolatzen dituzte. Gaztetxeek eta kultur elkarteek prezio herrikoietan antolatzen dituzte emanaldiak, eta bertako taldeei lekua egiten diete. Eredu horiek gabe, euskal musika-eszena askoz pobreagoa izango litzateke.</p><p>Zuzeneko musikak ez luke luxua izan behar. Musikari bat jende artean entzuteak, abestiak batera kantatuz, pantailak eman ezin duen zerbait eskaintzen du: komunitate baten parte izatearen sentsazioa.</p></section>
-<section aria-labelledby="a1-h"><h2 id="a1-h">1.1 Testuaren ulermena</h2><p class="st-muted">Ulermena: test-galderak.</p><ol class="st-list"><li>Lehen paragrafoan aipatzen den paradoxa da:<ol><li>musika gutxi entzuten dela, kontzertuak merkeak izan arren.</li><li>musika grabatua ia doan dagoela, baina zuzenekoa inoiz baino garestiagoa dela.</li><li>jaialdiak doakoak direla.</li><li>txartelak ez direla saltzen.</li></ol></li><li>Zuzenekoak sarrera-iturri nagusia bihurtu dira:<ol><li>musikariek nahiago dutelako.</li><li>plataforma digitalek oso gutxi ordaintzen dutelako.</li><li>diskoak inoiz baino gehiago saltzen direlako.</li><li>udalek hala eskatu dutelako.</li></ol></li><li>Areto txikiak ixten ari dira:<ol><li>talde berririk ez dagoelako.</li><li>alokairu garestiengatik eta bizilagunen kexengatik.</li><li>jaialdiek erosi dituztelako.</li><li>jendeak ez duelako musikarik entzuten.</li></ol></li><li>Areto txikiak garrantzitsuak dira:<ol><li>talde berriek bertan jotzen dutelako lehen aldiz.</li><li>sarrera garestiak saltzen dituztelako.</li><li>enpresa handienak direlako.</li><li>bizilagunek gustuko dituztelako.</li></ol></li><li>Egilearen ustez, zuzeneko musikak eskaintzen du:<ol><li>entzuteko kalitate hobea.</li><li>komunitate baten parte izatearen sentsazioa.</li><li>irabazi ekonomikoa.</li><li>pantailen antzeko esperientzia.</li></ol></li></ol></section>
-<section aria-labelledby="a2-h"><h2 id="a2-h">1.2 Gaia eta laburpena</h2><p>Herriko gaztetxeak kontzertu-ziklo bat antolatu du, eta egitarauaren sarreran testu honen gaia eta laburpena jarriko ditu.</p></section>
-<section aria-labelledby="a3-h"><h2 id="a3-h">Hizkuntza-ariketak</h2><ul class="st-list"><li><strong>Berridazketak.</strong> Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.</li><li><strong>Sinonimoak.</strong> Eman sinonimo bana, testuko esanahiaren arabera.</li><li><strong>Definizioak.</strong> Aurkitu testuan definizio hauei dagozkien hitzak.</li></ul></section>
-<section aria-labelledby="b1-h"><h2 id="b1-h">Idazlana</h2><p>Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu <strong>bat</strong> eta idatzi gutxienez <strong>150 hitz</strong>.</p><ul class="st-list"><li><strong>Gutuna</strong>, udaleko kultura-zinegotziari, gazteentzako areto bat eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura.</li><li><strong>Iritzi-artikulua</strong>, tokiko aldizkarirako: «Kultura, luxua ala eskubidea?». Izenburua eta egilearen izen-deiturak (fikziozkoak).</li></ul></section>
-<section aria-labelledby="b2-h"><h2 id="b2-h">Literatura</h2><p>Egin lotura (1 puntu)</p><p class="st-poem">Ez nuen abestiaren hitzik gogoratzen.
-Ez zen beharrezkoa:
-mila ahotsek kantatu zuten nirekin.</p></section>
-<section><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p><a class="st-cta" href="/#/azterketa/e19">Egin azterketa hau simulazio gisa</a>
-<p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
+<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">Testua</h2><p><span class="st-num">1</span>Inoiz ez da hain erraza izan musika entzutea. Mugikorrean milioika abesti ditugu eskura, ia doan. Paradoxikoki, zuzeneko musika inoiz baino garestiagoa da: jaialdi handietako sarrerek ehunka euro balio dute, eta talde ezagunen kontzertuetako txartelak minutu gutxitan agortzen dira, gero bikoitzean saltzeko.</p><p><span class="st-num">2</span>Aldaketa hori ez da kasualitatea. Lehen, musikariek diskoen salmentatik ateratzen zuten dirua; gaur, plataforma digitalek ordaintzen dieten kopurua oso txikia da: zentimo-zati batzuk entzunaldi bakoitzeko. Ondorioz, zuzenekoak bihurtu dira sarrera-iturri nagusia, eta prezioak igo egin dira.</p><p><span class="st-num">3</span>Bestalde, jaialdi handiek merkatua bereganatu dute. Enpresa gutxi batzuek antolatzen dituzte ekitaldi gehienak, eta haien helburua irabazia da, ez kultura. Horren aurrean, areto txikiak ixten ari dira hiri askotan, alokairu garestien eta bizilagunen kexen artean. Eta areto txiki horiek dira, hain zuzen, talde berriek lehen aldiz jotzeko dituzten tokiak.</p><p><span class="st-num">4</span>Hala ere, badaude beste eredu batzuk. Herri askotan, jaietako kontzertuak doakoak dira, eta udalek edo jai-batzordeek antolatzen dituzte. Gaztetxeek eta kultur elkarteek prezio herrikoietan antolatzen dituzte emanaldiak, eta bertako taldeei lekua egiten diete. Eredu horiek gabe, euskal musika-eszena askoz pobreagoa izango litzateke.</p><p><span class="st-num">5</span>Zuzeneko musikak ez luke luxua izan behar. Musikari bat jende artean entzuteak, abestiak batera kantatuz, pantailak eman ezin duen zerbait eskaintzen du: komunitate baten parte izatearen sentsazioa.</p></section>
+<section aria-labelledby="s11-h"><h2 id="s11-h">1.1 Ulermena<span class="st-pts">2 p</span></h2>
+  <h3>Ulermenari buruzko galderak<span class="st-pts">1 p · 0,2 galderako</span></h3><p>Aukeratu erantzun zuzena (bakarra). Erantzun okerrek ez dute punturik kentzen.</p><ol class="st-list"><li>Lehen paragrafoan aipatzen den paradoxa da:<ol><li>musika gutxi entzuten dela, kontzertuak merkeak izan arren.</li><li>musika grabatua ia doan dagoela, baina zuzenekoa inoiz baino garestiagoa dela.</li><li>jaialdiak doakoak direla.</li><li>txartelak ez direla saltzen.</li></ol></li><li>Zuzenekoak sarrera-iturri nagusia bihurtu dira:<ol><li>musikariek nahiago dutelako.</li><li>plataforma digitalek oso gutxi ordaintzen dutelako.</li><li>diskoak inoiz baino gehiago saltzen direlako.</li><li>udalek hala eskatu dutelako.</li></ol></li><li>Areto txikiak ixten ari dira:<ol><li>talde berririk ez dagoelako.</li><li>alokairu garestiengatik eta bizilagunen kexengatik.</li><li>jaialdiek erosi dituztelako.</li><li>jendeak ez duelako musikarik entzuten.</li></ol></li><li>Areto txikiak garrantzitsuak dira:<ol><li>talde berriek bertan jotzen dutelako lehen aldiz.</li><li>sarrera garestiak saltzen dituztelako.</li><li>enpresa handienak direlako.</li><li>bizilagunek gustuko dituztelako.</li></ol></li><li>Egilearen ustez, zuzeneko musikak eskaintzen du:<ol><li>entzuteko kalitate hobea.</li><li>komunitate baten parte izatearen sentsazioa.</li><li>irabazi ekonomikoa.</li><li>pantailen antzeko esperientzia.</li></ol></li></ol>
+  <p class="st-ctx"><strong>Testuingurua.</strong> Herriko gaztetxeak kontzertu-ziklo bat antolatu du, eta egitarauaren sarreran testu honen gaia eta laburpena jarriko ditu.</p>
+  <h3>Gaia<span class="st-pts">0,5 p · esaldi bakarra</span></h3>
+  <h3>Laburpena<span class="st-pts">0,5 p · gehienez 60 hitz</span></h3>
+  <p>Zure hitzekin. Ez kopiatu testuko esaldiak, eta ez erabili «egileak dioenez» erako egiturarik.</p>
+</section>
+<section aria-labelledby="s12-h"><h2 id="s12-h">1.2 Idazlana<span class="st-pts">2 p · gutxienez 150 hitz</span></h2>
+  <p class="st-ctx"><strong>Testuingurua.</strong> Zure herrian ez dago gazteentzako kontzertu-aretorik, eta bertako taldeek ez dute non jo. Aukeratu <strong>bat</strong> eta idatzi gutxienez <strong>150 hitz</strong>.</p><div class="st-opt"><h3>A · Gutuna</h3><p>Udaleko kultura-zinegotziari, gazteentzako areto bat eskatuz eta proposamena azalduz. Lekua eta data, agurrak eta sinadura.</p></div><div class="st-opt"><h3>B · Iritzi-artikulua</h3><p>Tokiko aldizkarirako: «Kultura, luxua ala eskubidea?». Izenburua eta egilearen izen-deiturak (fikziozkoak).</p></div></section>
+<section aria-labelledby="s21-h"><h2 id="s21-h">2.1 Hizkuntza<span class="st-pts">1,5 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Berridazketak</h3><p>Berridatzi esaldiak parentesi arteko elementua erabiliz, esanahia aldatu gabe.</p><ol class="st-list" type="a"><li>Mugikorrean milioika abesti ditugu eskura. <span class="st-muted">· Erabili: eskuragarri</span></li><li>Talde ezagunen kontzertuetako txartelak minutu gutxitan agortzen dira. <span class="st-muted">· Erabili: saldu</span></li><li>Plataforma digitalek ordaintzen dieten kopurua oso txikia da. <span class="st-muted">· Erabili: gutxi</span></li><li>Areto txikiak ixten ari dira, alokairu garestien eta bizilagunen kexen artean. <span class="st-muted">· Erabili: -lako</span></li><li>Eredu horiek gabe, euskal musika-eszena askoz pobreagoa izango litzateke. <span class="st-muted">· Erabili: ez balego / ez baleude</span></li></ol></div><div class="st-opt"><h3>B · Sinonimoak</h3><p>Eman sinonimo bana, testuko esanahiaren arabera.</p><ol class="st-list" type="a"><li><strong>agortu</strong></li><li><strong>bereganatu</strong></li><li><strong>irabazi</strong></li><li><strong>herrikoi</strong></li><li><strong>emanaldi</strong></li></ol></div></section>
+<section aria-labelledby="s22-h"><h2 id="s22-h">2.2 Gizartea<span class="st-pts">1,5 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Soziolinguistika · Euskarari buruzko mitoak</h3><p>Askotan entzuten da euskara hizkuntza zaila edo primitiboa dela. Zer iritzi duzu? Arrazoitu, hizkuntzalaritzaren ikuspegitik.</p></div><div class="st-opt"><h3>B · Hizkuntzaren historia · Etxepare: «Euskara, jalgi hadi plazara»</h3><p>Bernat Etxepareren liburuan (1545) euskarari buruzko aldarria agertzen da («Euskara, jalgi hadi plazara»). Zer adierazten du aldarri horrek, eta zergatik da garrantzitsua liburua?</p></div></section>
+<section aria-labelledby="s3-h"><h2 id="s3-h">3. Literatura<span class="st-pts">3 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Gaitegia · Atxaga eta Sarrionandia</h3><p>Erkatu, labur eta eskematikoki, Bernardo Atxaga eta Joseba Sarrionandia: zer dute komunean, eta zerk bereizten ditu?</p></div><div class="st-opt"><h3>B · Irakurgaia · Bi anai (Bernardo Atxaga)</h3><p>Denborari dagokionez, nola dago antolatuta Bi anai? Azaldu eta eman adibideak liburutik.</p></div></section>
+<section class="st-noprint"><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude, azterketa bukatzean. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p>
+  <div class="st-btns"><a class="st-cta" href="/#/azterketa/e19">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
+  <p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
 </div>
 </main>
 <footer class="site-foot"><div class="in">

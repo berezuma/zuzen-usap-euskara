@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>USaP Euskara azterketa-eredua 6: Akatsak egiteko eskubidea</title>
-<meta name="description" content="USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.">
+<meta name="description" content="USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.">
 <meta name="author" content="Beñat Erezuma">
 <meta name="theme-color" content="#0F1322">
 <link rel="canonical" href="https://usapeuskara.berezuma.com/ereduak/06-akatsak-egiteko-eskubidea/">
@@ -12,7 +12,7 @@
 <meta property="og:locale" content="eu_ES">
 <meta property="og:site_name" content="USaP Euskara">
 <meta property="og:title" content="USaP Euskara azterketa-eredua 6: Akatsak egiteko eskubidea">
-<meta property="og:description" content="USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.">
+<meta property="og:description" content="USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.">
 <meta property="og:url" content="https://usapeuskara.berezuma.com/ereduak/06-akatsak-egiteko-eskubidea/">
 <link rel="stylesheet" href="/styles.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F1322'/%3E%3Ctext x='14' y='23' font-family='sans-serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3EU%3C/text%3E%3Ccircle cx='24' cy='21' r='2.6' fill='%23E5394A'/%3E%3C/svg%3E">
@@ -32,8 +32,41 @@
 .st-idx a span:first-child { font-weight: 600; }
 .st-idx a span:last-child { color: var(--muted); }
 .st-poem { font-family: var(--read); white-space: pre-line; padding-left: 16px; border-left: 3px solid var(--paper-3); }
+.st-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.st-btn2 { font: 600 16px/1 var(--ui); background: transparent; color: var(--pen); border: 1.5px solid var(--pen); padding: 11px 18px; border-radius: var(--r); cursor: pointer; }
+.st-num { color: var(--faint); font-family: var(--ui); font-size: 13px; margin-right: 8px; }
+.st-pts { font: 500 15px var(--ui); color: var(--muted); margin-left: 10px; letter-spacing: 0; }
+.st-ctx { background: var(--paper-2); padding: 14px 16px; border-radius: var(--r); }
+.st-quote { font-family: var(--read); padding-left: 16px; border-left: 3px solid var(--paper-3); white-space: pre-line; }
+.st-opt { display: flex; flex-direction: column; gap: 10px; padding: 14px 0; border-top: 1px solid var(--paper-3); }
+.st-opt h3 { font-size: 18px; }
+.st-print-only { display: none; }
+@page { size: A4; margin: 16mm 16mm 18mm; @bottom-right { content: counter(page) " / " counter(pages); font: 9pt sans-serif; color: #555; } }
+@media print {
+  :root { --ink: #000; --muted: #333; --faint: #555; --paper-2: #fff; --paper-3: #999; --desk: #fff; --pen: #000; }
+  html, body { background: #fff !important; color: #000; }
+  body { font-size: 10.5pt; }
+  .top, .site-foot, .bzf, .st-noprint, script + div[class^="bzf"] { display: none !important; }
+  .wrap { padding: 0; max-width: none; gap: 14px; }
+  .st-print-only { display: block; }
+  .page-h h1 { font-size: 22pt; line-height: 1.05; }
+  .page-h p { font-size: 10.5pt; }
+  .st-body { gap: 16px; }
+  .st-body h2 { font-size: 13pt; border-bottom: 1px solid #000; padding-bottom: 3px; }
+  .st-read p, .st-read li, .st-quote { line-height: 1.45; }
+  .st-ctx { border: 1px solid #999; padding: 8px 10px; }
+  .st-list li, .st-opt, .st-ctx, .st-quote { break-inside: avoid; }
+  .st-body h2, .st-opt h3 { break-after: avoid; }
+  a { color: #000; text-decoration: none; }
+  .st-phead { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+  .st-phead .who { font: 10pt var(--ui); display: flex; flex-direction: column; gap: 10px; }
+  .st-phead .qr { display: flex; gap: 10px; align-items: center; font: 9pt/1.3 var(--ui); max-width: 78mm; }
+  .st-phead .qr img { width: 24mm; height: 24mm; }
+}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "USaP Euskara azterketa-eredua 6: Akatsak egiteko eskubidea", "description": "USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak; simulatu azterketa 90 minututan eta zuzendu irizpide ofizialekin.", "inLanguage": "eu", "url": "https://usapeuskara.berezuma.com/ereduak/06-akatsak-egiteko-eskubidea/", "educationalLevel": "Batxilergoa 2", "about": "USaP Euskara eta Literatura II", "learningResourceType": "Azterketa-eredua", "isAccessibleForFree": true, "author": {"@type": "Person", "name": "Beñat Erezuma", "url": "https://berezuma.com/"}}</script>
+<style>@page { @bottom-left { content: "usapeuskara.berezuma.com · USaP Euskara, 6. eredua"; font: 9pt sans-serif; color: #555; } }</style>
+<script>addEventListener("beforeprint",function(){try{window.goatcounter&&goatcounter.count({path:"inprimatu/e06",event:true})}catch(e){}});</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "USaP Euskara azterketa-eredua 6: Akatsak egiteko eskubidea", "description": "USaP Euskara eta Literatura II azterketaren 6. eredua (2026 ez-ohikoa egitura): «Akatsak egiteko eskubidea». Testua eta galderak, inprimatzeko edo online simulatzeko, irizpide ofizialekin zuzenduta.", "inLanguage": "eu", "url": "https://usapeuskara.berezuma.com/ereduak/06-akatsak-egiteko-eskubidea/", "educationalLevel": "Batxilergoa 2", "about": "USaP Euskara eta Literatura II", "learningResourceType": "Azterketa-eredua", "isAccessibleForFree": true, "author": {"@type": "Person", "name": "Beñat Erezuma", "url": "https://berezuma.com/"}}</script>
 </head>
 <body>
 <header class="top"><div class="in">
@@ -44,21 +77,34 @@
     <a href="/#/gimnasioa">Gimnasioa</a>
   </nav></div></header>
 <main class="wrap narrow">
+<div class="st-print-only st-phead">
+  <div class="who"><strong>USaP · Euskara eta Literatura II · 6. eredua</strong><span>Izen-abizenak: ______________________________</span><span>Data: ____________ · 90 minutu · 10 puntu</span></div>
+  <div class="qr"><img src="/qr/e06.svg" alt=""><span><strong>Zuzendu online.</strong> Eskaneatu kodea edo zoaz hona: usapeuskara.berezuma.com, 6. eredua. Idatzi zure erantzunak eta jaso zuzenketa eta eredu-erantzunak.</span></div>
+</div>
 <div class="page-h">
-  <p class="st-muted">6. eredua · 2026 ez-ohikoa egitura · Euskara eta Literatura II</p>
+  <p class="st-muted st-noprint">6. eredua · 2026 ez-ohikoa egitura · Euskara eta Literatura II</p>
   <h1>Akatsak egiteko eskubidea</h1>
-  <p>USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua. Hemen testua eta galderak dituzu; erantzun eta zuzendu, puntuz puntu, aplikazioan.</p>
-  <a class="st-cta" href="/#/azterketa/e06">Egin azterketa hau simulazio gisa</a>
+  <p class="st-noprint">USaP Euskara azterketa-eredua, 2027ko azterketarako egokitua: 90 minutu, bost atal eta 10 puntu. Egin online, denbora neurtuta eta zuzenketa automatikoarekin, edo inprimatu eta egin paperean, benetako azterketan bezala.</p>
+  <p class="st-print-only">Idatzi erantzunak aparteko orrietan. 2.1, 2.2 eta 3. ataletan, aukeratu galdera <strong>bat</strong> eta erantzun hari bakarrik.</p>
+  <div class="st-btns st-noprint"><a class="st-cta" href="/#/azterketa/e06">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
 </div>
 <div class="st-body">
-<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">Testua</h2><p>Ikasgelan galdera bat egiten denean, askotan isiltasuna nagusitzen da. Ikasle askok badakite erantzuna, edo ia badakite, baina ez dute eskua altxatzen. Zergatik? Oker egoteko beldurragatik. Akatsa lotsarekin lotzen dugu, eta lotsak isilarazi egiten gaitu.</p><p>Hezkuntza-sistemak, nahi gabe, beldur hori elikatzen du. Azterketetan akats bakoitzak puntuak kentzen ditu, eta notak dira gure lanaren neurri bakarra. Horrela, ikasleek ikasten dute arriskurik ez hartzea dela estrategiarik seguruena: erantzun ezaguna eman, galdera zailak saihestu eta proba berririk ez egin.</p><p>Zientziak, ordea, beste zerbait erakusten digu. Burmuinak akatsetatik ikasten du: oker gaudela ohartzen garenean, arreta pizten da eta informazioa sakonago gordetzen da. Asmatzaile eta zientzialari ospetsu askok behin eta berriz huts egin zuten aurkikuntza handi batera iritsi aurretik. Haientzat, porrota ez zen bukaera, bidearen zati bat baizik.</p><p>Kirolean ere ezaguna da hori. Saskibaloi-jokalari batek ez du inoiz jaurtiketa bakar bat ere sartuko, saiatzen ez bada. Eta musikariek ehunka aldiz errepikatzen dituzte pasarte zailak, okertzen diren bakoitzean zerbait zuzenduz.</p><p>Akatsei beldurra kentzea ez da arduragabekeria. Ez dugu esan nahi edozer gauza ontzat eman behar denik; aitzitik, akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena. Horretarako, ordea, inork oker dagoenari barre egingo ez dion giro segurua behar da. Azken batean, ikasgela ez da agertoki bat; tailer bat da, eta tailerretan eskuak zikintzen dira.</p></section>
-<section aria-labelledby="a1-h"><h2 id="a1-h">1.1 Testuaren ulermena</h2><p class="st-muted">Ulermena: galdera irekiak.</p><ol class="st-list"><li>Zergatik ez dute ikasle askok eskua altxatzen, erantzuna jakin arren?</li><li>Nola elikatzen du hezkuntza-sistemak akatsen beldurra?</li><li>Zer gertatzen da burmuinean oker gaudela ohartzen garenean?</li><li>Zer behar da, egilearen ustez, akatsetatik benetan ikasteko?</li></ol></section>
-<section aria-labelledby="a2-h"><h2 id="a2-h">1.2 Gaia eta laburpena</h2><p>Ikasleen ordezkaritzak ikasturte hasierako tutoretza-saio baterako materiala prestatu du, eta testu honen gaia eta laburpena sartuko ditu.</p></section>
-<section aria-labelledby="a3-h"><h2 id="a3-h">Hizkuntza-ariketak</h2><ul class="st-list"><li><strong>Definizioak.</strong> Aurkitu testuan definizio hauei dagozkien hitzak.</li><li><strong>Berridazketak.</strong> Berridatzi esaldiak esanahia aldatu gabe.</li><li><strong>Eratorpena.</strong> Aurkitu testuan eratorpen-atzizki desberdinak dituzten bost hitz, eta adierazi atzizkia.</li></ul></section>
-<section aria-labelledby="b1-h"><h2 id="b1-h">Idazlana</h2><p>Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu <strong>bat</strong> eta idatzi gutxienez <strong>150 hitz</strong>.</p><ul class="st-list"><li><strong>Iritzi-artikulua</strong>, ikastetxeko aldizkarirako: «Notak ala ikaskuntza?». Izenburua eta egilearen izen-deiturak (fikziozkoak).</li><li><strong>Hitzaldia</strong>, jardunaldiaren hasieran 1. Batxilergoko ikasleen aurrean irakurtzeko. Entzuleei zuzendutako agurra, sarrera, garapena eta amaierako eskerrak.</li></ul></section>
-<section aria-labelledby="b2-h"><h2 id="b2-h">Literatura</h2><p>Egin lotura (1 puntu)</p><p class="st-poem">Haurra hamaika aldiz erori zen bizikletatik. Hamabigarrenean, ez zen erori. Inork ez zuen txalorik jo; inork ez zituen aurreko hamaikak ikusi. Baina hark bazekien: hamaikak gabe, ez zegoen hamabigarrenik.</p></section>
-<section><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p><a class="st-cta" href="/#/azterketa/e06">Egin azterketa hau simulazio gisa</a>
-<p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
+<section class="st-read" aria-labelledby="t-h"><h2 id="t-h">Testua</h2><p><span class="st-num">1</span>Ikasgelan galdera bat egiten denean, askotan isiltasuna nagusitzen da. Ikasle askok badakite erantzuna, edo ia badakite, baina ez dute eskua altxatzen. Zergatik? Oker egoteko beldurragatik. Akatsa lotsarekin lotzen dugu, eta lotsak isilarazi egiten gaitu.</p><p><span class="st-num">2</span>Hezkuntza-sistemak, nahi gabe, beldur hori elikatzen du. Azterketetan akats bakoitzak puntuak kentzen ditu, eta notak dira gure lanaren neurri bakarra. Horrela, ikasleek ikasten dute arriskurik ez hartzea dela estrategiarik seguruena: erantzun ezaguna eman, galdera zailak saihestu eta proba berririk ez egin.</p><p><span class="st-num">3</span>Zientziak, ordea, beste zerbait erakusten digu. Burmuinak akatsetatik ikasten du: oker gaudela ohartzen garenean, arreta pizten da eta informazioa sakonago gordetzen da. Asmatzaile eta zientzialari ospetsu askok behin eta berriz huts egin zuten aurkikuntza handi batera iritsi aurretik. Haientzat, porrota ez zen bukaera, bidearen zati bat baizik.</p><p><span class="st-num">4</span>Kirolean ere ezaguna da hori. Saskibaloi-jokalari batek ez du inoiz jaurtiketa bakar bat ere sartuko, saiatzen ez bada. Eta musikariek ehunka aldiz errepikatzen dituzte pasarte zailak, okertzen diren bakoitzean zerbait zuzenduz.</p><p><span class="st-num">5</span>Akatsei beldurra kentzea ez da arduragabekeria. Ez dugu esan nahi edozer gauza ontzat eman behar denik; aitzitik, akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena. Horretarako, ordea, inork oker dagoenari barre egingo ez dion giro segurua behar da. Azken batean, ikasgela ez da agertoki bat; tailer bat da, eta tailerretan eskuak zikintzen dira.</p></section>
+<section aria-labelledby="s11-h"><h2 id="s11-h">1.1 Ulermena<span class="st-pts">2 p</span></h2>
+  <h3>Ulermenari buruzko galderak<span class="st-pts">1 p · 0,25 galderako</span></h3><p>Erantzun galderei zure hitzak erabiliz, testutik kopiatu gabe.</p><ol class="st-list"><li>Zergatik ez dute ikasle askok eskua altxatzen, erantzuna jakin arren?</li><li>Nola elikatzen du hezkuntza-sistemak akatsen beldurra?</li><li>Zer gertatzen da burmuinean oker gaudela ohartzen garenean?</li><li>Zer behar da, egilearen ustez, akatsetatik benetan ikasteko?</li></ol>
+  <p class="st-ctx"><strong>Testuingurua.</strong> Ikasleen ordezkaritzak ikasturte hasierako tutoretza-saio baterako materiala prestatu du, eta testu honen gaia eta laburpena sartuko ditu.</p>
+  <h3>Gaia<span class="st-pts">0,5 p · esaldi bakarra</span></h3>
+  <h3>Laburpena<span class="st-pts">0,5 p · gehienez 60 hitz</span></h3>
+  <p>Zure hitzekin. Ez kopiatu testuko esaldiak, eta ez erabili «egileak dioenez» erako egiturarik.</p>
+</section>
+<section aria-labelledby="s12-h"><h2 id="s12-h">1.2 Idazlana<span class="st-pts">2 p · gutxienez 150 hitz</span></h2>
+  <p class="st-ctx"><strong>Testuingurua.</strong> Zure ikastetxeak «Akatsetatik ikasi» izeneko jardunaldia antolatu du. Aukeratu <strong>bat</strong> eta idatzi gutxienez <strong>150 hitz</strong>.</p><div class="st-opt"><h3>A · Iritzi-artikulua</h3><p>Ikastetxeko aldizkarirako: «Notak ala ikaskuntza?». Izenburua eta egilearen izen-deiturak (fikziozkoak).</p></div><div class="st-opt"><h3>B · Hitzaldia</h3><p>Jardunaldiaren hasieran 1. Batxilergoko ikasleen aurrean irakurtzeko. Entzuleei zuzendutako agurra, sarrera, garapena eta amaierako eskerrak.</p></div></section>
+<section aria-labelledby="s21-h"><h2 id="s21-h">2.1 Hizkuntza<span class="st-pts">1,5 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Definizioak</h3><p>Aurkitu testuan definizio hauei dagozkien hitzak.</p><ol class="st-list" type="a"><li>Zerbait gaizki egin dugulako edo besteen aurrean barregarri geratzeko beldurragatik sentitzen dugun deserosotasuna.</li><li>Zerbaiten aurrean ihes egitea, hura ez egiteko edo ez jasateko.</li><li>Lehen ezagutzen ez zen zerbait aurkitzea edo aurkitutako hori.</li><li>Kirolean, baloia saskira edo atera botatzea.</li><li>Behar den kontu edo ardurarik gabe jokatzea.</li></ol></div><div class="st-opt"><h3>B · Berridazketak</h3><p>Berridatzi esaldiak esanahia aldatu gabe.</p><ol class="st-list" type="a"><li>Ikasle askok badakite erantzuna, baina ez dute eskua altxatzen.</li><li>Oker gaudela ohartzen garenean, arreta pizten da.</li><li>Asmatzaile askok behin eta berriz huts egin zuten aurkikuntza handi batera iritsi aurretik.</li><li>Saskibaloi-jokalari batek ez du inoiz jaurtiketa bakar bat ere sartuko, saiatzen ez bada.</li><li>Akatsa aztertu, ulertu eta zuzentzea da ikasteko modurik eraginkorrena.</li></ol></div></section>
+<section aria-labelledby="s22-h"><h2 id="s22-h">2.2 Gizartea<span class="st-pts">1,5 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Soziolinguistika · Arnasguneak eta biziberritzea</h3><p>Azaldu zer diren arnasguneak eta zergatik diren garrantzitsuak euskararen biziraupenerako. Lotu zure azalpena Fishmanen edo Txepetxen ekarpenekin.</p></div><div class="st-opt"><h3>B · Dialektologia · Testu dialektal bat</h3><p>Zein euskalkitan idatzita dago esaldia? Identifikatu euskalki hori ezagutzeko balio duten bi ezaugarri, eman esaldiaren bertsioa euskara batuan, eta azaldu zer balio duten euskalkiek gaur egun.</p></div></section>
+<section aria-labelledby="s3-h"><h2 id="s3-h">3. Literatura<span class="st-pts">3 p · aukeratu bat</span></h2><div class="st-opt"><h3>A · Gaitegia · Arantxa Urretabizkaia</h3><p>Azaldu zer ekarpen egin zion Arantxa Urretabizkaiak euskal narratibari Zergatik panpox (1978) lanarekin, eta koka ezazu bai idazlearen ibilbidean, bai dagokion garaian.</p></div><div class="st-opt"><h3>B · Irakurgaia · Azalaren kodea (Miren Agur Meabe)</h3><p>Nola lotzen zaio izenburua (Azalaren kodea) liburuko poemei? Zer esanahi du «azalak» liburuan?</p></div></section>
+<section class="st-noprint"><p class="st-muted">Eredu-erantzunak, zuzenketa automatikoa eta errubrika ofiziala aplikazioan daude, azterketa bukatzean. Zure erantzunak gailu honetan bakarrik gordetzen dira.</p>
+  <div class="st-btns"><a class="st-cta" href="/#/azterketa/e06">Egin azterketa online</a><button class="st-btn2" type="button" onclick="window.print()">Inprimatu</button></div>
+  <p><a href="/ereduak/">← USaP Euskara azterketa-eredu guztiak</a></p></section>
 </div>
 </main>
 <footer class="site-foot"><div class="in">
